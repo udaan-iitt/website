@@ -25,6 +25,10 @@ module.exports = {
         name: 'Our Team',
       },
       {
+        link: '/leaderboard/',
+        name: 'Leaderboard',
+      },
+      {
         link: meta.links.submissions,
         name: 'Get Featured !',
       },
