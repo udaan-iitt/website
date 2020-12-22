@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
-import teddyGIF from '../images/tenor.gif'
+import teddyGIF from '../images/opt.gif'
 
 const NotFound = () => {
   return (
@@ -28,6 +28,9 @@ const Container = styled.main`
   position: fixed;
   width: 100%;
   height: 100%;
+  img {
+    border-radius: 5%;
+  }
 `;
 
 const TitleWrap = styled.div`

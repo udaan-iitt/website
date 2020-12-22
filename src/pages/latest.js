@@ -384,7 +384,7 @@ h2 {
   left: 0;
   background-color: #000!important;
   color: #fff!important;
-  font-weight:boler;
+  font-weight:bolder;
   padding: 0.8em;
 }
 .maincards .date span {

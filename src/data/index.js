@@ -27,7 +27,7 @@ export const members = [
       pos: 'Student Newsletter Coordinator',
       email:'ch19b023@iittp.ac.in',
       title: 'Noble Saji Mathews',
-      links: ''
+      links: 'https://in.linkedin.com/in/noble-saji-mathews'
     },
     {
       key: 'utkarsh',
