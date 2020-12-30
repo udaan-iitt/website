@@ -44,7 +44,7 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
     catch (e) {
       try{
         mql.current.addListener(toggleKeyboardFocus);
-        return () => mql.current.removeListener(toggleKeyboardFocus);
+        // return () => mql.current.removeListener(toggleKeyboardFocus);
       }
       catch (e2) {
         console.error(e2);
@@ -114,7 +114,7 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
     catch(e){
       try{
         mql.current.addListener(closeMenu);
-        return () => mql.current.removeListener('change', closeMenu);
+        // return () => mql.current.removeListener('change', closeMenu);
       }
       catch(e2){
         console.error(e2);
