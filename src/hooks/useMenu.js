@@ -37,8 +37,13 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
   }, [toggleKeyboardFocus]);
 
   useEffect(() => {
-    mql.current.addEventListener('change', toggleKeyboardFocus);
-    return () => mql.current.removeEventListener('change', toggleKeyboardFocus);
+    try{
+      mql.current.addEventListener('change', toggleKeyboardFocus);
+      return () => mql.current.removeEventListener('change', toggleKeyboardFocus);
+    }
+    catch (e) {
+      console.error(e);
+    }
   });
 
   useEffect(() => {
