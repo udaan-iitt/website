@@ -42,7 +42,13 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
       return () => mql.current.removeEventListener('change', toggleKeyboardFocus);
     }
     catch (e) {
-      console.error(e);
+      try{
+        mql.current.addListener(toggleKeyboardFocus);
+        return () => mql.current.removeListener(toggleKeyboardFocus);
+      }
+      catch (e2) {
+        console.error(e2);
+      }
     }
   });
 
@@ -101,9 +107,19 @@ const useMenu = ({ navRef, curtainRef, listRef, device }) => {
       }
       setToggle(false);
     };
-
-    mql.current.addEventListener('change', closeMenu);
-    return () => mql.current.removeEventListener('change', closeMenu);
+    try{
+      mql.current.addEventListener('change', closeMenu);
+      return () => mql.current.removeEventListener('change', closeMenu);
+    }
+    catch(e){
+      try{
+        mql.current.addListener(closeMenu);
+        return () => mql.current.removeListener('change', closeMenu);
+      }
+      catch(e2){
+        console.error(e2);
+      }
+    }
   });
 
   return [toggle, setToggle, onClickHandler];
