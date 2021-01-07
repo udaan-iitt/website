@@ -15,8 +15,9 @@ A child when born is an empty canvas. In springing years, it learns from the peo
 
 The above story tells us how current education looks like. But is this the real purpose of education? Education is much more than making our students capable of solving calculus problems or answering biology MCQ. They should understand how the theory that they are learning applies in real life. Music, drawing, sports, should not be treated as something to do in extra time; instead, students should be encouraged to do these activities to ensure their complete growth. An education system, in my opinion, must be judged by the number of research papers published and not from the amount of packages students got. Everything discussed so far boils down to the fact that the purpose of education is to inspire students to learn and not to mug. The motto of schooling is innovation that adds value to life, and that demands understanding how things work. An education system that ensures it’s students keep on pushing the boundaries of science and arts is a success. Our learning process should encourage innovation and free thinking, not bind students self worth to marks because in that lies the true worth of education in our society.
 
-    Paraphrased by 
-    Shreyansh Mehra
-
+<div style="opacity:0.6">
+<p style="margin-bottom:0px">Paraphrased by</p>
+<p>Shreyansh Mehra</p>
+</div>
 
 
