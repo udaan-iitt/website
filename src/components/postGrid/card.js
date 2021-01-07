@@ -86,6 +86,17 @@ const Desc = styled.p`
   word-break: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
+  
+  &:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2.4em;
+    background-color: var(--color-card);
+  }
 `;
 
 export default Card;

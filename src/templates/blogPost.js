@@ -29,11 +29,16 @@ const BlogPost = ({ data }) => {
               <div>
                 <header>
                   <Info>
-                    <PostCategory>{category}</PostCategory>
-                    <Time dateTime={date}>{date}</Time>
+                    {/* <PostCategory>{category}</PostCategory> */}
+                    {/* <Time dateTime={date}>{date}</Time> */}
                   </Info>
                   <Title>{title}</Title>
-                  <div style={{textAlign:"right"}}>{authors}</div>
+                  <p style={{textAlign:"left", paddingTop:"20px"}}>
+                        <PostCategory>{category}</PostCategory>
+                        <span style={{float:"right"}}>
+                          {authors}
+                        </span>
+                  </p>
                   <Desc>{desc}</Desc>
                 </header>
                 <Divider />
@@ -85,6 +90,7 @@ const CommentWrap = styled.section`
 const PostCategory = styled(Category)`
   font-size: 0.875rem;
   font-weight: var(--font-weight-semi-bold);
+  display: inline-block;  
 `;
 
 const Info = styled.div`
