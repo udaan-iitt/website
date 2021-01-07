@@ -18,7 +18,7 @@ const BlogPost = ({ data }) => {
   } = data;
 
   const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
-
+  // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
   return (
     <Layout>
       <SEO title={title} description={desc} image={ogImagePath} />
@@ -33,7 +33,7 @@ const BlogPost = ({ data }) => {
                     <Time dateTime={date}>{date}</Time>
                   </Info>
                   <Title>{title}</Title>
-                  <div style={{textAlign:"right"}}>{authors.split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)}</div>
+                  <div style={{textAlign:"right"}}>{authors}</div>
                   <Desc>{desc}</Desc>
                 </header>
                 <Divider />
