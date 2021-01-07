@@ -4,6 +4,7 @@ category: "Creative Showcase"
 date: "2020-12-02 12:00:00 +09:00"
 desc: "Sample Item"
 thumbnail: "./images/create.jpg"
+Authors: "One, Another One"
 alt: "sample"
 ---
 
