@@ -4,7 +4,7 @@ category: "Campus News"
 date: "2021-01-01 12:00:00 +09:00"
 desc: "Sample Item"
 thumbnail: "./images/news.jpg"
-Authors: "One, Another One, One More"
+authors: "One, Another One, One More"
 alt: "sample"
 ---
 
