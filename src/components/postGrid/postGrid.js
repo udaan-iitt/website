@@ -19,7 +19,7 @@ const PostGrid = ({ posts }) => {
     <FadeIn>
     <Grid role="list">
       {currentList.map((data) => {
-        const { id, slug, title, desc, date, category, thumbnail, alt } = data;
+        const { id, slug, title, desc, date, category, thumbnail, authors, alt } = data;
         const ariaLabel = `${title} - ${category} - Posted on ${date}`;
         return (
           <List key={id} role="listitem">
@@ -29,6 +29,7 @@ const PostGrid = ({ posts }) => {
                 alt={alt}
                 category={category}
                 title={title}
+                authors={authors}
                 desc={desc}
                 date={date}
               />

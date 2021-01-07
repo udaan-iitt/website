@@ -12,7 +12,7 @@ import Markdown from 'styles/markdown';
 const BlogPost = ({ data }) => {
   const {
     markdownRemark: {
-      frontmatter: { title, desc, thumbnail, date, category },
+      frontmatter: { title, desc, thumbnail, date, category, authors },
       html,
     },
   } = data;
@@ -33,6 +33,7 @@ const BlogPost = ({ data }) => {
                     <Time dateTime={date}>{date}</Time>
                   </Info>
                   <Title>{title}</Title>
+                  <div style={{textAlign:"right"}}>{authors.split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)}</div>
                   <Desc>{desc}</Desc>
                 </header>
                 <Divider />
@@ -146,6 +147,7 @@ export const query = graphql`
         }
         date(formatString: "YYYY-MM-DD")
         category
+        authors
       }
     }
   }

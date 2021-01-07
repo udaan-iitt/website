@@ -4,7 +4,7 @@ import CenteredImg from './centeredImg';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 
-const Card = ({ thumbnail, alt, category, title, desc, date }) => {
+const Card = ({ thumbnail, alt, category, title, desc, authors, date }) => {
   return (
     <Wrapper>
       <CenteredImg src={thumbnail} alt={alt} />
@@ -12,9 +12,10 @@ const Card = ({ thumbnail, alt, category, title, desc, date }) => {
         <div>
           <Category>{category}</Category>
           <Title>{title}</Title>
+          <Authors>{authors}</Authors>
           <Desc>{desc}</Desc>
         </div>
-        <DateTime dateTime={date}>{date}</DateTime>
+        {/* <DateTime dateTime={date}>{date}</DateTime> */}
       </Text>
     </Wrapper>
   );
@@ -60,13 +61,27 @@ const Title = styled.h3`
   }
 `;
 
-const Desc = styled.p`
+const Authors = styled.p`
   line-height: 1.5;
   margin-top: 8px;
   padding-bottom: var(--sizing-sm);
   color: var(--color-text-2);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+`;
+
+const Desc = styled.p`
+  line-height: 1.5;
+  margin-top: 8px;
+  padding-bottom: var(--sizing-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   word-break: break-word;
   overflow: hidden;
