@@ -5,6 +5,7 @@ date: "2021-01-18 12:00:00 +09:00"
 desc: "Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself!"
 thumbnail: "./images/ed1/lockdown.jpg"
 authors: "Prabhat Reddy"
+starred: "true"
 alt: "Experiences"
 ---
 
@@ -21,12 +22,13 @@ alt: "Experiences"
 9.  [Other critical remarks](#org0b74334)
 10. [Contributors](#org62fdc1d)
 
-Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself!
+<!-- Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself! -->
 
 
 <a id="orga98fefb"></a>
 
 # Environment
+<br/>
 
 The institute had decided to conduct this semester online, and the students were forced to resume academics from their homes. This long distance relationship clearly wasn&rsquo;t working out for some people, owing to the lack of an environment suitable for studying.
 
@@ -68,6 +70,7 @@ Student-run clubs understand this issue very well; they&rsquo;ve been facing the
 <a id="orgb276c19"></a>
 
 # Lectures
+<br/>
 
 Another important aspect of online learning is the recorded/live online lecture. One really amazing thing about online lectures, is that it gives you control over time and space. Full screen, split screen, 2x speed, 20 seconds skip, all sorts of luxuries are given to you!
 
@@ -95,6 +98,7 @@ Irrespective of what anyone says, I&rsquo;m sure every single one of us can rela
 <a id="org03d775b"></a>
 
 # Exams and assignments
+<br/>
 
 Examinations were arguably one of the most controversial topics to discuss for both faculty and students alike. While some wished for pen and paper exams with careful online proctoring, there were even those who wanted presentation and vivas as a substitute for traditional exams! Needless to say, the organizers and students worked hard to get everything right.
 
@@ -116,6 +120,7 @@ Assignments on the other hand were a constant burden on the shoulder. By the tim
 <a id="orge4a6c88"></a>
 
 # Faculty Student interaction
+<br/>
 
 Mail and WhatsApp have become the primary means of communication and doubt clarification with professors, but the benefits they offer are far behind those of face-to-face interaction. This is what some students have to say about the faculty student interaction this semester.
 
@@ -127,6 +132,7 @@ Mail and WhatsApp have become the primary means of communication and doubt clari
 <a id="org35498c7"></a>
 
 # Student-Student interaction
+<br/>
 
 Hostel corridors, common rooms, classrooms, the mess, all these places come to life when students are around. Virtual spaces have now taken their place, as centers of student interaction. While some groups are dealing well with the new situation, some haven&rsquo;t been able to adapt yet.
 
@@ -146,6 +152,7 @@ While we can at least see a few people with a positive opinion on online interac
 <a id="orgca2a735"></a>
 
 # New habits developed in this online semester
+<br/>
 
 We have seen what people think about different aspects of this online semester. Now let&rsquo;s have a look at the consequences of these aspects, particularly their impact on students. When the institute announced that this semester is going to be online, most of us immediately knew this was going to be difficult.
 
@@ -175,6 +182,7 @@ Another serious problem was the disturbance of people&rsquo;s sleep cycle. With 
 <a id="orgcdf9230"></a>
 
 # Professors
+<br/>
 
 One thing that continues to help the students and continues to surprise freshers, is the support shown by the professors. From deciding the course structure to making administrative decisions, we have been seeing professors strike the right balance between student comfort and academic rigor. Their intention hasn&rsquo;t changed one bit in these difficult times.
 
@@ -188,6 +196,7 @@ However, it wouldn&rsquo;t be true if I say that the faculty have taken the righ
 <a id="orgbfe6b5a"></a>
 
 # Personal experiences
+<br/>
 
 Here are some personal experiences elegantly penned down by a couple of individuals. Tag along!
 
@@ -231,6 +240,7 @@ Here are some personal experiences elegantly penned down by a couple of individu
 <a id="org0b74334"></a>
 
 # Other critical remarks
+<br/>
 
 > Although most of the faculty were indeed incredibly supportive and went to great lengths to make the best of the online mode, the overall system failed to make it a pleasant and positive experience for me. Perhaps we were not able to make the right judgement calls about how to split up the coursework and evaluation, how to communicate with the faculty and administration effectively. Hopefully we will all collectively take the lessons learned from this semester and use them wisely to make better decisions in the future. &#x2014;Debeshee
 
@@ -246,6 +256,7 @@ Practice is the foundation for improvement, feedback and review are the things t
 <a id="org62fdc1d"></a>
 
 # Contributors
+<br/>
 
 A big thank you to Noble S Mathews, Shreetesh, Pranav Panicker, Debeshee, Harshitha, Sahithi, Srikarah and Kranthi from 2019 batch, Kartik, Maulik, Krithi, Samveg, Soham Nandy and Dhanush from 2020 batch, and Madhavan from 2018 batch for their sharing their experiences with overwhelming enthusiasm! Special thanks to Debeshee for coordinating with people and collecting their experiences with the utmost patience.
 
@@ -263,11 +274,6 @@ td{
 }
 </style>
 
-<!-- | | | |
-|:-:|:-:|:-:|
-|<div class="image-cropper"><img src="./images/ed1/people/kranthi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Kranthi</p>|<div class="image-cropper"><img src="./images/ed1/people/krithi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Krithi</p>|<div class="image-cropper"><img src="./images/ed1/people/maulik.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Maulik</p>|
-|<div class="image-cropper"><img src="./images/ed1/people/noble.jpg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Noble</p>  |  <div class="image-cropper"><img src="./images/ed1/people/pranav.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Pranav</p>|<div class="image-cropper"><img src="./images/ed1/people/sahithi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Sahithi</p>|
-|<div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>  |  <div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>|<div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>| -->
 <figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/kranthi.jpeg" alt="contributor" /></div>
     <figcaption style="text-align:center; text-transform: capitalize;">kranthi</figcaption>
@@ -291,6 +297,10 @@ td{
 <figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/sahithi.jpeg" alt="contributor" /></div>
     <figcaption style="text-align:center; text-transform: capitalize;">sahithi</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/samweg.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">samweg</figcaption>
 </figure>
 <figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div>
