@@ -5,6 +5,7 @@ date: "2021-01-01 12:00:00 +09:00"
 desc: "Sample Item"
 thumbnail: "./images/news.jpg"
 authors: "One, Another One, One More"
+starred: "false"
 alt: "sample"
 ---
 

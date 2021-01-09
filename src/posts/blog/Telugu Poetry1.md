@@ -5,6 +5,7 @@ date: "2021-01-07 12:00:00 +09:00"
 desc: "A guy describing how the five elements (Pancha bhuthaas) of nature might reacts to his heartbreak if they have the basic senses of a human. Like what if Sky can hear,If water can roar, If air can write, If earth can think, If fire can see.."
 thumbnail: "./images/ed1/poetry_sad.jpg"
 authors: "Kishore Siga"
+starred: "false"
 alt: "Poetry Heartbreak"
 ---
 

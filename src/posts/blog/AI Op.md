@@ -5,6 +5,7 @@ date: "2021-01-07 12:00:00 +09:00"
 desc: "Artificial Intelligence has always caught the imagination of those who take it upon themselves to “predict” the outline of future societies. This article is an appreciation of the AI-powered lives we are living today. The world seems ever so charming, mysterious and intriguing with Artificial Intelligence!"
 thumbnail: "./images/ed1/ai.jpg"
 authors: "Sachin Kumar Sahu"
+starred: "false"
 alt: "AI"
 ---
 
