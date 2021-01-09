@@ -55,6 +55,7 @@ const GlobalStyle = createGlobalStyle`
     --color-outline: rgba(0,125,250,0.6);
 
     body.light {
+      --color-highlight:#ddd;
       --color-text: #1d1d1d;
       --color-text-2: #1d1d1d;
       --color-text-3: #696969;
@@ -62,6 +63,7 @@ const GlobalStyle = createGlobalStyle`
       --color-nav-bar: rgba(255, 255, 255, 0.7);
       --color-nav-border: rgba(200, 200, 200, 0.7);
       --color-category-button: #f2f2f2;
+      --color-category-button2: #fdffbc;
       --color-background: #f2f2f2;
       --color-post-background: #ffffff;
       --color-card: #ffffff;
@@ -90,6 +92,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body.dark {
+      --color-highlight:#000;
       --color-text: #e6e6e6;
       --color-text-2: #d1d1d1;
       --color-text-3: #8c8c8c;
@@ -97,6 +100,7 @@ const GlobalStyle = createGlobalStyle`
       --color-nav-bar: rgba(29, 29, 29, 0.7);
       --color-nav-border: rgba(255, 255, 255, 0.2);
       --color-category-button: #484848;
+      --color-category-button2: #9d0b0b;
       --color-background: #1c1c1c;
       --color-post-background: #1c1c1c;
       --color-card: #2c2c2c;

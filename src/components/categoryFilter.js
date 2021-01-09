@@ -25,16 +25,32 @@ const CategoryFilter = ({ categoryList }) => {
           .sort((a, b) => b.totalCount - a.totalCount)
           .map((category) => {
             const { fieldValue } = category;
-            return (
-              <li key={fieldValue}>
-                <CategoryButton
-                  getProps={isActive}
-                  to={`/category/${kebabCase(fieldValue)}/`}
-                >
-                  {fieldValue}
-                </CategoryButton>
-              </li>
-            );
+            if (fieldValue.startsWith('Creative'))
+            {
+              return (
+                <li key={fieldValue}>
+                  <CategoryButton2
+                    getProps={isActive}
+                    to={`/category/${kebabCase(fieldValue)}/`}
+                  >
+                    {fieldValue}
+                  </CategoryButton2>
+                </li>
+              );
+            }
+            else{
+              return (
+                <li key={fieldValue}>
+                  <CategoryButton
+                    getProps={isActive}
+                    to={`/category/${kebabCase(fieldValue)}/`}
+                  >
+                    {fieldValue}
+                  </CategoryButton>
+                </li>
+              );
+            }
+
           })}
       </CategoryUl>
     </Nav>
@@ -79,6 +95,30 @@ const CategoryTitle = styled.em`
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: no-wrap;
+  }
+`;
+
+const CategoryButton2 = styled(Link)`
+  cursor: pointer;
+  display: block;
+  background-color: var(--color-category-button2);
+  padding: var(--sizing-sm) var(--sizing-base);
+  border-radius: var(--border-radius-base);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semi-bold);
+
+  :focus {
+    outline: none;
+  }
+
+  &:hover {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+  }
+
+  &:focus-visible {
+    color: var(--color-white);
+    background-color: var(--color-blue);
   }
 `;
 

@@ -10,20 +10,21 @@ alt: "Experiences"
 
 # Table of Contents
 
-1.  [Environment](#org27efc97)
-2.  [Lectures](#orgf0a196f)
-3.  [Exams and assignments](#orge2aba13)
-4.  [Faculty Student interaction](#orgde2edca)
-5.  [Student-Student interaction](#orgceeff5a)
-6.  [New habits developed in this online semester](#org1a2365e)
-7.  [Professors](#orgfefcbb2)
-8.  [Personal experiences](#orga43286c)
-9.  [Other critical remarks](#org107357f)
+1.  [Environment](#orga98fefb)
+2.  [Lectures](#orgb276c19)
+3.  [Exams and assignments](#org03d775b)
+4.  [Faculty Student interaction](#orge4a6c88)
+5.  [Student-Student interaction](#org35498c7)
+6.  [New habits developed in this online semester](#orgca2a735)
+7.  [Professors](#orgcdf9230)
+8.  [Personal experiences](#orgbfe6b5a)
+9.  [Other critical remarks](#org0b74334)
+10. [Contributors](#org62fdc1d)
 
-<!-- Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself! -->
+Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself!
 
 
-<a id="org27efc97"></a>
+<a id="orga98fefb"></a>
 
 # Environment
 
@@ -64,7 +65,7 @@ Student-run clubs understand this issue very well; they&rsquo;ve been facing the
 > The club coordinators are trying their hearts out to continue with their efforts, kudos to them but at the same time nothing can match the unparalleled face to face conversations at the institute. &#x2013;Soham
 
 
-<a id="orgf0a196f"></a>
+<a id="orgb276c19"></a>
 
 # Lectures
 
@@ -91,7 +92,7 @@ Irrespective of what anyone says, I&rsquo;m sure every single one of us can rela
 > Getting up late and having breakfast in the class, there was a weird sense of gratification. If the class gets boring, pop up another tab and keep going. Not attending classes and binge-watching the recorded lectures before the exam was just amazing! &#x2014;Kranthi
 
 
-<a id="orge2aba13"></a>
+<a id="org03d775b"></a>
 
 # Exams and assignments
 
@@ -112,7 +113,7 @@ Assignments on the other hand were a constant burden on the shoulder. By the tim
 > We were always busy writing assignments, tests, quizzes etc. More tests were conducted so that we don&rsquo;t waste our time at home and follow the classes regularly. There were regular assessments to ensure that everyone is following. &#x2014;Sahithi
 
 
-<a id="orgde2edca"></a>
+<a id="orge4a6c88"></a>
 
 # Faculty Student interaction
 
@@ -123,7 +124,7 @@ Mail and WhatsApp have become the primary means of communication and doubt clari
 > There was no chance for students to clarify their doubts. There is no good interaction between the students and faculty. &#x2014;Dhanush
 
 
-<a id="orgceeff5a"></a>
+<a id="org35498c7"></a>
 
 # Student-Student interaction
 
@@ -142,7 +143,7 @@ While we can at least see a few people with a positive opinion on online interac
 > About ED group projects, as one project is in the hands of just one guy, the marks are dependent on his work, so if he/she is not good in the creative process, the other 4 may lose marks due to his work, that is kinda not fair. &#x2014;Maulik
 
 
-<a id="org1a2365e"></a>
+<a id="orgca2a735"></a>
 
 # New habits developed in this online semester
 
@@ -171,7 +172,7 @@ Another serious problem was the disturbance of people&rsquo;s sleep cycle. With 
 > I gradually started sleeping at 12 AM, and it was unintentional. &#x2014;Shreetesh
 
 
-<a id="orgfefcbb2"></a>
+<a id="orgcdf9230"></a>
 
 # Professors
 
@@ -184,7 +185,7 @@ One thing that continues to help the students and continues to surprise freshers
 However, it wouldn&rsquo;t be true if I say that the faculty have taken the right decisions at every step. Excessive course work, dissonant teaching pace, high volume of syllabus were just a few consequences owing to the decreased faculty-student interaction and apprehension against trying out new methods. But their enthusiasm to take feedback and making adjustments in their procedures helped students a lot so far, and will keep doing so in the future.
 
 
-<a id="orga43286c"></a>
+<a id="orgbfe6b5a"></a>
 
 # Personal experiences
 
@@ -199,19 +200,35 @@ Here are some personal experiences elegantly penned down by a couple of individu
 -   Shreetesh
 
 > Online semester and online classes were something new to not just me, but to all of us. When the announcement was made, I was not enthusiastic or excited about online classes because I had already gotten a taste of that in the second semester, when they sent us home in the month of March, and it wasn&rsquo;t a good experience for me. It was very easy to wander off into some other world during the live classes. On top of that, there were a lot of distractions during the classes, like students not noticing their unmuted mic, students scribbling on the screen, and all sorts of stuff.
+> 
 > Well, I thought it was going to be the same this time too, but I noticed that I was wrong. It was relatively better, partly because of the updated software tool that we were using and were accustomed to. More importantly, it was because the students were serious this time and were focussed, at least till the beginning of the second month. They acted so mature, so suddenly, and it was hard to believe, especially after observing the same students in the second semester.
+> 
 > It was the first day of the third semester in the online mode where we had classes till 4 pm on that day. The classes that we had on that day were all 4 credit courses, and they were all important. I was very tense, new professors, new topics, new rules, etc. After the classes, one of the key takeaways for me was that this semester was definitely not going to be easy and needed a lot of seriousness and input from my side. This worried me for a couple of weeks, and I was early to bed every night.
+> 
 > We had our first test coming up in a few days and all I can remember was being scared and very tense. It was my first time writing a test in the online mode, turning on our mics and cameras. I had no idea how long it was going to take me to scan and upload my answers. So, I picked up my phone about 10 minutes before the end of the test. But in that tensed state of mind, I felt like I had forgotten how to operate current technology and I felt like I was handling a phone for the first time in my life. But soon, I started getting my mind back, and I was able to successfully upload and complete an online mode test. What a day it was!
+> 
 > One noticeable effect of the online classes was the gigantic increase in the amount of time spent in front of screens. I used to point my nose at my laptop screen from 9 am to 9 pm, then I used to watch television during dinner to reduce stress and to temporarily get out of this stressful world, at least for an hour, then laptop again and then go to bed. But I was able to adapt to this very soon and it did not bother me much.
+> 
 > Due to the new system of continuous evaluation, we had a ton of tests before the mid semester exams and the end semester exams. In the first couple of months, it was unbearable for me. It was really stressful and sad. I was not finding enough time to complete the syllabus on time, especially with the projects and assignments. There were times when we had three to four tests a week. We had at least one test every week. This combined with assignments and projects really took a toll on me. I got sick of the tests and I took a moment to realize the situation of the day. I gradually started sleeping at 12 AM, and it was unintentional. Those couple of months were bitter for me.
+> 
 > The situation was no better after mid semester exams. I was spending a lot of time on my projects as the deadlines neared. Although the exams weren’t storming me, the projects were. It was difficult, but sometimes convenient, to work in groups. It was difficult because the element of human interaction was missing, and it was very hard to explain my problems to my group mates and ask for help. I did feel a little lonely and helpless sometimes. At the same time, it was convenient because most of my assignment group members were active, and we used to schedule a meeting immediately within seconds without planning it on some other day. Some of us used to meet immediately whenever we wanted to at our convenience.
+> 
 > As the submission dates neared, there was a time when I had three projects and an assignment to complete along with the weekly routine of exams. I thought I was not going to make it out alive. I was eventually forced to sleep at 12:30 am and my eyes used to become fuzzy. But I got adjusted to it like a chameleon and I started giving importance to projects first. But this got me lagging behind the classes of some courses, and syllabus was piling up for me to complete. The only times I read the syllabus was a few days before weekly tests of the courses. In one way, the highly frequent tests helped me cover up my syllabus and not fall behind.
+> 
 > After all the online presentations and project submissions, I was left staring at the end semester exams that were a week away. I was not at all prepared and I had loads left to study. I knew I wasn’t going to make it. I knew I wasn’t going to complete the syllabus. But what I did know was that it didn’t matter, because I had already given up. I thought of my bright and beautiful past and I realized that I needed to be happy by the end of the day, regardless of how I write the exams. So, I did as much as I could and I gave my end semester exams.
+> 
 > After the exams, I tried my best not to think about this semester again, and I hope to forget it as soon as possible.
+> 
 > There were a lot of things that I learned during this online semester, some of them opened another dimension to my thoughts. But overall, it was a pretty stressful and a hectic semester.
 
+-   Samveg
 
-<a id="org107357f"></a>
+> Like any other JEE aspirant, I was also keen to get admitted into the IIT system. But god had decided to play some pranks with us, and we all landed in the global pandemic of COVID-19, as a result of which this online semester started.
+> 
+> Online learning has both pros and cons like any other thing in this world. Studying online decreases motivation to study and also reduces healthy competition. The most important flavor of class are those tiny gossips between the lectures, extensive discussions over difficult questions, that urge to prove your point of view on a particular question, those small arguments with sir, and of course sitting next to friends and roaming in a completely different world are missed a lot. If someone asks us about the number of years we studied B.Tech, we cannot say 4 as it actually is 3.5, and we hope it remains 3.5 and won’t go below that. Besides, all of this online learning and interaction is great for an introvert person to expose himself/herself.
+
+
+<a id="org0b74334"></a>
 
 # Other critical remarks
 
@@ -221,7 +238,61 @@ Here are some insights into some aspects of the online semester that are worth l
 
 -   Work time and leisure time are equally important. Increasing the workload increased the pressure on our heads, which forced us to seek out stress buster activities. The aim of increased workload was to finish syllabus quickly, but it turned out to be counterproductive when the students started giving up.
 -   Lack of an appropriate study environment led to increased levels of procrastination; people just weren’t ready to get into the studying mood. Coupled with the increasing pressure of deadlines, the frequency of last minute submissions increased. What’s worse is the consequence this had - people were beginning to lose interest to do original work. People were more motivated to copy assignments, because “What’s the point of working hard if you get marks using simple methods?”.
--   The professors and academics are trying really hard to transpose pen-and-paper exams to an online platform. But is it really worth working on conducting online exams, knowing that these exams were designed to be conducted offline? The proctors have high control of the environment in offline exams, and the probability of malpractices in exams was very less. Even with the current technology, the control over the examination environment is primarily in students hands. Putting sufficient efforts using the right methods is better compared to working very hard using uncertain methods. Is it time to rethink conventional methods and let innovation percolate into academic procedures like exams?
+-   The professors and academics are trying really hard to transpose pen-and-paper exams to an online platform. But is it really worth working on conducting online exams, knowing that these exams were designed to be conducted offline? The proctors had high control of the environment in offline exams, and the probability of malpractices in such exams was minimal. But now, even with the current technology, the control over the examination environment is primarily in students hands. Putting sufficient efforts using the right methods is better compared to working very hard using uncertain methods. Is it time to rethink conventional methods and let innovation percolate into academic procedures like exams?
 
 Practice is the foundation for improvement, feedback and review are the things that actually drive improvement. While we swim in this ocean of opinions and experiences, let&rsquo;s make decisions while striking a balance between personal preference and collective benefit, and work for a better tomorrow.
 
+
+<a id="org62fdc1d"></a>
+
+# Contributors
+
+A big thank you to Noble S Mathews, Shreetesh, Pranav Panicker, Debeshee, Harshitha, Sahithi, Srikarah and Kranthi from 2019 batch, Kartik, Maulik, Krithi, Samveg, Soham Nandy and Dhanush from 2020 batch, and Madhavan from 2018 batch for their sharing their experiences with overwhelming enthusiasm! Special thanks to Debeshee for coordinating with people and collecting their experiences with the utmost patience.
+
+<style>
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display:inline-block;
+}
+td{
+    text-align:center;
+}
+</style>
+
+<!-- | | | |
+|:-:|:-:|:-:|
+|<div class="image-cropper"><img src="./images/ed1/people/kranthi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Kranthi</p>|<div class="image-cropper"><img src="./images/ed1/people/krithi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Krithi</p>|<div class="image-cropper"><img src="./images/ed1/people/maulik.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Maulik</p>|
+|<div class="image-cropper"><img src="./images/ed1/people/noble.jpg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Noble</p>  |  <div class="image-cropper"><img src="./images/ed1/people/pranav.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Pranav</p>|<div class="image-cropper"><img src="./images/ed1/people/sahithi.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Sahithi</p>|
+|<div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>  |  <div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>|<div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div><p style="display:block;text-align:center; margin-bottom:0">Shreetesh</p>| -->
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/kranthi.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">kranthi</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/krithi.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">krithi</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/maulik.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">maulik</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/noble.jpg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">noble</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/pranav.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">pranav</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/sahithi.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">sahithi</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">shreetesh</figcaption>
+</figure>

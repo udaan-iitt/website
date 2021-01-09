@@ -12,9 +12,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@jaredreisinger/react-crossword": "^2.3.1",
     "babel-plugin-styled-components": "^1.11.1",
     "dark-theme-github": "github:remorses/dark-github-theme",
     "disable-scroll": "^0.5.1",
+    "focus-visible": "^5.2.0",
     "gatsby": "^2.24.81",
     "gatsby-alias-imports": "^1.0.4",
     "gatsby-image": "^2.4.21",
@@ -35,6 +37,7 @@
     "gatsby-transformer-sharp": "^2.5.17",
     "lodash": "^4.17.20",
     "react": "^16.12.0",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dark-mode-toggle": "0.0.10",
     "react-dom": "^16.12.0",
     "react-fade-in": "^1.1.1",

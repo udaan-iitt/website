@@ -61,7 +61,7 @@ const Footer = styled.footer`
   justify-content: center;
   align-items: center;
   height: var(--footer-height);
-  background-color: var(--color-gray-1);
+  background-color: var(--color-post-background);
 `;
 
 const Copyright = styled.span`
@@ -145,6 +145,7 @@ const Button = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
+    display:none;
     justify-content: start;
     position: static;
     border-radius: 0;

@@ -5,7 +5,7 @@ import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
 import teddyGIF from '../images/opt.gif'
 
-const NotFound = () => {
+const Leaderboard = () => {
   return (
     <Layout>
       <SEO title="Leaderboard" />
@@ -47,4 +47,4 @@ const Desc = styled.h2`
   font-size: 1rem;
 `;
 
-export default NotFound;
+export default Leaderboard;
