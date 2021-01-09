@@ -41,20 +41,53 @@ export const cross = {
     },
   };
 
+export const newsletter = [
+  {
+    key: 'shreyansh',
+    email:'literarysec@iittp.ac.in',
+    title: 'Shreyansh Mehra',
+    link:'https://www.linkedin.com/in/shreyansh-mehra/' 
+  },
+  {
+    key: 'noble',
+    email:'ch19b023@iittp.ac.in',
+    title: 'Noble Saji Mathews',
+    links: 'https://in.linkedin.com/in/noble-saji-mathews'
+  },
+  {
+    key: 'prabhat',
+    email:'ee18b022@iittp.ac.in',
+    title: 'Prabhat Reddy',
+    links: 'mailto:ee18b022@iittp.ac.in'
+  },
+  {
+    key: 'debeshee',
+    email:'cs19b012@iittp.ac.in',
+    title: 'Debeshee Das',
+    links: 'https://www.linkedin.com/in/debeshee-das/'
+  },
+  {
+    key: 'keerthana',
+    email:'ee19b035@iittp.ac.in',
+    title: 'Keerthana M',
+    links: 'mailto:ee19b035@iittp.ac.in'
+  }
+]
+
 export const members = [
     {
       key: 'shreyansh',
       pos: 'Literary Affairs Secretary',
       email:'literarysec@iittp.ac.in',
       title: 'Shreyansh Mehra',
-      link:'' 
+      link:'https://www.linkedin.com/in/shreyansh-mehra/' 
     },
     {
       key: 'sudarshan',
       pos: 'Debate Club Coordinator',
       email:'ee18b034@iittp.ac.in',
       title: 'Sudarshan H V',
-      links: ''
+      links: 'https://www.linkedin.com/in/sudarshanhv'
     },
     {
       key: 'madhavan',
@@ -82,14 +115,14 @@ export const members = [
       pos: 'Book Club Coordinator',
       email:'ch18b001@iittp.ac.in',
       title: 'Abhay Singh',
-      links: ''
+      links: 'www.linkedin.com/in/abhaysingh2001'
     },
     {
       key: 'pranav',
       pos: 'Quiz Committee',
       email:'ee19b037@iittp.ac.in',
       title: 'Pranav Hari Panicker',
-      links: ''
+      links: 'mailto:ee19b037@iittp.ac.in'
     },
     {
       key: 'mannepalli',
@@ -101,9 +134,9 @@ export const members = [
     {
       key: 'keerthana',
       pos: 'Student Newsletter Committee',
-      email:'cs17b019@iittp.ac.in',
-      title: 'Keerthana M',
-      links: ''
+      email:'ee19b035@iittp.ac.in',
+      title: 'Keerthana P',
+      links: 'mailto:ee19b035@iittp.ac.in'
     },
     {
       key: 'spandana',

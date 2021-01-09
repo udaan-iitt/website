@@ -276,6 +276,10 @@ td{
 </style>
 
 <figure style="display:inline-block; padding:10px; ">
+    <div class="image-cropper"><img src="./images/ed1/people/debeshee.jpg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">debeshee</figcaption>
+</figure>
+<figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/kranthi.jpeg" alt="contributor" /></div>
     <figcaption style="text-align:center; text-transform: capitalize;">kranthi</figcaption>
 </figure>

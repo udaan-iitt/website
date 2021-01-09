@@ -5,7 +5,7 @@ import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
-import {members} from '../data'
+import {members, newsletter} from '../data'
 import Image from '../components/imager';
 
 const About = () => {
@@ -17,6 +17,39 @@ const About = () => {
       <Container
         rhythm={rhythm}
       >
+      <h2>Newsletter Committee</h2>
+      <hr/>
+      <>
+        <div className="img-grid lab-member">
+        {newsletter.map((member) => (
+          <figure key={Math.random()} className="figure">
+            <a
+              href={`${member.link}`}
+              target="_blank"
+              referrerPolicy="no-referrer"
+            >
+            <div className="img-wrap">
+              <Image
+                // className="rounded"
+                filename={member.key}
+                />
+            </div>
+            </a>
+            <figcaption style={{padding:"0px",textAlign:"center",paddingTop:"10px"}} className="figure-caption text-center">
+              <a
+                href={`mailto:${member.email}`}
+                target="_blank"
+                referrerPolicy="no-referrer"
+              >
+              <b>{member.title}</b>
+              </a>
+              <br/>
+              {/* <p style={{textAlign:"center",fontWeight:"bold",fontSize:"small!important",margin:"0px"}}>{member.pos}</p> */}
+            </figcaption>
+          </figure>
+        ))}
+        </div>
+      </>
       <h2>Literary Affairs Council 2020</h2>
       <hr/>
       <>
