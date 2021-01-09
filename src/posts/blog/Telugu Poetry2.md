@@ -2,7 +2,7 @@
 title: "The modern man (Telugu)"
 category: "Creative Poetry"
 date: "2021-01-07 12:00:00 +09:00"
-desc: "A Poem about the modern man. The poet, calls out the mortal man and his hypocritical lifestyle "
+desc: "Join the poet on his commentary on the lifestyle and vanity of humans, and where it went wrong"
 thumbnail: "./images/ed1/poem.jpg"
 authors: "G V Tarun Kumar"
 starred: "false"

@@ -1,8 +1,8 @@
 ---
-title: "Heartbreak and the elements of nature (Telugu)"
+title: "If nature could .. (Telugu)"
 category: "Creative Poetry"
 date: "2021-01-07 12:00:00 +09:00"
-desc: "A guy describing how the five elements (Pancha bhuthaas) of nature might reacts to his heartbreak if they have the basic senses of a human. Like what if Sky can hear,If water can roar, If air can write, If earth can think, If fire can see.."
+desc: "What could happen if sky was able to hear? What if water could roar? Nourish the poem penned down by Kishore Siga, as he paints a possibility where Nature is equipped with human senses."
 thumbnail: "./images/ed1/poetry_sad.jpg"
 authors: "Kishore Siga"
 starred: "false"
