@@ -300,8 +300,8 @@ td{
     <figcaption style="text-align:center; text-transform: capitalize;">sahithi</figcaption>
 </figure>
 <figure style="display:inline-block; padding:10px; ">
-    <div class="image-cropper"><img src="./images/ed1/people/samweg.jpeg" alt="contributor" /></div>
-    <figcaption style="text-align:center; text-transform: capitalize;">samweg</figcaption>
+    <div class="image-cropper"><img src="./images/ed1/people/samveg.jpeg" alt="contributor" /></div>
+    <figcaption style="text-align:center; text-transform: capitalize;">samveg</figcaption>
 </figure>
 <figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/shreetesh.jpeg" alt="contributor" /></div>
