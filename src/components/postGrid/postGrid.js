@@ -8,6 +8,12 @@ import useInfiniteScroll from 'hooks/useInfiniteScroll';
 
 const PostGrid = ({ posts }) => {
   const scrollEdgeRef = useRef(null);
+  posts.forEach(function(item,i){
+    if(item.starred === "true"){
+      posts.splice(i, 1);
+      posts.unshift(item);
+    }
+  }); 
   const currentList = useInfiniteScroll({
     posts,
     scrollEdgeRef,
@@ -19,7 +25,7 @@ const PostGrid = ({ posts }) => {
     <FadeIn>
     <Grid role="list">
       {currentList.map((data) => {
-        const { id, slug, title, desc, date, category, thumbnail, authors, alt } = data;
+        const { id, slug, title, desc, date, category, thumbnail, authors, starred, alt } = data;
         const ariaLabel = `${title} - ${category} - Posted on ${date}`;
         return (
           <List key={id} role="listitem">
@@ -30,6 +36,7 @@ const PostGrid = ({ posts }) => {
                 category={category}
                 title={title}
                 authors={authors}
+                starred={starred}
                 desc={desc}
                 date={date}
               />
