@@ -12,7 +12,7 @@ import Markdown from 'styles/markdown';
 const BlogPost = ({ data }) => {
   const {
     markdownRemark: {
-      frontmatter: { title, desc, thumbnail, date, category, authors },
+      frontmatter: { title, desc, thumbnail, date, category, authors, starred },
       html,
     },
   } = data;
@@ -154,6 +154,7 @@ export const query = graphql`
         date(formatString: "YYYY-MM-DD")
         category
         authors
+        starred
       }
     }
   }
