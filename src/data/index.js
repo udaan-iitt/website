@@ -92,7 +92,7 @@ export const members = [
       links: ''
     },
     {
-      key: 'sripranav',
+      key: 'mannepalli',
       pos: 'Quiz/Book Committee',
       email:'cs18b036@iittp.ac.in',
       title: 'Sripranav Mannepalli',
