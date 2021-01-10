@@ -63,7 +63,6 @@ const About = () => {
             >
             <div className="img-wrap">
               <Image
-                // className="rounded"
                 filename={member.key}
                 />
             </div>

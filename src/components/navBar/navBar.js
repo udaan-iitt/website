@@ -5,6 +5,7 @@ import LinkList from './linkList';
 import ThemeToggleButton from './themeToggleButton/themeToggleButton';
 import MenuIcon from './menuIcon';
 import Background from 'styles/background';
+import Image from '../imagerS';
 import {
   listAnimationCSS,
   navBackgroundAnimationCSS,
@@ -12,6 +13,7 @@ import {
 } from 'styles/navBarAnimation';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import useMenu from 'hooks/useMenu';
+import './font/stylesheet.css'
 
 const NavBar = ({ title, themeToggler }) => {
   const site = useSiteMetadata();
@@ -31,9 +33,14 @@ const NavBar = ({ title, themeToggler }) => {
   return (
     <Nav ref={navRef} aria-label="Global Navigation">
       <NavBackground toggle={toggle} />
+      {/* <Image
+                filename={"logo"}
+      />  */}
       <Content>
         <Title onClick={() => setToggle(false)}>
-          <Link to="/">{title}</Link>
+          <Link to="/">
+            {"COLLEGE BUGLE"}
+          </Link>
         </Title>
         <LinkWrap>
           <Curtain ref={curtainRef} toggle={toggle} />
@@ -71,6 +78,20 @@ const Nav = styled.nav`
   .specialHover:hover{
     color: #F65314 !important;
   }
+
+  .styledImage{
+    max-height: 100%;
+    width: 25vw;
+    position: absolute!important;
+    z-index:3;
+    left:0;
+    height:100%;
+  }
+  @media (max-width: ${({ theme }) => theme.device.sm}) {
+    .styledImage{
+      width:300px
+    }
+  }
 `;
 
 const Content = styled.div`
@@ -98,11 +119,15 @@ const Content = styled.div`
 const Title = styled.h1`
   z-index: 9999;
   padding: 0;
+  letter-spacing: 0.1em;
   border: none;
-  font-size: var(--text-title);
-  font-weight: var(--font-weight-semi-bold);
+  // font-weight:
+  // font-size: var(--text-title);
+  font-size: x-large;
+  // font-weight: var(--font-weight-semi-bold);
   color: var(--color-text);
-
+  // font-family: 'c.o.d.e.r.regular'!important;
+  font-family : 'Passion One', cursive !important;
   a {
     color: inherit;
   }
