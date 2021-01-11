@@ -11,17 +11,16 @@ alt: "Experiences"
 
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Environment](#environment)
-- [Lectures](#lectures)
-- [Exams and assignments](#exams-and-assignments)
-- [Faculty Student interaction](#faculty-student-interaction)
-- [Student-Student interaction](#student-student-interaction)
-- [New habits developed in this online semester](#new-habits-developed-in-this-online-semester)
-- [Professors](#professors)
-- [Personal experiences](#personal-experiences)
-- [Other critical remarks](#other-critical-remarks)
-- [Contributors](#contributors)
+1.  [Environment](#orga98fefb)
+2.  [Lectures](#orgb276c19)
+3.  [Exams and assignments](#org03d775b)
+4.  [Faculty Student interaction](#orge4a6c88)
+5.  [Student-Student interaction](#org35498c7)
+6.  [New habits developed in this online semester](#orgca2a735)
+7.  [Professors](#orgcdf9230)
+8.  [Personal experiences](#orgbfe6b5a)
+9.  [Other critical remarks](#org0b74334)
+10. [Contributors](#org62fdc1d)
 
 <!-- Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself! -->
 
