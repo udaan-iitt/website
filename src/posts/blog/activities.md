@@ -23,7 +23,7 @@ This made it all the more important to adapt to the new normal. While online cla
 LAC was one of the earliest to embrace the online medium, launching two Instagram pages to bring students together. <a target="_blank" href="https://instagram.com/film_buffs_iitt?igshid=1a0h6zf4mi5e0">**film_buffs_iitt**</a> became the place for all our critics to aggregate and discuss, while <a target="_blank" href="https://instagram.com/scribbles_iitt?igshid=wil3q1ezgdlt">**Scribbles_iitt**</a> provided a much-needed platform for our students to present their views. From poetry to quotes, from op-eds to rants, all were present as students adapted to the new normal, with both pages getting high interactions during lockdown.
 
 <figure style='float: left; margin-right: 1em; width:100%; padding: 10px;'>
-    <img src="./images/activities/art.png" alt="@artistaiittp" />
+    <img src="./images/activities/art.jpg" alt="@artistaiittp" />
     <figcaption style="text-align:center; ">Students artworks on display (source : <a target="_blank"  href="https://www.instagram.com/artistaiittp/">@artistaiittp</a>)</figcaption>
 </figure>
 
