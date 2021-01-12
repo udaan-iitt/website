@@ -3,7 +3,7 @@ title: "Perspective on Art"
 category: "Creative Op-Ed"
 date: "2021-01-19 12:00:00 +09:00"
 desc: "Join us in pondering over art and its endless possibilities as a few budding artists talk about what art means to them.."
-thumbnail: "./images/ed1/campus.jpg"
+thumbnail: "./images/ed1/music.jpg"
 authors: "Abhimenyu, Kriti, Ketan"
 starred: "false"
 alt: "Art"
@@ -16,7 +16,20 @@ header h1{
 p{
   font-family: cursive;
 }
+.item--primary {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  width:25vw;  
+}
+.item--secondary {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  width:25vw;  
+}
 </style>
+
 <p style="font-family: 'Merriweather', serif;">“Learn the rules like a pro, so you can break them like an artist.”</p>
 <p>-Pablo Picasso<p>
 <br/>
@@ -27,6 +40,11 @@ These legends continue to inspire us, and it isn't just because they were the cr
 
 # What if......
 <br/>
+<div class="item item--primary"
+data-sal="slide-left" data-sal-delay="333" data-sal-easing="ease"
+>
+  <img src="./images/art/SVG/Asset 1.svg" alt="act" />
+</div>
 
 **Only the wearer knows where the shoe pinches**, many a time have we heard this quote, but what if you could become the wearer once for a short while? Sounds interesting? The very phrase ‘what if’ opens the doors of imagination. It’s not just because we want to imagine, it’s the in-built code in all of us to thrive for things, positions etc, that is to live like what we can’t in this geometrical world. All this is just a panoramic view of the art of acting. Some of us do this daily with unnoticeable liquidity while for others, it’s not a piece of cake. Little do we realize that we have survived this far because we act! Not just once in a lifetime, but through every second of it.
 
@@ -48,7 +66,13 @@ Without acting, this world would have been mundane. All of us like to grab some 
     margin-bottom: var(--sizing-md);">
     <p>
     From a wide range of hobbies that one has the option to pursue, I find art to be one of the most interesting ones. You can never detail a description for art as it is unique in every individual's perspective. This individuality is what brings out so many forms of art, beautiful in their own way. 
-    </p><p>
+    </p>
+    <div class="item item--secondary"
+    data-sal="slide-right" data-sal-delay="333" data-sal-easing="ease"
+    >
+      <img src="./images/art/SVG/Asset 2.svg" alt="art" />
+    </div>
+    <p>
     As for me, I have always perceived art as a way to bring out the picture that I imagine on paper. I initially tried to limit my circle to just sketching or doodling as I was never confident enough to try out anything more. Over the course of pandemic, out of boredom, I started with painting and shading and tried to give my pictures a complete look with calligraphy. Since then, I've drawn a few characters from Anime/TV shows and tried some digital art. I usually read a lot, so I also draw book characters and picturesque scenes. Otherwise, I follow a particular theme or aesthetic and try to convey my take on the picture. This has surprisingly helped my confidence and also motivated me to come out of my comfort zone. Although I'm definitely not a pro at art, I've learned to love what I do and that helps me get better at it.
     </p>
   </div>
@@ -73,6 +97,13 @@ Without acting, this world would have been mundane. All of us like to grab some 
 </div>
 
   > by Satyanarayann
+
+<br/>
+<div class="item item--primary"
+data-sal="slide-left" data-sal-delay="333" data-sal-easing="ease"
+>
+  <img src="./images/art/SVG/Asset 3.svg" alt="music" />
+</div>
 
 As a kid, I was very unenthusiastic about music, and I used to sleep in my music period at school. Now I can compose music and read staff notations, but most importantly, I have found a new way of life in music. The more I dig into it, the more beautiful dimensions of my intellect it unlocks.
 
