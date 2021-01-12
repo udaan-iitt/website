@@ -8,8 +8,16 @@ authors: "Abhimenyu, Kriti, Ketan"
 starred: "false"
 alt: "Art"
 ---
-
-<p>“Learn the rules like a pro, so you can break them like an artist.”</p>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@1,700&display=swap');
+header h1{
+  font-family: 'Lobster', cursive;
+}
+p{
+  font-family: cursive;
+}
+</style>
+<p style="font-family: 'Merriweather', serif;">“Learn the rules like a pro, so you can break them like an artist.”</p>
 <p>-Pablo Picasso<p>
 <br/>
 Every artist starts off as a learner. The renowned artist Raja Ravi Verma was trained by professional artists in his childhood, The Nightingale Lata Mangeshkar grew up under the influence of the big stage. Even Rabindranath Tagore was introduced to the world of theater, music, and literature at an early age.
@@ -33,6 +41,7 @@ Without acting, this world would have been mundane. All of us like to grab some 
 <div style="clear: both;">
   <figure style='float: right; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
     <img src="./images/art/draw.jpg" alt="kriti_art" />
+    <!-- <figcaption style="text-align:center; "></figcaption> -->
   </figure>
   <div style="font-family: cursive;
     text-align: left;
@@ -45,24 +54,25 @@ Without acting, this world would have been mundane. All of us like to grab some 
   </div>
 </div>
 
-  <code> by Krithi </code>
+  > by Krithi
 
 <div style="clear: both;">
   <figure style='float: left; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
     <img src="./images/art/draw2.jpg" alt="art2" />
+    <!-- <figcaption style="text-align:center; "></figcaption> -->
   </figure>
   <div style="
     text-align: left;
     margin-bottom: var(--sizing-md);">
   <p>
   To me, art is a mode of creation, I personally enjoy the act of taking something blank, and creating something with it. The act of creation is what makes me happy, watching as your hands move with a pencil or a brush and every line adding more meaning to a blank piece of paper is what inspires me. It truly is a wonder, how humans are capable of taking nothing, and using their head to make something extraordinary out of it. 
-  </p><p>
+  
   To me, art is an equal balance between the process of making it and the end result, when I draw, I am at peace, and in my creative space. It is definitely not easy but if by the end of the day, my art makes anyone’s life a tiny bit more beautiful and meaningful, even if the said person is just me, it is definitely worth it.
   </p>
   </div>
 </div>
 
-  <code> by Satyanarayann </code>
+  > by Satyanarayann
 
 As a kid, I was very unenthusiastic about music, and I used to sleep in my music period at school. Now I can compose music and read staff notations, but most importantly, I have found a new way of life in music. The more I dig into it, the more beautiful dimensions of my intellect it unlocks.
 
@@ -70,4 +80,4 @@ My musical journey started when I bought an acoustic guitar in my post 10th stan
 
 Since the lockdown, I have been learning Hindustani classical vocals. Learning about all the intricacies of raga music, I realized the superiority of Indian music. It enhanced my musical intuition and trained my ears. I feel like I can better understand the language of music and experience music better. Music, to me, is the junction where human emotions meet math and logic. I am now trying to use my signal processing and machine learning expertise to develop algorithms and models for music information retrieval and music generation!
 
-  <code> by Ketan </code>
+  > by Ketan

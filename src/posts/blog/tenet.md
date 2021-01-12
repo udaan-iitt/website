@@ -17,4 +17,4 @@ Tenet isn’t a bad film by any means, being very strong in technical department
 
 Overall, Tenet is a good film that might take some time to sink in fully. It’s more of a concept film than an action thriller with Nolan’s timestamp on every scene, and if you’re a fan, that’s all that matters.
 
-<code> ⚠ The author is a 3rd-year Undergraduate student in Electrical Engineering. When he’s not pretending to be a film critic, he likes to watch and discuss films.</code>
+> ⚠ The author is a 3rd-year Undergraduate student in Electrical Engineering. When he’s not pretending to be a film critic, he likes to watch and discuss films.

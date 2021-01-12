@@ -36,7 +36,7 @@ module.exports = {
     plugins: [
       'gatsby-plugin-robots-txt',
       `gatsby-plugin-sitemap`,
-      `gatsby-plugin-feed-mdx`,
+      `gatsby-plugin-feed`,
     ],
   },
   plugins: [
@@ -55,17 +55,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-typography`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/posts/blog/`,
+        pathToConfigModule: `src/styles/typography`,
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
+        plugins: [
           `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-vscode`,
@@ -86,12 +84,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/styles/typography`,
       },
     },
     {

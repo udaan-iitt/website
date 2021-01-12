@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === `Mdx`) {
+  if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `posts` });
     createNodeField({
       node,
@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const result = await graphql(`
     {
-      postsRemark: allMdx(
+      postsRemark: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
         sort: { fields: frontmatter___date, order: DESC }
         limit: 2000
@@ -35,7 +35,7 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-      categoriesGroup: allMdx(limit: 2000) {
+      categoriesGroup: allMarkdownRemark(limit: 2000) {
         group(field: frontmatter___category) {
           fieldValue
           totalCount
