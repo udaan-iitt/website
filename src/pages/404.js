@@ -3,18 +3,8 @@ import styled from 'styled-components';
 import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
-import firebase from "gatsby-plugin-firebase"
 
 const NotFound = () => {
-  React.useEffect(() => {
-    if (!firebase) {
-      return
-    }
-    
-    firebase
-      .analytics()
-      .logEvent("navigation_404")
-  }, [firebase])
   return (
     <Layout>
       <SEO title="Not found" />

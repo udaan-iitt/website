@@ -5,18 +5,9 @@ import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
-import firebase from "gatsby-plugin-firebase"
 
 const Latest = () => {
-  React.useEffect(() => {
-    if (!firebase) {
-      return
-    }
-    
-    firebase
-      .analytics()
-      .logEvent("visited_latest")
-  }, [firebase])
+
   return (
     <Layout>
       <SEO title="About" />

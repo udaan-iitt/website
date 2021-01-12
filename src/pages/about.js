@@ -7,18 +7,9 @@ import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
 import {members, newsletter} from '../data'
 import Image from '../components/imager';
-import firebase from "gatsby-plugin-firebase"
 
 const About = () => {
-  React.useEffect(() => {
-    if (!firebase) {
-      return
-    }
-    
-    firebase
-      .analytics()
-      .logEvent("visited_about")
-  }, [firebase])
+
   return (
     <Layout>
       <SEO title="About" />

@@ -8,7 +8,6 @@ import { rhythm } from 'styles/typography';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
-import firebase from "gatsby-plugin-firebase"
 
 const BlogPost = ({ data }) => {
   const {
@@ -17,15 +16,7 @@ const BlogPost = ({ data }) => {
       html,
     },
   } = data;
-  React.useEffect(() => {
-    if (!firebase) {
-      return
-    }
-    
-    firebase
-      .analytics()
-      .logEvent("read_"+title)
-  }, [firebase])
+
   const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
   // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
   return (

@@ -16,7 +16,6 @@
     "babel-plugin-styled-components": "^1.11.1",
     "dark-theme-github": "github:remorses/dark-github-theme",
     "disable-scroll": "^0.5.1",
-    "firebase": "^8.2.2",
     "focus-visible": "^5.2.0",
     "gatsby": "^2.24.81",
     "gatsby-alias-imports": "^1.0.4",

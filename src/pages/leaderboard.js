@@ -4,18 +4,8 @@ import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
 import teddyGIF from '../images/opt.gif'
-import firebase from "gatsby-plugin-firebase"
 
 const Leaderboard = () => {
-  React.useEffect(() => {
-    if (!firebase) {
-      return
-    }
-    
-    firebase
-      .analytics()
-      .logEvent("visited_leaderboard")
-  }, [firebase])
   return (
     <Layout>
       <SEO title="Leaderboard" />
