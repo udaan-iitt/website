@@ -25,7 +25,7 @@ Every artist starts off as a learner. The renowned artist Raja Ravi Verma was tr
 These legends continue to inspire us, and it isn't just because they were the creators of fine art. They have consumed common knowledge, learned the ways of the art, and have managed to create something beautiful that no one has ever made before! These artists are the proof of how art is perceived differently by different people, and none of these perspectives are inferior to any other. It is this potential in art that attracts every human being towards it; the power to row their own boat in the vast sea of creativity.
 
 
-# **What if......**
+# What if......
 <br/>
 
 **Only the wearer knows where the shoe pinches**, many a time have we heard this quote, but what if you could become the wearer once for a short while? Sounds interesting? The very phrase ‘what if’ opens the doors of imagination. It’s not just because we want to imagine, it’s the in-built code in all of us to thrive for things, positions etc, that is to live like what we can’t in this geometrical world. All this is just a panoramic view of the art of acting. Some of us do this daily with unnoticeable liquidity while for others, it’s not a piece of cake. Little do we realize that we have survived this far because we act! Not just once in a lifetime, but through every second of it.
@@ -39,37 +39,45 @@ Without acting, this world would have been mundane. All of us like to grab some 
   >by Abimenyu
 
 <div style="clear: both;">
-  <figure style='float: left; margin-right: 1em; width:200px; padding: 10px;'>
+  <figure style='float: right; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
     <img src="./images/art/draw.jpg" alt="kriti_art" />
     <!-- <figcaption style="text-align:center; "></figcaption> -->
-</figure>
-  <div style="font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; font-size: 1.0625rem;font-weight: var(--font-weight-regular);    line-height: 1.68;
+  </figure>
+  <div style="font-family: cursive;
     text-align: left;
     margin-bottom: var(--sizing-md);">
-    From a wide range of hobbies that one has the option to pursue, I find art to be one of the most interesting ones. You can never detail a description for art as it is unique in every individual's perspective. This individuality is what brings out so many forms of art, beautiful in their own way. As for me, I have always perceived art as a way to bring out the picture that I imagine on paper. I initially tried to limit my circle to just sketching or doodling as I was never confident enough to try out anything more. Over the course of pandemic, out of boredom, I started with painting and shading and tried to give my pictures a complete look with calligraphy. Since then, I've drawn a few characters from Anime/TV shows and tried some digital art. I usually read a lot, so I also draw book characters and picturesque scenes. Otherwise, I follow a particular theme or aesthetic and try to convey my take on the picture. This has surprisingly helped my confidence and also motivated me to come out of my comfort zone. Although I'm definitely not a pro at art, I've learned to love what I do and that helps me get better at it.
-
+    <p>
+    From a wide range of hobbies that one has the option to pursue, I find art to be one of the most interesting ones. You can never detail a description for art as it is unique in every individual's perspective. This individuality is what brings out so many forms of art, beautiful in their own way. 
+    </p><p>
+    As for me, I have always perceived art as a way to bring out the picture that I imagine on paper. I initially tried to limit my circle to just sketching or doodling as I was never confident enough to try out anything more. Over the course of pandemic, out of boredom, I started with painting and shading and tried to give my pictures a complete look with calligraphy. Since then, I've drawn a few characters from Anime/TV shows and tried some digital art. I usually read a lot, so I also draw book characters and picturesque scenes. Otherwise, I follow a particular theme or aesthetic and try to convey my take on the picture. This has surprisingly helped my confidence and also motivated me to come out of my comfort zone. Although I'm definitely not a pro at art, I've learned to love what I do and that helps me get better at it.
+    </p>
   </div>
 </div>
 
-The move online was not all roses though. Clubs and coordinators had to adapt to problems like lack of equipment and different constraints of virtual setting, and they did so commendably. The Debate club shifted operations to discord, using voice channels to conduct group discussions and debates. A virtual environment did not stop members of Actomania from recording a short film on the life of a JEE aspirant, while Sargam members have managed to record some beautiful covers during this time. Some like the <a target="_blank" href="https://www.instagram.com/qciittp/">**Quiz club**</a> managed to look at the positives; not only did they conduct regular sessions on Zoom, but also used this time to coordinate with quiz clubs of other IIT’s to have online Inter-IIT quiz sessions during this period. The Quiz club also partnered with <a target="_blank" href="https://www.instagram.com/ecell_iittp/">**E-cell IIT-T**</a> to conduct a Biz-Edutainment quiz, while Literary council conducted Eclectica, an inter-college essay competition. The pandemic bought its problems, but did lead to more collective efforts amongst clubs and institutes.
+  > by Krithi
 
-That’s not all folks! The students of technical affairs committee took this time to build a website to highlight technical clubs, events and projects done by students. The Code club saw a resurgence, conducting regular coding contests. They also shifted operations to Discord, where their server has become a highly active hub for discussions on all things related, from competitive programming to web development. Other students were quick to recognize avenues to contribute to the fight against Covid-19 and worked along with professors on those. <a target="_blank" href="https://survivecovid-19.itch.io/game2020">**SurviveCovid-19**</a>, a game to improve awareness of Covid-19 safety practices, <a target="_blank" href="https://moodofindia.herokuapp.com/">**Mood of India**</a>, a web portal to gauge emotional state of people in an area and COVID Chest X-Ray image classification based on attention based deep learning are some projects worked on by our students and faculty. The sharpness to recognize the need for such solutions and willingness to act on and build such innovations with real life usage have gained our students and professors clout, with their efforts being appreciated by national media.
+<div style="clear: both;">
+  <figure style='float: left; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
+    <img src="./images/art/draw2.jpg" alt="art2" />
+    <!-- <figcaption style="text-align:center; "></figcaption> -->
+  </figure>
+  <div style="
+    text-align: left;
+    margin-bottom: var(--sizing-md);">
+  <p>
+  To me, art is a mode of creation, I personally enjoy the act of taking something blank, and creating something with it. The act of creation is what makes me happy, watching as your hands move with a pencil or a brush and every line adding more meaning to a blank piece of paper is what inspires me. It truly is a wonder, how humans are capable of taking nothing, and using their head to make something extraordinary out of it. 
+  
+  To me, art is an equal balance between the process of making it and the end result, when I draw, I am at peace, and in my creative space. It is definitely not easy but if by the end of the day, my art makes anyone’s life a tiny bit more beautiful and meaningful, even if the said person is just me, it is definitely worth it.
+  </p>
+  </div>
+</div>
 
-<figure style='float: left; margin-right: 1em; width:100%; padding: 10px;'>
-    <img src="./images/activities/game.jpg" alt="studentGame" />
-    <figcaption style="text-align:center; ">A still from SurviveCovid-19, the game</figcaption>
-</figure>
+  > by Satyanarayann
 
-The pandemic also highlighted the advantage of a fit and healthy body, and the <a target="_blank" href="https://www.instagram.com/iittirupatisports/">**sports affairs council**</a> was quick to act on it, conducting regular fitness challenges with students required to submit videos of them doing the exercises. It was some well needed motivation for students to finally get off that bed, and has been a success. 
+As a kid, I was very unenthusiastic about music, and I used to sleep in my music period at school. Now I can compose music and read staff notations, but most importantly, I have found a new way of life in music. The more I dig into it, the more beautiful dimensions of my intellect it unlocks.
 
-<figure style='float: left; margin-right: 1em; width:100%; padding: 10px;'>
-    <img src="./images/activities/fitness.jpg" alt="fitness" />
-    <figcaption style="text-align:center; ">Students sweating it out in fitness challenge
-</figcaption>
-</figure>
+My musical journey started when I bought an acoustic guitar in my post 10th standard summer vacation and took a few classes. The real musical growth happened at IIT Tirupati's music club, where the fellow musicians inspired me. Apart from enhancing my acoustic guitar skills, I got exposed to many other instruments like keyboard, harmonium, drums, bass, electric guitar, sound processors, etc. Performing at various events like Inter IIT Cultural Meet boosted my confidence and helped me get over my stage fright. Amid the semester long grind, the jamming sessions and making music with my bandmates always felt like an escape to paradise.  
 
-The past semester was tough, but if there’s one thing that we know now, it is that whatever the circumstances, the student community of our college will always make the best of it. All the above efforts are commendable, and need to be appreciated.
+Since the lockdown, I have been learning Hindustani classical vocals. Learning about all the intricacies of raga music, I realized the superiority of Indian music. It enhanced my musical intuition and trained my ears. I feel like I can better understand the language of music and experience music better. Music, to me, is the junction where human emotions meet math and logic. I am now trying to use my signal processing and machine learning expertise to develop algorithms and models for music information retrieval and music generation!
 
-But that's not all folks, with the next semester comes new undertakings, the most ambitious of all might just be an online edition of <a target="_blank" href="https://www.instagram.com/tirutsava.iittirupati/">**Tirutsava**</a>! How that turns out is a story for another day, but if past semester is any indication, there is cause to be optimistic! 
-
-(with inputs from General Affairs Secretary, Cultural Affairs Secretary, Sports Affairs Secretary, Technical Affairs Secretary and coordinators of Artista, Sargam, PFC, Code club, Actomania, Quiz club, Debate club, Xcite, Gagan Vedhi, Chaturanaga)
+  > by Ketan
