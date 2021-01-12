@@ -9,12 +9,7 @@ starred: "false"
 alt: "AI"
 ---
 
-<style type='text/css'>
-code {
-  white-space : pre-wrap !important;
-  font-weight: bolder !important;
-}
-</style>
+<style dangerouslySetInnerHTML={{__html: "\ncode {\n  white-space : pre-wrap !important;\n  font-weight: bolder !important;\n}\n" }} />
 
 ## The science of today is the technology of tomorrow
 

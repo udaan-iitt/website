@@ -8,12 +8,13 @@ import { rhythm } from 'styles/typography';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 const BlogPost = ({ data }) => {
   const {
-    markdownRemark: {
+    mdx: {
       frontmatter: { title, desc, thumbnail, date, category, authors, starred },
-      html,
+      body,
     },
   } = data;
 
@@ -43,9 +44,11 @@ const BlogPost = ({ data }) => {
                 </header>
                 <Divider />
                 <Markdown
-                  dangerouslySetInnerHTML={{ __html: html }}
+                  // dangerouslySetInnerHTML={{ __html: html }}
                   rhythm={rhythm}
-                />
+                >
+                  <MDXRenderer>{body}</MDXRenderer>
+                </Markdown>
               </div>
             </InnerWrapper>
           </OuterWrapper>
@@ -139,8 +142,8 @@ const Title = styled.h1`
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+    mdx(fields: { slug: { eq: $slug } }) {
+      body
       frontmatter {
         title
         desc

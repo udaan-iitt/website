@@ -11,7 +11,7 @@ import useSiteMetadata from 'hooks/useSiteMetadata';
 const Home = ({ pageContext, data }) => {
   const [posts, setPosts] = useState([]);
   const currentCategory = pageContext.category;
-  const postData = data.allMarkdownRemark.edges;
+  const postData = data.allMdx.edges;
 
   useLayoutEffect(() => {
     const filteredPostData = currentCategory
@@ -62,7 +62,7 @@ const Home = ({ pageContext, data }) => {
       <SEO title="Home" />
       <Main>
         <Content>
-          <CategoryFilter categoryList={data.allMarkdownRemark.group} />
+          <CategoryFilter categoryList={data.allMdx.group} />
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
           <PostGrid posts={posts} />
@@ -106,7 +106,7 @@ const PostTitle = styled.h2`
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

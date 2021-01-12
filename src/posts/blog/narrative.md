@@ -22,9 +22,6 @@ alt: "Experiences"
 9.  [Other critical remarks](#org0b74334)
 10. [Contributors](#org62fdc1d)
 
-<!-- Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself! -->
-
-
 <a id="orga98fefb"></a>
 
 # Environment
@@ -260,19 +257,7 @@ Practice is the foundation for improvement, feedback and review are the things t
 
 A big thank you to Noble S Mathews, Shreetesh, Pranav Panicker, Debeshee, Harshitha, Sahithi, Srikarah and Kranthi from 2019 batch, Kartik, Maulik, Krithi, Samveg, Soham Nandy and Dhanush from 2020 batch, and Madhavan from 2018 batch for their sharing their experiences with overwhelming enthusiasm! Special thanks to Debeshee for coordinating with people and collecting their experiences with the utmost patience.
 
-<style>
-.image-cropper {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    display:inline-block;
-}
-td{
-    text-align:center;
-}
-</style>
+<style dangerouslySetInnerHTML={{__html: "\n.image-cropper {\n    width: 100px;\n    height: 100px;\n    position: relative;\n    overflow: hidden;\n    border-radius: 50%;\n    display:inline-block;\n}\ntd{\n    text-align:center;\n}\n" }} />
 
 <figure style="display:inline-block; padding:10px; ">
     <div class="image-cropper"><img src="./images/ed1/people/debeshee.jpg" alt="contributor" /></div>
