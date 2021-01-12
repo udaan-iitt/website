@@ -7,11 +7,22 @@ import SEO from 'components/seo';
 import PostGrid from 'components/postGrid/postGrid';
 import CategoryFilter from 'components/categoryFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
+import firebase from "gatsby-plugin-firebase"
 
 const Home = ({ pageContext, data }) => {
   const [posts, setPosts] = useState([]);
   const currentCategory = pageContext.category;
   const postData = data.allMarkdownRemark.edges;
+
+  React.useEffect(() => {
+    if (!firebase) {
+      return
+    }
+    
+    firebase
+      .analytics()
+      .logEvent("visited_home")
+  }, [firebase])
 
   useLayoutEffect(() => {
     const filteredPostData = currentCategory

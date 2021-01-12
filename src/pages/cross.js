@@ -6,9 +6,18 @@ import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
 import {cross} from '../data'
 import 'focus-visible';
+import firebase from "gatsby-plugin-firebase"
 
 const CrosswordC = () => {
-
+    React.useEffect(() => {
+      if (!firebase) {
+        return
+      }
+      
+      firebase
+        .analytics()
+        .logEvent("visited_cross")
+    }, [firebase])
     const mounted = useRef();
     useEffect(() => {
         if (!mounted.current) {
