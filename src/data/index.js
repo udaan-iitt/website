@@ -94,7 +94,7 @@ export const members = [
       pos: 'Quiz Club Coordinator',
       email:'ch18b015@iittp.ac.in',
       title: 'Madhavan Nampoothiri',
-      links: ''
+      links: 'https://www.linkedin.com/in/madhavan-nampoothiri-d-k-80b96a199/'
     },
     {
       key: 'noble',
