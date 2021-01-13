@@ -55,18 +55,17 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `special`,
-        path: `${__dirname}/src/posts/special`,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-mdx',
       options: {
         defaultLayouts: {
           default: require.resolve('./src/layout/layout.js'),
         },
+        plugins: [`gatsby-remark-images`],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+          },
+        ],
       },
     },
     {

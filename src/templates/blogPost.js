@@ -8,6 +8,7 @@ import { rhythm } from 'styles/typography';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
+import {MDXRenderer} from 'gatsby-plugin-mdx'
 
 const BlogPost = ({ data }) => {
   if (data.markdownRemark){
@@ -59,11 +60,10 @@ const BlogPost = ({ data }) => {
   }
   else{
     const {
-      mdx: {
-        frontmatter: { title, desc, thumbnail, date, category, authors, starred },
-        html,
-      },
+      mdx:post  
     } = data;
+    const { title, desc, thumbnail, date, category, authors, starred } = post.frontmatter;
+    const {body} = post;
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
@@ -90,9 +90,10 @@ const BlogPost = ({ data }) => {
                   </header>
                   <Divider />
                   <Markdown
-                    dangerouslySetInnerHTML={{ __html: html }}
                     rhythm={rhythm}
-                  />
+                  >
+                  <MDXRenderer>{body}</MDXRenderer>
+                  </Markdown>
                 </div>
               </InnerWrapper>
             </OuterWrapper>
