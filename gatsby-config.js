@@ -55,6 +55,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `special`,
+        path: `${__dirname}/src/posts/special`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/layout/layout.js'),
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
           threshold: 0.5, // Percentage of an element's area that needs to be visible to launch animation

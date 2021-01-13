@@ -11,15 +11,17 @@ import useSiteMetadata from 'hooks/useSiteMetadata';
 const Home = ({ pageContext, data }) => {
   const [posts, setPosts] = useState([]);
   const currentCategory = pageContext.category;
-  const postData = data.allMarkdownRemark.edges;
+  const arr1 = data.allMdx.edges;
+  const arr2 = data.allMarkdownRemark.edges;
 
   useLayoutEffect(() => {
+    const postData = arr1.concat(arr2);
     const filteredPostData = currentCategory
       ? postData.filter(
           ({ node }) => node.frontmatter.category === currentCategory
         )
       : postData;
-
+  
     filteredPostData.forEach(({ node }) => {
       const {
         id,
@@ -52,7 +54,7 @@ const Home = ({ pageContext, data }) => {
         },
       ]);
     });
-  }, [currentCategory, postData]);
+  }, [currentCategory, arr1, arr2]);
 
   const site = useSiteMetadata();
   const postTitle = currentCategory || site.siteMetadata.postTitle;
@@ -140,7 +142,39 @@ export const query = graphql`
         }
       }
     }
+    allMdx(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      group(field: frontmatter___category) {
+        fieldValue
+        totalCount
+      }
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            category
+            date(formatString: "YYYY-MM-DD")
+            desc
+            authors
+            starred
+            thumbnail {
+              childImageSharp {
+                id
+              }
+              base
+            }
+            alt
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
   }
 `;
-
 export default Home;

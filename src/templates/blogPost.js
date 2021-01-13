@@ -10,52 +10,100 @@ import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
 
 const BlogPost = ({ data }) => {
-  const {
-    markdownRemark: {
-      frontmatter: { title, desc, thumbnail, date, category, authors, starred },
-      html,
-    },
-  } = data;
-
-  const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
-  // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
-  return (
-    <Layout>
-      <SEO title={title} description={desc} image={ogImagePath} />
-      <main>
-        <article>
-          <OuterWrapper>
-            <InnerWrapper>
-              <div>
-                <header>
-                  <Info>
-                    {/* <PostCategory>{category}</PostCategory> */}
-                    {/* <Time dateTime={date}>{date}</Time> */}
-                  </Info>
-                  <Title>{title}</Title>
-                  <p style={{textAlign:"left", paddingTop:"20px"}}>
-                        <PostCategory>{category}</PostCategory>
-                        <span style={{float:"right"}}>
-                          {authors}
-                        </span>
-                  </p>
-                  <Desc>{desc}</Desc>
-                </header>
-                <Divider />
-                <Markdown
-                  dangerouslySetInnerHTML={{ __html: html }}
-                  rhythm={rhythm}
-                />
-              </div>
-            </InnerWrapper>
-          </OuterWrapper>
-        </article>
-        <CommentWrap>
-          <Comment />
-        </CommentWrap>
-      </main>
-    </Layout>
-  );
+  if (data.markdownRemark){
+    const {
+      markdownRemark: {
+        frontmatter: { title, desc, thumbnail, date, category, authors, starred },
+        html,
+      },
+    } = data;
+    const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
+    // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
+    return (
+      <Layout>
+        <SEO title={title} description={desc} image={ogImagePath} />
+        <main>
+          <article>
+            <OuterWrapper>
+              <InnerWrapper>
+                <div>
+                  <header>
+                    <Info>
+                      {/* <PostCategory>{category}</PostCategory> */}
+                      {/* <Time dateTime={date}>{date}</Time> */}
+                    </Info>
+                    <Title>{title}</Title>
+                    <p style={{textAlign:"left", paddingTop:"20px"}}>
+                          <PostCategory>{category}</PostCategory>
+                          <span style={{float:"right"}}>
+                            {authors}
+                          </span>
+                    </p>
+                    <Desc>{desc}</Desc>
+                  </header>
+                  <Divider />
+                  <Markdown
+                    dangerouslySetInnerHTML={{ __html: html }}
+                    rhythm={rhythm}
+                  />
+                </div>
+              </InnerWrapper>
+            </OuterWrapper>
+          </article>
+          <CommentWrap>
+            <Comment />
+          </CommentWrap>
+        </main>
+      </Layout>
+    );
+  }
+  else{
+    const {
+      mdx: {
+        frontmatter: { title, desc, thumbnail, date, category, authors, starred },
+        html,
+      },
+    } = data;
+    const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
+    // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
+    return (
+      <Layout>
+        <SEO title={title} description={desc} image={ogImagePath} />
+        <main>
+          <article>
+            <OuterWrapper>
+              <InnerWrapper>
+                <div>
+                  <header>
+                    <Info>
+                      {/* <PostCategory>{category}</PostCategory> */}
+                      {/* <Time dateTime={date}>{date}</Time> */}
+                    </Info>
+                    <Title>{title}</Title>
+                    <p style={{textAlign:"left", paddingTop:"20px"}}>
+                          <PostCategory>{category}</PostCategory>
+                          <span style={{float:"right"}}>
+                            {authors}
+                          </span>
+                    </p>
+                    <Desc>{desc}</Desc>
+                  </header>
+                  <Divider />
+                  <Markdown
+                    dangerouslySetInnerHTML={{ __html: html }}
+                    rhythm={rhythm}
+                  />
+                </div>
+              </InnerWrapper>
+            </OuterWrapper>
+          </article>
+          <CommentWrap>
+            <Comment />
+          </CommentWrap>
+        </main>
+      </Layout>
+    );
+  }
 };
 
 const OuterWrapper = styled.div`
@@ -141,6 +189,24 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      frontmatter {
+        title
+        desc
+        thumbnail {
+          childImageSharp {
+            fixed {
+              src
+            }
+          }
+        }
+        date(formatString: "YYYY-MM-DD")
+        category
+        authors
+        starred
+      }
+    }
+    mdx(fields: { slug: { eq: $slug } }) {
+      body
       frontmatter {
         title
         desc

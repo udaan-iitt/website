@@ -12,6 +12,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     });
   }
+  else if (node.internal.type === `Mdx`){
+    const slug = createFilePath({ node, getNode, basePath: `posts` });
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    });
+  }
 };
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -19,11 +27,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const mainTemplate = path.resolve(`./src/pages/index.js`);
   const blogPostTemplate = path.resolve(`./src/templates/blogPost.js`);
-
+//         filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
         sort: { fields: frontmatter___date, order: DESC }
         limit: 2000
       ) {
@@ -43,9 +50,29 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-
-  const posts = result.data.postsRemark.edges;
-
+  const result2 = await graphql(`
+    {
+      postsRemark: allMdx(
+        sort: { fields: frontmatter___date, order: DESC }
+        limit: 2000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+      categoriesGroup: allMdx(limit: 2000) {
+        group(field: frontmatter___category) {
+          fieldValue
+          totalCount
+        }
+      }
+    }
+  `);
+  const posts = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -56,7 +83,13 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  const categories = result.data.categoriesGroup.group;
+  // const categories = result.data.categoriesGroup.group + result2.data.categoriesGroup.group;
+  const arr1 = result.data.categoriesGroup.group;
+  const arr2 = result2.data.categoriesGroup.group;
+  const categories = Object.values([...arr1, ...arr2].reduce((acc, { fieldValue, totalCount }) => {
+    acc[fieldValue] = { fieldValue, totalCount: (acc[fieldValue] ? acc[fieldValue].totalCount : 0) + totalCount  };
+    return acc;
+  }, {}));
 
   categories.forEach((category) => {
     createPage({

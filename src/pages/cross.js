@@ -1,55 +1,29 @@
-import Crossword, { ThemeProvider }  from '@jaredreisinger/react-crossword';
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
-import {cross} from '../data'
 import 'focus-visible';
+import Iframe from 'react-iframe'
 
 const CrosswordC = () => {
 
-    const mounted = useRef();
-    useEffect(() => {
-        if (!mounted.current) {
-        // do componentDidMount logic
-        mounted.current = true;
-        } else {
-        // do componentDidUpdate logic
-        }
-    });
-
   return (
     <Layout>
-      <SEO title="Crossword" />
-      <Container>
-        <TitleWrap>
-          <FadeIn>
-            <h2>Crossword Competition</h2>
-            <hr/>
-            <div style={{ width: '50%', height:'400px'}}>
-            <ThemeProvider
-                theme={{
-                // columnBreakpoint: '9999px',
-                gridBackground: '#333333',
-                cellBackground: '#F4F4F4',
-                cellBorder: '#cdcdcd',
-                textColor: '#666',
-                numberColor: 'black',
-                focusBackground: '#fff',
-                highlightBackground: 'var(--color-highlight)',
-                }}
-            >
-                <FocusVisible className="js-focus-visible focus-visible">
-                    <Crossword data={cross} />
-                </FocusVisible>
-            </ThemeProvider>
-            </div>
-          </FadeIn>
-        </TitleWrap>
-      </Container>
+    <SEO title="Crossword" />
+        <FadeIn>
+          <TitleWrap>
+          <Iframe url="https://www.puzzlefast.com/en/puzzles/2021011214412254E/plain-puzzle"
+            width="100%"
+            frameBorder='0'
+            id="myId"
+            className="myClassname"
+            display="block"
+            />
+          </TitleWrap>
+        </FadeIn>
     </Layout>
-  );
+    );
 };
 
 const Container = styled.main`
@@ -68,6 +42,11 @@ const TitleWrap = styled.div`
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 1;
+  width: 100vw;
+
+  .myClassname{
+    height:calc(100vh - 115px) !important
+  }
 `;
 
 const Desc = styled.h2`

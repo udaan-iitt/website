@@ -1,6 +1,6 @@
 ---
 title: "Perspective on Art"
-category: "Creative Op-Ed"
+category: "Op-Ed"
 date: "2021-01-19 12:00:00 +09:00"
 desc: "Join us in pondering over art and its endless possibilities as a few budding artists talk about what art means to them.."
 thumbnail: "./images/ed1/music.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Purpose of education: Ideals and Reality"
-category: "Creative Op-Ed"
+category: "Op-Ed"
 date: "2021-01-07 12:00:00 +09:00"
 desc: "The author walks us through the purpose of education. He then shows us the deficiencies in the current education system, presenting his view of what education ought to be"
 thumbnail: "./images/ed1/education.jpg"

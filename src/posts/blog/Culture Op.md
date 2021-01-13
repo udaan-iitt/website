@@ -1,6 +1,6 @@
 ---
 title: "Popularizing the Indian Culture"
-category: "Creative Op-Ed"
+category: "Op-Ed"
 date: "2021-01-07 12:00:00 +09:00"
 desc: "Anirudh Sampath reflects on the relevance of culture to the current world and why India needs to start exporting and popularising this facet."
 thumbnail: "./images/ed1/culture.jpg"

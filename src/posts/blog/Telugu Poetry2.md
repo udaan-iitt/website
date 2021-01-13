@@ -1,6 +1,6 @@
 ---
 title: "The modern man (Telugu)"
-category: "Creative Poetry"
+category: "Poetry"
 date: "2021-01-07 12:00:00 +09:00"
 desc: "Join the poet on his commentary on the lifestyle and vanity of humans, and where it went wrong"
 thumbnail: "./images/ed1/poem.jpg"

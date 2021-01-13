@@ -1,6 +1,6 @@
 ---
 title: "Wo Yaqeen ka Safar…"
-category: "Creative Story"
+category: "Story"
 date: "2021-01-07 12:00:00 +09:00"
 desc: "Join the author as he takes you along on a journey, a time that taught him lessons for life"
 thumbnail: "./images/ed1/story.jpg"
