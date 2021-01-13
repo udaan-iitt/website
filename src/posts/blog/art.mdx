@@ -9,7 +9,13 @@ starred: "false"
 alt: "Art"
 ---
 
-import { GlobalStyle } from "../../components/react/styled"
+import { GlobalStyle } from "../../components/react/styled";
+import { ParallaxBanner } from 'react-scroll-parallax';
+import img1 from "./images/art/Fourth.jpg";
+import img2 from "./images/art/Third.jpg";
+import img3 from "./images/art/First.jpg";
+import img4 from "./images/art/Second.jpg";
+
 
 <p style={{fontFamily: '"Merriweather", serif'}}>“Learn the rules like a pro, so you can break them like an artist.”</p>
 <GlobalStyle/>
@@ -19,7 +25,20 @@ Every artist starts off as a learner. The renowned artist Raja Ravi Verma was tr
 
 These legends continue to inspire us, and it isn't just because they were the creators of fine art. They have consumed common knowledge, learned the ways of the art, and have managed to create something beautiful that no one has ever made before! These artists are the proof of how art is perceived differently by different people, and none of these perspectives are inferior to any other. It is this potential in art that attracts every human being towards it; the power to row their own boat in the vast sea of creativity.
 
-## What if......
+<ParallaxBanner
+    layers={[
+        {
+            image: img1,
+            amount: 0.4,
+        },
+    ]}
+    style={{
+        height: '350px',
+    }}
+>
+</ParallaxBanner>
+
+## What if...
 
 **Only the wearer knows where the shoe pinches**, many a time have we heard this quote, but what if you could become the wearer once for a short while? Sounds interesting? The very phrase ‘what if’ opens the doors of imagination. It’s not just because we want to imagine, it’s the in-built code in all of us to thrive for things, positions etc, that is to live like what we can’t in this geometrical world. All this is just a panoramic view of the art of acting. Some of us do this daily with unnoticeable liquidity while for others, it’s not a piece of cake. Little do we realize that we have survived this far because we act! Not just once in a lifetime, but through every second of it.
 
@@ -31,29 +50,63 @@ Without acting, this world would have been mundane. All of us like to grab some 
 
  > by Abimenyu
 
+## Strolling through the art street
+
+<ParallaxBanner
+    layers={[
+        {
+            image: img2,
+            amount: 0.6,
+        },
+    ]}
+    style={{
+        height: '350px',
+    }}
+>
+</ParallaxBanner>
+
 <div>
   <figure style='float: right; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
     <img src="./images/art/draw.jpg" alt="kriti_art" />
   </figure>
-  <div style={{ textAlign: 'left', marginBottom: 'var(--sizing-md)'}}>
+  <div style="
+    text-align: left;
+    margin-bottom: var(--sizing-md);">
     <p>
-      From a wide range of hobbies that one has the option to pursue, I find art to be one of the most interesting ones. You can never detail a description for art as it is unique in every individual's perspective. This individuality is what brings out so many forms of art, beautiful in their own way. 
+      From a wide range of hobbies that one has the option to pursue, I find art to be one of the most interesting ones. You can never detail a description for art as it is unique in every individual's perspective. This <b>individuality</b> is what brings out so many forms of art, beautiful in their own way. 
     </p>
     <p>
-      As for me, I have always perceived art as a way to bring out the picture that I imagine on paper. I initially tried to limit my circle to just sketching or doodling as I was never confident enough to try out anything more. Over the course of pandemic, out of boredom, I started with painting and shading and tried to give my pictures a complete look with calligraphy. Since then, I've drawn a few characters from Anime/TV shows and tried some digital art. I usually read a lot, so I also draw book characters and picturesque scenes. Otherwise, I follow a particular theme or aesthetic and try to convey my take on the picture. This has surprisingly helped my confidence and also motivated me to come out of my comfort zone. Although I'm definitely not a pro at art, I've learned to love what I do and that helps me get better at it.
+      As for me, I have always perceived art as a way to <b>bring out the picture that I imagine on paper</b>. I initially tried to limit my circle to just sketching or doodling as I was never confident enough to try out anything more. Over the course of pandemic, out of boredom, I started with painting and shading and tried to give my pictures a complete look with calligraphy. Since then, I've drawn a few characters from Anime/TV shows and tried some digital art. I usually read a lot, so I also draw book characters and picturesque scenes. Otherwise, I follow a particular theme or aesthetic and try to convey my take on the picture. This has surprisingly helped my confidence and also motivated me to come out of my comfort zone. Although I'm definitely not a pro at art, I've learned to love what I do and that helps me get better at it.
     </p>
   </div>
 </div>
 
  > by Krithi
 
-<div style={{clear: 'both'}}>
+<ParallaxBanner
+    layers={[
+        {
+            image: img3,
+            amount: 0.6,
+        },
+    ]}
+    style={{
+        height: '350px',
+    }}
+>
+</ParallaxBanner>
+
+## An introspection of my art process
+
+<div style="clear: both;">
   <figure style='float: left; margin-right: 1em; width:30vw; max-width:300px; padding: 10px;'>
     <img src="./images/art/draw2.jpg" alt="art2" />
   </figure>
-  <div style={{textAlign: 'left', marginBottom: 'var(--sizing-md)'}}>
+  <div style="
+    text-align: left;
+    margin-bottom: var(--sizing-md);">
     <p>
-      To me, art is a mode of creation, I personally enjoy the act of taking something blank, and creating something with it. The act of creation is what makes me happy, watching as your hands move with a pencil or a brush and every line adding more meaning to a blank piece of paper is what inspires me. It truly is a wonder, how humans are capable of taking nothing, and using their head to make something extraordinary out of it. 
+      To me, art is a mode of creation, I personally enjoy the act of taking something blank, and creating something with it. The act of creation is what makes me happy, watching as your hands move with a pencil or a brush and <b>every line adding more meaning to a blank piece of paper</b> is what inspires me. It truly is a wonder, how humans are capable of taking nothing, and using their head to make something extraordinary out of it. 
     </p><p>
       To me, art is an equal balance between the process of making it and the end result, when I draw, I am at peace, and in my creative space. It is definitely not easy but if by the end of the day, my art makes anyone’s life a tiny bit more beautiful and meaningful, even if the said person is just me, it is definitely worth it.
     </p>
@@ -62,10 +115,25 @@ Without acting, this world would have been mundane. All of us like to grab some 
 
  > by Satyanarayann
 
+<ParallaxBanner
+    layers={[
+        {
+            image: img4,
+            amount: 0.6,
+        },
+    ]}
+    style={{
+        height: '350px',
+    }}
+>
+</ParallaxBanner>
+
+ ## Solace in the world of music...
+
 As a kid, I was very unenthusiastic about music, and I used to sleep in my music period at school. Now I can compose music and read staff notations, but most importantly, I have found a new way of life in music. The more I dig into it, the more beautiful dimensions of my intellect it unlocks.
 
 My musical journey started when I bought an acoustic guitar in my post 10th standard summer vacation and took a few classes. The real musical growth happened at IIT Tirupati's music club, where the fellow musicians inspired me. Apart from enhancing my acoustic guitar skills, I got exposed to many other instruments like keyboard, harmonium, drums, bass, electric guitar, sound processors, etc. Performing at various events like Inter IIT Cultural Meet boosted my confidence and helped me get over my stage fright. Amid the semester long grind, the jamming sessions and making music with my bandmates always felt like an escape to paradise.  
 
-Since the lockdown, I have been learning Hindustani classical vocals. Learning about all the intricacies of raga music, I realized the superiority of Indian music. It enhanced my musical intuition and trained my ears. I feel like I can better understand the language of music and experience music better. Music, to me, is the junction where human emotions meet math and logic. I am now trying to use my signal processing and machine learning expertise to develop algorithms and models for music information retrieval and music generation!
+Since the lockdown, I have been learning Hindustani classical vocals. Learning about all the intricacies of raga music, I realized the superiority of Indian music. It enhanced my musical intuition and trained my ears. I feel like I can better understand the language of music and experience music better. Music, to me, is the <b>junction where human emotions meet math and logic</b>. I am now trying to use my signal processing and machine learning expertise to develop algorithms and models for music information retrieval and music generation!
 
  > by Ketan

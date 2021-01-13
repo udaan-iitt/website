@@ -9,6 +9,7 @@ import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
 import {MDXRenderer} from 'gatsby-plugin-mdx'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const BlogPost = ({ data }) => {
   if (data.markdownRemark){
@@ -89,11 +90,13 @@ const BlogPost = ({ data }) => {
                     <Desc>{desc}</Desc>
                   </header>
                   <Divider />
+                  <ParallaxProvider>
                   <Markdown
                     rhythm={rhythm}
                   >
                   <MDXRenderer>{body}</MDXRenderer>
                   </Markdown>
+                  </ParallaxProvider>
                 </div>
               </InnerWrapper>
             </OuterWrapper>
