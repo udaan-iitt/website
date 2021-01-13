@@ -104,34 +104,6 @@ export const members = [
       links: 'https://in.linkedin.com/in/noble-saji-mathews'
     },
     {
-      key: 'utkarsh',
-      pos: 'Events Coordinator',
-      email:'ee19b042@iittp.ac.in',
-      title: 'Utkarsh Pandya',
-      links: ''
-    },
-    {
-      key: 'abhay',
-      pos: 'Book Club Coordinator',
-      email:'ch18b001@iittp.ac.in',
-      title: 'Abhay Singh',
-      links: 'www.linkedin.com/in/abhaysingh2001'
-    },
-    {
-      key: 'pranav',
-      pos: 'Quiz Committee',
-      email:'ee19b037@iittp.ac.in',
-      title: 'Pranav Hari Panicker',
-      links: 'mailto:ee19b037@iittp.ac.in'
-    },
-    {
-      key: 'mannepalli',
-      pos: 'Quiz/Book Committee',
-      email:'cs18b036@iittp.ac.in',
-      title: 'Sripranav Mannepalli',
-      links: ''
-    },
-    {
       key: 'keerthana',
       pos: 'Student Newsletter Committee',
       email:'ee19b035@iittp.ac.in',
@@ -139,8 +111,36 @@ export const members = [
       links: 'mailto:ee19b035@iittp.ac.in'
     },
     {
+      key: 'utkarsh',
+      pos: 'Member',
+      email:'ee19b042@iittp.ac.in',
+      title: 'Utkarsh Pandya',
+      links: ''
+    },
+    {
+      key: 'abhay',
+      pos: 'Member',
+      email:'ch18b001@iittp.ac.in',
+      title: 'Abhay Singh',
+      links: 'www.linkedin.com/in/abhaysingh2001'
+    },
+    {
+      key: 'pranav',
+      pos: 'Member',
+      email:'ee19b037@iittp.ac.in',
+      title: 'Pranav Hari Panicker',
+      links: 'mailto:ee19b037@iittp.ac.in'
+    },
+    {
+      key: 'mannepalli',
+      pos: 'Member',
+      email:'cs18b036@iittp.ac.in',
+      title: 'Sripranav Mannepalli',
+      links: ''
+    },
+    {
       key: 'spandana',
-      pos: 'Student Newsletter Committee',
+      pos: 'Member',
       email:'ce17b021@iittp.ac.in',
       title: 'Sanagula Spandana',
       links: ''
