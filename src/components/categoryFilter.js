@@ -15,7 +15,7 @@ const CategoryFilter = ({ categoryList }) => {
 
   return (
     <Nav aria-label="Category Filter">
-      <CategoryTitle>Filter :</CategoryTitle>
+      {/* <CategoryTitle>Filter :</CategoryTitle> */}
       <CategoryButton getProps={isActive} to="/">
         {ALL_CATEGORY_NAME}
       </CategoryButton>
@@ -60,11 +60,12 @@ const CategoryFilter = ({ categoryList }) => {
 const Nav = styled.nav`
   display: flex;
   align-items: center;
-  background-color: var(--color-card);
+  // background-color: var(--color-card);
+  background-color:transparent!important;
   margin-bottom: 48px;
   padding: 12px var(--sizing-md);
   border-radius: var(--border-radius-base);
-
+  padding-left: 0px !important;
   a#active {
     color: var(--color-white);
     background-color: var(--color-blue);
@@ -156,6 +157,7 @@ const Divider = styled.div`
 
 const CategoryUl = styled.ul`
   display: flex;
+  align-items: center;
   list-style: none;
   overflow-x: scroll;
   -ms-overflow-style: none;
@@ -163,7 +165,6 @@ const CategoryUl = styled.ul`
   ::-webkit-scrollbar {
     display: none;
   }
-
   li + li {
     margin-left: 6px;
   }

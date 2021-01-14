@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
       --color-white: #ffffff;
       --color-nav-bar: rgba(255, 255, 255, 0.7);
       --color-nav-border: rgba(200, 200, 200, 0.7);
-      --color-category-button: #f2f2f2;
+      --color-category-button: #fff;
       --color-category-button2: #fdffbc;
       --color-background: #f2f2f2;
       --color-post-background: #ffffff;
