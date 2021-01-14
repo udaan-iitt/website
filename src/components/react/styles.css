@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.grid {
+  width: 100%!important;
+  padding: 20px!important;
+}
+
+.crossword{
+  flex-direction: column!important;
+}
