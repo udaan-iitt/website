@@ -23,4 +23,4 @@ That’s not all. The above practice also means the male counterpart will often 
  
 It's time that the institute had another look at these policies. The concerns above are valid and need to be addressed. A healthy debate and discussion on these policies is required, where the institute can address these concerns and work with students to find a new solution. It’s not going to be easy, but it is needed.
  
- > as discussed during Student Leadership Conclave 2021 conducted by IIT Gandhinagar
+<small>* as discussed during Student Leadership Conclave 2021 conducted by IIT Gandhinagar</small>
