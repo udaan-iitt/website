@@ -16,9 +16,10 @@ The prevalence of visual media in the modern world has helped people understand,
 
 K-pop and anime are wonderful examples to illustrate this fact.  One-Punch Man, BTS, Naruto have established an unwavering fan base throughout the world. Most of our childhood was coming home from school, throwing your backpack, and prepping yourself to watch your favorite show, Doraemon or Ninja Hattori. These shows have left indelible memories that will be cherished by our generation for years to come.
 
+![Mahabharat](./images/ed1/mahabharat,jpg)
 Storytelling has always been a field Indians have been exceptionally good at. The heroic tales of Lord Rama and the bloody battle of the Mahabharata have been passed down through generations. Lately, Indian filmmakers have been living up to their vibrant past, expanding cinematic horizons with superhit ventures like Mirzapur and Bahubali. Bollywood has been relatively successful in permeating into Chinese culture, with movies like Dangal and PK that have made a killing in Chinese theaters. However, most parts of the Western hemisphere are still isolated from this influence. Exporting our culture is not a new idea developed recently. India has been influencing and being influenced by other countries for centuries.
 
-
+![Friends](./images/ed1/friend,jpg)
 Exporting and commercializing  Indian Culture is a sure-shot way to improve cultural appreciation and break prevailing stereotypes that have shackled Indians for centuries. Imagine an American kid eagerly waiting to come home from school to watch his favorite show, Chotta Bheem. However, while we're on this quest to popularize and share our rich culture with the world, the difference between cultural pride and cultural fanaticism is a fine line we tread. Hoping to popularize our culture is a two-way trade of sharing your culture while respecting other cultures.
 The euphoric and convivial atmosphere where contrasting cultures is something that defines India as a country.
 

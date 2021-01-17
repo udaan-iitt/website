@@ -10,7 +10,7 @@ alt: "Mental Health"
 ---
 
 ### “It is during our darkest moments that we must focus to see the light.” 
- > - Aristotle Onassis
+- Aristotle Onassis
 
 It all starts very slow. Some things are out of place, You are distracted and cannot focus on school. You don’t feel like eating or doing anything. Maybe it has happened before too, so you don’t think too much. Everything is normal.
 

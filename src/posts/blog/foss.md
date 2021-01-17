@@ -1,8 +1,8 @@
 ---
-title: "Free as in Free Speech*. What is FOSS and why should we care?"
+title: '"Free as in Free Speech".. What is FOSS and why should we care?'
 category: "Op-Ed"
 date: "2021-01-27 12:00:00 +09:00"
-desc: "Join Prabhat in his quest to convert everyone around him into an Open Source Software user ...may the source be with you..."
+desc: "Join Prabhat in his quest to convert everyone around him into a Free and  Open Source Software user ...may the source be with you..."
 thumbnail: "./images/ed1/foss.png"
 authors: "Prabhat Reddy"
 starred: "false"
