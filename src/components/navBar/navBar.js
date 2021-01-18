@@ -39,7 +39,7 @@ const NavBar = ({ title, themeToggler }) => {
       <Content>
         <Title onClick={() => setToggle(false)}>
           <Link to="/">
-            {"COLLEGE BUGLE"}
+            {"UDAAN IITT"}
           </Link>
         </Title>
         <LinkWrap>

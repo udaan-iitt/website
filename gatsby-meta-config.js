@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'College Bugle IIT-T',
+  title: 'Udaan IITT',
   description: `Student-Run Newsletter IIT Tirupati`,
   author: 'Noble Saji Mathews',
-  siteUrl: 'https://collegebugleiitt.web.app/',
+  siteUrl: 'https://udaaniitt.web.app/',
   lang: 'en',
   utterances: 'NobleMathews/background',
   links: {
