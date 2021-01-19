@@ -6,6 +6,7 @@ import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
 import IframeResizer from 'iframe-resizer-react'
+import FocusLock from 'react-focus-lock';
 
 const Latest = () => {
 
@@ -13,21 +14,25 @@ const Latest = () => {
     <Layout>
       <SEO title="About" />
       <FadeIn>
-      <Container
+      {/* <Container
         rhythm={rhythm}
       >
-    <>
+    <> */}
     <div className="body">
     <FadeIn>
+    <FocusLock>
     <IframeResizer
-      log
-      src="email.html"
-      style={{ width: '1px', minWidth: '100%'}}
+      warningTimeout="zero"
+      heightCalculationMethod="lowestElement"
+      src="./email.html"
+      scrolling="yes"
+      style={{ width: '1px', minWidth: '100%', height:'calc(100vh - var(--nav-height) - var(--footer-height) - 5px)', border: '0px!important',margin:'0px'}}
       />
+    </FocusLock>
    </FadeIn>
     </div>
-    </>
-      </Container>
+    {/* </>
+      </Container> */}
       </FadeIn>
     </Layout>
   );
@@ -38,11 +43,10 @@ const Container = styled(Markdown).attrs({
 })`
   width: var(--post-width);
   margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 6rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
-    margin-top: var(--sizing-xl);
     width: 87.5%;
   }
 
