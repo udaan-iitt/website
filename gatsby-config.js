@@ -17,10 +17,6 @@ module.exports = {
         name: 'Home',
       },
       {
-        link: '/latest/',
-        name: 'Latest Issue',
-      },
-      {
         link: '/about/',
         name: 'Our Team',
       },
