@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         link: '/about/',
-        name: 'Our Team',
+        name: 'About Us',
       },
       {
         link: '/leaderboard/',

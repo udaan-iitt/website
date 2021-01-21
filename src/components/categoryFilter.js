@@ -25,7 +25,9 @@ const CategoryFilter = ({ categoryList }) => {
           .sort((a, b) => b.totalCount - a.totalCount)
           .map((category) => {
             const { fieldValue } = category;
-            if (["Op-Ed","Story","Poetry"].includes(fieldValue))
+            // "Op-Ed","Story","Poetry"
+            // Prabhat criticism #1
+            if ([].includes(fieldValue))
             {
               return (
                 <li key={fieldValue}>

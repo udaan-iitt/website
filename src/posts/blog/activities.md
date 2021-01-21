@@ -5,7 +5,7 @@ date: "2021-01-19 12:00:00 +09:00"
 desc: "Join Shreyansh as he takes a look at how student run clubs and societies of IIT-T have adapted their operations to an online environment, and have continued functioning despite any issues."
 thumbnail: "./images/ed1/campus.jpg"
 authors: "Shreyansh Mehra"
-starred: "false"
+starred: "true"
 alt: "Activities"
 ---
 <style>
@@ -62,4 +62,4 @@ The past semester was tough, but if there’s one thing that we know now, it is 
 
 But that's not all folks, with the next semester comes new undertakings, the most ambitious of all might just be an online edition of <a target="_blank" href="https://www.instagram.com/tirutsava.iittirupati/">**Tirutsava**</a>! How that turns out is a story for another day, but if past semester is any indication, there is cause to be optimistic! 
 
-(with inputs from General Affairs Secretary, Cultural Affairs Secretary, Sports Affairs Secretary, Technical Affairs Secretary and coordinators of Artista, Sargam, PFC, Code club, Actomania, Quiz club, Debate club, Xcite, Gagan Vedhi, Chaturanaga)
+(with inputs from General Affairs Secretary, Cultural Affairs Secretary, Sports Affairs Secretary, Technical Affairs Secretary and coordinators of Artista, Sargam, PFC, Code club, Actomania, Quiz club, Debate club, Xcite, Gagan Vedhi, Chaturanga)

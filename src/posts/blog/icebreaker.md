@@ -1,7 +1,7 @@
 ---
 title: "Welcoming freshers : Project Icebreaker"
 category: "Campus News"
-date: "2021-01-19 12:00:00 +09:00"
+date: "2021-01-30 12:00:00 +09:00"
 desc: "A pandemic, delayed academic year and a virtual medium did not stop our student community from welcoming and connecting with freshers.."
 thumbnail: "./images/ed1/icebreaker.jpg"
 authors: "Debeshee Das"
