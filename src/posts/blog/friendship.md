@@ -9,50 +9,36 @@ starred: "false"
 alt: "intime"
 ---
 
-We met as strangers,
-
+We met as strangers,<br/>
 And you became a friend.
 
 <br/>
 
-Your words begin to mean something.
-
-We stood together through the laughter. 
-
+Your words begin to mean something.<br/>
+We stood together through the laughter. <br/>
 I thought our friendship was perfect for anything, Unknown of what came after. 
 
 <br/>
 
-I looked for you in time of difficulty, 
-
-Because I was scared of being alone. 
-
-Helpless in those times of difficulty, 
-
-I felt so betrayed and alone. 
+I looked for you in time of difficulty,<br/>
+Because I was scared of being alone. <br/>
+Helpless in those times of difficulty, <br/>
+I felt so betrayed and alone.
 
 <br/>
 
-Trust is the basis of friendship, 
-
-I thought you were trustworthy, 
-
-Revealing all my deepest secrets, 
-
-I missed seeing you and feeling I wasn’t that worthy, 
-
-Until you went behind my back and lied,
+Trust is the basis of friendship, <br/>
+I thought you were trustworthy, <br/>
+Revealing all my deepest secrets, <br/>
+I missed seeing you and feeling I wasn’t that worthy, <br/>
+Until you went behind my back and lied,<br/>
 
 <br/>
 
-Later I thought, 
-
-We are all human, we all make mistakes, 
-
-Looked forward for another chance, 
-
-Then I realized the painful truth, that I made a mistake. 
-
+Later I thought, <br/>
+We are all human, we all make mistakes, <br/>
+Looked forward for another chance, <br/>
+Then I realized the painful truth, that I made a mistake.
 <br/>
 
 By not seeing in you that I was still a mere stranger to you.
