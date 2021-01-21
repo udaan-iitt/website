@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   const [theme, themeToggler] = useTheme();
   const site = useSiteMetadata();
   const { title, author } = site.siteMetadata;
-  const copyrightStr = `Webpage designed by `;
+  const copyrightStr = `Webpage built by `;
 
   return (
     <ThemeProvider theme={styledTheme}>
