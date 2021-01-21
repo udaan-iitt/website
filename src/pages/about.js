@@ -17,6 +17,21 @@ const About = () => {
       <Container
         rhythm={rhythm}
       >
+      <h1 style={{textAlign:"center"}}><b>About the Newsletter</b></h1>
+      We initially envisioned Udaan as a record of all student activities in the institute, but it turned out to be much more than that. Active participation from many talented people helped us gather a wide variety of content. The poems, articles, stories, reviews we have received for Udaan in its first edition shows us its potential to become the epicenter for student-made literary work. But a closer look at this content tells us something more. There were original thoughts, opinions, and most importantly, questions, concealed within words in plain sight, a brief exposure to what Udaan can grow to be.
+      Our Vision
+
+      <ul>
+        <li>To evolve as a record of student experiences and activities within our institute.</li>
+        <li>To encourage writing and become the center for all kinds of student-made literary work.</li>
+        <li>To become a platform that enables students to constructively discuss and come up with optimal solutions to various problems within our institute.</li>
+      </ul>
+
+      If you have any comments, suggestions, improvements, ideas for different kinds of content or any other sort of feedback, please feel free to share them with us and help us improve the newsletter!
+      <br/>
+      <br/>
+      <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfJPjmIgl1PFEjr1GQI5IVlg76W83Hn79Xmyo6LeiQ4Zt7jDw/viewform?usp=sf_link">Link to feedback form</a>
+      <br/>
       <h2>Newsletter Committee</h2>
       <hr/>
       <>
