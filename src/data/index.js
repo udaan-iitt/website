@@ -12,25 +12,25 @@ export const newsletter = [
     key: 'noble',
     email:'ch19b023@iittp.ac.in',
     title: 'Noble Saji Mathews',
-    links: 'https://in.linkedin.com/in/noble-saji-mathews'
+    link: 'https://in.linkedin.com/in/noble-saji-mathews'
   },
   {
     key: 'prabhat',
     email:'ee18b022@iittp.ac.in',
     title: 'Prabhat Reddy',
-    links: 'mailto:ee18b022@iittp.ac.in'
+    link: 'mailto:ee18b022@iittp.ac.in'
   },
   {
     key: 'debeshee',
     email:'cs19b012@iittp.ac.in',
     title: 'Debeshee Das',
-    links: 'https://www.linkedin.com/in/debeshee-das/'
+    link: 'https://www.linkedin.com/in/debeshee-das/'
   },
   {
     key: 'keerthana',
     email:'ee19b035@iittp.ac.in',
     title: 'Keerthana M',
-    links: 'mailto:ee19b035@iittp.ac.in'
+    link: 'mailto:ee19b035@iittp.ac.in'
   }
 ]
 
@@ -47,63 +47,63 @@ export const members = [
       pos: 'Debate Club Coordinator',
       email:'ee18b034@iittp.ac.in',
       title: 'Sudarshan H V',
-      links: 'https://www.linkedin.com/in/sudarshanhv'
+      link: 'https://www.linkedin.com/in/sudarshanhv'
     },
     {
       key: 'madhavan',
       pos: 'Quiz Club Coordinator',
       email:'ch18b015@iittp.ac.in',
       title: 'Madhavan Nampoothiri',
-      links: 'https://www.linkedin.com/in/madhavan-nampoothiri-d-k-80b96a199/'
+      link: 'https://www.linkedin.com/in/madhavan-nampoothiri-d-k-80b96a199/'
     },
     {
       key: 'noble',
       pos: 'Student Newsletter Coordinator',
       email:'ch19b023@iittp.ac.in',
       title: 'Noble Saji Mathews',
-      links: 'https://in.linkedin.com/in/noble-saji-mathews'
+      link: 'https://in.linkedin.com/in/noble-saji-mathews'
     },
     {
       key: 'keerthana',
       pos: 'Student Newsletter Committee',
       email:'ee19b035@iittp.ac.in',
       title: 'Keerthana P',
-      links: 'mailto:ee19b035@iittp.ac.in'
+      link: 'mailto:ee19b035@iittp.ac.in'
     },
     {
       key: 'utkarsh',
       pos: 'Member',
       email:'ee19b042@iittp.ac.in',
       title: 'Utkarsh Pandya',
-      links: ''
+      link: ''
     },
     {
       key: 'abhay',
       pos: 'Member',
       email:'ch18b001@iittp.ac.in',
       title: 'Abhay Singh',
-      links: 'www.linkedin.com/in/abhaysingh2001'
+      link: 'www.linkedin.com/in/abhaysingh2001'
     },
     {
       key: 'pranav',
       pos: 'Member',
       email:'ee19b037@iittp.ac.in',
       title: 'Pranav Hari Panicker',
-      links: 'mailto:ee19b037@iittp.ac.in'
+      link: 'mailto:ee19b037@iittp.ac.in'
     },
     {
       key: 'mannepalli',
       pos: 'Member',
       email:'cs18b036@iittp.ac.in',
       title: 'Sripranav Mannepalli',
-      links: ''
+      link: ''
     },
     {
       key: 'spandana',
       pos: 'Member',
       email:'ce17b021@iittp.ac.in',
       title: 'Sanagula Spandana',
-      links: ''
+      link: ''
     },
   
   ]
