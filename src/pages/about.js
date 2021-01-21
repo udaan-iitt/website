@@ -27,7 +27,7 @@ const About = () => {
         <li>To become a platform that enables students to constructively discuss and come up with optimal solutions to various problems within our institute.</li>
       </ul>
 
-      If you have any comments, suggestions, improvements, ideas for different kinds of content or any other sort of feedback, please feel free to share them with us and help us improve the newsletter!
+      <b>If you have any comments, suggestions, improvements, ideas for different kinds of content or any other sort of feedback, please feel free to share them with us and help us improve the newsletter!</b>
       <br/>
       <br/>
       <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfJPjmIgl1PFEjr1GQI5IVlg76W83Hn79Xmyo6LeiQ4Zt7jDw/viewform?usp=sf_link">Link to feedback form</a>

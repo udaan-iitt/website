@@ -37,7 +37,8 @@ const BlogPost = ({ data }) => {
                     <Title>{title}</Title>
                     <p style={{textAlign:"left", paddingTop:"20px"}}>
                           <PostCategory>{category}</PostCategory>
-                          <span style={{float:"right"}}>
+                          {/* float:"right" */}
+                          <span style={{display:"block",paddingTop:"10px", fontWeight:"bolder"}}>
                             {authors}
                           </span>
                     </p>
