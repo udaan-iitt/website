@@ -133,6 +133,7 @@ const CategoryButton = styled(Link)`
   border-radius: var(--border-radius-base);
   font-size: 0.875rem;
   font-weight: var(--font-weight-semi-bold);
+  width: max-content;
 
   :focus {
     outline: none;
