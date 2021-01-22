@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { FaShareAlt } from 'react-icons/fa';
 
 import {
   FacebookShareButton,
@@ -13,17 +15,18 @@ import {
 } from 'react-share'
 
 const ShareButtons = ({title, url, twitterHandle, tags}) => {
-
     return(
         <ShareWrapper>
         <ul class="float onlyPC">
-            <li><i class="fa fa-facebook"></i><span>Facebook</span></li>
-            <li><i class="fa fa-twitter"></i><span>Twitter</span></li>
-            <li><i class="fa fa-linkedin"></i><span>LinkedIn</span></li>
-            <li><i class="fa fa-whatsapp"></i><span>WhatsApp</span></li>
+            <li><FacebookShareButton url={url} ><i class="fa fa-facebook"></i></FacebookShareButton><span>Facebook</span></li>
+            <li><TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}><i class="fa fa-twitter"></i></TwitterShareButton><span>Twitter</span></li>
+            <li><LinkedinShareButton url={url} ><i class="fa fa-linkedin"></i></LinkedinShareButton><span>LinkedIn</span></li>
+            <li><WhatsappShareButton><i class="fa fa-whatsapp"></i></WhatsappShareButton><span>WhatsApp</span></li>
+            <CopyToClipboard text={url}>
             <li><i class="fa fa-share-alt"></i><span>Link</span></li>
+            </CopyToClipboard>
         </ul>
-        <div>
+        <div class="onlyPhone">
           <FacebookShareButton url={url} >
                 <FacebookIcon  size={40} round={true}/>
          </FacebookShareButton>
@@ -39,6 +42,12 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
           <WhatsappShareButton url={url} title={title}>
                <WhatsappIcon  size={40} round={true}/>
            </WhatsappShareButton>
+          
+          <CopyToClipboard text={url}>
+          <button aria-label="copy" class="react-share__ShareButton" style={{backgroundColor: "transparent", border: "none", padding: "0px", font: "inherit", color: "inherit", cursor: "pointer"}}>
+              <FaShareAlt size={40} style={{padding:"10px", backgroundColor:"#f8f8ff", borderRadius:"50%"}}/>
+          </button>
+          </CopyToClipboard>
         </div>
         </ShareWrapper>
       )
@@ -144,7 +153,11 @@ ul {
 @media (max-width: ${({ theme }) => theme.device.sm}) {
   width: auto;
 }
-
+@media (max-width: 900px) {
+  .onlyPC{
+    display:none !important;
+  }
+}
   .react-share__ShareButton {
     margin-right: 1rem;
   }
