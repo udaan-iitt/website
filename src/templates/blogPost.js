@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Layout from 'layout/layout';
@@ -12,7 +12,10 @@ import Markdown from 'styles/markdown';
 import {MDXRenderer} from 'gatsby-plugin-mdx'
 import { ParallaxProvider } from 'react-scroll-parallax';
 
-const BlogPost = ({ data }) => {
+const BlogPost = (props) => {
+  const { location,data } = props;
+  const url = location.href;
+
   if (data.markdownRemark){
     const {
       markdownRemark: {
@@ -21,13 +24,14 @@ const BlogPost = ({ data }) => {
       },
     } = data;
     const tags = category
-    var url = "https://udaaniitt.web.app/"
-    if (window.location.href){
-      url = window.location.href;
-    }
-    else{
-      url = 'https://udaaniitt.web.app/'
-    }
+
+    // var url = "https://udaaniitt.web.app/"
+    // if (window.location.href){
+    //   url = window.location.href;
+    // }
+    // else{
+    //   url = 'https://udaaniitt.web.app/'
+    // }
     const twitterHandle = "iit_tirupati";
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
@@ -80,13 +84,13 @@ const BlogPost = ({ data }) => {
     const { title, desc, thumbnail, date, category, authors, starred } = post.frontmatter;
     const {body} = post;
     const tags = category
-    var url = "https://udaaniitt.web.app/"
-    if (window.location.href){
-      url = window.location.href;
-    }
-    else{
-      url = 'https://udaaniitt.web.app/'
-    }
+    // var url = "https://udaaniitt.web.app/"
+    // if (window.location.href){
+    //   url = window.location.href;
+    // }
+    // else{
+    //   url = 'https://udaaniitt.web.app/'
+    // }
     const twitterHandle = "iit_tirupati";
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
