@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import CenteredImg from './centeredImg';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
+import Truncate from 'react-truncate';
 
 const Card = ({ thumbnail, alt, category, title, desc, authors, starred, date }) => {
   // const listp = [37.9,0,39.3,4.5,44,4.5,40.2,7.3,41.6,11.8,37.9,9,34,11.8,35.4,7.3,31.7,4.5,36.3,4.5].map(function(x) { return x * 6.5; });
@@ -48,7 +49,11 @@ const Card = ({ thumbnail, alt, category, title, desc, authors, starred, date })
           <Category>{category}</Category>
           <Title>{title}</Title>
           <Authors>{authors}</Authors>
-          <Desc>{desc}</Desc>
+          <Desc>
+          <Truncate lines={3} ellipsis={<span>... </span>}>
+            {desc}
+          </Truncate>
+          </Desc>
         </div>
         {/* <DateTime dateTime={date}>{date}</DateTime> */}
       </Text>
@@ -142,11 +147,11 @@ const Desc = styled.p`
   font-size: var(--text-sm);
   color: var(--color-text-2);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  // -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   word-break: break-word;
   overflow: hidden;
-  text-overflow: ellipsis;
+  // text-overflow: ellipsis;
   
   &:after {
     content: "";

@@ -110,7 +110,7 @@ const BlogPost = (props) => {
                     <Title>{title}</Title>
                     <p style={{textAlign:"left", paddingTop:"20px"}}>
                           <PostCategory>{category}</PostCategory>
-                          <span style={{float:"right"}}>
+                          <span style={{display:"block",paddingTop:"10px", fontWeight:"bolder"}}>
                             {authors}
                           </span>
                     </p>

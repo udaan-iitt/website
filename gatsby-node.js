@@ -77,6 +77,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   const posts = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
+  console.log(posts)
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -94,7 +95,7 @@ exports.createPages = async ({ graphql, actions }) => {
     acc[fieldValue] = { fieldValue, totalCount: (acc[fieldValue] ? acc[fieldValue].totalCount : 0) + totalCount  };
     return acc;
   }, {}));
-
+  modCat = categories.push("Creative")
   categories.forEach((category) => {
     createPage({
       path: `/category/${_.kebabCase(category.fieldValue)}/`,

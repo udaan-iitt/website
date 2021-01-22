@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { FaShareAlt } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import {
   FacebookShareButton,
@@ -15,18 +17,42 @@ import {
 } from 'react-share'
 
 const ShareButtons = ({title, url, twitterHandle, tags}) => {
+  function doneCopy(){
+    toast.dark('Copied Link to Clipboard !', {
+      position: "top-right",
+      autoClose: 2500,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
+  }
     return(
         <ShareWrapper>
-        <ul class="float onlyPC">
-            <li><FacebookShareButton url={url} ><i class="fa fa-facebook"></i></FacebookShareButton><span>Facebook</span></li>
-            <li><TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={tags}><i class="fa fa-twitter"></i></TwitterShareButton><span>Twitter</span></li>
-            <li><LinkedinShareButton url={url} ><i class="fa fa-linkedin"></i></LinkedinShareButton><span>LinkedIn</span></li>
-            <li><WhatsappShareButton><i class="fa fa-whatsapp"></i></WhatsappShareButton><span>WhatsApp</span></li>
-            <CopyToClipboard text={url}>
-            <li><i class="fa fa-share-alt"></i><span>Link</span></li>
+          <ToastContainer
+            position="top-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            />
+            {/* Same as */}
+            <ToastContainer />
+        <ul className="float onlyPC">
+            <li><FacebookShareButton url={url} ><i className="fa fa-facebook"></i></FacebookShareButton><span>Facebook</span></li>
+            <li><TwitterShareButton url={url} title={title} via={twitterHandle} hashtags={[tags]}><i className="fa fa-twitter"></i></TwitterShareButton><span>Twitter</span></li>
+            <li><LinkedinShareButton url={url} ><i className="fa fa-linkedin"></i></LinkedinShareButton><span>LinkedIn</span></li>
+            <li><WhatsappShareButton url={url} title={title}><i className="fa fa-whatsapp"></i></WhatsappShareButton><span>WhatsApp</span></li>
+            <CopyToClipboard text={url} onCopy={() => doneCopy()}>
+            <li><i className="fa fa-share-alt"></i><span>Link</span></li>
             </CopyToClipboard>
         </ul>
-        <div class="onlyPhone">
+        <div className="onlyPhone">
           <FacebookShareButton url={url} >
                 <FacebookIcon  size={40} round={true}/>
          </FacebookShareButton>
@@ -44,8 +70,8 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
            </WhatsappShareButton>
           
           <CopyToClipboard text={url}>
-          <button aria-label="copy" class="react-share__ShareButton" style={{backgroundColor: "transparent", border: "none", padding: "0px", font: "inherit", color: "inherit", cursor: "pointer"}}>
-              <FaShareAlt size={40} style={{color:"black!important", padding:"10px", backgroundColor:"#f8f8ff", borderRadius:"50%"}}/>
+          <button aria-label="copy" className="react-share__ShareButton" style={{backgroundColor: "transparent", border: "none", padding: "0px", font: "inherit", color: "inherit", cursor: "pointer"}}>
+              <FaShareAlt size={40} style={{padding:"10px", backgroundColor:"#ea4c89", borderRadius:"50%"}}/>
           </button>
           </CopyToClipboard>
         </div>

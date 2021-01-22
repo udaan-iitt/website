@@ -16,12 +16,15 @@ const Home = ({ pageContext, data }) => {
 
   useLayoutEffect(() => {
     const postData = arr1.concat(arr2);
-    const filteredPostData = currentCategory
+    console.log(postData)
+    let filteredPostData = currentCategory
       ? postData.filter(
           ({ node }) => node.frontmatter.category === currentCategory
         )
       : postData;
-  
+    filteredPostData.sort((a, b) => {
+      return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date);
+    });
     filteredPostData.forEach(({ node }) => {
       const {
         id,
