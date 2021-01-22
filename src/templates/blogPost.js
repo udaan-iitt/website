@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Layout from 'layout/layout';
 import SEO from 'components/seo';
 import Comment from 'components/comment';
+import ShareButtons  from 'components/share';
 import { rhythm } from 'styles/typography';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
@@ -19,6 +20,15 @@ const BlogPost = ({ data }) => {
         html,
       },
     } = data;
+    const tags = category
+    var url = "https://udaaniitt.web.app/"
+    if (window.location.href){
+      url = window.location.href;
+    }
+    else{
+      url = 'https://udaaniitt.web.app/'
+    }
+    const twitterHandle = "iit_tirupati";
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
@@ -53,6 +63,9 @@ const BlogPost = ({ data }) => {
               </InnerWrapper>
             </OuterWrapper>
           </article>
+          <div>
+          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
+          </div>
           <CommentWrap>
             <Comment />
           </CommentWrap>
@@ -66,6 +79,15 @@ const BlogPost = ({ data }) => {
     } = data;
     const { title, desc, thumbnail, date, category, authors, starred } = post.frontmatter;
     const {body} = post;
+    const tags = category
+    var url = "https://udaaniitt.web.app/"
+    if (window.location.href){
+      url = window.location.href;
+    }
+    else{
+      url = 'https://udaaniitt.web.app/'
+    }
+    const twitterHandle = "iit_tirupati";
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
@@ -102,6 +124,9 @@ const BlogPost = ({ data }) => {
               </InnerWrapper>
             </OuterWrapper>
           </article>
+          <div>
+          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
+          </div>
           <CommentWrap>
             <Comment />
           </CommentWrap>

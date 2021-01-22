@@ -62,7 +62,9 @@ const SEO = ({ description = '', meta = [], image = null, title }) => {
           content: ogImageUrl,
         },
       ].concat(meta)}
-    />
+    >
+      <script src="https://kit.fontawesome.com/35817f7795.js" crossorigin="anonymous"></script>
+    </Helmet>
   );
 };
 
