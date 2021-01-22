@@ -45,7 +45,7 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
           
           <CopyToClipboard text={url}>
           <button aria-label="copy" class="react-share__ShareButton" style={{backgroundColor: "transparent", border: "none", padding: "0px", font: "inherit", color: "inherit", cursor: "pointer"}}>
-              <FaShareAlt size={40} style={{padding:"10px", backgroundColor:"#f8f8ff", borderRadius:"50%"}}/>
+              <FaShareAlt size={40} style={{color:"black!important", padding:"10px", backgroundColor:"#f8f8ff", borderRadius:"50%"}}/>
           </button>
           </CopyToClipboard>
         </div>
@@ -66,6 +66,9 @@ margin-bottom: var(--sizing-sm);
     box-sizing: border-box;
     transition: all 0.18s ease-out;
   }
+.onlyPhone{
+  display:none;
+}
 ul {
     position: fixed;
     top: 50%;
@@ -139,6 +142,10 @@ ul {
   ul li:hover i.fa-whatsapp {
     color: #075e54 !important;
   }
+  ul li:hover i.fa-share-alt {
+    color: #ea4c89 !important;
+  }
+  
   ul.float {
     left: 7%;
   }
@@ -156,6 +163,9 @@ ul {
 @media (max-width: 900px) {
   .onlyPC{
     display:none !important;
+  }
+  .onlyPhone{
+    display:block !important;
   }
 }
   .react-share__ShareButton {
