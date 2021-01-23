@@ -75,7 +75,7 @@ export const members = [
       pos: 'Member',
       email:'ee19b042@iittp.ac.in',
       title: 'Utkarsh Pandya',
-      link: ''
+      link: 'mailto:ee19b042@iittp.ac.in'
     },
     {
       key: 'abhay',
@@ -90,20 +90,22 @@ export const members = [
       email:'ee19b037@iittp.ac.in',
       title: 'Pranav Hari Panicker',
       link: 'mailto:ee19b037@iittp.ac.in'
-    },
-    {
-      key: 'mannepalli',
-      pos: 'Member',
-      email:'cs18b036@iittp.ac.in',
-      title: 'Sripranav Mannepalli',
-      link: ''
-    },
-    {
-      key: 'spandana',
-      pos: 'Member',
-      email:'ce17b021@iittp.ac.in',
-      title: 'Sanagula Spandana',
-      link: ''
-    },
+    }
   
   ]
+
+  // ,
+  //   {
+  //     key: 'mannepalli',
+  //     pos: 'Member',
+  //     email:'cs18b036@iittp.ac.in',
+  //     title: 'Sripranav Mannepalli',
+  //     link: ''
+  //   },
+  //   {
+  //     key: 'spandana',
+  //     pos: 'Member',
+  //     email:'ce17b021@iittp.ac.in',
+  //     title: 'Sanagula Spandana',
+  //     link: ''
+  //   },
