@@ -1,7 +1,7 @@
 ---
 title: "Restricted access and in times : the current system requires a rethink"
 category: "Op-Ed"
-date: "2021-01-07 12:00:00 +09:00"
+date: "2021-01-30 12:00:00 +09:00"
 desc: "A system brought about by good intentions is having some unforeseen consequences, and it’s time we talked about this..."
 thumbnail: "./images/ed1/system.jpg"
 authors: "Shreyansh Mehra"

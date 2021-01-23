@@ -19,7 +19,9 @@ const About = () => {
       >
       <h1 style={{textAlign:"center"}}><b>About the Newsletter</b></h1>
       We initially envisioned Udaan as a record of all student activities in the institute, but it turned out to be much more than that. Active participation from many talented people helped us gather a wide variety of content. The poems, articles, stories, reviews we have received for Udaan in its first edition shows us its potential to become the epicenter for student-made literary work. But a closer look at this content tells us something more. There were original thoughts, opinions, and most importantly, questions, concealed within words in plain sight, a brief exposure to what Udaan can grow to be.
-      Our Vision
+      <br/>
+      <br/>
+      <b>Our Vision: </b>
 
       <ul>
         <li>To evolve as a record of student experiences and activities within our institute.</li>

@@ -16,7 +16,6 @@ const Home = ({ pageContext, data }) => {
 
   useLayoutEffect(() => {
     const postData = arr1.concat(arr2);
-    console.log(postData)
     let filteredPostData = currentCategory
       ? postData.filter(
           ({ node }) => node.frontmatter.category === currentCategory
