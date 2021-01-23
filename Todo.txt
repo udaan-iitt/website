@@ -1,7 +1,6 @@
 creative handle --
 Email template wierd on mobile --
 
-Searchbar --
 Tags --
 Grid layout --
 

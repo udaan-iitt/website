@@ -1,5 +1,5 @@
 ---
-title: "Continue the story"
+title: "Continue the story #1"
 category: "Competitions"
 date: "2021-01-19 12:00:00 +09:00"
 desc: "“My first feeling was that there was no way to continue. Writing isn’t like math; in math, two plus two always equals four no matter what your mood is like. With writing, the way you feel changes everything.” ~ Stephenie Meyer"

@@ -10,10 +10,30 @@ import useSiteMetadata from 'hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
 
 const Home = ({ pageContext, data }) => {
+
   const [posts, setPosts] = useState([]);
+  const [old_posts, setOldPosts] = useState([]);
+  const [search, setSearch] = useState("");
+  const [bindex, upIndex] = useState(0);
+  // const [textFilter, doSomethingWith] = useState("");
+
   const currentCategory = pageContext.category;
   const arr1 = data.allMdx.edges;
   const arr2 = data.allMarkdownRemark.edges;
+  
+  function doSomethingWith(search){
+    if(search == null || search.trim() === ''){
+      setPosts(old_posts);
+    }else{
+      const filtPost=
+      old_posts.filter(post=>{
+        let checkString = post.title +" "+ post.desc +" "+ post.authors ;
+        return checkString.toLowerCase().includes(search.toLowerCase())
+      })
+      setPosts(filtPost);
+    }
+    upIndex(bindex+1);
+  }
 
   useLayoutEffect(() => {
     const postData = arr1.concat(arr2);
@@ -56,6 +76,21 @@ const Home = ({ pageContext, data }) => {
           alt,
         },
       ]);
+      setOldPosts((prevPost) => [
+        ...prevPost,
+        {
+          id,
+          slug,
+          title,
+          desc,
+          date,
+          category,
+          thumbnail: childImageSharp.id,
+          authors,
+          starred,
+          alt,
+        },
+      ]);
     });
   }, [currentCategory, arr1, arr2]);
 
@@ -72,11 +107,11 @@ const Home = ({ pageContext, data }) => {
           <PostTitle>{postTitle}</PostTitle>
           <SearchBar
            style={{backgroundColor:"var(--color-card)",marginBottom:"30px"}}
-            // value={this.state.value}
-            // onChange={(newValue) => this.setState({ value: newValue })}
-            // onRequestSearch={() => doSomethingWith(this.state.value)}
+            value={search}
+            onChange={(newValue) => setSearch(newValue)}
+            onRequestSearch={() => doSomethingWith(search)}
           />
-          <PostGrid posts={posts} />
+          <PostGrid key={bindex} posts={posts} />
           </FadeIn>
         </Content>
       </Main>
