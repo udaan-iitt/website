@@ -7,6 +7,7 @@ import SEO from 'components/seo';
 import PostGrid from 'components/postGrid/postGrid';
 import CategoryFilter from 'components/categoryFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
+import SearchBar from "material-ui-search-bar";
 
 const Home = ({ pageContext, data }) => {
   const [posts, setPosts] = useState([]);
@@ -69,6 +70,12 @@ const Home = ({ pageContext, data }) => {
           <CategoryFilter categoryList={data.allMarkdownRemark.group} />
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
+          <SearchBar
+           style={{backgroundColor:"var(--color-card)",marginBottom:"30px"}}
+            // value={this.state.value}
+            // onChange={(newValue) => this.setState({ value: newValue })}
+            // onRequestSearch={() => doSomethingWith(this.state.value)}
+          />
           <PostGrid posts={posts} />
           </FadeIn>
         </Content>
@@ -90,7 +97,9 @@ const Content = styled.div`
   padding-top: var(--sizing-lg);
   padding-bottom: var(--sizing-lg);
   margin: 0 auto;
-
+  .MuiInputBase-input{
+    color:var(--color-text);
+  }
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     padding-top: var(--grid-gap-lg);
     width: 87.5%;

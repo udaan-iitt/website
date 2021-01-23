@@ -69,7 +69,7 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
                <WhatsappIcon  size={40} round={true}/>
            </WhatsappShareButton>
           
-          <CopyToClipboard text={url}>
+          <CopyToClipboard text={url} onCopy={() => doneCopy()}>
           <button aria-label="copy" className="react-share__ShareButton" style={{backgroundColor: "transparent", border: "none", padding: "0px", font: "inherit", color: "inherit", cursor: "pointer"}}>
               <FaShareAlt size={40} style={{padding:"10px", backgroundColor:"#ea4c89", borderRadius:"50%"}}/>
           </button>
