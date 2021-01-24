@@ -29,7 +29,7 @@ export const newsletter = [
   {
     key: 'keerthana',
     email:'ee19b035@iittp.ac.in',
-    title: 'Keerthana M',
+    title: 'Keerthana',
     link: 'mailto:ee19b035@iittp.ac.in'
   }
 ]
@@ -67,7 +67,7 @@ export const members = [
       key: 'keerthana',
       pos: 'Student Newsletter Committee',
       email:'ee19b035@iittp.ac.in',
-      title: 'Keerthana P',
+      title: 'Keerthana',
       link: 'mailto:ee19b035@iittp.ac.in'
     },
     {
@@ -76,6 +76,20 @@ export const members = [
       email:'ee19b042@iittp.ac.in',
       title: 'Utkarsh Pandya',
       link: 'mailto:ee19b042@iittp.ac.in'
+    },
+    {
+      key: 'aasim',
+      pos: 'Member',
+      email:'ch18b017@iittp.ac.in',
+      title: 'Mohd Aasim Khan',
+      link: 'mailto:ch18b017@iittp.ac.in'
+    },
+    {
+      key: 'prasoon',
+      pos: 'Member',
+      email:'ch18b021@iittp.ac.in',
+      title: 'Prasoon Gupta',
+      link: 'mailto:ch18b021@iittp.ac.in'
     },
     {
       key: 'abhay',
