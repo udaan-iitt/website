@@ -89,6 +89,8 @@ const GlobalStyle = createGlobalStyle`
       --color-floating-button-shadow-hover: rgba(0, 0, 0, 0.4);
       --color-blue: #0066cc;
       --color-icon: #2c2c2c;
+      --dark-obj: none;
+      --light-obj: block;
     }
 
     body.dark {
@@ -126,7 +128,8 @@ const GlobalStyle = createGlobalStyle`
       --color-floating-button-shadow-hover: rgba(0, 0, 0, 0.4);
       --color-blue: #0a84ff;
       --color-icon: #d1d1d1;
-
+      --dark-obj: block;
+      --light-obj: none;
       /* --font-weight-bold: 600; */
     }
   }

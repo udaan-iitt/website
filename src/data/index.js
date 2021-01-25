@@ -82,14 +82,14 @@ export const members = [
       pos: 'Member',
       email:'ch18b017@iittp.ac.in',
       title: 'Mohd Aasim Khan',
-      link: 'mailto:ch18b017@iittp.ac.in'
+      link: 'https://www.linkedin.com/in/mohd-aasim-khan-5a5a5b134/'
     },
     {
       key: 'prasoon',
       pos: 'Member',
       email:'ch18b021@iittp.ac.in',
       title: 'Prasoon Gupta',
-      link: 'mailto:ch18b021@iittp.ac.in'
+      link: 'https://www.linkedin.com/in/prasoon-gupta-5b544b1b4'
     },
     {
       key: 'abhay',

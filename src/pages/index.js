@@ -102,6 +102,7 @@ const Home = ({ pageContext, data }) => {
       <SEO title="Home" />
       <Main>
         <Content>
+          <h5 style={{paddingTop:"10px", paddingBottom:"10px", opacity:"0.6"}}>The first student-run campus newsletter of Indian Institute of Technology, Tirupati</h5>
           <CategoryFilter categoryList={data.allMarkdownRemark.group} />
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>

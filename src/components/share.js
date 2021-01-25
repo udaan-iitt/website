@@ -18,15 +18,30 @@ import {
 
 const ShareButtons = ({title, url, twitterHandle, tags}) => {
   function doneCopy(){
-    toast.dark('Copied Link to Clipboard !', {
-      position: "top-right",
-      autoClose: 2500,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
+    if(window.getComputedStyle(document.body).getPropertyValue('--dark-obj')=='none'){
+      toast('Copied Link to Clipboard !', {
+        className: "l_toast",
+        position: "top-right",
+        autoClose: 2500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
       });
+    }
+    else{
+      toast.dark('Copied Link to Clipboard !', {
+        className: "d_toast",
+        position: "top-right",
+        autoClose: 2500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    }
   }
     return(
         <ShareWrapper>
@@ -94,6 +109,12 @@ margin-bottom: var(--sizing-sm);
   }
 .onlyPhone{
   display:none;
+}
+.d_toast{
+  display:var(--dark-obj) !important;
+}
+.l_toast{
+  display:var(--light-obj)
 }
 ul {
     position: fixed;

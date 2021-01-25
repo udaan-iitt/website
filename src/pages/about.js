@@ -18,6 +18,8 @@ const About = () => {
         rhythm={rhythm}
       >
       <h1 style={{textAlign:"center"}}><b>About the Newsletter</b></h1>
+      <h4 style={{textAlign:"center",paddingTop:"10px", paddingBottom:"10px", opacity:"0.6"}}>The first student-run campus newsletter of Indian Institute of Technology, Tirupati</h4>
+
       We initially envisioned Udaan as a record of all student activities in the institute, but it turned out to be much more than that. Active participation from many talented people helped us gather a wide variety of content. The poems, articles, stories, reviews we have received for Udaan in its first edition shows us its potential to become the epicenter for student-made literary work. But a closer look at this content tells us something more. There were original thoughts, opinions, and most importantly, questions, concealed within words in plain sight, a brief exposure to what Udaan can grow to be.
       <br/>
       <br/>
@@ -28,6 +30,9 @@ const About = () => {
         <li>To encourage writing and become the center for all kinds of student-made literary work.</li>
         <li>To become a platform that enables students to constructively discuss and come up with optimal solutions to various problems within our institute.</li>
       </ul>
+      You may submit your entries for the next edition of the newsletter by clicking on the <b>"Get Featured !"</b> link at the top right of the page.
+      <br/>
+      <br/>
 
       <b>If you have any comments, suggestions, improvements, ideas for different kinds of content or any other sort of feedback, please feel free to share them with us and help us improve the newsletter!</b>
       <br/>
