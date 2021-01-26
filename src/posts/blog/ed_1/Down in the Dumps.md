@@ -13,7 +13,7 @@ alt: "mental health"
 <p style="text-align: center;align:center; margin-bottom:0px!important;">Tick tock Tick tock, it's 2am,</p>
 <p style="text-align: center;align:center; margin-bottom:0px!important;">My life feels like a mayhem,</p>
 <p style="text-align: center;align:center; margin-bottom:0px!important;">Everything I try, feels out of my reach, </p>
-<p style="text-align: center;align:center; margin-bottom:0px!important;">There's nothing I can learn I can learn, there's nothing I can </p>
+<p style="text-align: center;align:center; margin-bottom:0px!important;">There's nothing I can learn, there's nothing I can </p>
 <p style="text-align: center;align:center; margin-bottom:0px!important;">teach</p>
 <p style="text-align: center;align:center; margin-bottom:0px!important;">I lost in every game, I no longer have any aim </p>
 <p style="text-align: center;align:center; margin-bottom:0px!important;">Everyone will look down upon me, everywhere </p>
