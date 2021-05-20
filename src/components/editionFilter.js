@@ -4,43 +4,44 @@ import styled from 'styled-components';
 import kebabCase from 'lodash/kebabCase';
 import useScrollCenter from 'hooks/useScrollCenter';
 import { ACTIVE } from 'constants/constants';
+import CategoryFilter from './categoryFilter';
 
-const CategoryFilter = ({ categoryList, currented }) => {
+const EditionFilter = ({ editionList, categoryList, currented }) => {
   const categoryRef = useRef(null);
-  const ALL_CATEGORY_NAME = 'All';
-  // const isActive = ({ isCurrent }) =>
-  //   isCurrent ? { id: ACTIVE, tabIndex: -1 } : {};
-  const isActive = ({ href, location }) =>{
+  // const ALL_CATEGORY_NAME = 'All';
+  const isActive = ({ href }) =>{
     let takeMe = href.split('/');
-    let iAmAt = location.pathname.split('/');
-    if(iAmAt[1])
-    return takeMe[3]==iAmAt[3]? { id: ACTIVE, tabIndex: -1 }:{};
-    else
-    return takeMe[3]=='all'? { id: ACTIVE, tabIndex: -1 }:{};
+    // let iAmAt = location.pathname.split('/');
+    // if(takeMe[1])
+    // return takeMe[1]==iAmAt[1]? { id: ACTIVE, tabIndex: -1 }:{};
+    // else
+    return takeMe[1]==currented? { id: ACTIVE, tabIndex: -1 }:{};
   }
+  // isPartiallyCurrent ? { id: ACTIVE, tabIndex: -1 } : {};
+
   useScrollCenter({ ref: categoryRef, targetId: ACTIVE });
 
   return (
-    <Nav aria-label="Category Filter">
-      {/* <CategoryTitle>Filter :</CategoryTitle> */}
-      <CategoryButton getProps={isActive} to={`/${currented}/category/all/`}>
+    <>
+    <Nav aria-label="Edition Filter">
+      {/* */}
+      {/* <CategoryButton getProps={isActive} to="/">
         {ALL_CATEGORY_NAME}
       </CategoryButton>
-      <Divider />
+       */}
+       <CategoryTitle>Editions :</CategoryTitle> 
+       <Divider />
       <CategoryUl ref={categoryRef} className="invisible-scrollbar">
-        {categoryList
-          .sort((a, b) => b.totalCount - a.totalCount)
+        {editionList
           .map((category) => {
-            const { fieldValue } = category;
-            // "Op-Ed","Story","Poetry"
-            // Prabhat criticism #1
+            const fieldValue = category;
             if ([].includes(fieldValue))
             {
               return (
                 <li key={fieldValue}>
                   <CategoryButton2
                     getProps={isActive}
-                    to={`/${currented}/category/${kebabCase(fieldValue)}/`}
+                    to={`/${fieldValue}/category/all/`}
                   >
                     {fieldValue}
                   </CategoryButton2>
@@ -52,7 +53,7 @@ const CategoryFilter = ({ categoryList, currented }) => {
                 <li key={fieldValue}>
                   <CategoryButton
                     getProps={isActive}
-                    to={`/${currented}/category/${kebabCase(fieldValue)}/`}
+                    to={`/${fieldValue}/category/all/`}
                   >
                     {fieldValue}
                   </CategoryButton>
@@ -63,6 +64,9 @@ const CategoryFilter = ({ categoryList, currented }) => {
           })}
       </CategoryUl>
     </Nav>
+    <CategoryFilter categoryList={categoryList} currented={currented} />
+    </>
+    
   );
 };
 
@@ -71,7 +75,7 @@ const Nav = styled.nav`
   align-items: center;
   // background-color: var(--color-card);
   background-color:transparent!important;
-  margin-bottom: 48px;
+  // margin-bottom: 48px;
   padding: 12px var(--sizing-md);
   border-radius: var(--border-radius-base);
   padding-left: 0px !important;
@@ -96,7 +100,6 @@ const CategoryTitle = styled.em`
   font-size: var(--text-base);
   font-weight: var(--font-weight-semi-bold);
   font-style: initial;
-  margin-right: var(--sizing-lg);
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     position: absolute;
@@ -180,4 +183,4 @@ const CategoryUl = styled.ul`
   }
 `;
 
-export default CategoryFilter;
+export default EditionFilter;

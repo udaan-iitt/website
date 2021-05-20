@@ -76,7 +76,26 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
+
+  const editionQuery = await graphql(`
+  {
+    allDirectory(
+      filter: {
+        sourceInstanceName: { eq: "src" }
+          relativeDirectory: { eq: "posts/blog" }
+      }
+    ) {
+      edges {
+        node {
+          name
+          }
+        }
+      }
+  }
+  `);
+
   const posts = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
+
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -94,14 +113,22 @@ exports.createPages = async ({ graphql, actions }) => {
     acc[fieldValue] = { fieldValue, totalCount: (acc[fieldValue] ? acc[fieldValue].totalCount : 0) + totalCount  };
     return acc;
   }, {}));
-  modCat = categories.push("Creative")
-  categories.forEach((category) => {
-    createPage({
-      path: `/category/${_.kebabCase(category.fieldValue)}/`,
-      component: mainTemplate,
-      context: {
-        category: category.fieldValue,
-      },
+  // modCat = categories.push("Creative");
+  categories.push({fieldValue:"All"});
+  var editions = await editionQuery.data.allDirectory.edges.map(function (el) {return el.node.name; });
+
+  editions.forEach((ed) =>{
+    categories.forEach((category) => {
+      if(category.fieldValue)
+      createPage({
+        path: `${ed}/category/${_.kebabCase(category.fieldValue)}/`,
+        component: mainTemplate,
+        context: {
+          edition : ed,
+          // alleds : editions,
+          category: category.fieldValue,
+        },
+      });
     });
-  });
+  })
 };

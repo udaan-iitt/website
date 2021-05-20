@@ -6,20 +6,59 @@ import FadeIn from 'react-fade-in';
 import SEO from 'components/seo';
 import PostGrid from 'components/postGrid/postGrid';
 import CategoryFilter from 'components/categoryFilter';
+import EditionFilter from 'components/editionFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
 
+function naturalSort(ary, fullNumbers) {
+  var re = fullNumbers ? /[\d\.\-]+|\D+/g : /\d+|\D+/g;
+
+  // Perform a Schwartzian transform, breaking each entry into pieces first
+  for (var i=ary.length;i--;)
+    ary[i] = [ary[i]].concat((ary[i]+"").match(re).map(function(s){
+      return isNaN(s) ? [s,false,s] : [s*1,true,s];
+    }));
+
+  // Perform a cascading sort down the pieces
+  ary.sort(function(a,b){
+    var al = a.length, bl=b.length, e=al>bl?al:bl;
+    for (var i=1;i<e;++i) {
+      // Sort "a" before "a1"
+      if (i>=al) return -1; else if (i>=bl) return 1;
+      else if (a[i][0]!==b[i][0])
+        return (a[i][1]&&b[i][1]) ?        // Are we comparing numbers?
+               (a[i][0]-b[i][0]) :         // Then diff them.
+               (a[i][2]<b[i][2]) ? -1 : 1; // Otherwise, lexicographic sort
+    }
+    return 0;
+  });
+
+  // Restore the original values into the array
+  for (var i=ary.length;i--;) ary[i] = ary[i][0];
+  return ary;
+}
+
 const Home = ({ pageContext, data }) => {
 
+  const arr1 = data.allMdx.edges;
+  const arr2 = data.allMarkdownRemark.edges;
+  const postData = arr1.concat(arr2);
+
+  var editions = postData.map(function (el) {return el.node.fields.slug.split('/')[2]; });
+  let alleditions = naturalSort([...new Set(editions)]);
   const [posts, setPosts] = useState([]);
   const [old_posts, setOldPosts] = useState([]);
   const [search, setSearch] = useState("");
   const [bindex, upIndex] = useState(0);
   // const [textFilter, doSomethingWith] = useState("");
-
-  const currentCategory = pageContext.category;
-  const arr1 = data.allMdx.edges;
-  const arr2 = data.allMarkdownRemark.edges;
+  const currentCategory = pageContext.category||"All";
+  var currentEdition;
+  if(pageContext.edition)
+  currentEdition = pageContext.edition;
+  else
+  currentEdition = alleditions[alleditions.length - 1];
+  // const alleditions = pageContext.alleds;
+  
   
   function doSomethingWith(search){
     if(search == null || search.trim() === ''){
@@ -36,10 +75,10 @@ const Home = ({ pageContext, data }) => {
   }
 
   useLayoutEffect(() => {
-    const postData = arr1.concat(arr2);
+    
     let filteredPostData = currentCategory
       ? postData.filter(
-          ({ node }) => node.frontmatter.category === currentCategory
+          ({ node }) => {return (node.frontmatter.category === currentCategory || currentCategory === "All") && node.fields.slug.split('/')[2] == currentEdition}
         )
       : postData;
     filteredPostData.sort((a, b) => {
@@ -96,13 +135,12 @@ const Home = ({ pageContext, data }) => {
 
   const site = useSiteMetadata();
   const postTitle = currentCategory || site.siteMetadata.postTitle;
-
   return (
     <Layout>
       <SEO title="Home" />
       <Main>
         <Content>
-          <CategoryFilter categoryList={data.allMarkdownRemark.group} />
+          <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
           <SearchBar

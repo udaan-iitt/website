@@ -82,7 +82,7 @@ const ButtonBackground = styled(Background)`
   border-radius: var(--border-radius-lg);
   box-shadow: 0 3px 15px var(--color-floating-button-shadow);
 
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
+  @media (max-width: 768px) {
     visibility: hidden;
     background-color: transparent;
     border-radius: 0;
@@ -102,7 +102,7 @@ const Text = styled.span`
   color: var(--color-floating-button-text);
   margin-left: 6px;
 
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
+  @media (max-width: 768px) {
     color: var(--color-text);
     margin-left: 0;
     font-weight: var(--font-weight-medium);
@@ -127,7 +127,7 @@ const Button = styled.div`
   border-radius: var(--border-radius-lg);
   font-weight: var(--font-weight-medium);
 
-  @media (min-width: ${({ theme }) => theme.device.sm}) {
+  @media (min-width: 768px) {
     &:hover {
       outline: none;
       border: 1px solid var(--color-floating-button-border-hover);
@@ -144,7 +144,7 @@ const Button = styled.div`
     }
   }
 
-  @media (max-width: ${({ theme }) => theme.device.sm}) {
+  @media (max-width: 768px) {
     display:none;
     justify-content: start;
     position: static;
