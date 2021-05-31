@@ -16,9 +16,6 @@ code {
 }
 </style>
 
-Electric vehicles are the future of the automobile industry. Lack of encouragement and subsidies means early adopter costs are high, which discourages buyers. Fewer adopters lead to less cash flow and thus, a slower rate of development and lack of efficient and sustainable batteries and charging networks. These are major hurdles to overcome.
-
-
 A Bhubaneshwar-based start-up company called Nexus, however, believes it has the solutions. They have succeeded in developing batteries from rice stubble, burning of which is a major source of pollution in and around Delhi, to replace the currently used ones. This alternative helps reduce pollution and also produces green energy. The company was started by two sisters who believe that with enough Government encouragement, they can achieve their motto of a sustainable environment that would make India emerge as a pollution-free, leading electric vehicle industry in the world.
 
 

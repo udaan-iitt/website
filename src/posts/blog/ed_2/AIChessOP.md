@@ -2,7 +2,7 @@
 title: "Evolution Of AI Chess Engines"
 category: "Op-Ed"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "Artificial Intelligence is a revolution within itself with the vast amounts of feats it has been able to achieve. There are ample applications of AI in real-world and real-life scenarios as AI has a wide array of use cases that intend to improve quality of life. Alternatively, the power of Artificial Intelligence has also helped propel forward a variety of fields to heights considered unattainable just a few decades earlier. Chess is a great example of this."
+desc: "The power of Artificial Intelligence has helped propel forward a variety of fields to heights considered unattainable just a few decades earlier. Chess is a great example of this."
 thumbnail: "./images/ed2/aichess.jpg"
 authors: "Dhyaan Nayak"
 starred: "false"
@@ -16,6 +16,7 @@ code {
 }
 </style>
 
+Artificial Intelligence is a revolution within itself with the vast amounts of feats it has been able to achieve. There are ample applications of AI in real-world and real-life scenarios as AI has a wide array of use cases that intend to improve quality of life.
 Chess is a game with vast, innumerable possibilities. A popular result from a game theory, known as Zermelo's theorem, assures that "In chess either White or Black can force a win, or both sides can force at least a draw". But a precise solution to the game is currently unknown and is not expected soon on account of a large tree of moves possible in any given position. Nonetheless, had the game been played with any of the 7 pieces instead of the initial 32, a database known as "Tablebase" could be used to precisely determine the result of the game!  
 
 
@@ -40,6 +41,8 @@ Top Chess Grandmasters have already started incorporating AlphaZero's ideas like
 
 
 Here lies an elegant position for all you chess players to ponder about, where AlphaZero (white) puts Stockfish into a nice Zugzwang (a position wherein every move black plays is a mistake!) 
+
+![img](./images/ed2/supporting/chess2.png)
 
 ```
   References:  
