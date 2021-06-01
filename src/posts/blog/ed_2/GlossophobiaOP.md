@@ -16,6 +16,11 @@ code {
 }
 </style>
 
+```
+“All Great speakers were bad speakers first”
+-Ralph Waldo Emerson
+```
+
 For a moment, you don’t remember what you’re supposed to be doing. You start sweating, doubts start running in your head. “What if I make a fool out of myself? What if I forget something in the middle?” You might feel nauseated, maybe even feel like you’re about to faint. Panic has taken hold of you. So what do you do? Adrenaline rushes in to do its job. Will you believe in yourself and fight it, or will you just flee the scene?  
 
 
@@ -60,5 +65,6 @@ Translation: “ONE STEP TOWARDS SUCCESS”
 
 Public speaking is like a slide in a playground. Preparation is the ladder you climb to reach the top of the slide. Climbing up, everything looks scary and crazy. You are often tempted to back down and try something else. But once you sit and give yourself a push, the ride is unforgettable. The rush and happiness you experience cannot be described. So, whenever you are trying to start a speech, imagine yourself as that little kid who wants to slide down to the hands of their mother who is encouraging her kid to be fearless. If you could do it then, you can do it now. 
 
+>
   Paraphrased by,  
   Krithi and Sneha

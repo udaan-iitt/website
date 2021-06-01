@@ -44,13 +44,13 @@ Here lies an elegant position for all you chess players to ponder about, where A
 
 ![img](./images/ed2/supporting/chess2.png)
 
-```
-  References:  
-  https://deepmind.com/blog/article/alphazero-shedding-new-light-grand games-chess-shogi-and-go 
-  https://www.reddit.com/r/chess/comments/aabawa/eli5_difference_between_ alphazero_vs_traditional/ 
+References:  
+- https://deepmind.com/blog/article/alphazero-shedding-new-light-grand-games-chess-shogi-and-go 
+- https://www.reddit.com/r/chess/comments/aabawa/eli5_difference_between_alphazero_vs_traditional/ 
 
-```
 
+>
   Paraphrased by,  
   Krithi and Sneha
+
 

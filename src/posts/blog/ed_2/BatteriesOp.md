@@ -16,6 +16,11 @@ code {
 }
 </style>
 
+```
+“Alternative energy is a future idea whose time is past. Renewable energy is a future idea whose time has come.”
+-Bill Penden
+```
+
 A Bhubaneshwar-based start-up company called Nexus, however, believes it has the solutions. They have succeeded in developing batteries from rice stubble, burning of which is a major source of pollution in and around Delhi, to replace the currently used ones. This alternative helps reduce pollution and also produces green energy. The company was started by two sisters who believe that with enough Government encouragement, they can achieve their motto of a sustainable environment that would make India emerge as a pollution-free, leading electric vehicle industry in the world.
 
 
@@ -60,11 +65,11 @@ These rice stubble batteries can also be used to charge smartphones and other ga
 
 In conclusion, batteries made from rice stubble prove to be an excellent alternative in all aspects and hence should be more widely encouraged and opted for to help achieve a sustainable environment for the future.
 
-```
-  References:  
-  https://nexuspower.in/ 
-```
 
+References:  
+- https://nexuspower.in/ 
+
+>
   Paraphrased by,  
   Krithi and Sneha
 

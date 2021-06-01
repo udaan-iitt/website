@@ -16,6 +16,13 @@ code {
 }
 </style>
 
+```
+Roses are Red
+Violets are Blue
+Singular ‘They’ is older
+Than the Singular ‘You’
+```
+
 Most of us are ignorant about the topic of Binary/Non-Binary Pronouns. This is not our fault. We are all brought up in a society that has a habit of viewing things as black or white. Now that we have come to accept the greyscale, it is our responsibility to understand its implications.  
 
 
@@ -78,14 +85,14 @@ Some people prefer more than one set of pronouns. How are we to know this if we 
 
 Using someone's correct personal pronouns is a way of respecting them, just like using their name. We have no right to assume anyone's pronoun. If we presume wrong, it would be offensive and could send across a harmful message. Keeping these points in mind, let's take a step forward in making everyone feel included and respected.  
 
-```
-For more information, refer:  
-  https://www.mypronouns.org/what-and-why 
-  https://uwm.edu/lgbtrc/support/gender-pronouns
-  https://time.com/4327915/gender-neutral-pronouns
-  springfield.edu › gender-pronouns Gender Pronouns
-```
 
+For more information, refer:  
+- https://www.mypronouns.org/what-and-why 
+- https://uwm.edu/lgbtrc/support/gender-pronouns
+- https://time.com/4327915/gender-neutral-pronouns
+- https://springfield.edu/gender-pronouns
+
+>
   Paraphrased by,  
   Krithi and Sneha
 
