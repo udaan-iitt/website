@@ -2,7 +2,7 @@
 title: "Emails are just formal letters, they said.."
 category: "Op-Ed"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "Board Exam Formal letter for 10 marks, Format: 3 marks, Salutation and Subject: 2 marks, Body: 3 marks, Expression: 2 marks. Sounds familiar? I have written dozens of formal letters to imaginary Municipal Committee members about ‘unsatisfactory sanitation’, and impeccable ‘leave of absence’ applications to hypothetical Principals about hypothetical illnesses in my English notebook, but there I was in my first semester of college, staring at a blank screen, trying to draft an email, with more questions than answers. "
+desc: "The ability to communicate effectively via Email is a critical skill needed in college, and eventually at the workplace. Unfortunately, most of us don’t come with an “Email Expertise Upgrade” when we get out of school. Hoping to solve some of your problems, here is an exposition on the enigma that is Emailing."
 thumbnail: "./images/ed2/letter.jpg"
 authors: "Debeshee Das, Shreyansh Mehra"
 starred: "false"
@@ -16,7 +16,7 @@ code {
 }
 </style>
 
-How do I start? Where do I start? How formal should I be exactly? Should I write “Yours Sincerely”? Can I use emoticons? Can I jump straight to the point and write one line or do I need to write an introduction, body and conclusion the way we did in school? 
+Board Exam Formal letter for 10 marks, Format: 3 marks, Salutation and Subject: 2 marks, Body: 3 marks, Expression: 2 marks. Sounds familiar? I have written dozens of formal letters to imaginary Municipal Committee members about ‘unsatisfactory sanitation’, and impeccable ‘leave of absence’ applications to hypothetical Principals about hypothetical illnesses in my English notebook, but there I was in my first semester of college, staring at a blank screen, trying to draft an email, with more questions than answers. How do I start? Where do I start? How formal should I be exactly? Should I write “Yours Sincerely”? Can I use emoticons? Can I jump straight to the point and write one line or do I need to write an introduction, body and conclusion the way we did in school? 
 
 
 Emails are just formal letters, they said.

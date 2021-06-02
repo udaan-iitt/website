@@ -35,7 +35,7 @@ I had recently taken part in a debate where they asked us to mention our pronoun
 ## How did Non-Binary pronouns come into existence?  
 
 
-We must understand that everyone has their pronoun preference. It is undeniable that the pronouns 'he' and 'she' come with certain expectations attached. Some feel these pronouns limit them from expressing themselves. and conventional pronouns provide a non-binary person with a binary identity. People thus started coining new words.  
+We must understand that everyone has their pronoun preference. It is undeniable that the pronouns 'he' and 'she' come with certain expectations attached. Some feel these pronouns limit them from expressing themselves and it is true that conventional pronouns provide a binary identity to a non-binary individual. Thus arose the need to coin new words.
 
 
 Some terms come from foreign languages, like the German-inspired "sie". Some from fiction. For example, "ze" and "per" are the pronouns inspired by the future utopia described by Marge Piercy in her feminist sci-fi novel, Woman on the Edge of Time.  

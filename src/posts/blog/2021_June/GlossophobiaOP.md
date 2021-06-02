@@ -2,7 +2,7 @@
 title: "Glossophobia- The Fear of Public Speaking"
 category: "Op-Ed"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "Imagine you are standing in front of a crowd, be it large or small to give a speech. You are trying your best not to back off. You know you’re prepared well, even feel confident and comfortable with your content, and yet you doubt yourself. The crowd scares you, your legs are shaking, and your mind starts to go blank. It’s as if they are shooting lasers out of their eyes, as if your every move, every action is being scrutinized."
+desc: "Public speaking can feel intimidating. We’re here to help though, and hope this article will be your first step towards overcoming your fear of public speaking."
 thumbnail: "./images/ed2/speaking.jpg"
 authors: "Sreenivasa Murthy, Sneha M S"
 starred: "false"
@@ -21,7 +21,7 @@ code {
 -Ralph Waldo Emerson
 ```
 
-For a moment, you don’t remember what you’re supposed to be doing. You start sweating, doubts start running in your head. “What if I make a fool out of myself? What if I forget something in the middle?” You might feel nauseated, maybe even feel like you’re about to faint. Panic has taken hold of you. So what do you do? Adrenaline rushes in to do its job. Will you believe in yourself and fight it, or will you just flee the scene?  
+Imagine you are standing in front of a crowd, be it large or small to give a speech. You are trying your best not to back off. You know you’re prepared well, even feel confident and comfortable with your content, and yet you doubt yourself. The crowd scares you, your legs are shaking, and your mind starts to go blank. It’s as if they are shooting lasers out of their eyes, as if your every move, every action is being scrutinized. For a moment, you don’t remember what you’re supposed to be doing. You start sweating, doubts start running in your head. “What if I make a fool out of myself? What if I forget something in the middle?” You might feel nauseated, maybe even feel like you’re about to faint. Panic has taken hold of you. So what do you do? Adrenaline rushes in to do its job. Will you believe in yourself and fight it, or will you just flee the scene?  
 
 
 If your choice was to take control and continue with your presentation, you are already one step ahead of many others out there. Keep practicing, and no one can stop you from achieving what you want. Even if you chose to give up, it’s fine. Public speaking can feel intimidating. We’re here to help though, and hope this article will be your first step towards overcoming your fear of public speaking.  

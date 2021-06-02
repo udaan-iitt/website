@@ -4,7 +4,7 @@ category: "Campus News"
 date: "2021-05-30 12:00:00 +09:00"
 desc: "“When the going gets tough, the tough get going” - this perfectly captures the work done by the various clubs of IIT-T during the pandemic. The activities might have been few but given the constraints, the pandemic forced upon us the clubs did a commendable job in connecting students across the country through fun and engaging activities."
 thumbnail: "./images/ed2/club.jpg"
-authors: "V Sathyanarayann"
+authors: "Sathya, Anant, Krithi"
 starred: "false"
 alt: "Club Activities"
 ---

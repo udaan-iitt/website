@@ -43,7 +43,7 @@ const EditionFilter = ({ editionList, categoryList, currented }) => {
                     getProps={isActive}
                     to={`/${fieldValue}/category/all/`}
                   >
-                    {fieldValue}
+                    {`${fieldValue.split("_")[1]} ${fieldValue.split("_")[0]}`}
                   </CategoryButton2>
                 </li>
               );
@@ -55,7 +55,7 @@ const EditionFilter = ({ editionList, categoryList, currented }) => {
                     getProps={isActive}
                     to={`/${fieldValue}/category/all/`}
                   >
-                    {fieldValue}
+                    {`${fieldValue.split("_")[1]} ${fieldValue.split("_")[0]}`}
                   </CategoryButton>
                 </li>
               );
