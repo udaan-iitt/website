@@ -4,7 +4,7 @@ category: "Campus News"
 date: "2021-05-30 12:00:00 +09:00"
 desc: "The purpose of “Voices of the Locked Down” was to help people put their thoughts and experiences out, and share them with the world, finding solace in the process of doing so. "
 thumbnail: "./images/ed2/story.jpg"
-authors: "Prabhat"
+authors: "Students and Faculty"
 starred: "false"
 alt: "Lock Down"
 ---
@@ -332,3 +332,7 @@ Let&rsquo;s meet sometime. Oh no, we can&rsquo;t. Let&rsquo;s chat sometime. Oka
 
 
 > &#x2013; Anant Tyagi, Student (Batch of 2020)
+
+>
+  Paraphrased by,  
+  Prabhat
