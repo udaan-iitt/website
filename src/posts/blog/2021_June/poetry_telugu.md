@@ -1,5 +1,5 @@
 ---
-title: "There is Life only if there is Water (Hindi)"
+title: "కర్షకుడి సమరభేరి (Telugu)"
 category: "Poetry"
 date: "2021-06-02 12:00:00 +09:00"
 desc: "The poem addresses the difficulties faced by farmers and the forbearence that they exhibit while fighting against those problems."
@@ -9,7 +9,6 @@ starred: "false"
 alt: "Poetry Telugu"
 ---
 
-# కర్షకుడి సమరభేరి
 
 వరదలు, కరువులు, తుఫానులొచ్చి<br>
 చేతిన కాపు కొట్టుకుపోతే <br>

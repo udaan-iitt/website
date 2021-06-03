@@ -1,6 +1,6 @@
 ---
-title: "Just how fast the night chages"
-category: "Story"
+title: "Just how fast the night changes"
+category: "Experiences"
 date: "2021-06-02 12:00:00 +09:00"
 desc: "A real life story with love from the keeper of the cycle named Preeti"
 thumbnail: "./images/ed2/locked.jpg"

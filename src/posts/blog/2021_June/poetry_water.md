@@ -1,5 +1,5 @@
 ---
-title: "There is Life only if there is Water (Hindi)"
+title: "जल है तो ही जीवन है (Hindi)"
 category: "Poetry"
 date: "2021-06-02 12:00:00 +09:00"
 desc: "This poem is a brief explanation about the omnipresence of water and its usefulness in our lifestyles."
@@ -8,8 +8,6 @@ authors: "Sachin Kumar Sahu"
 starred: "false"
 alt: "Poetry Hindi"
 ---
-
-# जल है तो ही जीवन है !
 
 मानव की यह प्रथम जरूरत
 कोई जीव जंतु या पौधा,

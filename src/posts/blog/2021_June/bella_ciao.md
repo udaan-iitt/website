@@ -1,6 +1,6 @@
 ---
-title: "Engineering: Wise Words"
-category: "Op-Ed"
+title: "Bella Ciao"
+category: "Experiences"
 date: "2021-06-02 12:00:00 +09:00"
 desc: "Engineering is often a pretty startling experience for many. It was the same with many of us too. Suddenly displaced from the comfortable coziness and warmth of our homes, we enter a foreign world, new places, unacquainted people, and a completely new environment."
 thumbnail: "./images/ed2/run_life.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Voices of the Locked Down"
-category: "Campus News"
+category: "Experiences"
 date: "2021-05-30 12:00:00 +09:00"
 desc: "The purpose of “Voices of the Locked Down” was to help people put their thoughts and experiences out, and share them with the world, finding solace in the process of doing so. "
 thumbnail: "./images/ed2/story.jpg"
@@ -16,12 +16,6 @@ alt: "Lock Down"
 > We hope this initiative will help us all find comfort in sharing pain, and more importantly, in sharing strength and hope with each other to help us overcome these tough times.
 > 
 > We request the readers to read all the entries, and not just a particular few. Some sentences have been paraphrased, while making sure to keep the meaning of these sentences intact. We thank everyone who has written to us, for sharing your feelings and advice, and we hope the readers would find hope, and take away something helpful from all this.
-
-
-We hope this initiative will help us all find comfort in sharing pain, and more importantly, in sharing strength and hope with each other to help us overcome these tough times.<br />
-<br />
-We request the readers to read all the entries, and not just a particular few. Some sentences have been paraphrased, while making sure to keep the meaning of these sentences intact. We thank everyone who has written to us, for sharing your feelings and advice, and we hope the readers would find hope, and take away something helpful from all this.<br />
-</p>
 
 
 # Table of Contents
@@ -268,7 +262,7 @@ We have been tracing the spread of the Covid since December-January 2020 when it
 The lock-down has been a different kind of experience for me. I have become less productive and less enthusiastic in due course of two-three months. Realised that a human being or for that matter any living creature can&rsquo;t be happy or prosperous in isolation. For a few days I have been kind of struggling with some sort of depression, probably due to loneliness. My only solution was prayer to my sweet lord and trying out life&rsquo;s techniques. Somehow managed the first lock-down in different ways. Online was one of the ways to be connected with the people know and unknown. All of us have made use of it extensively. Covid has taken the life of many who otherwise would have lived this beautiful human life for a few more years to explore what it is? The society we live in is connected therefore if we don&rsquo;t co-operate, we suffer and fail to tackle the current problem. Lock-down is not a sweet solution, it has horrific side effect, and one of them is mental illness.
 
 
-> &#x2013; Jaynarayan T Tudu, Faculty
+> &#x2013; Dr. Jaynarayan T Tudu, Faculty
 
 
 <a id="anant"></a>

@@ -1,6 +1,6 @@
 ---
 title: "Issue Exclusive : Online Semester Experiences"
-category: "Campus News"
+category: "Experiences"
 date: "2021-01-18 12:00:00 +09:00"
 desc: "Life puts us in situations that we’re unprepared for. We all have been forced into lockdown without prior notice due to the pandemic. The decision our institute took as a consequence was to turn this entire semester online. A new medium meant new experiences, with students at home experiencing the past semester in their own unique way.. To get a deeper insight into how their experiences were, we collected opinions from students, mostly those from 1st and 2nd year, and compiled them into a narrative. There’s a host of feelings and emotions associated with this experience that you must see for yourself!"
 thumbnail: "./images/ed1/lockdown.jpg"
