@@ -11,6 +11,10 @@ alt: "emails"
 
 Curiosity is a fundamental human trait. We all tend to question and seek answers to quench our curiosity. Understandably, people living in isolation amidst the widespread pandemic are more likely to experience excessive panic and stress, kindling their interest to learn more about what the nation is currently fighting against. The only option available to avail these answers from the comfort of our homes, is from our very own search engines. With such a vast conflicting and contradictory collection of data we find in the depths of the net, it is no wonder there exists a right to a wrong and a good to a bad. In between wanting to do as much as possible to prevent getting affected by the virus and having no way to distinguish reliable information on the internet, we usually go with the most effortless “Better safe than sorry” approach which can prove to be harmful in some cases.
 
+
+This article will be exploring some of these myths and the extent to which they are true. The aim is to provide logic and reasoning to each of these myths and decipher them to help us understand why it is not rational to believe and practice them. This would help clarify their credibility and prevent unnecessary fear against information that has no scientific basis.
+
+
 # Table of Contents
 
 1.  [The vaccines have been developed so quickly; are they truly safe?](#are-vaccines-safe-and-effective)
