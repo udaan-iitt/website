@@ -9,8 +9,8 @@ starred: "false"
 alt: "emails"
 ---
 
-Curiosity is a fundamental human trait. We all tend to question and seek answers to quench our curiosity. Understandably, people living in isolation amidst the widespread pandemic are more likely to experience excessive panic and stress, kindling their interest to learn more about what the nation is currently fighting against. The only option available to avail these answers from the comfort of our homes, is from our very own search engines. With such a vast conflicting and contradictory collection of data we find in the depths of the net, it is no wonder there exists a right to a wrong and a good to a bad. In between wanting to do as much as possible to prevent getting affected by the virus and having no way to distinguish reliable information on the internet, we usually go with the most effortless “Better safe than sorry” approach which can prove to be harmful in some cases.
 
+Curiosity is a fundamental human trait. We all tend to question and seek answers to quench our curiosity. Understandably, people living in isolation amidst the widespread pandemic are more likely to experience excessive panic and stress, kindling their interest to learn more about what the nation is currently fighting against. The only option available to avail these answers from the comfort of our homes, is from our very own search engines. With such a vast conflicting and contradictory collection of data we find in the depths of the net, it is no wonder there exists a right to a wrong and a good to a bad. In between wanting to do as much as possible to prevent getting affected by the virus and having no way to distinguish reliable information on the internet, we usually go with the most effortless “Better safe than sorry” approach which can prove to be harmful in some cases.
 
 This article will be exploring some of these myths and the extent to which they are true. The aim is to provide logic and reasoning to each of these myths and decipher them to help us understand why it is not rational to believe and practice them. This would help clarify their credibility and prevent unnecessary fear against information that has no scientific basis.
 
@@ -97,7 +97,8 @@ References:
 
 # Vaccine does not make you impotent.
 
-This is a common misconception regarding many vaccines, not just Covid-19. People are scared to get injected with an artificial man-made liquid and have come up with excuses for masking that fear. No Covid-19 vaccine doesn&rsquo;t make you impotent. They are not connected to population control in any way. This myth was popularized for political gains. When the country was conducting its massive polio eradication drive several decades ago, some Indians were dissuaded from having a vaccine because of similar rumours. There was no truth to the claims then, and there&rsquo;s no evidence for them now either.
+This is a common misconception regarding many vaccines, not just Covid-19. People are scared to get injected with an artificial man-made liquid and have come up with excuses for masking that fear. No, Covid-19 vaccine doesn&rsquo;t make you impotent. They are not connected to population control in any way. This myth was popularized for political gains. When the country was conducting its massive polio eradication drive several decades ago, some Indians were dissuaded from having a vaccine because of similar rumours. There was no truth to the claims then, and there&rsquo;s no evidence for them now either.
+
 Reference:
 
 -   [India Covid-19: Misleading claims shared about vaccines - BBC News](https://www.bbc.com/news/55768656)
