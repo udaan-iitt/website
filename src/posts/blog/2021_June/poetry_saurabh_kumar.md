@@ -2,7 +2,7 @@
 title: "सच तो हो ना तुम? (Hindi)"
 category: "Poetry"
 date: "2021-06-02 12:00:00 +09:00"
-desc: "The poem is a message from a boy to a girl whom he likes and wants to talk. But he isn't able to talk to her, and remembers his memories with her. In the poem, he tells her that its been so long since they messaged each other that he can not even remember whether she was a dream or something else."
+desc: "\"Sometimes I feel this was all a dream...\""
 thumbnail: "./images/ed2/pair.jpg"
 authors: "Saurabh Kumar"
 starred: "false"

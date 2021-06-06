@@ -4,7 +4,7 @@ category: "Experiences"
 date: "2021-05-30 12:00:00 +09:00"
 desc: "The purpose of “Voices of the Locked Down” was to help people put their thoughts and experiences out, and share them with the world, finding solace in the process of doing so. "
 thumbnail: "./images/ed2/story.jpg"
-authors: "Students and Faculty"
+authors: "IIT-T Family"
 starred: "false"
 alt: "Lock Down"
 ---
