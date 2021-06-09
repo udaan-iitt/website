@@ -2,7 +2,7 @@
 title: "Pronouns: It’s Time to Relearn and Reform our Basics"
 category: "Op-Ed"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "Most of us are ignorant about the topic of Binary/Non-Binary Pronouns. This is not our fault. We are all brought up in a society that has a habit of viewing things as black or white. Now that we have come to accept the greyscale, it is our responsibility to understand its implications. "
+desc: "Anyone in the society is free to choose their gender identity, and it is our moral obligation to respect that. The first step towards respecting and normalizing something is to understand it, and this article aims to bridge that gap of understanding."
 thumbnail: "./images/ed2/pronouns.jpg"
 authors: "Sneha M S"
 starred: "false"
@@ -26,7 +26,7 @@ Than the Singular ‘You’
 Most of us are ignorant about the topic of Binary/Non-Binary Pronouns. This is not our fault. We are all brought up in a society that has a habit of viewing things as black or white. Now that we have come to accept the greyscale, it is our responsibility to understand its implications.  
 
 
-Pronouns are linguistic tools used instead of nouns. Our society has already been educated about the three widely used personal pronouns (He, She, and It). But today our cultural visibility of gender has expanded and so have these pronouns. We must understand this expanded vocabulary and make use of it in our day-to-day life.  
+Pronouns are linguistic tools used instead of nouns. Our society has already been educated about the three widely used personal pronouns (He, She, and It). But today, our cultural visibility of gender has expanded and so have these pronouns. We must understand this expanded vocabulary and make use of it in our day-to-day life.  
 
 
 I had recently taken part in a debate where they asked us to mention our pronoun preferences. For an instant, I thought, isn't that obvious?, but later I realized it's not. As long as we don't mention our pronoun preference, no one has the right to assume one.  
@@ -47,18 +47,18 @@ While some are taken from the vast plant and animal kingdoms, others refer to re
 ## What is this expanded vocabulary we need to be aware of?  
 
 
-The most common gender-neutral pronoun used is 'they/them/their.' But  there are many gender-neutral pronouns like  
+The most common gender-neutral pronoun used is 'they/them/their.' But there are many gender-neutral pronouns like  
 -  ‘ze/hir/hirs’ (pronounced ‘zee/here/heres’)  
 - ‘ey/em/eir’ (pronounced ‘ay/em/airs’)  
 
-Below is a list of pronouns 
+Given below is a list of pronouns 
 
 ![img](./images/ed2/supporting/pronouns.png)
 
 ## Gender Inclusive Words  
 
 
-We all know English does not have a gender-neuter pronoun.  Speakers/writers usually use the pronoun 'he/his' when referring to a generic individual. However, there were instances where people tried to rectify this.  
+We all know English does not have a gender-neutral pronoun. Speakers/writers usually use the pronoun 'he/his' when referring to a generic individual. However, there were instances where people tried to rectify this.  
 
 
 In 1770, Robert Baker suggested using "one, ones" instead of "he, his".  

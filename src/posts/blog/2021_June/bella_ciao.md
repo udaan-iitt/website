@@ -2,12 +2,14 @@
 title: "Bella Ciao"
 category: "Experiences"
 date: "2021-06-02 12:00:00 +09:00"
-desc: "Engineering is often a pretty startling experience for many. It was the same with many of us too. Suddenly displaced from the comfortable coziness and warmth of our homes, we enter a foreign world, new places, unacquainted people, and a completely new environment."
+desc: "After 4 years of life at college, a student turning into an alumnus walks down the memory lane and shares some of his precious experiences."
 thumbnail: "./images/ed2/run_life.jpg"
 authors: "Anirudh"
 starred: "false"
 alt: "Wisdom Engineering"
 ---
+
+Engineering is often a pretty startling experience for many. It was the same with many of us too. Suddenly displaced from the comfortable coziness and warmth of our homes, we enter a foreign world, new places, unacquainted people, and a completely new environment.
 
 The first year usually flows in struggling to come to terms with this flurry of events. From another perspective, a metamorphosis from a studious JEE aspirant to an easy-going undergrad student. One of the most enjoyable aspects of engineering life is the casual chaos that we immerse ourselves into.
 

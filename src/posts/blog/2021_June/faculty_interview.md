@@ -2,7 +2,7 @@
 title: "Faculty Interview with Prof. Sridhar Chimalakonda"
 category: "Campus News"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "With the pandemic extending longer than anticipated, the online world has been host to a wide variety of events and activities, both technical and cultural, catering to the various interests of our students despite the challenges faced in these hard times. These events have seen a huge positive reception from the student community. From informative webinars on wide range of topics to cultural and tech battles, read on to know all about different events that have kept us busy and excited."
+desc: "Read on to know more about Prof. Sridhar's responses to a wide range of questions posed to him throughout the interview!"
 thumbnail: "./images/ed2/interview.jpg"
 authors: "Anu, Tejaswini, Debeshee"
 starred: "false"
@@ -14,7 +14,7 @@ alt: "Interview"
 > &#x2013; Prof. Sridhar Chimalakonda
 
 
- Dr. Sridhar Chimalakonda, Assistant Professor at the Computer Science and Engineering Department, IIT Tirupati, was kind enough to be the first guest to be interviewed. Dr. Sridhar is known for his passionate research work in his areas of interest that include Software Engineering, Educational Technologies and Human-Computer Interaction.
+Given the online semesters which resulted in reduced student-faculty interactions, the **Students’ General Council** came up with the initiative of **‘Faculty Interviews’** to help alleviate the situation. Dr. Sridhar Chimalakonda, Assistant Professor at the Computer Science and Engineering Department, IIT Tirupati, was kind enough to be the first guest to be interviewed. Dr. Sridhar is known for his passionate research work in his areas of interest that include Software Engineering, Educational Technologies and Human-Computer Interaction.
 
  <!-- `video: <remove the surrounding braces and insert youtube video link here>` -->
 

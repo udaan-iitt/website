@@ -2,7 +2,7 @@
 title: "Busting Misinformation on Covid-19"
 category: "Op-Ed"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "This article will be exploring some of these myths and the extent to which they are true. The aim is to provide logic and reasoning to each of these myths and decipher them to help us understand why it is not rational to believe and practice them. This would help clarify their credibility and prevent unnecessary fear against information that has no scientific basis."
+desc: "This article will be exploring some of the myths surrounding Covid-19 and the extent to which they are true. The aim is to provide logic and reasoning to each of these myths, to help us understand why it is not rational to believe and practice them. This would help clarify their credibility and prevent unnecessary fear against information that has no scientific basis."
 thumbnail: "./images/ed2/covid.jpg"
 authors: "Krithi, Sneha, Prabhat"
 starred: "false"

@@ -2,7 +2,7 @@
 title: "Voices of the Locked Down"
 category: "Experiences"
 date: "2021-05-30 12:00:00 +09:00"
-desc: "The purpose of “Voices of the Locked Down” was to help people put their thoughts and experiences out, and share them with the world, finding solace in the process of doing so. "
+desc: "A variety of experiences. A clutter of emotions. One underlying cause. Yet we all walk to the end of the tunnel, towards the glimmer of hope."
 thumbnail: "./images/ed2/story.jpg"
 authors: "IIT-T Family"
 starred: "false"
@@ -11,7 +11,7 @@ alt: "Lock Down"
 
 > **Editor&rsquo;s Note**
 > 
-> When we were going through the pieces people wrote to us, what we saw were the different ways people were affected by Covid-19. The pandemic was the common cause of everyone’s problems, but no two people faced the exact same consequences. In these writings I see hurt, but I also see hope. People have learned from their painful experiences, and they intend to share all of that with the world.
+> The purpose of “Voices of the Locked Down” was to help people put their thoughts and experiences out, and share them with the world, finding solace in the process of doing so. When we were going through the pieces people wrote to us, what we saw were the different ways people were affected by Covid-19. The pandemic was the common cause of everyone’s problems, but no two people faced the exact same consequences. In these writings I see hurt, but I also see hope. People have learned from their painful experiences, and they intend to share all of that with the world.
 > 
 > We hope this initiative will help us all find comfort in sharing pain, and more importantly, in sharing strength and hope with each other to help us overcome these tough times.
 > 
@@ -39,7 +39,7 @@ alt: "Lock Down"
 # Mathemsetty Sindhura Lakshmi
 </br>
 
-Many of us mostly came across situations that are heartbreaking, like some of our family members getting affected by Covid. I know that pain well. In August 2020 I was infected by Covid for the 1st time. At that time I was supposed to go for treatment in government hospital. I faced a lot of comments and complaints from my neighbours. They locked my family for 10 days at home, saying that they weren’t supposed to go anywhere even for food. So on one side I am suffering due to lack of facilities at the hospital, while my family is being tortured mentally on the other. Somehow it was me and my family positive support, and most importantly, the belief I had in myself in fighting against it that made me recover. But it wasn’t done. In April 2021, I was again infected by Covid at the end of final semester exams. I couldn&rsquo;t focus, couldn&rsquo;t attend any of the lectures attentively, as the Covid medication made me unconscious all the time. The situation this time was even worse, because none of the hospital beds were available. Yeah, I have suffered hell again this time.
+Many of us came across situations that are heartbreaking, like some of our family members getting affected by Covid. I know that pain well. In August 2020 I was infected by Covid for the 1st time. At that time I was supposed to go to a government hospital for treatment. I faced a lot of comments and complaints from my neighbours. They locked my family for 10 days at home, saying that they weren’t supposed to go anywhere even for food. So on one side I was suffering due to lack of facilities at the hospital, while my family was being tortured mentally on the other. Somehow it was me and my family positive support, and most importantly, the belief I had in myself in fighting against it that made me recover. But it wasn’t done. In April 2021, I was again infected by Covid at the end of final semester exams. I couldn&rsquo;t focus, couldn&rsquo;t attend any of the lectures attentively, as the Covid medication made me unconscious all the time. The situation this time was even worse, because none of the hospital beds were available. Yeah, I have suffered hell again another time.
 
 
 But then, I decided to choose my health as my priority rather than marks and all. Just focus on your health get it set well, and then plan for career. Don&rsquo;t rush in comparison to others. Because everyone will definitely reach their destination just with little time gap.
