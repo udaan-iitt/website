@@ -1,7 +1,7 @@
 ---
 title: "Glossophobia- The Fear of Public Speaking"
 category: "Op-Ed"
-date: "2021-05-30 12:00:00 +09:00"
+date: "2021-06-06 12:00:00 +09:00"
 desc: "Public speaking can feel intimidating. We’re here to help though, and hope this article will be your first step towards overcoming your fear of public speaking."
 thumbnail: "./images/ed2/speaking.jpg"
 authors: "Sreenivasa Murthy, Sneha M S"

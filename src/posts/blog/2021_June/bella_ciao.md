@@ -1,7 +1,7 @@
 ---
 title: "Bella Ciao"
 category: "Experiences"
-date: "2021-06-06 12:00:00 +09:00"
+date: "2021-06-06 10:00:00 +09:00"
 desc: "After 4 years of life at college, a student turning into an alumnus walks down the memory lane and shares some of his precious experiences."
 thumbnail: "./images/ed2/run_life.jpg"
 authors: "Anirudh"
