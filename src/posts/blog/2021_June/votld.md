@@ -5,7 +5,7 @@ date: "2021-05-30 12:00:00 +09:00"
 desc: "A variety of experiences. A clutter of emotions. One underlying cause. Yet we all walk to the end of the tunnel, towards the glimmer of hope."
 thumbnail: "./images/ed2/story.jpg"
 authors: "IIT-T Family"
-starred: "false"
+starred: "true"
 alt: "Lock Down"
 ---
 

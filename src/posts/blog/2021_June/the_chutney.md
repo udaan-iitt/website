@@ -1,7 +1,7 @@
 ---
 title: "The Chutney"
 category: "Experiences"
-date: "2021-06-02 12:00:00 +09:00"
+date: "2021-06-05 12:00:00 +09:00"
 desc: "The title says it all. Its a chutney. Mishmash of ideas."
 thumbnail: "./images/ed2/chutney.jpg"
 authors: "The WireMan"

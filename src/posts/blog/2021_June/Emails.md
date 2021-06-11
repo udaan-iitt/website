@@ -1,7 +1,7 @@
 ---
 title: "Emails are just formal letters, they said."
 category: "Op-Ed"
-date: "2021-05-30 12:00:00 +09:00"
+date: "2021-06-04 12:00:00 +09:00"
 desc: "The ability to communicate effectively via Email is a critical skill needed in college, and eventually at the workplace. Unfortunately, most of us don’t come with an “Email Expertise Upgrade” when we get out of school. Hoping to solve some of your problems, here is an exposition on the enigma that is Emailing."
 thumbnail: "./images/ed2/letter.jpg"
 authors: "Debeshee Das, Shreyansh Mehra"

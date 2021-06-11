@@ -1,7 +1,7 @@
 ---
 title: "Faculty Interview with Prof. Sridhar Chimalakonda"
 category: "Campus News"
-date: "2021-05-30 12:00:00 +09:00"
+date: "2021-06-10 12:00:00 +09:00"
 desc: "Read on to know more about Prof. Sridhar's responses to a wide range of questions posed to him throughout the interview!"
 thumbnail: "./images/ed2/interview.jpg"
 authors: "Anu, Tejaswini, Debeshee"

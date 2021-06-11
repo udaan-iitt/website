@@ -1,7 +1,7 @@
 ---
 title: "A diary of Scuffed Events"
 category: "Campus News"
-date: "2021-05-30 12:00:00 +09:00"
+date: "2021-06-08 12:00:00 +09:00"
 desc: "With the pandemic extending longer than anticipated, the online world has been host to a wide variety of events and activities, both technical and cultural, catering to the various interests of our students despite the challenges faced in these hard times. These events have seen a huge positive reception from the student community. From informative webinars on wide range of topics to cultural and tech battles, read on to know all about different events that have kept us busy and excited."
 thumbnail: "./images/ed2/events.jpg"
 authors: "Anant, Sathya, Krithi"
