@@ -20,10 +20,10 @@ module.exports = {
         link: '/about/',
         name: 'About Us',
       },
-      {
-        link: '/leaderboard/',
-        name: 'Leaderboard',
-      },
+      // {
+      //   link: '/leaderboard/',
+      //   name: 'Leaderboard',
+      // },
       {
         link: meta.links.submissions,
         name: 'Get Featured !',
