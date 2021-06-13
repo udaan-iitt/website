@@ -29,13 +29,11 @@ module.exports = {
         name: 'Get Featured !',
       },
     ],
-    plugins: [
-      'gatsby-plugin-robots-txt',
-      `gatsby-plugin-sitemap`,
-      `gatsby-plugin-feed`,
-    ],
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
