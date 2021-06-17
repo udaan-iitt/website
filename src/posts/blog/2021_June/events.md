@@ -65,10 +65,14 @@ There were delightful song performances, dance performances, monologues, all ded
 # Tirutsava
 </br>
 
-Despite the online barriers, this year’s annual techno-cultural fest, Tirutsava proved to stand against the restriction and didn’t let the pandemic stop us from feeling the same jollity and chills. Along with its very own merchandise sale, the fest housed a plethora of competitions and also invited pro-shows including a Stand-up night by the hilarious Kenny Sebastian and a Musical night by Gajendra Verma. With the events being conducted online and the boundaries of physical distance nullified, the fest proved to be one of its kind by witnessing participation from all over the country.
+Despite the online barriers, this year’s annual techno-cultural fest Tirutsava proved to stand against the restriction and didn’t let the pandemic keep us away from celebration. Along with its very own merchandise sale, the fest housed a plethora of competitions and also invited pro-shows, including a Stand-up night by the hilarious Kenny Sebastian and a Musical night by Gajendra Verma. These shows were thoroughly enjoyed and appreciated, and the night proved one to remember. 
 
+The fest kickstarted with an inaugural ceremony and spanned over 3 days, maintaining the joy and enthusiasm throughout its course. In addition to this, a workshop titled “Ignite” was conducted to help JEE aspirants understand the importance of engineering and its branches. The Tirutsava team also collaborated with BookLustic and organized a mini book fair offering pre-owned books at low prices exclusively for the students of IIT Tirupati, to kindle the spirits of enthusiastic book readers. Apart from this, technical workshops were held on various informative topics including IC engine, App development, and Ethical hacking. 
 
-*Read more about Tirutsava here* (insert link)
+With the events being conducted online and the boundaries of physical distance nullified, the fest proved to be one of its kind by witnessing participation from all over the country.  The clubs made sure to not let the online medium restrict the stage from showcasing talents and continued the events from the previous years with the same energy. A variety of social media platforms were made use of, to conduct the events successfully. Event performances were judged using recordings rather than live performances to minimize the possibilities of technical issues, and deliver a fair experience for all the participants. 
+
+The fest covered a wide range of extra-curricular fields, ranging from technical events like Biz-Quiz and B-Plan to cultural events like Enigma and Solo-Singing. Additionally, the team made sure to also organize various gaming events for the talented game enthusiasts. Overall, even with the online platform limiting the fest to screens and devices, Tirutsava proved to be a great success in showcasing talents from across the country and served as an eventful break away from normalcy. Most importantly, it helped us realize how we can make the best out of any situation we are restricted to, if we put our mind to it.
+
 
 
 <a id="mobile-science-laboratory"></a>
