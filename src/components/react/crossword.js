@@ -94,12 +94,127 @@ const data = {
   }
 };
 
+const data2 = {
+  across: {
+    3: {
+        clue: "This cartoon series about a group of kids who called themselves ‘Gulab Nagar Junglees’, quickly gained popularity leading the producers to launch a game for Android mobile phones.",
+        answer: "Howzzattt",
+        row: 2,
+        col: 0
+    },
+    4: {
+        clue: "Who composed the Shiva Tandav Stotra, which is perhaps the first Sanskrit rap song",
+        answer: "Ravana",
+        row: 3,
+        col: 10
+    },
+    6: {
+        clue: "This island in India is considered as one of the last places untouched by the outside world",
+        answer: "Sentinel",
+        row: 5,
+        col: 8 
+    },
+    9: {
+        clue: "This board game was first created to teach morals and lessons about karma in a way that young children would understand and remember.",
+        answer: "SnakesAndLadder",
+        row: 10,
+        col: 4
+    },
+    11: {
+        clue: "The author of the book that contains the longest sentence having 823 words shares his first name with the protagonist in Mary Shelly’s famous novel.  What’s the author’s surname?",
+        answer: "Hugo",
+        row: 13,
+        col: 14
+    },
+    12: {
+        clue: "The highest rail bridge in the world spans over this river.",
+        answer: "Chenab",
+        row: 14,
+        col: 8
+    },
+    14: {
+      clue: "This everyday item which was used across the country (before lockdown) is made from trillions of microscopic plankton fossils.",
+      answer: "Chalk",
+      row: 16,
+      col: 6
+
+    },
+    15: {
+      clue: "The only planet in our Solar System that spins clockwise",
+      answer: "venus",
+      row: 18,
+      col: 6
+
+    }
+
+  },
+  down: {
+    1: {
+        clue: "Old technique from Orissa that uses palm leaves for the portrayal of epics and folklore.",
+        answer: "Pattachitra",
+        row: 0,
+        col: 6
+    },
+    2: {
+        clue: "The first book that was written using a typewriter is the story of this orphan who lives in the fictional town of St Petersburg.",
+        answer: "TomSawyer",
+        row: 1,
+        col: 1
+    },
+    4: {
+        clue: "This stepwell that adorns the new 100-rupee note became a UNESCO world heritage Site in 2014.",
+        answer: "RaniKiVav",
+        row: 3,
+        col: 10
+    },
+    5: {
+        clue: "Mark Twain has described this city as ‘older than history, older than tradition, older even than legend and looks twice as old as all of them put together.’",
+        answer: "Varanasi",
+        row: 4,
+        col: 4
+    },
+    7: {
+        clue: "All the professors in pokemon are named after _____",
+        answer: "Trees",
+        row: 7,
+        col: 8
+    },
+    8: {
+      clue: "What was Doremon's original paint colour?",
+      answer: "Yellow",
+      row: 9,
+      col: 17
+    },
+    10: {
+      clue: "Over which water body is the only floating post office of the world situated?",
+      answer: "DalLake",
+      row: 10,
+      col: 12
+    },
+    13: {
+      clue: "At very low temperatures, this gas can flow up against gravity.",
+      answer: "Helium",
+
+      row: 14,
+      col: 9
+    },
+  }
+};
+
 class App extends Component {
+  constructor(props) {
+    super(props);
+}
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <Crossword data={data} />
+          {this.props.version == 1 &&
+            <Crossword data={data} />
+          }
+          {this.props.version == 2 &&
+            <Crossword data={data2} />
+          }
         </header>{" "}
       </div>
     );
