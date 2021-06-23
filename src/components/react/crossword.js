@@ -116,7 +116,7 @@ const data2 = {
     },
     9: {
         clue: "This board game was first created to teach morals and lessons about karma in a way that young children would understand and remember.",
-        answer: "SnakesAndLadder",
+        answer: "SnakesAndLadders",
         row: 10,
         col: 4
     },
