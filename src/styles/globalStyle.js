@@ -186,6 +186,19 @@ const GlobalStyle = createGlobalStyle`
     clip: rect(1px, 1px, 1px, 1px);
     white-space: no-wrap;
   }
+  .Collapsible__trigger{
+    border-radius:30px;
+    background: var(--color-card);
+    color: var(--color-text); 
+  }
+  .Collapsible__trigger:after {
+    content:"✒"!important;
+  }
+  .Collapsible{
+    border-radius:30px;
+    margin-bottom:15px;
+    padding: 0 10px;
+  }
 `;
 
 export default GlobalStyle;

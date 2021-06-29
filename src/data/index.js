@@ -3,10 +3,10 @@
 
 export const newsletter = [
   {
-    key: 'shreyansh',
-    email:'literarysec@iittp.ac.in',
-    title: 'Shreyansh Mehra',
-    link:'https://www.linkedin.com/in/shreyansh-mehra/' 
+    key: 'prabhat',
+    email:'ee18b022@iittp.ac.in',
+    title: 'Prabhat Reddy',
+    link: 'mailto:ee18b022@iittp.ac.in'
   },
   {
     key: 'noble',
@@ -15,10 +15,10 @@ export const newsletter = [
     link: 'https://in.linkedin.com/in/noble-saji-mathews'
   },
   {
-    key: 'prabhat',
-    email:'ee18b022@iittp.ac.in',
-    title: 'Prabhat Reddy',
-    link: 'mailto:ee18b022@iittp.ac.in'
+    key: 'shreyansh',
+    email:'literarysec@iittp.ac.in',
+    title: 'Shreyansh Mehra',
+    link:'https://www.linkedin.com/in/shreyansh-mehra/' 
   },
   {
     key: 'debeshee',
@@ -31,6 +31,24 @@ export const newsletter = [
     email:'ee19b035@iittp.ac.in',
     title: 'Keerthana',
     link: 'mailto:ee19b035@iittp.ac.in'
+  },
+  {
+    key: 'krithi',
+    email:'ee20b038@iittp.ac.in',
+    title: 'Krithi Shailya',
+    link: 'mailto:ee20b038@iittp.ac.in'
+  },
+  {
+    key: 'sneha',
+    email:'ch20b022@iittp.ac.in',
+    title: 'Sneha M S',
+    link: 'mailto:ch20b022@iittp.ac.in'
+  },
+  {
+    key: 'anant',
+    email:'ee20b003@iittp.ac.in',
+    title: 'Anant Tyagi',
+    link: 'https://www.linkedin.com/in/anant-tyagi-80430a1ba'
   }
 ]
 

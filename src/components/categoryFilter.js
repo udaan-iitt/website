@@ -71,7 +71,7 @@ const Nav = styled.nav`
   align-items: center;
   // background-color: var(--color-card);
   background-color:transparent!important;
-  margin-bottom: 48px;
+  margin-bottom: 15px;
   padding: 12px var(--sizing-md);
   border-radius: var(--border-radius-base);
   padding-left: 0px !important;

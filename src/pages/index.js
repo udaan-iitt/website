@@ -9,6 +9,8 @@ import CategoryFilter from 'components/categoryFilter';
 import EditionFilter from 'components/editionFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
+import Collapsible from 'react-collapsible';
+
 
 function naturalSort(ary, fullNumbers) {
   var re = fullNumbers ? /[\d\.\-]+|\D+/g : /\d+|\D+/g;
@@ -141,6 +143,11 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          <Collapsible trigger="Editor's Note">
+            <p>
+              I solemnly swear Prabhat is upto no good - Padfoot, Prongs and Noble
+            </p>
+          </Collapsible>
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
           <SearchBar

@@ -72,7 +72,7 @@ const About = () => {
         ))}
         </div>
       </>
-      <h2>Literary Affairs Council 2020</h2>
+      {/* <h2>Literary Affairs Council 2020</h2>
       <hr/>
       <>
         <div className="img-grid lab-member">
@@ -103,7 +103,7 @@ const About = () => {
           </figure>
         ))}
         </div>
-      </>
+      </> */}
       </Container>
       </FadeIn>
     </Layout>
