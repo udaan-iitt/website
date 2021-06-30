@@ -143,17 +143,19 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
-          <Collapsible trigger="Editor's Note">
+          { currentEdition == "2021_June"&&
+            <Collapsible trigger="Editor's Note">
             <p>
             We are extremely delighted to present to you the second edition of Udaan!
             </p><p>
-            This edition contains dedicated Campus News articles that highlight various activities and events organized by the institute, along with a variety of opinion pieces, poems and experience pieces, all passionately written and submitted by fellow students. We have also added a new Faculty Interviews section in this edition.
+            This edition contains dedicated <em>Campus News</em> articles that highlight various activities and events organized by the institute, along with a variety of opinion pieces, poems and experience pieces, all passionately written and submitted by fellow students. We have also added a new <em>Faculty Interviews</em> section in this edition.
             </p><p>
-            The Covid-19 pandemic and its impact has been overwhelming, and we decided to try and bring different perspectives to light while still having an overall positive impact. As a result, we have prepared two articles: Busting Misinformation on Covid-19 to address a problem prevalent in the Indian context, and Voices of the Locked Down to help reconnect with our IITT family.
+            The Covid-19 pandemic and its impact has been overwhelming, and we decided to try and bring different perspectives to light while still having an overall positive impact. As a result, we have prepared two articles: <em>Busting Misinformation on Covid-19</em> to address a problem prevalent in the Indian context, and <em>Voices of the Locked Down</em> to help reconnect with our IITT family.
             </p><p>
             It still surprises me how primitive alphabets which we were taught in our childhood days, when put together in the right combination, can make us think and recollect. They can make you feel happy, sad, angry, sometimes all of these things at once. Writing isn’t that different from a melody really; music has 12 notes while English has 26, and all the composers who have contributed to Udaan have done a marvelous job. We hope you enjoy the arrangement of alphabets given below, that we put together for you!
             </p>
           </Collapsible>
+          }
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
           <SearchBar
