@@ -49,6 +49,12 @@ export const newsletter = [
     email:'ee20b003@iittp.ac.in',
     title: 'Anant Tyagi',
     link: 'https://www.linkedin.com/in/anant-tyagi-80430a1ba'
+  },
+  {
+    key: 'sathyanarayann',
+    email:'ee20b046@iittp.ac.in',
+    title: 'Sathyanarayann',
+    link: 'mailto:ee20b046@iittp.ac.in'
   }
 ]
 
