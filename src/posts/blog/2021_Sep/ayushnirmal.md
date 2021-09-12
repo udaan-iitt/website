@@ -2,7 +2,7 @@
 title: "Our experience at IndiaConnect@NTU Research Internship"
 category: "Experiences"
 date: "2021-06-06 10:00:00 +09:00"
-desc: "The Nanyang Technological University, Singapore, is the second oldest public autonomous research university in Singapore and is considered to be one of the top universities in the world."
+desc: "The Nanyang Technological University, Singapore, is the second oldest public autonomous research university in Singapore and is considered to be one of the top universities in the world. Let’s take a glance at Ayush and Nirmal’s experience at IndiaConnect@NTU Research Internship"
 thumbnail: "./images/ntu.jpg"
 authors: "Ayush Prasad and Nirmal Rajpopat"
 starred: "false"

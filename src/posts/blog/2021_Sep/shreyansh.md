@@ -2,7 +2,7 @@
 title: "MathWorks experience"
 category: "Experiences"
 date: "2021-06-06 10:00:00 +09:00"
-desc: "MathWorks specializes in mathematical computing software. Its major products include MATLAB and Simulink, which support data analysis and simulation."
+desc: "MathWorks specializes in mathematical computing software. Its major products include MATLAB and Simulink, which support data analysis and simulation. Check out Shreyansh’s internship experience at MathWorks."
 thumbnail: "./images/mathworks.jpg"
 authors: "Shreyansh"
 starred: "false"

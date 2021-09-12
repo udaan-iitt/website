@@ -2,7 +2,7 @@
 title: "Internship experience at Salesforce"
 category: "Experiences"
 date: "2021-06-06 10:00:00 +09:00"
-desc: "Salesforce provides customer relationship management service and also provides a complementary suite of enterprise applications focused on customer service, marketing, analytics, and application development."
+desc: "Salesforce provides customer relationship management service and also provides a complementary suite of enterprise applications focused on customer service, marketing, analytics, and application development. Read on to find more about Shruti Priya’s 2-month internship experience at Salesforce."
 thumbnail: "./images/salesforce.jpg"
 authors: "Shruti Priya"
 starred: "false"

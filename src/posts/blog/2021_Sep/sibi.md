@@ -2,7 +2,7 @@
 title: "RIYA@OSU: The best learning experience I could have had during a global pandemic!"
 category: "Experiences"
 date: "2021-06-06 10:00:00 +09:00"
-desc: "The Ohio State University is a public research university in Columbus, Ohio. It has been ranked by major institutional rankings as among the best public universities in the United States."
+desc: "The Ohio State University is a public research university in Columbus, Ohio. It has been ranked by major institutional rankings as among the best public universities in the United States. Join Sibi as he narrates his internship experience at the Research Internship for Young Academics (RIYA)"
 thumbnail: "./images/ohio.jpg"
 authors: "Sibibalan"
 starred: "false"
