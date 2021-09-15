@@ -16,7 +16,7 @@ export const newsletter = [
   },
   {
     key: 'shreyansh',
-    email:'literarysec@iittp.ac.in',
+    email:'cs18b042@iittp.ac.in',
     title: 'Shreyansh Mehra',
     link:'https://www.linkedin.com/in/shreyansh-mehra/' 
   },
