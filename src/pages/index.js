@@ -156,6 +156,19 @@ const Home = ({ pageContext, data }) => {
             </p>
           </Collapsible>
           }
+          { currentEdition == "2021_Sep"&&
+          <Collapsible trigger="Editor's Note">
+            <p>
+            Internship - an arrangement where you are mentored by and learn from experienced professionals in your field, while sometimes even being paid for it. Imagine experiencing your field of work, getting to test yourself, discovering what skills you need to succeed, all before you even graduate college! This is what internships are all about. It’s no surprise then that every engineering student works hard to get into an internship that they desire. This is the time of the year when the internship fever is palpable, with the third years giving it their best shot.
+            While there is plenty of excitement around this topic, there is also an abundance of doubt. A frequent question that students ask about internships is, “What exactly do I do there?”. All that’s clearly visible in the internship offer is the company’s/institution’s name, the nature of the work and the package, while the particulars of the work required for the internship is seldom obvious. 
+            </p>
+            <p>
+            We set out to try and address that issue. Who better to answer that question than those who have just completed their internships? With the help of a few generous final year students talking about their experiences, Team Udaan is back with a new edition with a special focus on internship experiences. We believe that the third years will find this edition useful, and hope everyone would enjoy reading it and learn something new!
+            </p><p>
+            Note that this edition of Udaan is a rolling edition, so more articles will be published in the near future. Stay tuned for updates!
+            </p>
+          </Collapsible>
+          }
           <FadeIn>
           <PostTitle>{postTitle}</PostTitle>
           <SearchBar
