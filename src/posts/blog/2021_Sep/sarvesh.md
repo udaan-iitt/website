@@ -51,9 +51,7 @@ design lead screws and racks. Moreover, the hectic 8 hour/week Machine Drawing
 classes were worth it. And on and on. The theory does matter, like a lot, for
 Mechanical core subjects.
 2. I was always scared that working part-time would affect my GPA. After
-everything is said and done, it did not. My GPA this semester was my personal
-best, at the same time offering me the financial freedom to complete my tiny
-little dream of buying a Mac on my own ;)
+everything is said and done, it did not.
 3. Before the internship, I always preferred a non-core over a core. However, I will
 now try my best to opt for a core placement in my final year. Still, fingers crossed, metaphorically.
 

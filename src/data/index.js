@@ -4,9 +4,9 @@
 export const newsletter = [
   {
     key: 'prabhat',
-    email:'ee18b022@iittp.ac.in',
+    email:'literarysec@iittp.ac.in',
     title: 'Prabhat Reddy',
-    link: 'mailto:ee18b022@iittp.ac.in'
+    link: 'mailto:literarysec@iittp.ac.in'
   },
   {
     key: 'noble',
