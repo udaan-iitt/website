@@ -5,7 +5,7 @@ import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
 import SEO from 'components/seo';
 import PostGrid from 'components/postGrid/postGrid';
-import CategoryFilter from 'components/categoryFilter';
+// import CategoryFilter from 'components/categoryFilter';
 import EditionFilter from 'components/editionFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
@@ -13,7 +13,7 @@ import Collapsible from 'react-collapsible';
 
 
 function naturalSort(ary, fullNumbers) {
-  var re = fullNumbers ? /[\d\.\-]+|\D+/g : /\d+|\D+/g;
+  var re = fullNumbers ? /[\d.-]+|\D+/g : /\d+|\D+/g;
 
   // Perform a Schwartzian transform, breaking each entry into pieces first
   for (var i=ary.length;i--;)
@@ -36,8 +36,8 @@ function naturalSort(ary, fullNumbers) {
   });
 
   // Restore the original values into the array
-  for (var i=ary.length;i--;) ary[i] = ary[i][0];
-  return ary;
+  for (var k=ary.length;k--;) ary[k] = ary[k][0];
+  return ary.reverse();
 }
 
 const Home = ({ pageContext, data }) => {
@@ -58,7 +58,8 @@ const Home = ({ pageContext, data }) => {
   if(pageContext.edition)
   currentEdition = pageContext.edition;
   else
-  currentEdition = alleditions[alleditions.length - 1];
+  currentEdition = alleditions[0];
+  // alleditions.length - 1
   // const alleditions = pageContext.alleds;
   
   
@@ -133,6 +134,7 @@ const Home = ({ pageContext, data }) => {
         },
       ]);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentCategory, arr1, arr2]);
 
   const site = useSiteMetadata();

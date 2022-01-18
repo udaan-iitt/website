@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import kebabCase from 'lodash/kebabCase';
+// import kebabCase from 'lodash/kebabCase';
 import useScrollCenter from 'hooks/useScrollCenter';
 import { ACTIVE } from 'constants/constants';
 import CategoryFilter from './categoryFilter';
