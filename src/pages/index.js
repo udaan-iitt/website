@@ -5,7 +5,7 @@ import Layout from 'layout/layout';
 import FadeIn from 'react-fade-in';
 import SEO from 'components/seo';
 import PostGrid from 'components/postGrid/postGrid';
-import CategoryFilter from 'components/categoryFilter';
+// import CategoryFilter from 'components/categoryFilter';
 import EditionFilter from 'components/editionFilter';
 import useSiteMetadata from 'hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
@@ -13,7 +13,7 @@ import Collapsible from 'react-collapsible';
 
 
 function naturalSort(ary, fullNumbers) {
-  var re = fullNumbers ? /[\d\.\-]+|\D+/g : /\d+|\D+/g;
+  var re = fullNumbers ? /[\d.-]+|\D+/g : /\d+|\D+/g;
 
   // Perform a Schwartzian transform, breaking each entry into pieces first
   for (var i=ary.length;i--;)
@@ -36,8 +36,8 @@ function naturalSort(ary, fullNumbers) {
   });
 
   // Restore the original values into the array
-  for (var i=ary.length;i--;) ary[i] = ary[i][0];
-  return ary;
+  for (var k=ary.length;k--;) ary[k] = ary[k][0];
+  return ary.reverse();
 }
 
 const Home = ({ pageContext, data }) => {
@@ -58,7 +58,8 @@ const Home = ({ pageContext, data }) => {
   if(pageContext.edition)
   currentEdition = pageContext.edition;
   else
-  currentEdition = alleditions[alleditions.length - 1];
+  currentEdition = alleditions[0];
+  // alleditions.length - 1
   // const alleditions = pageContext.alleds;
   
   
@@ -133,6 +134,7 @@ const Home = ({ pageContext, data }) => {
         },
       ]);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentCategory, arr1, arr2]);
 
   const site = useSiteMetadata();
@@ -153,6 +155,19 @@ const Home = ({ pageContext, data }) => {
             The Covid-19 pandemic and its impact has been overwhelming, and we decided to try and bring different perspectives to light while still having an overall positive impact. As a result, we have prepared two articles: <em>Busting Misinformation on Covid-19</em> to address a problem prevalent in the Indian context, and <em>Voices of the Locked Down</em> to help reconnect with our IITT family.
             </p><p>
             It still surprises me how primitive alphabets which we were taught in our childhood days, when put together in the right combination, can make us think and recollect. They can make you feel happy, sad, angry, sometimes all of these things at once. Writing isn’t that different from a melody really; music has 12 notes while English has 26, and all the composers who have contributed to Udaan have done a marvelous job. We hope you enjoy the arrangement of alphabets given below, that we put together for you!
+            </p>
+          </Collapsible>
+          }
+          { currentEdition == "2021_Sep"&&
+          <Collapsible trigger="Editor's Note">
+            <p>
+            Internship - an arrangement where you are mentored by and learn from experienced professionals in your field, while sometimes even being paid for it. Imagine experiencing your field of work, getting to test yourself, discovering what skills you need to succeed, all before you even graduate college! This is what internships are all about. It’s no surprise then that every engineering student works hard to get into an internship that they desire. This is the time of the year when the internship fever is palpable, with the third years giving it their best shot.
+            While there is plenty of excitement around this topic, there is also an abundance of doubt. A frequent question that students ask about internships is, “What exactly do I do there?”. All that’s clearly visible in the internship offer is the company’s/institution’s name, the nature of the work and the package, while the particulars of the work required for the internship is seldom obvious. 
+            </p>
+            <p>
+            We set out to try and address that issue. Who better to answer that question than those who have just completed their internships? With the help of a few generous final year students talking about their experiences, Team Udaan is back with a new edition with a special focus on internship experiences. We believe that the third years will find this edition useful, and hope everyone would enjoy reading it and learn something new!
+            </p><p>
+            Note that this edition of Udaan is a rolling edition, so more articles will be published in the near future. Stay tuned for updates!
             </p>
           </Collapsible>
           }
