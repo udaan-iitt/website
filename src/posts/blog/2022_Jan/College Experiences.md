@@ -21,7 +21,7 @@ Join the authors as they share their college life experiences in 2021. While few
 2. [The Inception](#the-inception) - 4v (B-Tech 2021)
 3. [Bunch of Smiles](#bunch-of-smiles) - Hiranmai (B-Tech 2020)
 4. [College Experience’21](#college-experience21) - Shubham Ahirwar (B-Tech 2021)
-5. [O3: Online - Offline](#o3-online---offline---online) - Online - Anonymous (B-Tech 2020)
+5. [O3: Online - Offline - Online](#o3-online---offline---online) - Anonymous (B-Tech 2020)
 6. [My college Experience](#my-college-experience) -Reshma R (M-Tech 2021)
 7. [College Experiences](#college-experiences) - Arup Biswas (B-Tech 2021)
 8. [Tables Turned](#tables-turned) - Swathi (B-Tech 2020)
@@ -71,7 +71,7 @@ It was very tough to make friends with different cultures and ideologies, but ov
 Bunch of smiles              
 Shine in eyes                   
 Unique personalities                   
-Unsettling realities
+Unsettling realities                   
 Yet to meet an acquaintance                 
 But found no chance                                       
 <br>
