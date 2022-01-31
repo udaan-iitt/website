@@ -18,13 +18,13 @@ function shuffleArray(array) {
 
 const PostGrid = ({ posts }) => {
   const scrollEdgeRef = useRef(null);
-  shuffleArray(posts);
   posts.forEach(function(item,i){
     if(item.starred === "true"){
       posts.splice(i, 1);
       posts.unshift(item);
     }
   }); 
+  shuffleArray(posts);
   const currentList = useInfiniteScroll({
     posts,
     scrollEdgeRef,
