@@ -9,17 +9,19 @@ starred: "false"
 alt: "कहानी सो रही है"
 ---
 <p style="text-align: center;align:center;">दिनभर धूप में भागी हुई </p>
-<p style="text-align: center;align:center;">तो कोई सारी रात जागी हुई </p>
-<p style="text-align: center;align:center;">कहानी सो रही है  </p>
-<p style="text-align: center;align:center;">हर कहानी सो रही है| </p>
-<p style="text-align: center;align:center;">कोई आरामपसंद थी जो सारे वक़्त </p>
-<p style="text-align: center;align:center;">सुस्ता रही थी  </p>
-<p style="text-align: center;align:center;">तो कोई मेहनतकश थी जो सारे वक़्त </p>
-<p style="text-align: center;align:center;">पसीना बहा रही थी  </p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">हर कहानी की अलग कहानी रही होगी </p>
-<p style="text-align: center;align:center;">पर अंजाम सबका एक ही हैं </p>
-<p style="text-align: center;align:center;">थकान होगी सबकी अलग-अलग </p>
-<p style="text-align: center;align:center;">पर ली गयी जम्हाईयाँ एक ही हैं </p>
-<p style="text-align: center;align:center;">इसीलिए तो हाल-फिलहाल </p>
-<p style="text-align: center;align:center;">हर कहानी सो रही हैं | </p>
+तो कोई सारी रात जागी हुई <br>
+कहानी सो रही है  <br>
+हर कहानी सो रही है| <br>
+कोई आरामपसंद थी जो सारे वक़्त <br>
+सुस्ता रही थी  <br>
+तो कोई मेहनतकश थी जो सारे वक़्त <br>
+पसीना बहा रही थी  <br>
+</p>
+
+<p style="text-align: center;align:center;">हर कहानी की अलग कहानी रही होगी <br>
+पर अंजाम सबका एक ही हैं <br>
+थकान होगी सबकी अलग-अलग <br>
+पर ली गयी जम्हाईयाँ एक ही हैं <br>
+इसीलिए तो हाल-फिलहाल <br>
+हर कहानी सो रही हैं | <br>
+</p>

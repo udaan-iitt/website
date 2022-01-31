@@ -15,5 +15,3 @@ The above concept uses the notion of darkness tremendously. It uses darkness as 
 
 Similarly, I believe that evil is not an entity unto itself. It is just the vacuum representing the absence of virtue and goodness. The mere presence of goodness and virtue is enough to defeat any evil. Evil will not and cannot push back; it is merely a vacuum. It perpetuates only in the absence of virtue and silence of those who practice it.                          
 
->Paraphrased by,                                                                        
- Mohith, Satgyanarayann and Sneha

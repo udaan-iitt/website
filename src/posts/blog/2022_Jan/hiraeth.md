@@ -3,7 +3,7 @@ title: "Hiraeth"
 category: "Op-ed"
 date: "2021-01-28 10:00:00 +09:00"
 desc: "A deep homesickness; an intense form of longing or nostalgia for a place long gone, or even an unaccountable homesickness for a place you have never visited."
-thumbnail: "./images/kids.jpg"
+thumbnail: "./images/growing.jpg"
 authors: "V Sathyanarayann"
 starred: "false"
 alt: "Hiraeth"
@@ -16,5 +16,4 @@ A child looks at the world in such wonder, with so much awe and admiration for e
 
 **Where did it all go wrong?**                                
 
->Paraphrased by,                                       
- Mohith and Sneha
+

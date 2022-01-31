@@ -8,17 +8,20 @@ authors: "Iftekhar Ahmed"
 starred: "false"
 alt: "What is...?"
 ---
-<p style="text-align: center;align:center;">What is Life?</p>
-<p style="text-align: center;align:center;">If not crossing the river of fire,</p>
-<p style="text-align: center;align:center;">Across the  bridge of wax,</p>
-<p style="text-align: center;align:center;">May melt in a sec.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">What is Dream?</p>
-<p style="text-align: center;align:center;">If not pursuing the beyond one,</p>
-<p style="text-align: center;align:center;">Sailing on the uncharted course,</p>
-<p style="text-align: center;align:center;">May sink far off the shore.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">What is Love?</p>
-<p style="text-align: center;align:center;">If not the shining dagger,</p>
-<p style="text-align: center;align:center;">Placed at your bare heart,</p>
-<p style="text-align: center;align:center;">May in a flick cross your heart.</p>
+<p style="text-align: center;align:center;">What is Life?<br>
+If not crossing the river of fire,<br>
+Across the  bridge of wax,<br>
+May melt in a sec.<br>
+</p>
+
+<p style="text-align: center;align:center;">What is Dream?<br>
+If not pursuing the beyond one,<br>
+Sailing on the uncharted course,<br>
+May sink far off the shore.<br>
+</p>
+
+<p style="text-align: center;align:center;">What is Love?<br>
+If not the shining dagger,<br>
+Placed at your bare heart,<br>
+May in a flick cross your heart.<br>
+</p>

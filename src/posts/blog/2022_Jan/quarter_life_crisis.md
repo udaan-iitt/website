@@ -22,7 +22,7 @@ A quarter-life crisis is a phase that many people of our age encounter in their 
 Studies show that a typical person who struggles with a quarter-life crisis is highly driven and smart and generally gets trapped in this spiral during times of transition like making sense of post-college life, living alone for the first time, or coming to terms with changes they’ve never thought would happen. Especially in this age of social media, where being joyful, happy and in sync is highly popularized, we often feel this immense pressure to be perfect (if there’s even a definition for this word). Do it! Keep going! Failure is not an option!! Such thoughts plague minds, and what do they result in? Uncertainty, emotional pain and questioning.                                   
 Another major problem with quarter-life crises is that it often leads to thoughts like “This is the time for relaxation and enjoyment, why should I even be struggling?”, and consequently, we try to brush off these stress-causing feelings. This simply leads to more problems.                                   
 
-## How do you know you’re experiencing A Quarter-Life Crisis?
+## How do you know you’re experiencing a Quarter-Life Crisis?
 It’s very important that you realize you’re trapped in a quarter-life crisis. The first paragraph basically jots down some of the very common symptoms of a quarter-life crisis. And because of the covid pandemic and subsequent decline in social interactions, the frequency of such crises is increasing. You may feel trapped and this leads to separation. Wanting to feel alone, you isolate yourself from everyone. Something as simple as excessive social media usage or watching TV for long hours provides you with a medium to escape reality.                                  
 Just take any 3rd year or 4th-year student, for instance, they are in their early 20s and are dealing with significant changes in their life. Some are busy cracking their heads to come up with the best resume for internships and jobs; some are preparing for GRE, some are preparing for GATE, some for CAT and UPSC; while some are busy in finding a boyfriend/girlfriend. There’s a sense of uncertainty that often leads to anxiety and stress.                         
 
@@ -48,5 +48,4 @@ And finally, develop new life goals that are more in line with your newly discov
 
 In conclusion, we want you to understand that going through a quarter life crisis is okay. It is okay to accept you’re going through one and approach someone when you need help. The fear of judgement should not hold you back. What matters is your mental well being. Seek out a person who won’t judge you. You can contact GCU (https://iittp.ac.in/gcu/) for any help you might need. No matter how silly you might initially think the issue is, reaching out is important. And FYI, nothing is silly.                                       
 
->Paraphrased by,                        
- Sathyanarayann and Mohith
+

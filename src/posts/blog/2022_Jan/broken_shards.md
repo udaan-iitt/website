@@ -9,44 +9,49 @@ starred: "false"
 alt: "Broken Shards"
 ---
 
-<p style="text-align: center;align:center;">At the corner of the street,</p>
-<p style="text-align: center;align:center;">Under some stranger’s eave, </p>
-<p style="text-align: center;align:center;">Dressed in mismatched tatters, </p>
-<p style="text-align: center;align:center;">With a ripped-out sleeve, </p>
-<p style="text-align: center;align:center;">Sitting on the bundled woods, </p>
-<p style="text-align: center;align:center;">Covered by a torn sheet. </p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">While the cold wind blows, </p>
-<p style="text-align: center;align:center;">She holds the sheets more tight, </p>
-<p style="text-align: center;align:center;">Bulb glows over her head, </p>
-<p style="text-align: center;align:center;">For her, only source of light,</p>
-<p style="text-align: center;align:center;">Otherwise, apart from loneliness,</p>
-<p style="text-align: center;align:center;">Also a gift was the dark night.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">Tightly clenched her right hand,</p>
-<p style="text-align: center;align:center;">Placed on her own heart,</p>
-<p style="text-align: center;align:center;">As if whatever it holds, </p>
-<p style="text-align: center;align:center;">She can’t dare to be apart,</p>
-<p style="text-align: center;align:center;">Was it money in her fist,</p>
-<p style="text-align: center;align:center;">Or last bit of her sweetheart.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">She looks across the path,</p>
-<p style="text-align: center;align:center;">A fire on the other side,</p>
-<p style="text-align: center;align:center;">Face lights up with pure smile,</p>
-<p style="text-align: center;align:center;">As if things were fine beside,</p>
-<p style="text-align: center;align:center;">For a moment her fist loosens,</p>
-<p style="text-align: center;align:center;">Enough for shards to shine.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">Before her smile fully blooms,</p>
-<p style="text-align: center;align:center;">Before she lets shards to fall,</p>
-<p style="text-align: center;align:center;">A chilly blast of wind follows,</p>
-<p style="text-align: center;align:center;">Chilly enough for her to tremble,</p>
-<p style="text-align: center;align:center;">Fire went from flames to smoke,</p>
-<p style="text-align: center;align:center;">Unknown if they will rise from fall.</p>
-<p style="text-align: center;align:center;"> </p>
-<p style="text-align: center;align:center;">She tightens her hold on shards,</p>
-<p style="text-align: center;align:center;">Way harder than was before,</p>
-<p style="text-align: center;align:center;">Tears at the edge of her eyes,</p>
-<p style="text-align: center;align:center;">But remembering the night ahead,</p>
-<p style="text-align: center;align:center;">She gives a dry but bright smile,</p>
-<p style="text-align: center;align:center;">And treats the floor as bed.</p>
+<p style="text-align: center;align:center;">At the corner of the street,<br>
+Under some stranger’s eave, <br>
+Dressed in mismatched tatters, <br>
+With a ripped-out sleeve, <br>
+Sitting on the bundled woods, <br>
+Covered by a torn sheet. <br>
+</p>
+
+<p style="text-align: center;align:center;">While the cold wind blows, <br>
+She holds the sheets more tight, <br>
+Bulb glows over her head, <br>
+For her, only source of light,<br>
+Otherwise, apart from loneliness,<br>
+Also a gift was the dark night.<br>
+</p>
+
+<p style="text-align: center;align:center;">Tightly clenched her right hand,<br>
+Placed on her own heart,<br>
+As if whatever it holds, <br>
+She can’t dare to be apart,<br>
+Was it money in her fist,<br>
+Or last bit of her sweetheart.<br>
+</p>
+
+<p style="text-align: center;align:center;">She looks across the path,<br>
+A fire on the other side,<br>
+Face lights up with pure smile,<br>
+As if things were fine beside,<br>
+For a moment her fist loosens,<br>
+Enough for shards to shine.<br>
+</p>
+
+<p style="text-align: center;align:center;">Before her smile fully blooms,<br>
+Before she lets shards to fall,<br>
+A chilly blast of wind follows,<br>
+Chilly enough for her to tremble,<br>
+Fire went from flames to smoke,<br>
+Unknown if they will rise from fall.<br>
+</p>
+
+<p style="text-align: center;align:center;">She tightens her hold on shards,<br>
+Way harder than was before,<br>
+Tears at the edge of her eyes,<br>
+But remembering the night ahead,<br>
+She gives a dry but bright smile,<br>
+</p>
