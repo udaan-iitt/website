@@ -14,7 +14,7 @@ alt: "A Second Chance?"
 >
 >Oh no, you’re not alone, dear. I haven’t read their responses yet either, so I’m coming with you.
 >
->For all of my beloved batch mates who feel too overwhelmed to continue reading this, here’s our piece on [Quarter-life crisis:](/quarter_life_crisis). Cheers!
+>For all of my beloved batch mates who feel too overwhelmed to continue reading this, here’s our piece on [Quarter-life crisis](https://udaaniitt.web.app/blog/2022_Jan/quarter_life_crisis). Cheers!
 >
 >Before we start, you might want to understand why this is such a big deal. I’m a fourth year, and if you’re a fourthie too, you can safely skip this paragraph with no additional emotional investment. But if you’re a hopeful younger kid, here’s a piece of unsolicited advice for you: don’t grow up. Waking up one fine day only to realize that your time at college is almost over feels like going for second helpings of your favorite curry with roti, only to find that it’s over. It sucks, I must’ve made that pretty clear by now.
 >
@@ -190,7 +190,7 @@ I don't think I would want to change any aspect of my past though, as that is wh
 
 >Here’s someone who is content with the past, despite covid. Here’s some respect 🙇‍♂️
 >
->Also, did he really say that almost everyone studies just one day before the exam? Who’s telling you this propaganda, dude? To all you juniors out there, read between the lines and understand that this guy studied way too much for his own good. That’s why he’s content with the past and writing this piece while maintaining sanity. (To know where a person would likely end up otherwise, kindly check out our piece on quarter-life crisis: <link>)
+>Also, did he really say that almost everyone studies just one day before the exam? Who’s telling you this propaganda, dude? To all you juniors out there, read between the lines and understand that this guy studied way too much for his own good. That’s why he’s content with the past and writing this piece while maintaining sanity. (To know where a person would likely end up otherwise, kindly check out our piece on [Quarter-life crisis](https://udaaniitt.web.app/blog/2022_Jan/quarter_life_crisis))
 >
 >I sincerely request you to normalize sincerely studying. Peace.
 
