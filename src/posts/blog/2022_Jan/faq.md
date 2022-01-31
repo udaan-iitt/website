@@ -43,7 +43,11 @@ Every year there comes a new batch of learners full of dreams, aspirations, goal
 
 ---
 
+<a id="academics-internships-and-placements"></a>
+
 ## Academics, Internships and Placements:
+
+<a id="are-the-professors-approachable-and-how-do-you-approach-them-for-projects-and-stuff"></a>
 
 ### Are the professors approachable, and how do you approach them for projects and stuff?
 
@@ -52,6 +56,8 @@ Yes, the professors are really very friendly and approachable. Even if they are 
 >-Debeshee Das
 
 ****
+
+<a id="thoughts-on-mid-sem-stress-management-study-type-and-typical-timetable-for-studying-after-college"></a>
 
 ### Thoughts on mid-sem stress management, study type, and typical timetable for studying after college.
 
@@ -79,6 +85,8 @@ First of all, chillax!! You are here to learn and explore your respective fields
 
 ****
 
+<a id="what-to-do-if-i-am-aiming-for-branch-change-is-it-easy"></a>
+
 ### What to do if I am aiming for Branch Change? Is it easy?
 
 Quoting our [ordinance](https://www.iittp.ac.in/pdfs/btech/B.Tech-Ordinance-Regulations-2018.pdf), “The performance during the first year will be the basis for consideration for change of branch.” There are some other clauses too. Do look into the ordinance for more details.          
@@ -91,6 +99,8 @@ Quoting  [Prof. K.Krishnaiah](https://www.iittp.ac.in/dr-k-krishnaiah), most of 
 
 ****
 
+<a id="what-better-books-can-we-refer-to-for-problem-solving-in-physics"></a>
+
 ### What better books can we refer to for problem-solving in physics?
 
 ‘I honestly wish I knew.’ is one response you can expect from us. You’re not the only ones stuck with this classical, classical mechanics dilemma!     
@@ -100,6 +110,8 @@ While understanding tutorials and doing them on your own should be good enough, 
 >-Debeshee Das and V Sathyanarayann
 
 ****
+
+<a id="what-kind-of-skills-should-a-sound-engineering-student-have"></a>
 
 ### What kind of skills should a sound engineering student have?
 
@@ -125,6 +137,8 @@ Jokes aside, we understand why this question came here.🙃But let me assure you
 
 ****
 
+<a id="i-am-from-civil-engineering-department-but-i-want-to-make-my-career-as-a-software-engineer-will-it-be-possible-from-iit-tirupati"></a>
+
 ### I am from civil engineering department, but I want to make my career as a "software engineer". Will it be possible from IIT TIRUPATI?
 
 At IIT Tirupati, all the faculties are very supportive when it comes to interdisciplinary study/projects. To be a software engineer, the primary skill you should focus on is problem-solving, which does not require any kind of branch specification. Many platforms are available to acquire this knowledge.  You can get help from teachers/seniors with a different background than your own for various kinds of academic or non-academic projects. No professor will ever choose their students based on branch. The factor of the branch might come when companies ask for things such as Operating Systems or Databases. But these things can also be learned online from the vast amount of resources available.                
@@ -135,6 +149,8 @@ It is, however, also true that the path faced by people in non-circuital branche
 
 ****
 
+<a id="in-which-year-internships-are-provided-and-in-which-companies"></a>
+
 ### In which year internships are provided? And in which companies?
 
 As part of the curriculum, students take up Internships in their 3rd-year summer break. Do understand that the institute provides opportunities, and it is up to you to secure the internship. For more details and a list of past recruiters, visit the [CDC Website.](https://cdc.iittp.ac.in/)
@@ -142,6 +158,8 @@ As part of the curriculum, students take up Internships in their 3rd-year summer
 >-Amit Kesari
 
 ****
+
+<a id="how-are-placements-going-for-this-year-especially-for-the-chemical-department"></a>
 
 ### How are placements going for this year, especially for the chemical department?
 
@@ -151,7 +169,11 @@ Placements are going great, but we can't disclose any data since the current aca
 
 ****
 
+<a id="clubs-and-student-activities-1"></a>
+
 ## Clubs and Student Activities:
+
+<a id="what-is-the-difference-between-nss-and-nso-which-should-we-prefer"></a>
 
 ### What is the difference between NSS and NSO? Which should we prefer?
 
@@ -168,6 +190,8 @@ Please go through the below links to know more about what NSS is all about.
 
 ****
 
+<a id="what-type-of-events-are-conducted-in-tirutsava-will-it-be-online-or-offline-this-time"></a>
+
 ### What type of events are conducted in Tirutsava? Will it be online or offline this time?
 
 Tirutsava is the annual Techno-Cultural fest of our college. This time, various events, including a wide variety of technical, cultural and informal events, will be conducted continually spread out over three months. Apart from these, there will be many workshops and exciting pro-shows too!      
@@ -180,6 +204,8 @@ For more details, look into our [website](https://tirutsava.in/) and [Instagram 
 
 ****
 
+<a id="how-to-manage-club-participation-and-academics-efficiently"></a>
+
 ### How to manage club participation and academics efficiently?
 
 At this point, most of you will be trying to figure out your niche. It would be great to figure it out in your first year itself because your timetables are less packed than the following semesters. Generally, most of the clubs in IIT Tirupati don’t have any rigid set prerequisites to be a member. Enthusiasm and interest are more than sufficient. Start by becoming a member of clubs you’re interested in. Attend a session or two; see if you like it. You’ll automatically find your calling and dedicate more time to that. You can participate in the club’s general sessions whenever you feel like trying out something new. No one will stop you.       
@@ -189,6 +215,8 @@ Speaking of managing club participation and academics, most club sessions and ev
 >-Sneha
 
 ****
+
+<a id="what-are-the-various-roles-and-responsibilities-of-a-clubs-core-members"></a>
 
 ### What are the various roles and responsibilities of a club’s core members?
 
@@ -239,6 +267,8 @@ You’ll be an active part and aid the club in organizing sessions and events. W
 
 ****
 
+<a id="what-kind-of-activities-do-the-clubs-conduct-do-clubs-conduct-workshops-competitions-etc-about-their-respective-domain"></a>
+
 ### What kind of activities do the clubs conduct? Do clubs conduct workshops, competitions, etc., about their respective domains? 
 
 Here’s an insight into the activities each club conducts.
@@ -285,7 +315,11 @@ Here’s an insight into the activities each club conducts.
 
 ****
 
+<a id="campus-life-and-other-general-questions-1"></a>
+
 ## Campus Life and Other General Questions
+
+<a id="how-are-the-sports-facilities-on-campus-do-we-have-coaches-for-various-sports-games"></a>
 
 ### How are the sports facilities on campus? Do we have coaches for various sports games?
 
@@ -295,6 +329,8 @@ We do have Grounds and equipment for all the major sports. However, we need to t
 
 ****
 
+<a id="how-is-the-food-in-the-mess-and-canteen"></a>
+
 ### How is the food in the mess and canteen?
 
 The mess and canteen provide an excellent variety of food for vegetarians and non-vegetarians. A weekly schedule is followed in the mess. Although taste is a personal preference, the general opinion is that food is good in both places. In addition to this, we have an ‘Ultimate Store’ providing all sorts of packed eatables, beverages, etc.
@@ -303,6 +339,8 @@ The mess and canteen provide an excellent variety of food for vegetarians and no
 
 ****
 
+<a id="what-are-the-facilities-in-hostels-do-students-have-curfew-time-for-hostels"></a>
+
 ### What are the facilities in Hostels? Do students have curfew time for hostels?
 
 The curfew time for students presently is 1 am. Everyone in the hostels is provided with a cot, a study table, and an almirah. There are common rooms where people can sit together and watch TV. There's also a common study room on one of the floors.  Another thing that most students like is that the fans and tube lights are remote-controlled (not in Hostel block F - Girls/Women’s Hostel, they might be remotely controlled; but we don’t have access to the remote.)
@@ -310,6 +348,8 @@ The curfew time for students presently is 1 am. Everyone in the hostels is provi
 >-Anant and Sneha
 
 ****
+
+<a id="how-many-people-live-in-a-hostel-room-is-the-hostel-warden-strict"></a>
 
 ### How many people live in a hostel room? Is the hostel warden strict?
 
@@ -324,6 +364,8 @@ The hostel warden or security guards are not strict. They are usually helpful.
 >-Anant and Sneha
 
 ****
+
+<a id="are-there-any-differences-caused-due-to-gender-ratio"></a>
 
 ### Are there any differences caused due to gender ratio?
 
@@ -343,6 +385,8 @@ Free interaction between men and women create a better environment of like-minde
 >-Kashyapi
 
 ****
+
+<a id="how-is-college-life-on-our-campus-do-we-get-appropriate-exposure-for-our-interests"></a>
 
 ### How is college life on our campus? Do we get appropriate exposure for our interests?
 

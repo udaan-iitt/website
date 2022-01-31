@@ -30,6 +30,8 @@ Join the authors as they share their college life experiences in 2021. While few
 
 ---
 
+<a id="just-a-minute-from-four-years"></a>
+
 ## Just a minute from four years!  
 
 >After all the stress and hustle of JEE, one would certainly have thoughts circling around on how life in an IIT (well, IITT precisely) would be. Join along with Keshav Kumar Manjhi in his jaunt of emotions as he shares his perspective on the transition.
@@ -48,6 +50,8 @@ This new life can be scary for us, but it's just a new set of unknown opportunit
 
 ****
 
+<a id="the-inception"></a>
+
 ## The Inception
 
 >Experience the emotions as the author - 4v walks us briefly through the anticipations, aspirations, and impressions freshers have as they embark on a new journey in their life.
@@ -57,6 +61,8 @@ Ever since the pandemic broke out back in 2019, life has never been the same. It
 It was very tough to make friends with different cultures and ideologies, but over time; I found some companions that fit. Academics have been a bother owing to the semester being cut short. The syllabus is very tedious and a comparatively unique style of teaching from high school. It was an enthralling experience to have very accomplished professors to guide us. Having been confronted with a lot of confusing moments, I desperately wanted to meet my seniors and know their experiences. Just in time, an email arrived for the 'Konnichiwa' event, and the interaction guaranteed me of 'cool' and supportive seniors, which restored my confidence. I’m looking forward to making many more memories of my four-year journey with all of them (hopefully on campus).
 
 ****
+
+<a id="bunch-of-smiles"></a>
 
 ## Bunch of Smiles.
 
@@ -99,6 +105,8 @@ Just "One mail" we'll be there in no time
 
 ****
 
+<a id="college-experience21"></a>
+
 ## College Experience’21
 
 >Every change is a challenge, and challenges are exciting, aren't they? Shubham (the batch of 2021) had one such challenge, thanks to the changeover from school to college. Join him as he shares his experience.
@@ -108,6 +116,8 @@ Just "One mail" we'll be there in no time
 But finally, things changed when seniors came into the picture. They somehow added the colors to the black and white life we all had been living in. They conducted various sessions to interact, resolve our queries, clear our doubts regarding academics. The best things were the orientation sessions of all the clubs. The excitement felt like it was coming back. When the news spread about the Tirutsava fest, I joined the marketing committee, which helped me in my personal growth. It was a whole new experience to talk to different students of various colleges. Seniors also took a session to record clips for freshers’ intro video. Now every morning, I woke up with a purpose, there was always something new on my to-do list. It felt more like college now. Also, as time passed, the strangers became friends with whom I now have movie nights during the weekends, the friends whom I can’t wait to see on campus. Overall, I would say that I feel way better than before every day. And I can’t tell now how excited I am to spend my next three and a half years inside that campus.
 
 ****
+
+<a id="o3-online---offline---online"></a>
 
 ## O3: Online - Offline - Online:
 
@@ -148,6 +158,8 @@ Not sure if the loop ever ends.
 
 ****
 
+<a id="my-college-experience"></a>
+
 ## My college experience
 
 > Are you curious to know about life on campus? What do you think would be the best part of being on campus: is it the quarantine life, post quarantine, picturesque sceneries, lively people, or something else? Reshma’s true to life article might help us get to an answer.
@@ -164,6 +176,8 @@ Even though the days that we stayed on campus were fewer, we carried more sweet 
 
 ****
 
+<a id="college-experiences"></a>
+
 ## College experiences 
 
 >Most of us might be finding it hard to sit and watch our screens for such a long time. Some of us might also be contemplating their life choices. Arup’s article is one such experience that showers a light on the muddled emotions which most of us could relate to.
@@ -173,6 +187,8 @@ Well, college experience so far has been a bag of mixed emotions. There's the th
 After the first few days, I could feel that the semester would be a jam-packed one. There’s always this feeling that things are going faster than I could keep up. I close my eyes for a moment, and the deadlines almost skim by. Though being in a class of 200+ for every lecture, only a few interact. Introducing new languages and subjects was a wonderful break from the usual sciences. Aside from the academics, there was a fresher’s intro, meet-up with seniors, club introductions, a few competitions, and events which were a delight to be a part of and enjoy. Though it’s taking a bit of time to adapt to this new learning and pick up some new hobbies/interests, I hope it all works out.
 
 ****
+
+<a id="tables-turned"></a>
 
 ## Tables Turned
 
@@ -191,6 +207,9 @@ From online classes to online classes
 Tables have turned quickly. These online classes are not gonna be the same. With a heart full of cherishable memories, we return to our homes, waiting for our next call.                
 
 ****
+
+<a id="college-life"></a>
+
 ## College life
 
 > Experiencing hostel life for the first time or the lively feeling of being surrounded by people after a year of staying at home. Sounds fun, doesn't it? Sathyanarayann’s got a good number of such memories from his time in the campus.
