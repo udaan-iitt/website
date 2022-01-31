@@ -46,3 +46,6 @@ My heart was filled with grief, and I wanted to cry out loud. It was not just th
 It’s kind of ironic that this article I was working on, just before the strike, analyzed how much destruction the war had done to our country. You know, now that I realize it, I had always just written articles without ever feeling personally affected by it. Now, that article had a whole another meaning to it. 
 
 Long after the dust had settled, we still stood there, motionless, with heavy hearts. Our profession was never going to be the same again.
+
+> Paraphrased by,
+> Shreyansh and Krithi
