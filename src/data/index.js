@@ -27,12 +27,6 @@ export const newsletter = [
     link: 'https://www.linkedin.com/in/debeshee-das/'
   },
   {
-    key: 'keerthana',
-    email:'ee19b035@iittp.ac.in',
-    title: 'Keerthana',
-    link: 'mailto:ee19b035@iittp.ac.in'
-  },
-  {
     key: 'krithi',
     email:'ee20b038@iittp.ac.in',
     title: 'Krithi Shailya',
@@ -55,6 +49,18 @@ export const newsletter = [
     email:'ee20b046@iittp.ac.in',
     title: 'Sathyanarayann',
     link: 'mailto:ee20b046@iittp.ac.in'
+  },
+  {
+    key: 'preethi',
+    email:'cs20b030@iittp.ac.in',
+    title: 'Preethi Varsha Marivina',
+    link: 'https://www.linkedin.com/in/preethi-varsha-70211b210'
+  },
+  {
+    key: 'mohith',
+    email:'ch20b021@iittp.ac.in',
+    title: 'Ram Mohith',
+    link: 'mailto:ee19b035@iittp.ac.in'
   }
 ]
 
