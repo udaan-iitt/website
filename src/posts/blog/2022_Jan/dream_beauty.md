@@ -2,7 +2,7 @@
 title: "Dream Beauty"
 category: "Poetry"
 date: "2021-01-28 10:00:00 +09:00"
-desc: "Where are you now? Was it all in my fantasy? Where are you now? Were you only imaginary?”
+desc: "'Where are you now? Was it all in my fantasy? Where are you now? Were you only imaginary?'
 Faded-Alan Walker"
 thumbnail: "./images/beauty.jpg"
 authors: "Iftekhar Ahmed"

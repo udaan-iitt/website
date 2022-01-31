@@ -1,6 +1,6 @@
 ---
 title: "Quarter Life Crisis"
-category: "Op-ed"
+category: "Op-Ed"
 date: "2021-01-28 10:00:00 +09:00"
 desc: "Feel like you're too young to be having a midlife crisis? It's not uncommon for those in their 20s to be going through their own quarter-life crisis. Join Saurav on a journey of self exploration and empowerment."
 thumbnail: "./images/crisis.jpg"
@@ -46,6 +46,6 @@ Rebuild your life from the ground up. Not necessarily ground up, but from where 
 **Phase 5**:                                                   
 And finally, develop new life goals that are more in line with your newly discovered interests.                      
 
-In conclusion, we want you to understand that going through a quarter life crisis is okay. It is okay to accept you’re going through one and approach someone when you need help. The fear of judgement should not hold you back. What matters is your mental well being. Seek out a person who won’t judge you. You can contact GCU (https://iittp.ac.in/gcu/) for any help you might need. No matter how silly you might initially think the issue is, reaching out is important. And FYI, nothing is silly.                                       
+In conclusion, we want you to understand that going through a quarter life crisis is okay. It is okay to accept you’re going through one and approach someone when you need help. The fear of judgement should not hold you back. What matters is your mental well being. Seek out a person who won’t judge you. You can contact [GCU](https://iittp.ac.in/gcu/) for any help you might need. No matter how silly you might initially think the issue is, reaching out is important. And FYI, nothing is silly.                                       
 
 

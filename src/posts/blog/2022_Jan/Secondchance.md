@@ -268,7 +268,7 @@ Go back in time! LOL, I probably will just run as far as possible from B.Tech an
 >
 >Someone, please get this person a time machine ASAP! I’m not going to the next piece until he changes his BTP today. No, I’m not moving until he does- Wait what? You don’t know who he is? You don’t know if he’s a he? You should’ve told me sooner, I thought that was an actual name!
 >
->Ahem… I apologize for getting distracted, dear reader, where was I? Please ignore the earlier text, there was an unexpected issue with the script. We really don’t have a time machine, I swear. Please don’t come after us, or fictional our time machine.
+>Ahem… I apologize for getting distracted, dear reader, where was I? Please ignore the earlier text, there was an unexpected issue with the script. We really don’t have a time machine, I swear. Please don’t come after us, or our fictional time machine.
 >
 >Anyway, moving on to the last response for today!
 

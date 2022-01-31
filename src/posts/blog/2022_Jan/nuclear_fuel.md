@@ -1,10 +1,10 @@
 ---
 title: "A Glimpse of Nuclear Fuel"
-category: "Op-ed"
+category: "Op-Ed"
 date: "2021-01-28 10:00:00 +09:00"
 desc: "Working at UCIL, Vipin Kumar Sharma is here to serve up a scoop of the nuclear fuel uranium, and its processing. Don't worry though, this won't give you any radiation exposure."
 thumbnail: "./images/fuel.jpg"
-authors: "Vipin Kumar Sharma"
+authors: "Vipin Kumar Sharma & Team Udaan"
 starred: "false"
 alt: "A Glimpse of Nuclear Fuel"
 ---
