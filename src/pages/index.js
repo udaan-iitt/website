@@ -145,6 +145,17 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          { currentEdition == "2022_Jan"&&
+            <Collapsible trigger="Editor's Note">
+              <p>Team Udaan brings to you yet another vibrant edition, the January 2022 edition of Udaan, the student-run online campus magazine, with a variety of content that we hope you’ll love. This edition marks 1 year of the inception of Udaan, and we are extremely grateful for all your support in making the student magazine a success!</p>
+              <p>Here’s a quick overview of the content in the magazine. This edition features more exciting <b>poems</b> and <b>stories</b> than any of our previous editions! We have beautiful poetry that makes you ponder life’s dilemmas, question the world, daydream about love, and appreciate the irreplaceable bond between mother and child. You can also find stories; one inspired by real-life, one situated on a battlefield, and one narrated by the non-human entity that we’re all too familiar with. In addition, there’s also a satirical but homely letter that you would enjoy reading!</p>
+              <p>Irrespective of what kind of content you prefer, you will certainly find the <b>Opinions and Editorial (Op-eds)</b> section interesting. An article talks about the pain of growing up, while another attempts to offer the student reader advice on understanding and dealing with quarter-life crises. We also have an article questioning the popular opinion on the concept of darkness and light, and an informative piece about Uranium in India.</p>
+              <p>As always, we have specially prepared exclusive pieces for this edition as well! Some 1st and 2nd years were keen on talking about the college experiences in the previous year, which we put together and prepared a compilation called <b>College Experiences</b>.</p>
+              <p>Some freshers had burning questions that they wanted answers to, and so we gave them. Presenting <b>Freshers’ Asked Questions (FAQ)</b>, a compilation that contains some vague, some elaborate, but all helpful answers to their questions.</p>
+              <p>We also had an intriguing idea of asking the final year students this question, “If I could go back in time and get a chance to do my B.Tech again, what would I change?”. We received more responses than we expected, and more elaborate responses than we imagined! We put those responses into <b>“A Second Chance?”</b>, a narrative by yet another fourth year.  </p>
+              <p>We at Team Udaan hope you all enjoy this edition. Happy reading!</p>
+            </Collapsible>
+          }
           { currentEdition == "2021_June"&&
             <Collapsible trigger="Editor's Note">
             <p>

@@ -2,7 +2,7 @@
 title: "दीदार -ए- जिंदगी"
 category: "Poetry"
 date: "2021-01-28 10:00:00 +09:00"
-desc: "A poem that describes life, it's challenges and a tackling approach."
+desc: "Join Abhishek in his ode to life and its challenges, with the spirit to prevail above it all."
 thumbnail: "./images/zindagi.jpg"
 authors: "Abhishek"
 starred: "false"
@@ -26,5 +26,5 @@ alt: "कहानी सो रही है"
 </p><br>
 
 <p style="text-align: center;align:center;">ए- जिंदगी राज तेरे गहरे कितने<br>
-हम सब बेनकाब लिखेंगें ... <br>
+<p style="text-align: center;align:center;">हम सब बेनकाब लिखेंगें ... <br>
 </p>

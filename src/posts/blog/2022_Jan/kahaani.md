@@ -2,13 +2,14 @@
 title: "कहानी सो रही है"
 category: "Poetry"
 date: "2021-01-28 10:00:00 +09:00"
-desc: "A poem describing how whatever path one chooses, the ultimate end result is same."
+desc: "“Two roads diverged in a yellow wood, and sorry i could not travel both”
+All of us ponder on the road not taken, but does it really matter if it all leads to the same?"
 thumbnail: "./images/kahaani.jpg"
 authors: "Amit Vikram Sharma"
 starred: "false"
 alt: "कहानी सो रही है"
 ---
-<p style="text-align: center;align:center;">दिनभर धूप में भागी हुई </p>
+<p style="text-align: center;align:center;">दिनभर धूप में भागी हुई <br>
 तो कोई सारी रात जागी हुई <br>
 कहानी सो रही है  <br>
 हर कहानी सो रही है| <br>

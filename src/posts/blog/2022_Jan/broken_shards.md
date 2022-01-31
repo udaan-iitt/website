@@ -2,7 +2,7 @@
 title: "Broken Shards"
 category: "Poetry"
 date: "2021-01-28 10:00:00 +09:00"
-desc: ""
+desc: "They say a broken heart never loves again, but does the longing for love ever truly die? "
 thumbnail: "./images/shards.jpg"
 authors: "Iftekhar Ahmed"
 starred: "false"

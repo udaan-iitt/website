@@ -2,12 +2,14 @@
 title: "Hiraeth"
 category: "Op-ed"
 date: "2021-01-28 10:00:00 +09:00"
-desc: "A deep homesickness; an intense form of longing or nostalgia for a place long gone, or even an unaccountable homesickness for a place you have never visited."
+desc: "“Growing up is the greatest dream of childhood and the greatest regret of adulthood”."
 thumbnail: "./images/growing.jpg"
 authors: "V Sathyanarayann"
 starred: "false"
 alt: "Hiraeth"
 ---
+
+***A deep homesickness; an intense form of longing or nostalgia for a place long gone, or even an unaccountable homesickness for a place you have never visited.***
 
 Why is growing up so dull? Where did all the colours go? Why does everything seem so washed out now than it was as a child? Where did the excitement go? Where did the innocent energy and enthusiasm go? Where is the child who was excited by the smallest of things? Where is the child who saw a much more vibrant world bustling with energy? Where is the child who had such silly dreams which brought such boundless joy? Where is the anticipation, for the next festival, for their birthday, for every single day? Where is the child who always looked forward to the next day? Who did not have a care in the world? Where did all that imagination go? Where did my childhood go and when? What went wrong?             
 

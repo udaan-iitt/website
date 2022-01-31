@@ -6,69 +6,43 @@ desc: "Inspired by actual events from the Israel-Gaza conflict, this fictional n
 thumbnail: "./images/breaking_down.jpg"
 authors: "S Ram Mohith"
 starred: "false"
-alt: "Myself a Pandemic"
+alt: "Breaking Down"
 ---
-I glanced at the clock next to my computer as I was about to complete my article and go for a break after a busy morning schedule. As a reporter and journalist, I know that the ending of an article is crucial as that is the part, people try to find the summary of the whole article, so I must be careful with them.    
+I glanced at the clock next to my computer as I was about to complete my article and go for a break after a busy morning schedule. As a reporter and journalist, I knew that the ending of an article is crucial, because that is the part where people try to find the summary of the entire thing, so I must be careful with them.
+As I was figuring out the words to be used and the content to be presented in the last paragraph, the ticking of the clock’s hand took me back 15-years, to early memories of our company. 
 
-I was figuring out the words to be used and the matter to be kept in the last paragraph, just when the ticking second's hand of the clock brought up 15-year old memories of my journey with our company back to me.         
+Back then, I was searching for a well-qualified job as a journalist and our country was undergoing an economic crisis. Many systems had collapsed, and there was a lot of unemployment among the youth and inexperienced. I believed that the media would not be affected by the situation but was quickly proven wrong as the media too had a sharp decline and the number of people who even read newspapers decreased significantly.
 
-Back at the time, when I was searching for an excellent job as a journalist, our country was undergoing an economic crisis. Many systems have collapsed, and there was a lot of unemployment among the youth and inexperienced. I believed that media could not be affected by the then situation but was quickly proven wrong as media too declined and newspaper readers decreased significantly.              
+I had no hopes of joining a big company. I began to search for whatever job I could get in the media to support my family. Just then, I ran into a small group of people intensely engaged in a discussion. They were all from different media companies, planning to start a news agency to improve the quality of news being put out. They had all decided to put in years' worth of savings to establish this company, that’s how invested they were!
 
-I had no hopes of joining some big company, so I began to search for whatever job I could get in the media to support my family. Just then, I came through a small band of people intensely engaged in a discussion. I went near them to get to know what was happening.                    
+I, too, was interested! But I had no money. However, my passion for journalism was evident, so they decided to take me in. With that began the journey of a passionate group of eleven who set out to achieve something that seemed impossible at that time: establish a news agency better than any other out there. None of us even dreamed that someday our very own company would become one of the biggest news agencies worldwide. 
 
-They were all from different media companies, planning to start a news agency to increase the quality of information and news at that time. As I have said earlier, the media declined due to the economic crisis. They all decided to give forward all their years of savings for setting up their company.                    
+Interestingly enough, we named our company as ‘The News Agency’. This, we thought, was a clever move as creating an excellent first impression is crucial to gaining the public's attention. I still remember writing articles in a small, practically abandoned community hall with a couple of computers (for writing and getting some images) and lots of empty papers.
 
-Seeing my pity condition and enthusiasm for journalism, they agreed to include me in their team. So, a group of 11 members set out to achieve something that seemed impossible at that time, even though they didn’t imagine that their dream of becoming a top news agency would come true one day.                      
+At the start, we didn’t have the budget to print an entire, big newspaper. So, we designed our newspaper as a pamphlet. We wrote it on the computer, went to the nearest printing shop, and printed several copies, the number of copies varying every day, depending on how much we could sell.
 
-Interestingly we have named our company as the News Agency itself. This, we figured out, is a clever move since creating an excellent first impression is crucial to gain the public's attention. I still remember writing articles in a small, practically abandoned community hall with a couple of computers (for writing and getting some images) and lots of empty papers.                    
+We hadn’t gotten any other employees then, so we distributed these short newspapers, or as we called them, newsletters ourselves. We only limited our distribution to three or four colonies in the beginning, we only had so many resources. Every day, some of us would take up this job of distributing, while others were out collecting local news. In the beginning, the sale of our newsletters was free, more or less like a promotion. Our major source of funding came from donations. Our hard work and quality content was well appreciated, and we got quite a few donations. More importantly though, we gained the locals' attention.
 
-At the start our budget wasn't enough for printing newspapers. So, we practically designed our newspapers like pamphlet sheets. We used to write them on the computer, then go to the nearest printing shop and get them printed several copies, the number of copies variable and changing every day.                       
+As the donations increased, we set up a professional media company. We collaborated with a paper provider and a printing service. Everything changed, we went from distributing in small colonies to the whole of the city, from pamphlet-sized newsletters to an actual newspaper, from free promotions to a paid service with door to door delivery, from a group of 11 people to around 50 including writers, editors, sales executives, and paper carriers.
 
-We still didn’t contact any workers, so we ourselves distributed these short newspapers, or better we call them newsletters. We only limited our distribution to three or four colonies in the beginning. Every day, some of us took up this job of distributing, batch-wise, and collecting local news.                           
+We kept accepting donations for another year after that. After a couple of years more, our country ultimately came out of the economic crisis, which was just the push we needed to grow and expand even more.
 
-The starting sale of newsletters was practically free, a type of promotion. Anyways, we used to ask for donations for establishing our company. Due to our genuine hard work and exciting content, we quickly got donations, and more importantly, we have gained the public's attention, although locally.                       
+We started our web platform, which looking back, was one of the most significant and effective steps in our company’s growth. The internet was rapidly getting popular at that time, and we were one of the very few who grabbed the early seat and started publishing news online.
 
-With an increase in donations, we are now established in the budget. We have made contacts with a paper provider and a printing service. Everything started to change from supplying colonies to the whole of the city, from pamphlet-sized newsletter to an actual newspaper, from free promotions to a paid service with door delivery, from a group of 11 people to around 50 including writers, editors, sales executives, and paper carriers.                    
+This online platform allowed us to connect and share our newspapers with many people, both in our country and internationally. We expanded to more and more cities, and in five years we became one of the top news agencies in our country. Our headquarters was now a very well-established building supported by the government, as it housed a few government agencies as well. After observing our increasing popularity, we constantly got threatened by big media companies with offers to join and merge with their company. However, all of us were clear that we wanted none of it. Over time, we had grown from colleagues to family, serving the people and changing their outlook on life with our news agency. The original band of 11, including me, are now all editors-in-chief, with one of us stepping up as the chairperson.
 
-We accepted donations only for another year more, as they have decreased gradually. But that didn’t mean a lot. After a couple of years more, our country ultimately came out of its economic crisis, which gave us an excellent boost to expand our company.                     
+Lost in these memories, the panicked voice of our chairperson brought me back to life. He was rushing towards us, phone in hand. In between labored breaths, he told us what he had just been informed of. Our building was soon going to be under attack by our neighboring country.
 
-We have started our web platform, one of our most significant and most effective steps ever taken. The main reason is that the internet was rapidly increasing at that time, and we are one of the fewest to start publishing news online.             
+We were well aware of the ongoing war between our country and the neighboring one owing to a land dispute on the borders. A place in the plateau present in both countries was identified as extremely well suited for setting up powerful telescopes and radars to dive into the depths of our universe. When the plateau caught the eyes of the public on an international level, arguments stirred between the countries as each set forth their claim to the region. War was soon declared and soldiers at the border of both countries fought for a whole night, resulting in many casualties on both sides.
 
-This online platform allowed us to connect and share our news with many people in our country and internationally. Also, we have started increasing our publications in many other cities as well.                       
+This dispute had us even more worried, as the opponent had a more substantial and sophisticated military base than ours. They were at an advantage. Then why attack our building? Was it because we housed some government offices, or was it a message to silence the media, to control and regulate the information and news circulated across our country? We would never know.
 
-And in five more years, we have become one of the top news agencies in our country. Our headquarters was now a very well-established building supported by the government and housing a couple more government offices in the same city where we started our journey.                                
+We were still in shock and fighting with our thoughts when our chairperson announced we only had 10 minutes left. People started rushing out. I went back, quickly uploaded by work to the cloud, grabbed a few belongings and joined the crowd trying to escape in time.
 
-During our journey for the first ten years, we got threatened by some big media companies asking us to join and merge in their company, maybe on seeing our increasing popularity. But all of our crew stood one leaf and strictly opposed them, bravely and unitedly. Also, on having people’s support, they didn’t dare to intend any harm to us. We are no more colleagues but a part of a family, serving the people and protecting them by providing information and changing their ways of life.                
+In a few minutes, the entire building was evacuated. At that moment, all I could hear were hearts beating faster, praying for the news to be fake. Just then, we saw a missile piercing through the sky with incredible speed, incoming towards the building. The missile struck the building, and in a matter of seconds it was all gone, the building, our office…all was debris. I stood motionless there, witnessing this scene of destruction, one which I hope no one has to experience.
 
-We used to have regular chats, both formal and off-topic. We used to help each other and occasionally went for picnics. The original band of 11, including me, are now the editors in chief, and one of them acting as a chairperson.                  
+My heart was filled with grief, and I wanted to cry out loud. It was not just the office, it felt as if our 15 years of hard work had collapsed right before our eyes. We had all our data on the cloud, and we still had other resources. We could easily start again. But none of that mattered, at that moment it felt like all was gone.
 
-As I was immersed in these memories, the panicking voice of our chairman brought me back to life. He was rushing towards us, carrying a phone. To the extreme shock of all, he announced, breathing heavily, that he had got a call from officials that our neighbouring country would attack the building.               
+It’s kind of ironic that this article I was working on, just before the strike, analyzed how much destruction the war had done to our country. You know, now that I realize it, I had always just written articles without ever feeling personally affected by it. Now, that article had a whole another meaning to it. 
 
-Recently a war broke out between our country and the neighbouring one owing to a land dispute on the borders. A place in the plateau present in both countries was identified as the most suitable place for setting up powerful telescopes and radars to discover the depths of our universe.                    
-
-So instantly this has gotten an intense demand on the international level, thus increasing arguments between both the countries that the region belongs to them. War was declared when soldiers at the border of both countries went on with a fight for a whole night, resulting in the death of many on both sides.                 
-
-The bitterness between our neighbouring countries will not do any good for us as the opponent had a more substantial and sophisticated military base than ours. To disturb the information and news circulated across our country, our neighbouring country has planned to destroy various news channel headquarters.                       
-
-And being a popular one, our company was the first one to be attacked. We weren’t still back to our senses as our chairperson said we had only 10 minutes left. That has sparked a chill in the staff as they quickly grabbed their belongings on their tables and set out on lift or stairs whatever is possible.                
-
-I quickly went to my table, uploaded my work to the cloud, picked up my belongings, and kept them in my bag. And I quickly ran to the cellar finding only a few vehicles. Most of them have left the building by now and moved towards a safer place.                
-
-I went to my car and drove to a place further where all my colleagues had gathered.                   
-
-After a couple of minutes, the whole building was evacuated completely. With my heart beating faster than my breathing, everyone present there, including me, is praying for the news to be fake.                      
-
-Just then, we saw a missile piercing through the sky with incredible speed is incoming towards the building.             
-
-The missile struck the building, collapsing into debris; everything happened in a matter of seconds. I have stood motionless there, witnessing the scene of destruction, which I only have seen in movies and not in real life and never intended to see.              
-
-With my heart filled with grief and tears rolling in my eyes, I just wanted to cry out loud. It felt like the collapse of 15-year hard work by our team, although it hasn’t since all our company data and employees’ profiles are backed up to the cloud, and the building has insurance as it is a government one.                          
-
-The article I was writing before this incident analyses how much destruction and deaths the war has done to our country. I just wrote it without ever being affected by any destruction or fatalities when I was writing it. But now, I am feeling it heavily inside me. A quote stated by an anonymous person just flew by my mind,*“Death and destruction are just numbers until it is connected to you.”*                            
-
-I realized how actual this quote is. We show random sympathy towards someone or something until we are not affected by it. The real pain is felt by you only if you lose something to which you are connected. My colleagues and I felt the same ‘real pain.’                           
-
-We have just lost something, which is an outcome of our years of hard work and dedication. Our all faces are covered with dust from the debris, as is our heart surrounded with grief.                      
-
-The desk that has shaped Robin’s career and life is now no more.        
-
+Long after the dust had settled, we still stood there, motionless, with heavy hearts. Our profession was never going to be the same again.
