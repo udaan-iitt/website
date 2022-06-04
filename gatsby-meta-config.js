@@ -6,7 +6,7 @@ module.exports = {
   lang: 'en',
   utterances: 'NobleMathews/background',
   links: {
-    submissions: 'https://forms.gle/7jSscUr4fidnxYREA',
+    submissions: 'https://forms.gle/DkLxhH4D8SzgrrfS9',
   },
   icon: 'src/images/icon.png',
 };
