@@ -30,7 +30,7 @@ export const newsletter = [
     key: 'krithi',
     email:'ee20b038@iittp.ac.in',
     title: 'Krithi Shailya',
-    link: 'mailto:ee20b038@iittp.ac.in'
+    link: 'https://www.linkedin.com/in/krithi-shailya-443758215'
   },
   {
     key: 'sneha',
@@ -51,16 +51,64 @@ export const newsletter = [
     link: 'mailto:ee20b046@iittp.ac.in'
   },
   {
+    key: 'battula',
+    email:'me21b045@iittp.ac.in',
+    title: 'Sneha Battula',
+    link: 'mailto:me21b045@iittp.ac.in'
+  },
+  {
     key: 'preethi',
     email:'cs20b030@iittp.ac.in',
     title: 'Preethi Varsha Marivina',
     link: 'https://www.linkedin.com/in/preethi-varsha-70211b210'
   },
   {
+    key: 'kranthi',
+    email:'cs19b036@iittp.ac.in',
+    title: 'Kranthi Sedamaki',
+    link: 'https://www.linkedin.com/in/ganesh-priyatham-palivela-abb599229'
+  },
+  {
+    key: 'sirish',
+    email:'cs20b043@iittp.ac.in',
+    title: 'Sirish',
+    link: 'https://www.linkedin.com/in/sirish-sekhar-6896b51a7/'
+  },
+  {
     key: 'mohith',
     email:'ch20b021@iittp.ac.in',
     title: 'Ram Mohith',
-    link: 'mailto:ee19b035@iittp.ac.in'
+    link: 'https://www.linkedin.com/in/ram-mohith-223386218'
+  },
+  {
+    key: 'swathi',
+    email:'ce20b010@iittp.ac.in',
+    title: 'Swathi',
+    link: 'https://www.linkedin.com/in/swathi-gummadi-67826a226/'
+  },
+  {
+    key: 'sachin',
+    email:'cs20b034@iittp.ac.in',
+    title: 'Sachin Kumar Sahu',
+    link: 'https://www.linkedin.com/in/sachin431/'
+  },
+  {
+    key: 'mathew',
+    email:'cs20b021@iittp.ac.in',
+    title: 'Mathew KJ',
+    link: 'https://www.linkedin.com/in/mathew-k-j-81957623b/'
+  },
+  {
+    key: 'ganesh',
+    email:'cs20b026@iittp.ac.in',
+    title: 'Ganesh Priyatham',
+    link: 'https://www.linkedin.com/in/ganesh-priyatham-palivela-abb599229'
+  },
+  {
+    key: 'saurabh',
+    email:'cs20b038@iittp.ac.in',
+    title: 'Saurabh Kumar',
+    link: 'https://www.linkedin.com/in/ganesh-priyatham-palivela-abb599229'
   }
 ]
 
