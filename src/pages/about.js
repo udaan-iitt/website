@@ -1,78 +1,131 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
+import { ACTIVE } from 'constants/constants';
 import { rhythm } from 'styles/typography';
-import {members, newsletter} from '../data'
+import { members, newsletter } from '../data';
 import Image from '../components/imager';
+import { initial } from 'lodash';
 
+const isActive = ({ href }) => {
+  let takeMe = href.split('/');
+  // let iAmAt = location.pathname.split('/');
+  // if(takeMe[1])
+  // return takeMe[1]==iAmAt[1]? { id: ACTIVE, tabIndex: -1 }:{};
+  // else
+  return takeMe[1] == currented ? { id: ACTIVE, tabIndex: -1 } : {};
+};
 const About = () => {
-
   return (
     <Layout>
       <SEO title="About" />
       <FadeIn>
-      <Container
-        rhythm={rhythm}
-      >
-      <h1 style={{textAlign:"center"}}><b>About the Newsletter</b></h1>
-      <h4 style={{textAlign:"center",paddingTop:"10px", paddingBottom:"10px", opacity:"0.6"}}>The first student-run campus newsletter of Indian Institute of Technology, Tirupati</h4>
-
-      We initially envisioned Udaan as a record of all student activities in the institute, but it turned out to be much more than that. Active participation from many talented people helped us gather a wide variety of content. The poems, articles, stories, reviews we have received for Udaan in its first edition shows us its potential to become the epicenter for student-made literary work. But a closer look at this content tells us something more. There were original thoughts, opinions, and most importantly, questions, concealed within words in plain sight, a brief exposure to what Udaan can grow to be.
-      <br/>
-      <br/>
-      <b>Our Vision: </b>
-
-      <ul>
-        <li>To evolve as a record of student experiences and activities within our institute.</li>
-        <li>To encourage writing and become the center for all kinds of student-made literary work.</li>
-        <li>To become a platform that enables students to constructively discuss and come up with optimal solutions to various problems within our institute.</li>
-      </ul>
-      You may submit your entries for the next edition of the newsletter by clicking on the <b>"Get Featured !"</b> link at the top right of the page.
-      <br/>
-      <br/>
-
-      <b>If you have any comments, suggestions, improvements, ideas for different kinds of content or any other sort of feedback, please feel free to share them with us and help us improve the newsletter!</b>
-      <br/>
-      <br/>
-      <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfJPjmIgl1PFEjr1GQI5IVlg76W83Hn79Xmyo6LeiQ4Zt7jDw/viewform?usp=sf_link">Link to feedback form</a>
-      <br/>
-      <h2>Newsletter Committee</h2>
-      <hr/>
-      <>
-        <div className="img-grid lab-member">
-        {newsletter.map((member) => (
-          <figure key={Math.random()} className="figure">
-            <a
-              href={`${member.link}`}
-              target="_blank"
-              referrerPolicy="no-referrer"
-            >
-            <div className="img-wrap">
-              <Image
-                // className="rounded"
-                filename={member.key}
-                />
+        <Container rhythm={rhythm}>
+          <h1 style={{ textAlign: 'center' }}>
+            <b>About the Newsletter</b>
+          </h1>
+          <h4
+            style={{
+              textAlign: 'center',
+              paddingTop: '10px',
+              paddingBottom: '10px',
+              opacity: '0.6',
+            }}
+          >
+            The first student-run campus newsletter of Indian Institute of
+            Technology, Tirupati
+          </h4>
+          We initially envisioned Udaan as a record of all student activities in
+          the institute, but it turned out to be much more than that. Active
+          participation from many talented people helped us gather a wide
+          variety of content. The poems, articles, stories, reviews we have
+          received for Udaan in its first edition shows us its potential to
+          become the epicenter for student-made literary work. But a closer look
+          at this content tells us something more. There were original thoughts,
+          opinions, and most importantly, questions, concealed within words in
+          plain sight, a brief exposure to what Udaan can grow to be.
+          <br />
+          <br />
+          <b>Our Vision: </b>
+          <ul>
+            <li>
+              To evolve as a record of student experiences and activities within
+              our institute.
+            </li>
+            <li>
+              To encourage writing and become the center for all kinds of
+              student-made literary work.
+            </li>
+            <li>
+              To become a platform that enables students to constructively
+              discuss and come up with optimal solutions to various problems
+              within our institute.
+            </li>
+          </ul>
+          You may submit your entries for the next edition of the newsletter by
+          clicking on the <b>"Get Featured !"</b> link at the top right of the
+          page.
+          <br />
+          <br />
+          <b>
+            If you have any comments, suggestions, improvements, ideas for
+            different kinds of content or any other sort of feedback, please
+            feel free to share them with us and help us improve the newsletter!
+          </b>
+          <br />
+          <br />
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfJPjmIgl1PFEjr1GQI5IVlg76W83Hn79Xmyo6LeiQ4Zt7jDw/viewform?usp=sf_link"
+          >
+            Link to feedback form
+          </a>
+          <br />
+          <h2>Newsletter Committee</h2>
+          <hr />
+          <>
+            <div className="img-grid lab-member">
+              {newsletter.map((member) => (
+                <figure key={Math.random()} className="figure">
+                  <a
+                    href={`${member.link}`}
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                  >
+                    <div className="img-wrap">
+                      <Image
+                        // className="rounded"
+                        filename={member.key}
+                      />
+                    </div>
+                  </a>
+                  <figcaption
+                    style={{
+                      padding: '0px',
+                      textAlign: 'center',
+                      paddingTop: '10px',
+                    }}
+                    className="figure-caption text-center"
+                  >
+                    <a
+                      href={`mailto:${member.email}`}
+                      target="_blank"
+                      referrerPolicy="no-referrer"
+                    >
+                      <b>{member.title}</b>
+                    </a>
+                    <br />
+                    {/* <p style={{textAlign:"center",fontWeight:"bold",fontSize:"small!important",margin:"0px"}}>{member.pos}</p> */}
+                  </figcaption>
+                </figure>
+              ))}
             </div>
-            </a>
-            <figcaption style={{padding:"0px",textAlign:"center",paddingTop:"10px"}} className="figure-caption text-center">
-              <a
-                href={`mailto:${member.email}`}
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-              <b>{member.title}</b>
-              </a>
-              <br/>
-              {/* <p style={{textAlign:"center",fontWeight:"bold",fontSize:"small!important",margin:"0px"}}>{member.pos}</p> */}
-            </figcaption>
-          </figure>
-        ))}
-        </div>
-      </>
-      {/* <h2>Literary Affairs Council 2020</h2>
+          </>
+          {/* <h2>Literary Affairs Council 2020</h2>
       <hr/>
       <>
         <div className="img-grid lab-member">
@@ -104,11 +157,40 @@ const About = () => {
         ))}
         </div>
       </> */}
-      </Container>
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSeVXEGB_Kp_q7ZmUmkL3W5JPUNRv77jrvL6GMqlCcpP-N1inw/viewform"
+            target="_blank"
+          >
+            <Button>join us</Button>
+          </form>
+        </Container>
       </FadeIn>
     </Layout>
   );
 };
+
+const Button = styled.button`
+  all: initial;
+  cursor: pointer;
+  display: block;
+  float: right;
+  background-color: var(--color-blue);
+  padding: var(--sizing-sm) var(--sizing-base);
+  color: var(--color-white);
+  border-radius: var(--border-radius-base);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-semi-bold);
+  width: max-content;
+  textdecoration: none;
+
+  :focus {
+    outline: none;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
 
 const Container = styled(Markdown).attrs({
   as: 'main',
@@ -189,6 +271,7 @@ figure:hover .img-wrap{
 p{
   font-size:smaller
 }
+
 /* Grid changes again on larger screens: */
 @media screen and (min-width: 1000px) {
   
