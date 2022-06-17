@@ -1,0 +1,3 @@
+[submodule "src/posts/editions"]
+	path = src/posts/editions
+	url = https://github.com/NobleMathews/udaan_editions
