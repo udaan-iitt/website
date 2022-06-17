@@ -47,7 +47,9 @@ const Home = ({ pageContext, data }) => {
   const postData = arr1.concat(arr2);
 
   var editions = postData.map(function (el) {return el.node.fields.slug.split('/')[2]; });
+  editions = editions.filter(e => !e.endsWith("Test"));
   let alleditions = naturalSort([...new Set(editions)]);
+  alleditions.indexOf("All") === -1 ? alleditions.push("All") : console.log("Unexpected mod to alleditions");
   const [posts, setPosts] = useState([]);
   const [old_posts, setOldPosts] = useState([]);
   const [search, setSearch] = useState("");
@@ -81,7 +83,7 @@ const Home = ({ pageContext, data }) => {
     
     let filteredPostData = currentCategory
       ? postData.filter(
-          ({ node }) => {return (node.frontmatter.category === currentCategory || currentCategory === "All") && node.fields.slug.split('/')[2] == currentEdition}
+          ({ node }) => {return (node.frontmatter.category === currentCategory || currentCategory === "All") && (node.fields.slug.split('/')[2] == currentEdition || currentEdition === "All")}
         )
       : postData;
     filteredPostData.sort((a, b) => {
@@ -234,7 +236,7 @@ const PostTitle = styled.h2`
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
+      filter: { fileAbsolutePath: { regex: "/(posts/editions)/" } }
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
