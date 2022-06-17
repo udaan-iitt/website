@@ -44,7 +44,8 @@ const Home = ({ pageContext, data }) => {
 
   const arr1 = data.allMdx.edges;
   const arr2 = data.allMarkdownRemark.edges;
-  const postData = arr1.concat(arr2);
+  const unfiltered = arr1.concat(arr2);
+  var postData = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
 
   var editions = postData.map(function (el) {return el.node.fields.slug.split('/')[2]; });
   editions = editions.filter(e => !e.endsWith("Test"));

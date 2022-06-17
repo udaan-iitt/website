@@ -94,8 +94,8 @@ exports.createPages = async ({ graphql, actions }) => {
   }
   `);
 
-  const posts = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
-
+  const unfiltered = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
+  var posts = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
