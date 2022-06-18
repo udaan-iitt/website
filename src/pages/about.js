@@ -150,7 +150,7 @@ const About = () => {
             action="https://docs.google.com/forms/d/e/1FAIpQLSeVXEGB_Kp_q7ZmUmkL3W5JPUNRv77jrvL6GMqlCcpP-N1inw/viewform"
             target="_blank"
           >
-            <Button>join us</Button>
+            <Button>JOIN US !</Button>
           </form>
         </Container>
       </FadeIn>
@@ -164,11 +164,15 @@ const Button = styled.button`
   display: block;
   float: right;
   background-color: var(--color-blue);
+  margin-top: 10px;
   padding: var(--sizing-sm) var(--sizing-base);
   color: var(--color-white);
   border-radius: var(--border-radius-base);
   font-size: 0.875rem;
-  font-weight: var(--font-weight-semi-bold);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: bold;
   width: max-content;
   textdecoration: none;
 
