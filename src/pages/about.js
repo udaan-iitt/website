@@ -147,7 +147,7 @@ const About = () => {
         </div>
       </> */}
           <form
-            action="https://docs.google.com/forms/d/e/1FAIpQLSeVXEGB_Kp_q7ZmUmkL3W5JPUNRv77jrvL6GMqlCcpP-N1inw/viewform"
+            action="https://forms.gle/SxQW7d9JikxRsV1s8"
             target="_blank"
           >
             <Button>JOIN US !</Button>
