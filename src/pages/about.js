@@ -15,7 +15,7 @@ const About = () => {
       <FadeIn>
         <Container rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
-            <b>About the Newsletter</b>
+            <b>About UDAAN</b>
           </h1>
           <h4
             style={{
@@ -74,7 +74,13 @@ const About = () => {
             Link to feedback form
           </a>
           <br />
-          <h2>Newsletter Committee</h2>
+          <form
+            action="https://forms.gle/SxQW7d9JikxRsV1s8"
+            target="_blank"
+          >
+            <Button>JOIN US !</Button>
+          </form>
+          <h2>Team UDAAN</h2>
           <hr />
           <>
             <div className="img-grid lab-member">
@@ -146,12 +152,6 @@ const About = () => {
         ))}
         </div>
       </> */}
-          <form
-            action="https://forms.gle/SxQW7d9JikxRsV1s8"
-            target="_blank"
-          >
-            <Button>JOIN US !</Button>
-          </form>
         </Container>
       </FadeIn>
     </Layout>
