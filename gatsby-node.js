@@ -2,6 +2,32 @@ const path = require(`path`);
 const _ = require('lodash');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const express= require('express');
+const { attachFields } = require(`gatsby-plugin-node-fields`)
+const fs = require('fs');
+
+const fixPath = (slug, value) => {
+  if (fs.existsSync(path.join(path.resolve("."), 'src', 'posts', 'editions', slug.split("/")[2], value))) {
+    return value
+  }
+  else{
+    return "../2077_Test/broken.jpg"
+  }
+}
+
+const descriptors = [
+  {
+    predicate: node => node.internal.type === "MarkdownRemark" || node.internal.type === "Mdx",
+    fields: [
+      {
+        name: "thumbnail",
+        getter: node => node.frontmatter.thumbnail,
+        defaultValue: "../2077_Test/broken.jpg",
+        transformer: (value, node) =>
+          value == null || value == "" ? "../2077_Test/broken.jpg" : fixPath(node.fields.slug, value),
+      },
+    ],
+  },
+]
 
 exports.onCreateDevServer=({app})=>{
     app.use(express.static('public'))
@@ -24,6 +50,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     });
   }
+  attachFields(node, actions, getNode, descriptors)
 };
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -93,7 +120,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
   }
   `);
-
   const unfiltered = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
   var posts = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
   posts.forEach(({ node }) => {
