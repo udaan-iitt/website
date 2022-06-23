@@ -82,7 +82,7 @@ exports.createPages = async ({ graphql, actions }) => {
     allDirectory(
       filter: {
         sourceInstanceName: { eq: "src" }
-          relativeDirectory: { eq: "posts/blog" }
+          relativeDirectory: { eq: "posts/editions" }
       }
     ) {
       edges {
@@ -94,8 +94,8 @@ exports.createPages = async ({ graphql, actions }) => {
   }
   `);
 
-  const posts = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
-
+  const unfiltered = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
+  var posts = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -116,7 +116,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // modCat = categories.push("Creative");
   categories.push({fieldValue:"All"});
   var editions = await editionQuery.data.allDirectory.edges.map(function (el) {return el.node.name; });
-
+  editions.push("All");
   editions.forEach((ed) =>{
     categories.forEach((category) => {
       if(category.fieldValue)
