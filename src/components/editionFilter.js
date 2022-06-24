@@ -97,7 +97,7 @@ const CategoryTitle = styled.em`
   height: auto;
   clip: auto;
   white-space: auto;
-
+  padding-right: 10px;
   flex-shrink: 0;
   font-size: var(--text-base);
   font-weight: var(--font-weight-semi-bold);
