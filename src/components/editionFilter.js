@@ -8,7 +8,7 @@ import CategoryFilter from './categoryFilter';
 
 const EditionFilter = ({ editionList, categoryList, currented }) => {
   const categoryRef = useRef(null);
-  // const ALL_CATEGORY_NAME = 'All';
+  const ALL_CATEGORY_NAME = 'All';
   const isActive = ({ href }) =>{
     let takeMe = href.split('/');
     // let iAmAt = location.pathname.split('/');
@@ -25,14 +25,16 @@ const EditionFilter = ({ editionList, categoryList, currented }) => {
     <>
     <Nav aria-label="Edition Filter">
       {/* */}
-      {/* <CategoryButton getProps={isActive} to="/">
+      <CategoryTitle>Editions :</CategoryTitle> 
+      <CategoryButton getProps={isActive} to="/All/category/all/">
         {ALL_CATEGORY_NAME}
       </CategoryButton>
-       */}
-       <CategoryTitle>Editions :</CategoryTitle> 
-       <Divider />
+      <Divider />
       <CategoryUl ref={categoryRef} className="invisible-scrollbar">
         {editionList
+          .filter(function(item) {
+            return item !== "All"
+          })
           .map((category) => {
             const fieldValue = category;
             if ([].includes(fieldValue))
@@ -95,7 +97,7 @@ const CategoryTitle = styled.em`
   height: auto;
   clip: auto;
   white-space: auto;
-
+  padding-right: 10px;
   flex-shrink: 0;
   font-size: var(--text-base);
   font-weight: var(--font-weight-semi-bold);
