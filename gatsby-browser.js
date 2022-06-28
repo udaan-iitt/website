@@ -2,12 +2,13 @@
 // export const onServiceWorkerUpdateReady = () => window.location.reload();
 
 export const onServiceWorkerUpdateReady = () => {
-    const answer = window.confirm(
-      `UDAAN has had a new update!` +
-        `Reload to display the latest version?`
-    )
+    // const answer = window.confirm(
+    //   `UDAAN has had a new update! ` +
+    //     `Reload to display the latest version?`
+    // )
   
-    if (answer === true)  window.location.reload()
+    // if (answer === true)  window.location.reload()
+    window.location.reload();
 }
 
 export const onRouteUpdate = () => {
