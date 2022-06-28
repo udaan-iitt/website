@@ -156,6 +156,72 @@ const InnerWrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     width: 87.5%;
   }
+
+  details {
+    margin: 1rem auto;
+    padding: 0 1rem;
+    width: 35em;
+    max-width: calc(100% - 2rem);
+    position: relative;
+    border: 1px solid var(--color-highlight);
+    border-radius: 6px;
+    background-color: var(--color-card);
+    color: var(--color-text);
+    transition: background-color 0.15s;
+  }
+  details > :last-child {
+    margin-bottom: 1rem;
+  }
+  details::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    opacity: 0.15;
+    box-shadow: 0 0.25em 0.5em var(--color-highlight);
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: -1;
+  }
+  details[open] {
+    background-color: var(--color-card);
+  }
+  details[open]::before {
+    opacity: 0.6;
+  }
+  
+  summary {
+    padding: 1rem 2em 1rem 0;
+    display: block;
+    position: relative;
+    font-size: 1.33em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  summary::before, summary::after {
+    width: 0.75em;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: "";
+    background-color: currentColor;
+    text-align: right;
+    transform: translateY(-50%);
+    transition: transform 0.2s ease-in-out;
+  }
+  summary::after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+  [open] summary::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
 `;
 
 const CommentWrap = styled.section`
