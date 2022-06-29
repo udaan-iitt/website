@@ -148,7 +148,7 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
-          {currentEdition == "2022_Jan"&&
+          {currentEdition == "2022_June"&&
             <Collapsible trigger="Editor's Note">
             <p>Welcome to our humble abode! We are proud to present to you the fifth edition of Udaan, the student-run magazine of IIT Tirupati.</p>
             <p><em>Jupiter and Venus. How unjust their fates&#8230;</em></p>
