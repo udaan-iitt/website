@@ -148,6 +148,15 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          {currentEdition == "2022_Jan"&&
+            <Collapsible trigger="Editor's Note">
+            <p>Welcome to our humble abode! We are proud to present to you the fifth edition of Udaan, the student-run magazine of IIT Tirupati.</p>
+            <p><em>Jupiter and Venus. How unjust their fates&#8230;</em></p>
+            <p>In this edition, we bring you poetry bigger than most hearts can hold, heart-wrenching, deeply moving, yet delightful stories, and interesting musings on &lsquo;illegal numbers&rsquo;, &lsquo;taking to the kitchen&rsquo;, and &lsquo;chilling advertisements&rsquo;. We also bring you colourful testimonies of the student and club activities from the previous academic year, that you can find in the <em>Campus News</em> section, along with a very <em>interesting</em> faculty interview that you definitely want to check out!</p>
+            <p>Starred as edition specials are three exquisite pieces. In &lsquo;The Puppet Show&rsquo;, you will find a heartfelt token of appreciation and recognition for the student secretaries and club coordinators of the 2021-22 academic year, but with a complementary comical take, courtesy of the creative team at Udaan! We also went investigating deep into the momentous phenomenon of <em>Tirutsava</em>, the annual techno-cultural fest of IIT Tirupati, and put together an uncut and authentic correspondence of what exactly happens &lsquo;behind the scenes&rsquo;, directly from the heads of the organising committees. And finally, in what is one of our most significant initiatives, is a &lsquo;<em>Pride</em> 101&rsquo; guide that should be a 10-minute, intriguing, informative, and &lsquo;aha!-moment&rsquo; read, on Pride, what we should know about it, and why we need it.</p>
+            <p>A special word of thanks goes out to all those who contributed to this edition. We wouldn&rsquo;t be here without you. We hope you enjoy reading this edition!</p>
+            </Collapsible>
+          }
           { currentEdition == "2022_Jan"&&
             <Collapsible trigger="Editor's Note">
               <p>Team Udaan brings to you yet another vibrant edition, the January 2022 edition of Udaan, the student-run online campus magazine, with a variety of content that we hope you’ll love. This edition marks 1 year of the inception of Udaan, and we are extremely grateful for all your support in making the student magazine a success!</p>
