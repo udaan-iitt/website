@@ -16,9 +16,9 @@ export const newsletter = [
   },
   {
     key: 'shreyansh',
-    email:'cs18b042@iittp.ac.in',
+    email: 'cs18b042@iittp.ac.in',
     title: 'Shreyansh Mehra',
-    link:'https://www.linkedin.com/in/shreyansh-mehra/' 
+    link: 'https://www.linkedin.com/in/shreyansh-mehra/',
   },
   {
     key: 'debeshee',
@@ -114,14 +114,18 @@ export const newsletter = [
 export const pastmembers = [
   {
     key: 'prabhat',
-    email: 'literarysec@iittp.ac.in',
     title: 'Prabhat Reddy',
+    nickName: 'pace577',
+    role: 'Team Udaan trailblazer and pace setter',
+    year: '2021-22',
     link: 'mailto:literarysec@iittp.ac.in',
   },
   {
     key: 'shreyansh',
-    email: 'cs18b042@iittp.ac.in',
     title: 'Shreyansh Mehra',
+    nickName: 'pace577',
+    role: 'Team Udaan trailblazer and pace setter',
+    year: '2021-22',
     link: 'https://www.linkedin.com/in/shreyansh-mehra/',
   },
 ];
