@@ -1,6 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 import { StaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 const Image = (props) => (
   <StaticQuery
@@ -52,6 +53,12 @@ const Card = (props) => {
         width: 'auto',
         marginBottom: '20px',
         alignItems: 'stretch',
+        backgroundColor: 'var(--color-card)',
+
+        cursor: 'pointer',
+      }}
+      onClick={() => {
+        window.open(props.link, '_blank');
       }}
     >
       <div
@@ -80,7 +87,7 @@ const Card = (props) => {
           justifyContent: 'start',
         }}
       >
-        <p>
+        <Para>
           <h2>{props.name}</h2>
 
           <p>
@@ -88,10 +95,17 @@ const Card = (props) => {
             <h4>{props.role}</h4>
             <h4>{props.year}</h4>
           </p>
-        </p>
+        </Para>
       </div>
     </div>
   );
 };
 
 export default Card;
+
+const Para = styled.p`
+  * {
+    color: 'var(--color-text)';
+    font-weight: bold;
+  }
+`;

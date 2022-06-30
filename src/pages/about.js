@@ -20,10 +20,11 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    // autoplay: true,
-    // speed: 2000,
-    // autoplaySpeed: 2000,
-    // cssEase: 'linear',
+
+    autoplay: true,
+    // speed: 4000,
+    autoplaySpeed: 4000,
+    cssEase: 'linear',
   };
 
   return (
@@ -148,6 +149,7 @@ const About = () => {
                       role={member.role}
                       year={member.year}
                       img={member.key}
+                      link={member.link}
                     />
                   </div>
                 );
