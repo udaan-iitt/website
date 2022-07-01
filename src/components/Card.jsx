@@ -64,13 +64,13 @@ const Card = (props) => {
       <div
         style={{
           margin: '20px',
-          paddingTop: '40px',
+          paddingTop: '45px',
           height: 'auto',
           justifyContent: 'center',
           alignItems: 'center',
         }}
       >
-        <div style={{ width: '180px', height: '100px' }}>
+        <div style={{ width: '138.5px', height: '138.5px' }}>
           <figure key={Math.random()} className="figure">
             <div className="img-wrap">
               <Image filename={props.img} />
@@ -90,7 +90,7 @@ const Card = (props) => {
         <Para>
           <h2>{props.name}</h2>
 
-          <p>
+          <p style={{ marginTop: '-15px' }}>
             <h3>{props.nickName}</h3>
             <h4>{props.role}</h4>
             <h4>{props.year}</h4>

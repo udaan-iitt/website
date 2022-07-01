@@ -23,7 +23,7 @@ const About = () => {
 
     autoplay: true,
     // speed: 4000,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 1500,
     cssEase: 'linear',
   };
 
@@ -144,6 +144,7 @@ const About = () => {
                 return (
                   <div>
                     <Card
+                      key={Math.random()}
                       name={member.title}
                       nickName={member.nickName}
                       role={member.role}

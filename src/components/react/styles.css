@@ -14,5 +14,14 @@
 
 .slick-prev:before,
 .slick-next:before {
+  color: var(--color-text) !important;
+}
+
+.slick-dots li button:before {
+  color: var(--color-text) !important;
+  opacity: 0.5 !important;
+}
+.slick-dots li.slick-active button:before {
   color: var(--color-blue) !important;
+  opacity: 0.75 !important;
 }
