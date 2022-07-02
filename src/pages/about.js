@@ -23,7 +23,7 @@ const About = () => {
 
     autoplay: true,
     // speed: 4000,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     cssEase: 'linear',
   };
 
