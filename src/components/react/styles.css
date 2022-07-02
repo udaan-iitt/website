@@ -25,3 +25,7 @@
   color: var(--color-blue) !important;
   opacity: 0.75 !important;
 }
+
+.slick-list {
+  height: 270px;
+}
