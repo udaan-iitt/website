@@ -3,22 +3,10 @@
 
 export const newsletter = [
   {
-    key: 'prabhat',
-    email: 'literarysec@iittp.ac.in',
-    title: 'Prabhat Reddy',
-    link: 'mailto:literarysec@iittp.ac.in',
-  },
-  {
     key: 'noble',
     email: 'ch19b023@iittp.ac.in',
     title: 'Noble Saji Mathews',
     link: 'https://in.linkedin.com/in/noble-saji-mathews',
-  },
-  {
-    key: 'shreyansh',
-    email:'cs18b042@iittp.ac.in',
-    title: 'Shreyansh Mehra',
-    link:'https://www.linkedin.com/in/shreyansh-mehra/' 
   },
   {
     key: 'debeshee',
@@ -55,12 +43,6 @@ export const newsletter = [
     email: 'me21b045@iittp.ac.in',
     title: 'Sneha Battula',
     link: 'mailto:me21b045@iittp.ac.in',
-  },
-  {
-    key: 'preethi',
-    email: 'cs20b030@iittp.ac.in',
-    title: 'Preethi Varsha Marivina',
-    link: 'https://www.linkedin.com/in/preethi-varsha-70211b210',
   },
   {
     key: 'kranthi',
@@ -114,14 +96,18 @@ export const newsletter = [
 export const pastmembers = [
   {
     key: 'prabhat',
-    email: 'literarysec@iittp.ac.in',
     title: 'Prabhat Reddy',
-    link: 'mailto:literarysec@iittp.ac.in',
+    nickName: 'Prabotriarchy',
+    role: 'Team Udaan trailblazer and pace setter',
+    year: '2021-22',
+    link: 'https://www.linkedin.com/in/prabhat-reddy-l-5b017062',
   },
   {
     key: 'shreyansh',
-    email: 'cs18b042@iittp.ac.in',
     title: 'Shreyansh Mehra',
+    nickName: 'Founding Father',
+    role: 'The "Lit" sec who started it all',
+    year: '2020-22',
     link: 'https://www.linkedin.com/in/shreyansh-mehra/',
   },
 ];
@@ -133,6 +119,12 @@ export const members = [
     email: 'literarysec@iittp.ac.in',
     title: 'Shreyansh Mehra',
     link: 'https://www.linkedin.com/in/shreyansh-mehra/',
+  },
+  {
+    key: 'preethi',
+    email: 'cs20b030@iittp.ac.in',
+    title: 'Preethi Varsha Marivina',
+    link: 'https://www.linkedin.com/in/preethi-varsha-70211b210',
   },
   {
     key: 'sudarshan',
