@@ -14,13 +14,13 @@ import Card from '../components/Card';
 
 const About = () => {
   const settings = {
-    dots: true,
     infinite: true,
+
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-
+    adaptiveHeight: true,
     autoplay: true,
     // speed: 4000,
     autoplaySpeed: 2000,
@@ -137,8 +137,7 @@ const About = () => {
           </>
           <br></br>
           <h2>Past Members</h2>
-          <hr />
-          <div style={{ marginTop: '-30px' }}>
+          <div>
             <Slider {...settings}>
               {pastmembers.map((member) => {
                 return (
@@ -146,10 +145,13 @@ const About = () => {
                     <Card
                       key={Math.random()}
                       name={member.title}
-                      nickName={member.nickName}
+                      tagLine1={member.tagLine1}
+                      tagLine2={member.tagLine2}
                       role={member.role}
                       year={member.year}
                       img={member.key}
+                      desc1={member.desc1}
+                      desc2={member.desc2}
                       link={member.link}
                     />
                   </div>

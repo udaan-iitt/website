@@ -67,6 +67,7 @@ const GlobalStyle = createGlobalStyle`
       --color-background: #f2f2f2;
       --color-post-background: #ffffff;
       --color-card: #ffffff;
+      --color-card-2: #f2f2f2;
       --color-code: #f2f2f2;
       --color-code-block: #fafafa;
       --color-code-highlight: rgba(0, 0, 0, 0.05);
@@ -106,6 +107,7 @@ const GlobalStyle = createGlobalStyle`
       --color-background: #1c1c1c;
       --color-post-background: #1c1c1c;
       --color-card: #2c2c2c;
+      --color-card-2: #2c2c2c;
       --color-code: #3a3a3a;
       --color-code-block: #242424;
       --color-code-highlight: rgba(255, 255, 255, 0.05);
