@@ -97,17 +97,23 @@ export const pastmembers = [
   {
     key: 'prabhat',
     title: 'Prabhat Reddy',
-    nickName: 'Prabotriarchy',
-    role: 'Team Udaan trailblazer and pace setter',
+    tagLine1: 'AKA pace577. An institution and inspiration',
+    tagLine2: 'The Prabotriarchy',
+    role: 'Chief Editor',
     year: '2021-22',
+    desc1: 'Team Udaan trailblazer and pace setter.',
+    desc2:
+      'Designed,Organised and meticulously documented the workflow of Udaan',
     link: 'https://www.linkedin.com/in/prabhat-reddy-l-5b017062',
   },
   {
     key: 'shreyansh',
     title: 'Shreyansh Mehra',
-    nickName: 'Founding Father',
-    role: 'The "Lit" sec who started it all',
-    year: '2020-22',
+    tagLine1: 'AKA pace577. An institution and inspiration',
+    tagLine2: 'The Prabotriarchy',
+    role: 'Chief Editor',
+    year: '2021-22',
+    desc1: 'Team Udaan trailblazer and pace setter.',
     link: 'https://www.linkedin.com/in/shreyansh-mehra/',
   },
 ];

@@ -28,4 +28,9 @@
 
 .slick-list {
   height: 270px;
+  margin: 0 -15px;
+}
+
+.slick-slide > div {
+  padding: 0 15px;
 }

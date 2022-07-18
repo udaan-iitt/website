@@ -47,13 +47,15 @@ const Card = (props) => {
   return (
     <div
       style={{
+        marginTop: '20px',
         display: 'flex',
         justifyContent: 'center',
-        height: 'auto',
+        height: '270px',
         width: 'auto',
-        marginBottom: '20px',
+        borderRadius: '10px',
+
         alignItems: 'stretch',
-        backgroundColor: 'var(--color-card)',
+        backgroundColor: 'var(--color-card-2)',
 
         cursor: 'pointer',
       }}
@@ -64,36 +66,86 @@ const Card = (props) => {
       <div
         style={{
           margin: '20px',
-          paddingTop: '45px',
-          height: 'auto',
-          justifyContent: 'center',
           alignItems: 'center',
+          justifyContent: 'center',
+          textAlign: 'center',
+          flex: '1',
         }}
       >
-        <div style={{ width: '138.5px', height: '138.5px' }}>
+        <div
+          style={{ width: '138.5px', height: '138.5px', margin: '10px auto 0' }}
+        >
           <figure key={Math.random()} className="figure">
             <div className="img-wrap">
               <Image filename={props.img} />
             </div>
           </figure>
         </div>
+        <div
+          style={{
+            marginTop: '10px',
+          }}
+        >
+          <span>{props.role}</span>
+          <br></br>
+          <span>{props.year}</span>
+        </div>
       </div>
+
       <div
         style={{
           display: 'grid',
-          padding: '10px',
+
           marginLeft: '15px',
           alignItems: 'flex-start',
           justifyContent: 'start',
+          flex: '2',
         }}
       >
         <Para>
-          <h2>{props.name}</h2>
+          <p>
+            <h2 style={{ marginBottom: '0' }}>{props.name}</h2>
 
-          <p style={{ marginTop: '-15px' }}>
-            <h3>{props.nickName}</h3>
-            <h4>{props.role}</h4>
-            <h4>{props.year}</h4>
+            <i>
+              <span
+                style={{
+                  fontSize: '17px',
+                  color: 'var(--color-gray-6)',
+                }}
+              >
+                {props.tagLine1}
+              </span>
+              <br />
+              <span
+                style={{
+                  fontSize: '17px',
+                  color: 'var(--color-gray-6)',
+                }}
+              >
+                {props.tagLine2}
+              </span>
+            </i>
+          </p>
+          <p>
+            <span
+              style={{
+                fontSize: '19px',
+                fontWeight: '450',
+                lineHeight: '1',
+              }}
+            >
+              {props.desc1}
+            </span>
+            <br />
+            <span
+              style={{
+                fontSize: '19px',
+                fontWeight: '450',
+                lineHeight: '1',
+              }}
+            >
+              {props.desc2}
+            </span>
           </p>
         </Para>
       </div>
@@ -106,6 +158,9 @@ export default Card;
 const Para = styled.p`
   * {
     color: 'var(--color-text)';
-    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+      'Noto Color Emoji';
   }
 `;
