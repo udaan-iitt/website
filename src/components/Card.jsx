@@ -45,20 +45,7 @@ const Image = (props) => (
 
 const Card = (props) => {
   return (
-    <div
-      style={{
-        marginTop: '20px',
-        display: 'flex',
-        justifyContent: 'center',
-        height: '270px',
-        width: 'auto',
-        borderRadius: '10px',
-
-        alignItems: 'stretch',
-        backgroundColor: 'var(--color-card-2)',
-
-        cursor: 'pointer',
-      }}
+    <Container
       onClick={() => {
         window.open(props.link, '_blank');
       }}
@@ -95,6 +82,7 @@ const Card = (props) => {
       <div
         style={{
           display: 'grid',
+          padding: '5px',
 
           marginLeft: '15px',
           alignItems: 'flex-start',
@@ -104,7 +92,7 @@ const Card = (props) => {
       >
         <Para>
           <p>
-            <h2 style={{ marginBottom: '0' }}>{props.name}</h2>
+            <h2 className="title">{props.name}</h2>
 
             <i>
               <span
@@ -138,6 +126,7 @@ const Card = (props) => {
             </span>
             <br />
             <span
+              className="desc2"
               style={{
                 fontSize: '19px',
                 fontWeight: '450',
@@ -149,7 +138,7 @@ const Card = (props) => {
           </p>
         </Para>
       </div>
-    </div>
+    </Container>
   );
 };
 
@@ -162,5 +151,36 @@ const Para = styled.p`
       Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
       'Noto Color Emoji';
+  }
+`;
+
+const Container = styled.div`
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  width: auto;
+  border-radius: 10px;
+
+  align-items: stretch;
+  background-color: var(--color-card-2);
+
+  cursor: pointer;
+
+  @media only screen and (max-width: 700px) {
+    display: grid;
+    height: auto;
+
+    .desc2 {
+      display: none;
+    }
+  }
+
+  .title {
+    margin-bottom: 0;
+
+    @media only screen and (max-width: 700px) {
+      margin: 20px auto 0px;
+    }
   }
 `;
