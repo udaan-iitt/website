@@ -2,7 +2,7 @@ module.exports = {
   title: 'Udaan IITT',
   description: `Student-Run Newsletter IIT Tirupati`,
   author: 'Noble Saji Mathews',
-  siteUrl: 'https://udaaniitt.web.app/',
+  siteUrl: 'https://udaaniitt.in/',
   lang: 'en',
   utterances: 'NobleMathews/background',
   links: {
