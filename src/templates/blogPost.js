@@ -121,7 +121,7 @@ const BlogPost = (props) => {
                   </header>
 
                   <Divider />
-                  <Button onClick={() => speechHandler(html)}>Read Aloud</Button>
+                  <Button onClick={() => speechHandler(html)}>Read Aloud <sup>BETA</sup></Button>
                   <Markdown
                     dangerouslySetInnerHTML={{ __html: html }}
                     rhythm={rhythm}
