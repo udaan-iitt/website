@@ -5,10 +5,28 @@ import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
-import { members, newsletter } from '../data';
+import { pastmembers, members, newsletter } from '../data';
 import Image from '../components/imager';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import Card from '../components/Card';
 
 const About = () => {
+  const settings = {
+    infinite: true,
+
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    swipeToSlide: true,
+    adaptiveHeight: true,
+    autoplay: true,
+    // speed: 4000,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+  };
+
   return (
     <Layout>
       <SEO title="About" />
@@ -74,10 +92,7 @@ const About = () => {
             Link to feedback form
           </a>
           <br />
-          <form
-            action="https://forms.gle/SxQW7d9JikxRsV1s8"
-            target="_blank"
-          >
+          <form action="https://forms.gle/SxQW7d9JikxRsV1s8" target="_blank">
             <Button>JOIN US !</Button>
           </form>
           <h2>Team UDAAN</h2>
@@ -120,6 +135,30 @@ const About = () => {
               ))}
             </div>
           </>
+          <br></br>
+          <h2>Past Members</h2>
+          <div>
+            <Slider {...settings}>
+              {pastmembers.map((member) => {
+                return (
+                  <div>
+                    <Card
+                      key={Math.random()}
+                      name={member.title}
+                      tagLine1={member.tagLine1}
+                      tagLine2={member.tagLine2}
+                      role={member.role}
+                      year={member.year}
+                      img={member.key}
+                      desc1={member.desc1}
+                      desc2={member.desc2}
+                      link={member.link}
+                    />
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
           {/* <h2>Literary Affairs Council 2020</h2>
       <hr/>
       <>
@@ -223,6 +262,9 @@ const Container = styled(Markdown).attrs({
     grid-template-columns: repeat(2, 1fr);
     box-sizing: border-box;
   }
+
+  
+  
   .img-wrap{
     overflow: hidden;
     height: 0;

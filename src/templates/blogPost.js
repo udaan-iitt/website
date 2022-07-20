@@ -69,12 +69,12 @@ const BlogPost = (props) => {
     } = data;
     const tags = category;
 
-    // var url = "https://udaaniitt.web.app/"
+    // var url = "https://udaaniitt.in/"
     // if (window.location.href){
     //   url = window.location.href;
     // }
     // else{
-    //   url = 'https://udaaniitt.web.app/'
+    //   url = 'https://udaaniitt.in/'
     // }
     const twitterHandle = 'iit_tirupati';
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
@@ -162,7 +162,7 @@ const BlogPost = (props) => {
     //   url = window.location.href;
     // }
     // else{
-    //   url = 'https://udaaniitt.web.app/'
+    //   url = 'https://udaaniitt.in/'
     // }
     const twitterHandle = 'iit_tirupati';
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
