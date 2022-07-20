@@ -39,6 +39,12 @@ export const newsletter = [
     link: 'mailto:ee20b046@iittp.ac.in',
   },
   {
+    key: 'chaitali',
+    email: 'me20b053@iittp.ac.in',
+    title: 'Chaitali Uday Karekar',
+    link: 'https://www.linkedin.com/in/chaitali-karekar-829881230',
+  },
+  {
     key: 'battula',
     email: 'me21b045@iittp.ac.in',
     title: 'Sneha Battula',
