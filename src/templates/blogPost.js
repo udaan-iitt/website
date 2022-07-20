@@ -1,29 +1,73 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Layout from 'layout/layout';
 import SEO from 'components/seo';
 import Comment from 'components/comment';
-import ShareButtons  from 'components/share';
+import ShareButtons from 'components/share';
 import { rhythm } from 'styles/typography';
 import Category from 'styles/category';
 import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
-import {MDXRenderer} from 'gatsby-plugin-mdx'
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { ParallaxProvider } from 'react-scroll-parallax';
+// import { SayButton, } from 'react-say';
+// import { useSynthesize } from 'react-say';
 
 const BlogPost = (props) => {
-  const { location,data } = props;
+  // const [isOpen, setIsOpen] = useState('hi');
+  // const [ourText, setOurText] = useState("")
+    // const func = (item) => {
+  //   const parser = new DOMParser();
+  //   const doc = parser.parseFromString(item, 'text/html');
+  //   var string = doc.documentElement.innerHTML;
+  //   setIsOpen(string);
+
+  //   //console.log(string);
+  // };
+  const msg = new SpeechSynthesisUtterance()
+  const [pause, setPause] = useState(false);
+  const speechHandler = (item) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(item, 'text/html');
+    var string = doc.documentElement.innerHTML;
+    if(pause===true)
+    {
+      window.speechSynthesis.cancel();
+      setPause(false);
+    }
+    else
+    {
+      msg.text = string;
+      msg.lang = 'en-US';
+      msg.rate = 1;
+      msg.pitch = 1;
+      msg.volume = 1;
+      window.speechSynthesis.speak(msg);
+      setPause(true);
+    }
+  }
+
+
+  const { location, data } = props;
   const url = location.href;
 
-  if (data.markdownRemark){
+  if (data.markdownRemark) {
     const {
       markdownRemark: {
-        frontmatter: { title, desc, thumbnail, date, category, authors, starred },
+        frontmatter: {
+          title,
+          desc,
+          thumbnail,
+          date,
+          category,
+          authors,
+          starred,
+        },
         html,
       },
     } = data;
-    const tags = category
+    const tags = category;
 
     // var url = "https://udaaniitt.in/"
     // if (window.location.href){
@@ -32,7 +76,7 @@ const BlogPost = (props) => {
     // else{
     //   url = 'https://udaaniitt.in/'
     // }
-    const twitterHandle = "iit_tirupati";
+    const twitterHandle = 'iit_tirupati';
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
@@ -49,16 +93,35 @@ const BlogPost = (props) => {
                       {/* <Time dateTime={date}>{date}</Time> */}
                     </Info>
                     <Title>{title}</Title>
-                    <p style={{textAlign:"left", paddingTop:"20px"}}>
-                          <PostCategory>{category}</PostCategory>
-                          {/* float:"right" */}
-                          <span style={{display:"block",paddingTop:"10px", fontWeight:"bolder"}}>
-                            {authors}
-                          </span>
+                    <p style={{ textAlign: 'left', paddingTop: '20px' }}>
+                      <PostCategory>{category}</PostCategory>
+                      {/* float:"right" */}
+                      <span
+                        style={{
+                          display: 'block',
+                          paddingTop: '10px',
+                          fontWeight: 'bolder',
+                        }}
+                      >
+                        {authors}
+                      </span>
                     </p>
                     <Desc>{desc}</Desc>
+
+                    {/* <button type="button" onClick={() => { func(html) }} >
+                      shittt
+                    </button>
+                    <SayButton onClick={() => { func(html) }} speak={isOpen}>
+                      Tell me a story
+                    </SayButton> */}
+                    
+                   
+                  
+                    
                   </header>
+
                   <Divider />
+                  <Button onClick={() => speechHandler(html)}>Read Aloud <sup>BETA</sup></Button>
                   <Markdown
                     dangerouslySetInnerHTML={{ __html: html }}
                     rhythm={rhythm}
@@ -68,7 +131,12 @@ const BlogPost = (props) => {
             </OuterWrapper>
           </article>
           <div>
-          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
+            <ShareButtons
+              title={title}
+              url={url}
+              twitterHandle={twitterHandle}
+              tags={tags}
+            />
           </div>
           <CommentWrap>
             <Comment />
@@ -76,22 +144,27 @@ const BlogPost = (props) => {
         </main>
       </Layout>
     );
-  }
-  else{
+  } else {
+    const { mdx: post } = data;
     const {
-      mdx:post  
-    } = data;
-    const { title, desc, thumbnail, date, category, authors, starred } = post.frontmatter;
-    const {body} = post;
-    const tags = category
-    // var url = "https://udaaniitt.in/"
+      title,
+      desc,
+      thumbnail,
+      date,
+      category,
+      authors,
+      starred,
+    } = post.frontmatter;
+    const { body } = post;
+    const tags = category;
+    // var url = "https://udaaniitt.web.app/"
     // if (window.location.href){
     //   url = window.location.href;
     // }
     // else{
     //   url = 'https://udaaniitt.in/'
     // }
-    const twitterHandle = "iit_tirupati";
+    const twitterHandle = 'iit_tirupati';
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
@@ -108,28 +181,37 @@ const BlogPost = (props) => {
                       {/* <Time dateTime={date}>{date}</Time> */}
                     </Info>
                     <Title>{title}</Title>
-                    <p style={{textAlign:"left", paddingTop:"20px"}}>
-                          <PostCategory>{category}</PostCategory>
-                          <span style={{display:"block",paddingTop:"10px", fontWeight:"bolder"}}>
-                            {authors}
-                          </span>
+                    <p style={{ textAlign: 'left', paddingTop: '20px' }}>
+                      <PostCategory>{category}</PostCategory>
+                      <span
+                        style={{
+                          display: 'block',
+                          paddingTop: '10px',
+                          fontWeight: 'bolder',
+                        }}
+                      >
+                        {authors}
+                      </span>
                     </p>
                     <Desc>{desc}</Desc>
                   </header>
                   <Divider />
                   <ParallaxProvider>
-                  <Markdown
-                    rhythm={rhythm}
-                  >
-                  <MDXRenderer>{body}</MDXRenderer>
-                  </Markdown>
+                    <Markdown rhythm={rhythm}>
+                      <MDXRenderer>{body}</MDXRenderer>
+                    </Markdown>
                   </ParallaxProvider>
                 </div>
               </InnerWrapper>
             </OuterWrapper>
           </article>
           <div>
-          <ShareButtons title={title} url={url} twitterHandle={twitterHandle} tags={tags}/>
+            <ShareButtons
+              title={title}
+              url={url}
+              twitterHandle={twitterHandle}
+              tags={tags}
+            />
           </div>
           <CommentWrap>
             <Comment />
@@ -147,7 +229,17 @@ const OuterWrapper = styled.div`
     margin-top: var(--sizing-lg);
   }
 `;
-
+const Button = styled.button`
+  /* Adapt the colors based on primary prop */
+  background: ${props => props.primary ? "black" : "gray"};
+  color: ${props => props.primary ? "black" : "white"};
+  font-size: 1em;
+  margin: 1em;
+  float: right;
+  padding: 0.25em 1em;
+  border: 2px solid ;
+  border-radius: 5px;
+`;
 const InnerWrapper = styled.div`
   width: var(--post-width);
   margin: 0 auto;
@@ -175,7 +267,7 @@ const InnerWrapper = styled.div`
   details::before {
     width: 100%;
     height: 100%;
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -192,7 +284,7 @@ const InnerWrapper = styled.div`
   details[open]::before {
     opacity: 0.6;
   }
-  
+
   summary {
     padding: 1rem 2em 1rem 0;
     display: block;
@@ -201,13 +293,14 @@ const InnerWrapper = styled.div`
     font-weight: bold;
     cursor: pointer;
   }
-  summary::before, summary::after {
+  summary::before,
+  summary::after {
     width: 0.75em;
     height: 2px;
     position: absolute;
     top: 50%;
     right: 0;
-    content: "";
+    content: '';
     background-color: currentColor;
     text-align: right;
     transform: translateY(-50%);
@@ -238,7 +331,7 @@ const CommentWrap = styled.section`
 const PostCategory = styled(Category)`
   font-size: 0.875rem;
   font-weight: var(--font-weight-semi-bold);
-  display: inline-block;  
+  display: inline-block;
 `;
 
 const Info = styled.div`
