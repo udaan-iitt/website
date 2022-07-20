@@ -25,29 +25,34 @@ const BlogPost = (props) => {
 
   //   //console.log(string);
   // };
-  const msg = new SpeechSynthesisUtterance()
-  const [pause, setPause] = useState(false);
-  const speechHandler = (item) => {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(item, 'text/html');
-    var string = doc.documentElement.innerHTML;
-    if(pause===true)
-    {
-      window.speechSynthesis.cancel();
-      setPause(false);
-    }
-    else
-    {
-      msg.text = string;
-      msg.lang = 'en-US';
-      msg.rate = 1;
-      msg.pitch = 1;
-      msg.volume = 1;
-      window.speechSynthesis.speak(msg);
-      setPause(true);
-    }
+  let speechHandler = (item) => {
+    console.log(item)
   }
-
+  if (typeof window !== `undefined`) {
+  if ('speechSynthesis' in window) {
+    const msg = new SpeechSynthesisUtterance()
+    const [pause, setPause] = useState(false);
+    speechHandler = (item) => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(item, 'text/html');
+      var string = doc.documentElement.innerHTML;
+      if(pause===true)
+      {
+        window.speechSynthesis.cancel();
+        setPause(false);
+      }
+      else
+      {
+        msg.text = string;
+        msg.lang = 'en-US';
+        msg.rate = 1;
+        msg.pitch = 1;
+        msg.volume = 1;
+        window.speechSynthesis.speak(msg);
+        setPause(true);
+      }
+    }
+  }}
 
   const { location, data } = props;
   const url = location.href;
