@@ -101,7 +101,7 @@ export const pastmembers = [
     tagLine2: 'The Prabotriarchy',
     role: 'Chief Editor',
     year: '2021-22',
-    desc1: 'Team Udaan trailblazer and pace setter.',
+    desc1: 'Team Udaan trailblazer and 𝗽𝗮𝗰𝗲setter.',
     desc2:
       'Designed,Organised and meticulously documented the workflow of Udaan',
     link: 'https://www.linkedin.com/in/prabhat-reddy-l-5b017062',
@@ -109,12 +109,32 @@ export const pastmembers = [
   {
     key: 'shreyansh',
     title: 'Shreyansh Mehra',
-    tagLine1: 'AKA pace577. An institution and inspiration',
-    tagLine2: 'The Prabotriarchy',
-    role: 'Chief Editor',
+    tagLine1: 'Founding Father',
+    tagLine2: `The "lit" Sec, who started it all`,
+    role: 'Editor-in-chief',
     year: '2021-22',
-    desc1: 'Team Udaan trailblazer and pace setter.',
+    desc1:
+      'Team Udaan pioneer and visionary who brought to life the idea of a student-run institute magazine.',
     link: 'https://www.linkedin.com/in/shreyansh-mehra/',
+  },
+  {
+    key: 'keerthana',
+    title: 'Keerthana',
+    tagLine1: 'Nss and Literary Enthusiast',
+    role: 'Editor',
+    year: '2021-22',
+    desc1: 'Editor on the initial team of editors at Udaan',
+    link: 'mailto:ee19b035@iittp.ac.in',
+  },
+  {
+    key: 'preethi',
+    title: 'Preethi Varsha',
+    tagLine1: 'Editor',
+    role: 'Editor',
+    year: '2021-22',
+    desc1:
+      'Talent include drafting the perfect emails and perfecting any written material.',
+    link: 'https://www.linkedin.com/in/preethi-varsha-70211b210',
   },
 ];
 

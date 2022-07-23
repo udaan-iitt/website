@@ -12,6 +12,35 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import Card from '../components/Card';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faChevronRight,
+  faChevronLeft,
+} from '@fortawesome/fontawesome-free-solid';
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <FontAwesomeIcon
+      icon={faChevronRight}
+      className="slick-next slick-arrow"
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <FontAwesomeIcon
+      icon={faChevronLeft}
+      className="slick-prev slick-arrow "
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
 const About = () => {
   const settings = {
     infinite: true,
@@ -25,6 +54,8 @@ const About = () => {
     // speed: 4000,
     autoplaySpeed: 2000,
     cssEase: 'linear',
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
 
   return (
