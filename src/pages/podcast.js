@@ -7,7 +7,7 @@ import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import spotify from '../images/podcasts/spotify.png';
 import './podcast.css';
 
 const Podcast = () => {
@@ -57,7 +57,7 @@ const Podcast = () => {
             })}
           </> */}
           <div>
-            <section>
+            <section class="dark">
               <div class="container py-4">
                 <h1 class="h1 text-center" id="pageHeaderTitle">
                   UDAAN Podcasts
@@ -101,7 +101,30 @@ const Podcast = () => {
                           <i class="fas fa-play mr-2"></i> Play Episode
                         </a>
                       </li>
+                      {/* <li>
+                        <a href="#">
+                          <img
+                            class="tag__item_img"
+                            src={spotify}
+                            alt="spotify"
+                          />
+                        </a>
+                      </li> */}
                     </ul>
+                    <div class="social">
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                    </div>
                   </div>
                 </article>
                 <article class="postcard dark red">

@@ -8,13 +8,13 @@ body {
   font-weight: initial;
 }
 
-/* .dark {
-  background: #322a47f7;
+.dark {
+  background: #1c1c1c;
 }
 
 .light {
-  background: #f3f5f7;
-} */
+  background: #ffffff;
+}
 
 a,
 a:hover {
@@ -113,6 +113,10 @@ a:hover {
   cursor: default;
   user-select: none;
   transition: background-color 0.3s;
+}
+.social img {
+  display: inline;
+  max-height: 50px;
 }
 .postcard .postcard__tagbox .tag__item:hover {
   background: rgba(83, 83, 83, 0.8);
