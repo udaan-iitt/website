@@ -64,9 +64,9 @@ a:hover {
 .postcard .postcard__title {
   font-size: 1.75rem;
 }
-/* .postcard .postcard__subtitle {
-  font-size: 0.75rem;
-} */
+.postcard .postcard__subtitle {
+  font-size: 1rem;
+}
 .postcard .postcard__img {
   max-height: 180px;
   width: 100%;
@@ -99,7 +99,7 @@ a:hover {
 .postcard .postcard__tagbox {
   display: flex;
   flex-flow: row wrap;
-  font-size: 14px;
+  font-size: 16px;
   margin: 20px 0 0 0;
   padding: 0;
   justify-content: center;
@@ -109,14 +109,25 @@ a:hover {
   background: rgba(83, 83, 83, 0.4);
   border-radius: 3px;
   padding: 2.5px 10px;
-  margin: 0 5px 5px 0;
+  margin: 0 25px 5px 0;
   cursor: default;
   user-select: none;
   transition: background-color 0.3s;
 }
+.social {
+  display: table !important;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  padding-top: 20px;
+}
+.social a {
+  display: table-cell;
+}
 .social img {
-  display: inline;
-  max-height: 50px;
+  max-height: 60px;
+  display: block;
+  margin: auto;
 }
 .postcard .postcard__tagbox .tag__item:hover {
   background: rgba(83, 83, 83, 0.8);
@@ -152,7 +163,7 @@ a:hover {
     transition: transform 0.3s ease;
   }
   .postcard .postcard__text {
-    padding: 3rem;
+    padding: 2rem 3rem 2rem 3rem;
     width: 100%;
   }
   .postcard .media.postcard__text:before {

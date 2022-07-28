@@ -8,6 +8,8 @@ import { rhythm } from 'styles/typography';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import spotify from '../images/podcasts/spotify.png';
+import gpodcast from '../images/podcasts/googlepodcast.png';
+import pocketcast from '../images/podcasts/pocketCasts.png';
 import './podcast.css';
 
 const Podcast = () => {
@@ -76,6 +78,56 @@ const Podcast = () => {
                       <a href="#">Podcast Title</a>
                     </h1>
                     <div class="postcard__subtitle">
+                      Hosted By : Debeshee Das
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eligendi, fugiat asperiores inventore beatae accusamus
+                      odit minima enim, commodi quia, doloribus eius! Ducimus
+                      nemo accusantium maiores velit corrupti tempora reiciendis
+                      molestiae repellat vero.
+                    </div>
+                    {/* <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-tag mr-2"></i> Podcast
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-clock mr-2"></i> 55 mins.
+                      </li>
+                      <li class="tag__item play blue">
+                        <a href="#">
+                          <i class="fas fa-play mr-2"></i> Play Episode
+                        </a>
+                      </li>
+                    </ul> */}
+                    <div class="social">
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={gpodcast} alt="Google Podcast" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={pocketcast} alt="PocketCasts" />
+                      </a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="postcard dark blue">
+                  <a class="postcard__img_link" href="#">
+                    <img
+                      class="postcard__img"
+                      src="https://picsum.photos/1000/1000"
+                      alt="Image Title"
+                    />
+                  </a>
+                  <div class="postcard__text">
+                    <h1 class="postcard__title blue">
+                      <a href="#">Podcast Title</a>
+                    </h1>
+                    <div class="postcard__subtitle">
                       <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
                       2020
                     </div>
@@ -85,9 +137,7 @@ const Podcast = () => {
                       Eligendi, fugiat asperiores inventore beatae accusamus
                       odit minima enim, commodi quia, doloribus eius! Ducimus
                       nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
+                      molestiae repellat vero.
                     </div>
                     <ul class="postcard__tagbox">
                       <li class="tag__item">
@@ -101,32 +151,21 @@ const Podcast = () => {
                           <i class="fas fa-play mr-2"></i> Play Episode
                         </a>
                       </li>
-                      {/* <li>
-                        <a href="#">
-                          <img
-                            class="tag__item_img"
-                            src={spotify}
-                            alt="spotify"
-                          />
-                        </a>
-                      </li> */}
                     </ul>
                     <div class="social">
                       <a href="https://google.com" target="_blank">
                         <img src={spotify} alt="spotify" />
                       </a>
                       <a href="https://google.com" target="_blank">
-                        <img src={spotify} alt="spotify" />
+                        <img src={gpodcast} alt="Google Podcast" />
                       </a>
                       <a href="https://google.com" target="_blank">
-                        <img src={spotify} alt="spotify" />
-                      </a>
-                      <a href="https://google.com" target="_blank">
-                        <img src={spotify} alt="spotify" />
+                        <img src={pocketcast} alt="PocketCasts" />
                       </a>
                     </div>
                   </div>
                 </article>
+
                 <article class="postcard dark red">
                   <a class="postcard__img_link" href="#">
                     <img
@@ -168,6 +207,17 @@ const Podcast = () => {
                         </a>
                       </li>
                     </ul>
+                    <div class="social">
+                      <a href="https://google.com" target="_blank">
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={gpodcast} alt="Google Podcast" />
+                      </a>
+                      <a href="https://google.com" target="_blank">
+                        <img src={pocketcast} alt="PocketCasts" />
+                      </a>
+                    </div>
                   </div>
                 </article>
                 <article class="postcard dark green">
