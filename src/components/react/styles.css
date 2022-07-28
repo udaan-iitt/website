@@ -12,9 +12,14 @@
   flex-direction: column !important;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev {
   color: var(--color-text) !important;
+  height: 100px !important;
+}
+
+.slick-next {
+  color: var(--color-text) !important;
+  height: 100px !important;
 }
 
 .slick-dots li button:before {
