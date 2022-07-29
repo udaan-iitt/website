@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import spotify from '../images/podcasts/spotify.png';
 import gpodcast from '../images/podcasts/googlepodcast.png';
 import pocketcast from '../images/podcasts/pocketCasts.png';
+import cover from '../images/podcasts/Udaanpodcastcover.png';
 import './podcast.css';
 
 const Podcast = () => {
@@ -19,9 +20,9 @@ const Podcast = () => {
       <FadeIn>
         <Container rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
-            <b>The UDAAN Podcast</b>
+            <b>Udaan Untethered</b>
           </h1>
-          <h4
+          {/* <h4
             style={{
               textAlign: 'center',
               paddingTop: '10px',
@@ -36,8 +37,75 @@ const Podcast = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
           iure voluptatum architecto excepturi obcaecati voluptas aliquam
           nesciunt veniam consectetur, esse eveniet repellendus, consequuntur
-          distinctio nihil, enim unde asperiores possimus tenetur.
+          distinctio nihil, enim unde asperiores possimus tenetur. */}
         </Container>
+        <Container2 rhythm={rhythm}>
+          <article>
+            <div class="container my-5">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="w-100 shadow" src={cover} />
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-5 mt-4">
+                    {/* <h1 class="display-4">Udaan Untethered</h1> */}
+                    <p class="lead">
+                      To be untethered is to be unlimited and free to explore
+                      and express anything that brings a sparkle to your eye.
+                      Our vision with Udaan, which translates to flying or
+                      soaring, has always been about reaching greater heights
+                      through creativity, expression and inspiration. While we
+                      continue to provide a unique platform at our online
+                      magazine for all kinds of literary work, free thought and
+                      discussion, we now take it to the next level with our very
+                      own podcast, <strong>Udaan Untethered:</strong>{' '}
+                      <i>Why should writers have all the fun? </i> Join us as we
+                      explore everything under the sun, from cryptocurrency and
+                      feelings, to paani puri and literature.
+                    </p>
+                    {/* <a href="#" class="btn btn-outline-dark">
+                    Read More
+                  </a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <section>
+            <div class="container">
+              <div class="card">
+                <div class="row card-img-wrapper">
+                  <div class="col-md-6">
+                    <div class="card-img"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-block">
+                      <h4 class="card-title">
+                        Curabitur gravida vestibulum imperdiet.
+                      </h4>
+                      <p class="card-text">
+                        Cras convallis ut turpis vitae facilisis. Morbi eu augue
+                        vel quam efficitur rhoncus vitae eget lectus. Cras augue
+                        ligula, aliquam ut enim ut, feugiat imperdiet sem.
+                        Integer sed mi quis nisl eleifend interdum.
+                      </p>
+                      <p class="card-text">
+                        Cras convallis ut turpis vitae facilisis. Morbi eu augue
+                        vel quam efficitur rhoncus vitae eget lectus. Cras augue
+                        ligula, aliquam ut enim ut, feugiat imperdiet sem.
+                      </p>
+                      <a href="#" class="btn btn-outline-dark">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </Container2>
+
         <Container2 rhythm={rhythm}>
           {/* <h2>UDAAN Podcasts:</h2> */}
           <hr />
@@ -62,7 +130,7 @@ const Podcast = () => {
             <section class="dark">
               <div class="container py-4">
                 <h1 class="h1 text-center" id="pageHeaderTitle">
-                  UDAAN Podcasts
+                  Udaan Untethered
                 </h1>
 
                 <article class="postcard dark blue">
@@ -75,20 +143,23 @@ const Podcast = () => {
                   </a>
                   <div class="postcard__text">
                     <h1 class="postcard__title blue">
-                      <a href="#">Podcast Title</a>
+                      Why does money cost so much?!
                     </h1>
                     <div class="postcard__subtitle">
-                      Hosted By : Debeshee Das
+                      Hosted By : Kranthi Sedamaki
                     </div>
                     <div class="postcard__bar"></div>
                     <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero.
+                      From gold to paper to nothing, money today is very
+                      abstract. Did you know that 90% of the money today isn’t
+                      real?! Money (not love) is probably the greatest conqueror
+                      of all, uniting cultures of all time. It's present in
+                      everyone’s lives. But how did we reach where we are today?
+                      In this first episode of Udaan Untethered, we explore the
+                      evolution of money, from barter to paper and speculations
+                      into the future.
                     </div>
-                    {/* <ul class="postcard__tagbox">
+                    <ul class="postcard__tagbox">
                       <li class="tag__item">
                         <i class="fas fa-tag mr-2"></i> Podcast
                       </li>
@@ -100,7 +171,8 @@ const Podcast = () => {
                           <i class="fas fa-play mr-2"></i> Play Episode
                         </a>
                       </li>
-                    </ul> */}
+                    </ul>
+
                     <div class="social">
                       <a href="https://google.com" target="_blank">
                         <img src={spotify} alt="spotify" />
@@ -115,18 +187,16 @@ const Podcast = () => {
                   </div>
                 </article>
 
-                <article class="postcard dark blue">
+                <article class="postcard dark green">
                   <a class="postcard__img_link" href="#">
                     <img
                       class="postcard__img"
-                      src="https://picsum.photos/1000/1000"
+                      src="https://picsum.photos/501/502"
                       alt="Image Title"
                     />
                   </a>
                   <div class="postcard__text">
-                    <h1 class="postcard__title blue">
-                      <a href="#">Podcast Title</a>
-                    </h1>
+                    <h1 class="postcard__title green">Podcast Title</h1>
                     <div class="postcard__subtitle">
                       <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
                       2020
@@ -175,9 +245,7 @@ const Podcast = () => {
                     />
                   </a>
                   <div class="postcard__text">
-                    <h1 class="postcard__title red">
-                      <a href="#">Podcast Title</a>
-                    </h1>
+                    <h1 class="postcard__title red">Podcast Title</h1>
                     <div class="postcard__subtitle small">
                       <time datetime="2020-05-25 12:00:00">
                         <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
@@ -229,9 +297,7 @@ const Podcast = () => {
                     />
                   </a>
                   <div class="postcard__text">
-                    <h1 class="postcard__title green">
-                      <a href="#">Podcast Title</a>
-                    </h1>
+                    <h1 class="postcard__title green">Podcast Title</h1>
                     <div class="postcard__subtitle small">
                       <time datetime="2020-05-25 12:00:00">
                         <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
@@ -272,9 +338,7 @@ const Podcast = () => {
                     />
                   </a>
                   <div class="postcard__text">
-                    <h1 class="postcard__title yellow">
-                      <a href="#">Podcast Title</a>
-                    </h1>
+                    <h1 class="postcard__title yellow">Podcast Title</h1>
                     <div class="postcard__subtitle small">
                       <time datetime="2020-05-25 12:00:00">
                         <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th

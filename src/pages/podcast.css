@@ -29,6 +29,27 @@ a:hover {
   font-size: 2.5rem;
 }
 
+/* TO BE FIXED */
+.container .card {
+  -webkit-box-shadow: 1px 1px 1px 0px #cccccc;
+  -moz-box-shadow: 1px 1px 1px 0px #cccccc;
+  box-shadow: 1px 1px 1px 0px #cccccc;
+  border-radius: 10px;
+  margin: 20px;
+  color: #444;
+}
+.container .card .card-img-wrapper {
+  padding: 15px;
+}
+.container .card .card-img-wrapper .card-img {
+  color: #fff;
+  border-radius: 10px;
+  height: 20rem;
+  background: url(https://cdn.sdmurphy.net/images/dev/gallery-8x8/7-800x800.png)
+    center no-repeat;
+  background-size: cover;
+}
+
 /* Cards */
 .postcard {
   flex-wrap: wrap;
@@ -50,7 +71,8 @@ a:hover {
   color: #18151f;
 }
 .postcard a {
-  color: inherit;
+  text-decoration: none !important;
+  color: wheat !important;
 }
 .postcard h1,
 .postcard .h1 {
@@ -62,7 +84,9 @@ a:hover {
   font-size: 80%;
 }
 .postcard .postcard__title {
-  font-size: 1.75rem;
+  font-family: 'Baloo 2';
+  color: inherit;
+  font-size: 2.5rem;
 }
 .postcard .postcard__subtitle {
   font-size: 1rem;
@@ -72,6 +96,7 @@ a:hover {
   width: 100%;
   object-fit: cover;
   position: relative;
+  margin-bottom: 0 !important;
 }
 .postcard .postcard__img_link {
   display: contents;
@@ -107,12 +132,13 @@ a:hover {
 .postcard .postcard__tagbox .tag__item {
   display: inline-block;
   background: rgba(83, 83, 83, 0.4);
-  border-radius: 3px;
-  padding: 2.5px 10px;
-  margin: 0 25px 5px 0;
+  border-radius: 15px 15px 15px 15px;
+  padding: 13px 20px 13px 20px;
+  margin: 0 30px 5px 30px;
   cursor: default;
   user-select: none;
   transition: background-color 0.3s;
+  font-size: 1.18rem !important;
 }
 .social {
   display: table !important;
@@ -152,11 +178,11 @@ a:hover {
     flex-wrap: inherit;
   }
   .postcard .postcard__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
-  .postcard .postcard__tagbox {
+  /* .postcard .postcard__tagbox {
     justify-content: start;
-  }
+  } */
   .postcard .postcard__img {
     max-width: 300px;
     max-height: 100%;
@@ -191,6 +217,9 @@ a:hover {
   .postcard:nth-child(2n + 0) .postcard__text::before {
     right: -12px !important;
     transform: rotate(-4deg);
+  }
+  .postcard:nth-child(2n + 1) .postcard__title {
+    padding-left: 4px !important;
   }
 }
 @media screen and (min-width: 1024px) {
