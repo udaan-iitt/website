@@ -81,16 +81,17 @@ const Podcast = () => {
           <div>
             <section class="dark">
               <div class="container py-4">
-                <h1 class="h1 text-center" id="pageHeaderTitle">
+                {/* <h1 class="h1 text-center" id="pageHeaderTitle">
                   Udaan Untethered
-                </h1>
+                </h1> */}
 
                 <article class="postcard dark blue">
                   <a class="postcard__img_link" href="#">
                     <img class="postcard__img" src={pc1} alt="Image Title" />
                   </a>
                   <div class="postcard__text">
-                    <h1 class="postcard__title blue">
+                    {/* class="postcard__title blue" */}
+                    <h1>
                       Why does money cost so much?!
                     </h1>
                     <div class="postcard__subtitle">
