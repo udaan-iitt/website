@@ -79,4 +79,4 @@ node_modules_mac/
 node_modules_win/
 
 # symlink
-node_modules
+node_modules 
