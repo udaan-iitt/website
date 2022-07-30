@@ -8,13 +8,13 @@ body {
   font-weight: initial;
 }
 
-.dark {
+/* .dark {
   background: #1c1c1c;
 }
 
 .light {
   background: #ffffff;
-}
+} */
 
 a,
 a:hover {
@@ -237,12 +237,12 @@ a:hover {
   }
 
   .postcard.dark .postcard__text:before {
-    background: #2f2e2e;
+    background: var(--color-podcast-bg);
   }
 
-  .postcard.light .postcard__text:before {
+  /* .postcard.light .postcard__text:before {
     background: #e1e5ea;
-  }
+  } */
 }
 /* COLORS */
 .postcard .postcard__tagbox .green.play:hover {

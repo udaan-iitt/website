@@ -71,11 +71,11 @@ const CategoryFilter = ({ categoryList, currented }) => {
               // }
             }
           })}
-        <li>
+        {/* <li>
           <CategoryButton getProps={isActive} to={`/podcast/`}>
             Podcast
           </CategoryButton>
-        </li>
+        </li> */}
       </CategoryUl>
     </Nav>
   );

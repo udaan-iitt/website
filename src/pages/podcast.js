@@ -12,45 +12,31 @@ import gpodcast from '../images/podcasts/googlepodcast.png';
 import pocketcast from '../images/podcasts/pocketCasts.png';
 import cover from '../images/podcasts/Udaanpodcastcover.png';
 import './custom_styles/podcast.css';
-import './custom_styles/bootstrap-grid.min.css'
+import './custom_styles/bootstrap-grid.min.css';
 
 const Podcast = () => {
   return (
     <Layout>
       <SEO title="Podcast" />
       <FadeIn>
-        <Container rhythm={rhythm}>
-          <h1 style={{ textAlign: 'center' }}>
-            <b>Udaan Untethered</b>
-          </h1>
-          {/* <h4
-            style={{
-              textAlign: 'center',
-              paddingTop: '10px',
-              paddingBottom: '10px',
-              opacity: '0.6',
-            }}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, in
-            eos cupiditate facere dicta officiis similique vel iusto quaerat
-            magnam quo ea saepe deleniti optio numquam excepturi quos rem nemo!
-          </h4>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-          iure voluptatum architecto excepturi obcaecati voluptas aliquam
-          nesciunt veniam consectetur, esse eveniet repellendus, consequuntur
-          distinctio nihil, enim unde asperiores possimus tenetur. */}
-        </Container>
         <Container2 rhythm={rhythm}>
+          <h1 style={{ textAlign: 'center' }}>
+            <b style={{ textTransform: 'uppercase' }}>Udaan Untethered</b>
+          </h1>
           <article>
             <div class="container my-5">
               <div class="row">
                 <div class="col-lg-6">
                   <img class="w-100 shadow" src={cover} />
                 </div>
-                <div class="col-lg-6">
-                  <div class="p-5 mt-4">
-                    {/* <h1 class="display-4">Udaan Untethered</h1> */}
-                    <p class="lead">
+                <div class="col-lg-6" style={{ float: 'none', margin: 'auto' }}>
+                  <div class="p-1 mt-4">
+                    <p
+                      style={{
+                        fontSize: '17px',
+                        textAlign: 'center',
+                      }}
+                    >
                       To be untethered is to be unlimited and free to explore
                       and express anything that brings a sparkle to your eye.
                       Our vision with Udaan, which translates to flying or
@@ -59,74 +45,17 @@ const Podcast = () => {
                       continue to provide a unique platform at our online
                       magazine for all kinds of literary work, free thought and
                       discussion, we now take it to the next level with our very
-                      own podcast, <strong>Udaan Untethered:</strong>{' '}
+                      own podcast, <strong>Udaan Untethered: </strong>
                       <i>Why should writers have all the fun? </i> Join us as we
                       explore everything under the sun, from cryptocurrency and
                       feelings, to paani puri and literature.
                     </p>
-                    {/* <a href="#" class="btn btn-outline-dark">
-                    Read More
-                  </a> */}
                   </div>
                 </div>
               </div>
             </div>
           </article>
-
-          <section>
-            <div class="container">
-              <div class="card">
-                <div class="row card-img-wrapper">
-                  <div class="col-md-6">
-                    <div class="card-img"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-block">
-                      <h4 class="card-title">
-                        Curabitur gravida vestibulum imperdiet.
-                      </h4>
-                      <p class="card-text">
-                        Cras convallis ut turpis vitae facilisis. Morbi eu augue
-                        vel quam efficitur rhoncus vitae eget lectus. Cras augue
-                        ligula, aliquam ut enim ut, feugiat imperdiet sem.
-                        Integer sed mi quis nisl eleifend interdum.
-                      </p>
-                      <p class="card-text">
-                        Cras convallis ut turpis vitae facilisis. Morbi eu augue
-                        vel quam efficitur rhoncus vitae eget lectus. Cras augue
-                        ligula, aliquam ut enim ut, feugiat imperdiet sem.
-                      </p>
-                      <a href="#" class="btn btn-outline-dark">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </Container2>
-
-        <Container2 rhythm={rhythm}>
-          {/* <h2>UDAAN Podcasts:</h2> */}
           <hr />
-          {/* <>
-            {podcasts.map((podcast) => {
-              return (
-                <div>
-                  <Card2
-                    key={Math.random()}
-                    name={podcast.title}
-                    tagLine1={'Hosted By: ' + podcast.tagLine1}
-                    tagLine2={podcast.tagLine2}
-                    img={podcast.key}
-                    desc1={podcast.desc1}
-                    link={podcast.link}
-                  />
-                </div>
-              );
-            })}
-          </> */}
           <div>
             <section class="dark">
               <div class="container py-4">
@@ -373,187 +302,6 @@ const Podcast = () => {
                 </article>
               </div>
             </section>
-
-            {/* <section class="light">
-              <div class="container py-2">
-                <div class="h1 text-center text-dark" id="pageHeaderTitle">
-                  My Cards Light
-                </div>
-
-                <article class="postcard light blue">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/1000/1000"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text t-dark">
-                    <h1 class="postcard__title blue">
-                      <a href="#">Podcast Title</a>
-                    </h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i> Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
-                      </li>
-                      <li class="tag__item play blue">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i>Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                <article class="postcard light red">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/501/500"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text t-dark">
-                    <h1 class="postcard__title red">
-                      <a href="#">Podcast Title</a>
-                    </h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i>Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i>55 mins.
-                      </li>
-                      <li class="tag__item play red">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i>Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                <article class="postcard light green">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/500/501"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text t-dark">
-                    <h1 class="postcard__title green">
-                      <a href="#">Podcast Title</a>
-                    </h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i>Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i>55 mins.
-                      </li>
-                      <li class="tag__item play green">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i>Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                <article class="postcard light yellow">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/501/501"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text t-dark">
-                    <h1 class="postcard__title yellow">
-                      <a href="#">Podcast Title</a>
-                    </h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i>Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i>55 mins.
-                      </li>
-                      <li class="tag__item play yellow">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i>Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-            </section> */}
           </div>
         </Container2>
       </FadeIn>
@@ -758,9 +506,6 @@ figure:hover{
 }
 figure:hover .img-wrap{
   opacity: 1
-}
-p{
-  font-size:smaller
 }
 /* Grid changes again on larger screens: */
 @media screen and (min-width: 1000px) {
