@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     --width: 980px;
     --min-width: 320px;
     --post-width: 650px;
+    --post-width2: 1100px;
     --nav-height: 54px;
     --footer-height: 60px;
 
@@ -92,6 +93,7 @@ const GlobalStyle = createGlobalStyle`
       --color-icon: #2c2c2c;
       --dark-obj: none;
       --light-obj: block;
+      --color-podcast-bg: #d0d0d0;
     }
 
     body.dark {
@@ -132,6 +134,7 @@ const GlobalStyle = createGlobalStyle`
       --color-icon: #d1d1d1;
       --dark-obj: block;
       --light-obj: none;
+      --color-podcast-bg: #2f2e2e;
       /* --font-weight-bold: 600; */
     }
   }

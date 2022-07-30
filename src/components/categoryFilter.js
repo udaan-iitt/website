@@ -10,14 +10,13 @@ const CategoryFilter = ({ categoryList, currented }) => {
   const ALL_CATEGORY_NAME = 'All';
   // const isActive = ({ isCurrent }) =>
   //   isCurrent ? { id: ACTIVE, tabIndex: -1 } : {};
-  const isActive = ({ href, location }) =>{
+  const isActive = ({ href, location }) => {
     let takeMe = href.split('/');
     let iAmAt = location.pathname.split('/');
-    if(iAmAt[1])
-    return takeMe[3]==iAmAt[3]? { id: ACTIVE, tabIndex: -1 }:{};
-    else
-    return takeMe[3]=='all'? { id: ACTIVE, tabIndex: -1 }:{};
-  }
+    if (iAmAt[1])
+      return takeMe[3] == iAmAt[3] ? { id: ACTIVE, tabIndex: -1 } : {};
+    else return takeMe[3] == 'all' ? { id: ACTIVE, tabIndex: -1 } : {};
+  };
   useScrollCenter({ ref: categoryRef, targetId: ACTIVE });
 
   return (
@@ -27,6 +26,7 @@ const CategoryFilter = ({ categoryList, currented }) => {
         {ALL_CATEGORY_NAME}
       </CategoryButton>
       <Divider />
+
       <CategoryUl ref={categoryRef} className="invisible-scrollbar">
         {categoryList
           .sort((a, b) => b.totalCount - a.totalCount)
@@ -34,8 +34,7 @@ const CategoryFilter = ({ categoryList, currented }) => {
             const { fieldValue } = category;
             // "Op-Ed","Story","Poetry"
             // Prabhat criticism #1
-            if ([].includes(fieldValue))
-            {
+            if ([].includes(fieldValue)) {
               return (
                 <li key={fieldValue}>
                   <CategoryButton2
@@ -46,8 +45,19 @@ const CategoryFilter = ({ categoryList, currented }) => {
                   </CategoryButton2>
                 </li>
               );
-            }
-            else{
+            } else {
+              // if (fieldValue === 'Podcast') {
+              //   return (
+              //     <li key={fieldValue}>
+              //       <CategoryButton2
+              //         getProps={isActive}
+              //         to={`/${currented}/category/${kebabCase(fieldValue)}/`}
+              //       >
+              //         {fieldValue}
+              //       </CategoryButton2>
+              //     </li>
+              //   );
+              // } else {
               return (
                 <li key={fieldValue}>
                   <CategoryButton
@@ -58,9 +68,14 @@ const CategoryFilter = ({ categoryList, currented }) => {
                   </CategoryButton>
                 </li>
               );
+              // }
             }
-
           })}
+        {/* <li>
+          <CategoryButton getProps={isActive} to={`/podcast/`}>
+            Podcast
+          </CategoryButton>
+        </li> */}
       </CategoryUl>
     </Nav>
   );
@@ -70,7 +85,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   // background-color: var(--color-card);
-  background-color:transparent!important;
+  background-color: transparent !important;
   margin-bottom: 15px;
   padding: 12px var(--sizing-md);
   border-radius: var(--border-radius-base);

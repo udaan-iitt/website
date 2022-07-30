@@ -20,6 +20,10 @@ module.exports = {
         link: '/about/',
         name: 'About Us',
       },
+      {
+        link: '/podcast/',
+        name: 'Podcast',
+      },
       // {
       //   link: '/leaderboard/',
       //   name: 'Leaderboard',
@@ -65,18 +69,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-          threshold: 0.5, // Percentage of an element's area that needs to be visible to launch animation
-          once: false, // Defines if animation needs to be launched once
-          disable: false, // Flag for disabling animations
-          
-          // Advanced Options
-          selector: '[data-sal]', // Selector of the elements to be animated
-          animateClassName: 'sal-animate', // Class name which triggers animation
-          disabledClassName: 'sal-disabled', // Class name which defines the disabled state
-          // rootMargin: '0% 50%', // Corresponds to root's bounding box margin
-          enterEventName: 'sal:in', // Enter event name
-          exitEventName: 'sal:out', // Exit event name
-      }
+        threshold: 0.5, // Percentage of an element's area that needs to be visible to launch animation
+        once: false, // Defines if animation needs to be launched once
+        disable: false, // Flag for disabling animations
+
+        // Advanced Options
+        selector: '[data-sal]', // Selector of the elements to be animated
+        animateClassName: 'sal-animate', // Class name which triggers animation
+        disabledClassName: 'sal-disabled', // Class name which defines the disabled state
+        // rootMargin: '0% 50%', // Corresponds to root's bounding box margin
+        enterEventName: 'sal:in', // Enter event name
+        exitEventName: 'sal:out', // Exit event name
+      },
     },
     {
       resolve: `gatsby-plugin-typography`,
@@ -89,23 +93,23 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-video",
+            resolve: 'gatsby-remark-embed-video',
             options: {
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
               loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
               urlOverrides: [
                 {
-                  id: "youtube",
-                  embedURL: videoId =>
+                  id: 'youtube',
+                  embedURL: (videoId) =>
                     `https://www.youtube-nocookie.com/embed/${videoId}`,
                 },
               ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-              containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+              containerClass: 'embedVideo-container', //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
               iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
             },
           },
-          "gatsby-remark-responsive-iframe",
+          'gatsby-remark-responsive-iframe',
           `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-vscode`,
@@ -149,9 +153,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "UA-166254264-1"
-        ],
+        trackingIds: ['UA-166254264-1'],
       },
     },
     `gatsby-plugin-sharp`,
