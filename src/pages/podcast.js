@@ -11,6 +11,7 @@ import spotify from '../images/podcasts/spotify.png';
 import gpodcast from '../images/podcasts/googlepodcast.png';
 import pocketcast from '../images/podcasts/pocketCasts.png';
 import cover from '../images/podcasts/Udaanpodcastcover.png';
+import pc1 from '../images/podcasts/Podcast_1_cover.png';
 import './custom_styles/podcast.css';
 import './custom_styles/bootstrap-grid.min.css';
 
@@ -26,11 +27,15 @@ const Podcast = () => {
           <article>
             <div class="container my-5">
               <div class="row">
-                <div class="col-lg-6">
-                  <img class="w-100 shadow" src={cover} />
+                <div class="col-lg-5">
+                  <img
+                    class="w-100 shadow"
+                    src={cover}
+                    style={{ borderRadius: '25px' }}
+                  />
                 </div>
-                <div class="col-lg-6" style={{ float: 'none', margin: 'auto' }}>
-                  <div class="p-1 mt-4">
+                <div class="col-lg-7" style={{ float: 'none' }}>
+                  <div class="p-2 mt-2">
                     <p
                       style={{
                         fontSize: '17px',
@@ -51,6 +56,23 @@ const Podcast = () => {
                       feelings, to paani puri and literature.
                     </p>
                   </div>
+                  <div class="social">
+                    <a
+                      href="https://open.spotify.com/show/2FHT7pM9XAGecXc8BdZrWT"
+                      target="_blank"
+                    >
+                      <img src={spotify} alt="spotify" />
+                    </a>
+                    <a title="Coming Soon!">
+                      <img src={gpodcast} alt="Google Podcast" />
+                    </a>
+                    <a
+                      href="https://pca.st/podcast/bcc3cb60-f22d-013a-da46-0acc26574db2"
+                      target="_blank"
+                    >
+                      <img src={pocketcast} alt="PocketCasts" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -65,11 +87,7 @@ const Podcast = () => {
 
                 <article class="postcard dark blue">
                   <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/1000/1000"
-                      alt="Image Title"
-                    />
+                    <img class="postcard__img" src={pc1} alt="Image Title" />
                   </a>
                   <div class="postcard__text">
                     <h1 class="postcard__title blue">
@@ -94,210 +112,35 @@ const Podcast = () => {
                         <i class="fas fa-tag mr-2"></i> Podcast
                       </li>
                       <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
+                        <i class="fas fa-clock mr-2"></i> 90 mins.
                       </li>
                       <li class="tag__item play blue">
-                        <a href="#">
+                        <a
+                          href="https://anchor.fm/udaan-iit-tirupati"
+                          target="_blank"
+                        >
                           <i class="fas fa-play mr-2"></i> Play Episode
                         </a>
                       </li>
                     </ul>
 
                     <div class="social">
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://open.spotify.com/show/2FHT7pM9XAGecXc8BdZrWT"
+                        target="_blank"
+                      >
                         <img src={spotify} alt="spotify" />
                       </a>
-                      <a href="https://google.com" target="_blank">
+                      <a title="Coming Soon!">
                         <img src={gpodcast} alt="Google Podcast" />
                       </a>
-                      <a href="https://google.com" target="_blank">
+                      <a
+                        href="https://pca.st/podcast/bcc3cb60-f22d-013a-da46-0acc26574db2"
+                        target="_blank"
+                      >
                         <img src={pocketcast} alt="PocketCasts" />
                       </a>
                     </div>
-                  </div>
-                </article>
-
-                <article class="postcard dark green">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/501/502"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text">
-                    <h1 class="postcard__title green">Podcast Title</h1>
-                    <div class="postcard__subtitle">
-                      <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
-                      2020
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero.
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i> Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
-                      </li>
-                      <li class="tag__item play blue">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i> Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="social">
-                      <a href="https://google.com" target="_blank">
-                        <img src={spotify} alt="spotify" />
-                      </a>
-                      <a href="https://google.com" target="_blank">
-                        <img src={gpodcast} alt="Google Podcast" />
-                      </a>
-                      <a href="https://google.com" target="_blank">
-                        <img src={pocketcast} alt="PocketCasts" />
-                      </a>
-                    </div>
-                  </div>
-                </article>
-
-                <article class="postcard dark red">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/501/500"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text">
-                    <h1 class="postcard__title red">Podcast Title</h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i> Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
-                      </li>
-                      <li class="tag__item play red">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i> Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="social">
-                      <a href="https://google.com" target="_blank">
-                        <img src={spotify} alt="spotify" />
-                      </a>
-                      <a href="https://google.com" target="_blank">
-                        <img src={gpodcast} alt="Google Podcast" />
-                      </a>
-                      <a href="https://google.com" target="_blank">
-                        <img src={pocketcast} alt="PocketCasts" />
-                      </a>
-                    </div>
-                  </div>
-                </article>
-                <article class="postcard dark green">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/500/501"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text">
-                    <h1 class="postcard__title green">Podcast Title</h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i> Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
-                      </li>
-                      <li class="tag__item play green">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i> Play Episode
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </article>
-                <article class="postcard dark yellow">
-                  <a class="postcard__img_link" href="#">
-                    <img
-                      class="postcard__img"
-                      src="https://picsum.photos/501/501"
-                      alt="Image Title"
-                    />
-                  </a>
-                  <div class="postcard__text">
-                    <h1 class="postcard__title yellow">Podcast Title</h1>
-                    <div class="postcard__subtitle small">
-                      <time datetime="2020-05-25 12:00:00">
-                        <i class="fas fa-calendar-alt mr-2"></i> Mon, May 25th
-                        2020
-                      </time>
-                    </div>
-                    <div class="postcard__bar"></div>
-                    <div class="postcard__preview-txt">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eligendi, fugiat asperiores inventore beatae accusamus
-                      odit minima enim, commodi quia, doloribus eius! Ducimus
-                      nemo accusantium maiores velit corrupti tempora reiciendis
-                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
-                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
-                      quidem excepturi, illum quos!
-                    </div>
-                    <ul class="postcard__tagbox">
-                      <li class="tag__item">
-                        <i class="fas fa-tag mr-2"></i> Podcast
-                      </li>
-                      <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 55 mins.
-                      </li>
-                      <li class="tag__item play yellow">
-                        <a href="#">
-                          <i class="fas fa-play mr-2"></i> Play Episode
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </article>
               </div>
