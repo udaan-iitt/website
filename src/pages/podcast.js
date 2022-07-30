@@ -11,7 +11,8 @@ import spotify from '../images/podcasts/spotify.png';
 import gpodcast from '../images/podcasts/googlepodcast.png';
 import pocketcast from '../images/podcasts/pocketCasts.png';
 import cover from '../images/podcasts/Udaanpodcastcover.png';
-import './podcast.css';
+import './custom_styles/podcast.css';
+import './custom_styles/bootstrap-grid.min.css'
 
 const Podcast = () => {
   return (
