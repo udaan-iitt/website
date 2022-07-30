@@ -73,3 +73,10 @@ yarn-error.log
 
 # package lock
 package-lock.json
+
+# ignore local config
+node_modules_mac/
+node_modules_win/
+
+# symlink
+node_modules 
