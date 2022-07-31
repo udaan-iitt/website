@@ -91,11 +91,10 @@ const Podcast = () => {
                   </a>
                   <div class="postcard__text">
                     {/* class="postcard__title blue" */}
-                    <h1>
-                      Why does money cost so much?!
-                    </h1>
+                    <h1>Why does money cost so much?!</h1>
                     <div class="postcard__subtitle">
-                      Hosted By : Kranthi Sedamaki
+                      Hosted By : Kranthi Sedamaki, Vraj Patel and Aditya
+                      Rangamani
                     </div>
                     <div class="postcard__bar"></div>
                     <div class="postcard__preview-txt">
@@ -127,7 +126,7 @@ const Podcast = () => {
 
                     <div class="social">
                       <a
-                        href="https://open.spotify.com/show/2FHT7pM9XAGecXc8BdZrWT"
+                        href="https://open.spotify.com/episode/7B2HXyZ3xfr0TeHz0kySp9?si=zHddJRcYTCeUtkzsPG8ciA"
                         target="_blank"
                       >
                         <img src={spotify} alt="spotify" />
@@ -136,7 +135,7 @@ const Podcast = () => {
                         <img src={gpodcast} alt="Google Podcast" />
                       </a>
                       <a
-                        href="https://pca.st/podcast/bcc3cb60-f22d-013a-da46-0acc26574db2"
+                        href="https://pca.st/episode/5dd8ec89-9fd4-41da-b196-cd054d92c4dc"
                         target="_blank"
                       >
                         <img src={pocketcast} alt="PocketCasts" />
