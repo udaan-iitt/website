@@ -58,15 +58,21 @@ const Podcast = () => {
                   </div>
                   <div class="social">
                     <a
+                      title="Spotify"
                       href="https://open.spotify.com/show/2FHT7pM9XAGecXc8BdZrWT"
                       target="_blank"
                     >
                       <img src={spotify} alt="spotify" />
                     </a>
-                    <a title="Coming Soon!">
+                    <a
+                      title="Google Podcast"
+                      href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hYjU4ZmM1NC9wb2RjYXN0L3Jzcw"
+                      target="_blank"
+                    >
                       <img src={gpodcast} alt="Google Podcast" />
                     </a>
                     <a
+                      title="Pocket Casts"
                       href="https://pca.st/podcast/bcc3cb60-f22d-013a-da46-0acc26574db2"
                       target="_blank"
                     >
@@ -126,15 +132,21 @@ const Podcast = () => {
 
                     <div class="social">
                       <a
+                        title="Spotify"
                         href="https://open.spotify.com/episode/7B2HXyZ3xfr0TeHz0kySp9?si=zHddJRcYTCeUtkzsPG8ciA"
                         target="_blank"
                       >
                         <img src={spotify} alt="spotify" />
                       </a>
-                      <a title="Coming Soon!">
+                      <a
+                        title="Google Podcast"
+                        href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hYjU4ZmM1NC9wb2RjYXN0L3Jzcw/episode/ZWU1MjczZGUtZjE0OS00NGQyLWI1MDAtODNiNTk0MDIyOGQx?sa=X&ved=0CAUQkfYCahcKEwiAiJyK1Kz5AhUAAAAAHQAAAAAQLw"
+                        target="_blank"
+                      >
                         <img src={gpodcast} alt="Google Podcast" />
                       </a>
                       <a
+                        title="Pocket Casts"
                         href="https://pca.st/episode/5dd8ec89-9fd4-41da-b196-cd054d92c4dc"
                         target="_blank"
                       >
