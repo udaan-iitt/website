@@ -11,6 +11,40 @@ import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import {author_info} from '../data';
+import Card from '../components/Card';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faChevronRight,
+  faChevronLeft,
+} from '@fortawesome/fontawesome-free-solid';
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <FontAwesomeIcon
+      icon={faChevronRight}
+      className="slick-next slick-arrow"
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <FontAwesomeIcon
+      icon={faChevronLeft}
+      className="slick-prev slick-arrow "
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
 // import { SayButton, } from 'react-say';
 // import { useSynthesize } from 'react-say';
 
@@ -84,6 +118,21 @@ const BlogPost = (props) => {
     const twitterHandle = 'iit_tirupati';
     const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
+    const settings = {
+      infinite: true,
+  
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      swipeToSlide: true,
+      adaptiveHeight: true,
+      autoplay: true,
+      // speed: 4000,
+      autoplaySpeed: 2000,
+      cssEase: 'linear',
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+    };
     return (
       <Layout>
         <SEO title={title} description={desc} image={ogImagePath} />
@@ -130,6 +179,34 @@ const BlogPost = (props) => {
                     dangerouslySetInnerHTML={{ __html: html }}
                     rhythm={rhythm}
                   />
+                  <div>
+            <Slider {...settings}>
+              {authors.split(",").map(member_name => {
+                let author_data = author_info.find(obj => {
+                  return obj.title === member_name.trim()
+                });
+                let member = author_data || {};
+                console.log(member);
+                if (Object.keys(member).length != 0)
+                return (
+                  <div>
+                    <Card
+                      key={Math.random()}
+                      name={member.title}
+                      tagLine1={member.tagLine1}
+                      tagLine2={member.tagLine2}
+                      role={member.role}
+                      year={member.year}
+                      img={member.key}
+                      desc1={member.desc1}
+                      desc2={member.desc2}
+                      link={member.link}
+                    />
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
                 </div>
               </InnerWrapper>
             </OuterWrapper>
@@ -319,6 +396,9 @@ const InnerWrapper = styled.div`
   summary::-webkit-details-marker {
     display: none;
   }
+  .gatsby-image-wrapper {
+    position: initial!important;
+}
 `;
 
 const CommentWrap = styled.section`

@@ -64,7 +64,9 @@ const Card = (props) => {
         >
           <figure key={Math.random()} className="figure">
             <div className="img-wrap">
-              <Image filename={props.img} />
+              <Image
+              filename={props.img}
+               />
             </div>
           </figure>
         </div>
@@ -145,6 +147,7 @@ const Card = (props) => {
 export default Card;
 
 const Para = styled.p`
+margin: auto;
   * {
     color: 'var(--color-text)';
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -182,5 +185,16 @@ const Container = styled.div`
     @media only screen and (max-width: 700px) {
       margin: 20px auto 0px;
     }
+  }
+
+  .img-wrap{
+    overflow: hidden;
+    height: 0;
+    padding: 50% 0;
+    /* padding controls height, will always be perfectly square regardless of width */
+    position: relative;
+    opacity: 0.8;
+    border-radius: 50%;
+
   }
 `;

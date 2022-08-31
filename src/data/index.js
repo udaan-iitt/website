@@ -143,3 +143,29 @@ export const pastmembers = [
     link: 'https://www.linkedin.com/in/preethi-varsha-70211b210',
   },
 ];
+
+export const author_info = [
+  {
+    key: 'prabhat',
+    title: 'Malavika',
+    tagLine1: 'AKA pace577. An institution and inspiration',
+    tagLine2: 'The Prabotriarchy',
+    role: 'Chief Editor',
+    year: '2021-22',
+    desc1: 'Team Udaan trailblazer and 𝗽𝗮𝗰𝗲setter.',
+    desc2:
+      'Designed,Organised and meticulously documented the workflow of Udaan',
+    link: 'https://www.linkedin.com/in/prabhat-reddy-l-5b017062',
+  },
+  {
+    key: 'shreyansh',
+    title: 'Debeshee',
+    tagLine1: 'Founding Father',
+    tagLine2: `The "lit" Sec, who started it all`,
+    role: 'Editor-in-chief',
+    year: '2021-22',
+    desc1:
+      'Team Udaan pioneer and visionary who brought to life the idea of a student-run institute magazine.',
+    link: 'https://www.linkedin.com/in/shreyansh-mehra/',
+  }
+];
