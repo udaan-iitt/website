@@ -102,6 +102,7 @@ const BlogPost = (props) => {
           category,
           authors,
           starred,
+          abio,
         },
         html,
       },
@@ -181,12 +182,21 @@ const BlogPost = (props) => {
                   />
                   <div>
             <Slider {...settings}>
-              {authors.split(",").map(member_name => {
+              {abio!="NONE" && authors.split(",").map(member_n => {
+                let member_name = member_n.trim().toUpperCase()
                 let author_data = author_info.find(obj => {
-                  return obj.title === member_name.trim()
+                  return obj.title.toUpperCase() === member_name
                 });
+                let manual_author = "";
+                if (abio!="NONE" && abio!=""){
+                  for (const x of abio.split("|")){
+                    let a_info = x.split(":")
+                    if (a_info[0].toUpperCase() == member_name){
+                      manual_author =  a_info[1].trim();
+                    }
+                  }
+                }
                 let member = author_data || {};
-                console.log(member);
                 if (Object.keys(member).length != 0)
                 return (
                   <div>
@@ -198,7 +208,7 @@ const BlogPost = (props) => {
                       role={member.role}
                       year={member.year}
                       img={member.key}
-                      desc1={member.desc1}
+                      desc1={manual_author||member.desc1}
                       desc2={member.desc2}
                       link={member.link}
                     />
@@ -235,6 +245,7 @@ const BlogPost = (props) => {
       category,
       authors,
       starred,
+      abio,
     } = post.frontmatter;
     const { body } = post;
     const tags = category;
@@ -480,6 +491,7 @@ export const query = graphql`
         category
         authors
         starred
+        abio
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
@@ -498,6 +510,7 @@ export const query = graphql`
         category
         authors
         starred
+        abio
       }
     }
   }
