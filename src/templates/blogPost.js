@@ -11,7 +11,7 @@ import DateTime from 'styles/dateTime';
 import Markdown from 'styles/markdown';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import {author_info} from '../data';
+import {author_info} from '../posts/editions';
 import Card from '../components/Card';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

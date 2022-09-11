@@ -33,8 +33,19 @@
 
 .slick-list {
   margin: 0 -15px;
+  background-color: var(--color-card-2) !important;
 }
 
 .slick-slide > div {
   padding: 0 15px;
+}
+
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
 }

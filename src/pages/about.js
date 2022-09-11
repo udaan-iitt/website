@@ -5,7 +5,7 @@ import SEO from 'components/seo';
 import Layout from 'layout/layout';
 import Markdown from 'styles/markdown';
 import { rhythm } from 'styles/typography';
-import { pastmembers, members, newsletter } from '../data';
+import { pastmembers, members, newsletter } from '../posts/editions/index';
 import Image from '../components/imager';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -49,7 +49,7 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     autoplay: true,
     // speed: 4000,
     autoplaySpeed: 2000,
@@ -169,7 +169,7 @@ const About = () => {
           <br></br>
           <h2>Past Members</h2>
           <div>
-            <Slider {...settings}>
+            <Slider {...settings} >
               {pastmembers.map((member) => {
                 return (
                   <div>
@@ -263,6 +263,16 @@ const Container = styled(Markdown).attrs({
   margin-top: 80px;
   margin-bottom: 6rem;
 
+  .slick-slide {
+    height: auto; // ← that must not be ignored
+  }
+  .slick-track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     margin-top: var(--sizing-xl);
     width: 87.5%;
@@ -334,9 +344,9 @@ figure:hover{
 figure:hover .img-wrap{
   opacity: 1
 }
-p{
-  font-size:smaller
-}
+// p{
+//   font-size:smaller
+// }
 /* Grid changes again on larger screens: */
 @media screen and (min-width: 1000px) {
   

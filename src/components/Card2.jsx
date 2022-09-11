@@ -89,7 +89,7 @@ const Card2 = (props) => {
             <i>
               <span
                 style={{
-                  fontSize: '17px',
+                  // fontSize: '17px',
                   color: 'var(--color-gray-6)',
                 }}
               >
@@ -98,7 +98,7 @@ const Card2 = (props) => {
               <br />
               <span
                 style={{
-                  fontSize: '17px',
+                  // fontSize: '17px',
                   color: 'var(--color-gray-6)',
                 }}
               >
@@ -109,7 +109,7 @@ const Card2 = (props) => {
           <p>
             <span
               style={{
-                fontSize: '19px',
+                // fontSize: '19px',
                 fontWeight: '450',
                 lineHeight: '1',
               }}
@@ -143,6 +143,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   width: auto;
+  padding: 10px;
 
   align-items: stretch;
   background-color: var(--color-card-2);
