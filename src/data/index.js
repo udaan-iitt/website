@@ -238,7 +238,7 @@ export const author_info = [
   {
     key: 'noble',
     title: 'Noble Saji Mathews',
-    tagLine1: 'You are not a wizard Noble, Just Noble',
+    tagLine1: '',
     tagLine2: '',
     role: '',
     year: '',
