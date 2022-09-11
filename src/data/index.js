@@ -158,6 +158,188 @@ export const author_info = [
     link: '',
   },
   {
+    key: 'aashrith',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'abhishek',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'amit',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'arunkumar',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'bhargav',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'gagan',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'noble',
+    title: 'Noble Saji Mathews',
+    tagLine1: 'You are not a wizard Noble, Just Noble',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'pavan',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'pranav',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'rishitha',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'saket',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'srikarah',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'srinivas',
+    title: 'Giridara Srinivaas',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
+    key: 'venkatesa',
+    title: 'Debeshee Das',
+    tagLine1: '',
+    tagLine2: '',
+    role: '',
+    year: '',
+    desc1:
+      '',
+    desc2:
+      '',
+    link: '',
+  },
+  {
     key: 'sneha',
     title: 'Sneha M S',
     tagLine1: '',

@@ -11,7 +11,7 @@ const Image = props => (
         images: allFile(
           filter: {
             extension: { regex: "/(jpg)|(png)|(jpeg)/" }
-            absolutePath: { regex: "/images/team/" }
+            absolutePath: { regex: "/images/people/" }
           }
         ) {
           edges {
