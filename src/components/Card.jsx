@@ -47,6 +47,7 @@ const Card = (props) => {
   return (
     <Container
       onClick={() => {
+        if (props.link)
         window.open(props.link, '_blank');
       }}
     >
