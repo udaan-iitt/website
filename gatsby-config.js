@@ -162,5 +162,11 @@ module.exports = {
     `gatsby-alias-imports`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100
+      }
+    }
   ],
 };
