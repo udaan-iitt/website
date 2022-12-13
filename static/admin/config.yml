@@ -1,0 +1,49 @@
+backend:
+  name: github
+  repo: NobleMathews/udaan_editions
+  branch: preview
+media_folder: 2022_Sept/images
+public_folder: ../images
+collections:
+  - name: collection1
+    label: 2077_Test
+    folder: 2077_Test
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { name: title, label: Title }
+      - { name: category, label: Category }
+  - name: collection2
+    label: 2022_Sept
+    folder: 2022_Sept
+    media_folder: images
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { name: title, label: Title }
+      - { name: category, label: Category }
+      - { name: date, label: Date, widget: datetime }
+      - { name: desc, label: Description, widget: text }
+      - { name: thumbnail, label: Thumbnail, widget: image, required: false }
+      - { name: authors, label: Authors }
+      - { name: starred, label: Starred, widget: boolean, default: false }
+      - { name: abio, label: Author Bio, widget: text }
+      - { name: alt, label: Alt Text, widget: text, required: false }
+      - { name: body, label: Body, widget: markdown }
+  - name: collection3
+    label: 2022_June
+    folder: 2022_June
+    media_folder: images
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { name: title, label: Title }
+      - { name: category, label: Category }
+      - { name: date, label: Date, widget: datetime }
+      - { name: desc, label: Description, widget: text }
+      - { name: thumbnail, label: Thumbnail, widget: image, required: false }
+      - { name: authors, label: Authors }
+      - { name: starred, label: Starred, widget: boolean, default: false }
+      - { name: abio, label: Author Bio, widget: text }
+      - { name: alt, label: Alt Text, widget: text, required: false }
+      - { name: body, label: Body, widget: markdown }
