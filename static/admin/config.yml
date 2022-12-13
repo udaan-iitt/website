@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: NobleMathews/udaan_editions
-  branch: preview
+  branch: cms-test
 media_folder: 2022_Sept/images
 public_folder: ../images
 collections:
