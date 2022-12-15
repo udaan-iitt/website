@@ -24,6 +24,10 @@ const Podcast = () => {
           <h1 style={{ textAlign: 'center' }}>
             <b style={{ textTransform: 'uppercase' }}>Udaan Untethered</b>
           </h1>
+          <div>
+          <p style={{ textAlign: 'center'}}>In order to truly succeed, one must embrace both the light and the dark within themselves. For it is only by harnessing the power of both that we can hope to achieve our greatest potential</p>
+            <p style={{fontWeight:"bold"}} class="toBeReplaced"></p>
+          </div>
           <article>
             <div class="container my-5">
               <div class="row">
