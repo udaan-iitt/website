@@ -94,9 +94,36 @@ const GlobalStyle = createGlobalStyle`
       --dark-obj: none;
       --light-obj: block;
       --color-podcast-bg: #d0d0d0;
+      .toBeReplaced {
+        visibility: hidden;
+        position: relative;
+      }
+      .toBeReplaced:after {
+        left: 50%;
+  transform: translate(-50%, -25px);
+        visibility: visible;
+        position: absolute;
+        color: var(--color-text);
+        top: 0;
+        content: "Cave";
+        ;
+      }
     }
 
     body.dark {
+      .toBeReplaced {
+        visibility: hidden;
+        position: relative;
+      }
+      .toBeReplaced:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        color: var(--color-text);
+        left: 50%;
+        transform: translate(-50%, -25px);
+        content: "Canem";
+      }
       --color-highlight:#000;
       --color-text: #e6e6e6;
       --color-text-2: #d1d1d1;
