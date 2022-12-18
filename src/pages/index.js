@@ -150,7 +150,7 @@ const Home = ({ pageContext, data }) => {
           <Section>
           <div class='msg'>
             <h1>Welcome to the Hunt!</h1>
-            <p>Not all treasure is silver and gold mate</p>
+            <p>Not all treasure is silver and gold, mate.</p>
           </div>
           <p class='banner'>Treasure Hunt</p>
           </Section>
