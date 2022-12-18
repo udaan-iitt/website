@@ -14,8 +14,6 @@ const NotFound = () => {
           <Title>404</Title>
           <br />
           <FadeIn delay={1500}>
-            <h1>Who is <b>Marten Asmodom Vilijn</b>?</h1>
-            <hr/>
           <Desc>Moony & Noble present their compliments to Professor Snape, and beg him to keep his abnormally large nose out of other people's business :P</Desc>
           </FadeIn>
           </FadeIn>

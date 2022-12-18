@@ -147,26 +147,7 @@ const Home = ({ pageContext, data }) => {
       <SEO title="Home" />
       <Main>
         <Content>
-          <Section>
-          <div class='msg'>
-            <h1>Welcome to the Hunt!</h1>
-            <p>Not all treasure is silver and gold, mate.</p>
-          </div>
-          <p class='banner'>Treasure Hunt</p>
-          </Section>
-          <br/>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
-          {currentEdition == "2022_Sept"&&
-            <Collapsible trigger="Editor's Note">
-            <p>I am writing this essay to explain why I was unable to turn in the Editor's Note on time. The reason is simple: my dog ate it.</p>
-
-            <p>At first, I thought it was a joke when my dog came up to me with my homework in his mouth. But as I got closer, I realized that he had actually eaten it. The pages were torn and covered in drool, and there was no way I could use them for my assignment.</p>
-
-            <p>I tried to reconstruct the homework from memory, but I was too flustered and couldn't focus. I also couldn't find the original notes and materials that I had used to complete the homework. In the end, I had no choice but to admit defeat and tell my teacher the truth.</p>
-
-            <p>I know it sounds like a silly excuse, but it's the truth. I love my dog and he is a good boy, but he has a habit of getting into things that he shouldn't. He has eaten my homework before, but this time he really outdid himself. I am truly sorry for the inconvenience and I will make sure to keep my homework away from him in the future.</p>
-            </Collapsible>
-          }
           {currentEdition == "2022_June"&&
             <Collapsible trigger="Editor's Note">
             <p>Welcome to our humble abode! We are proud to present to you the fifth edition of Udaan, the student-run magazine of IIT Tirupati.</p>
@@ -228,31 +209,6 @@ const Home = ({ pageContext, data }) => {
     </Layout>
   );
 };
-
-const Section = styled.div`
-  max-width: 440px;
-  display: block;
-  margin-left: auto; margin-right: auto;
-.msg {
-  border-top: 3px solid #fa4242;
-  border-bottom: 3px solid #fa4242;
-  padding: 0.75em 0 1em;
-  display: block;
-  text-align: center;
-}
-
-.banner {
-  text-align: center;
-  background: #fa4242;
-  box-shadow: 0 15px #fa4242;
-  width: 160px;
-  padding-top: 8px;
-  padding-bottom: 5px;
-  margin: auto;
-  display: block;
-  color: #fff;
-}
-`
 
 const Main = styled.main`
   min-width: var(--min-width);
