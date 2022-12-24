@@ -1,6 +1,7 @@
 const React = require("react")
 
-exports.onRenderBody = ({ setPreBodyComponents }) => {
+exports.onRenderBody = ({ setHtmlAttributes, setPreBodyComponents }) => {
+  setHtmlAttributes({ lang: "en" });
   setPreBodyComponents([
     React.createElement("script", {
       dangerouslySetInnerHTML: {

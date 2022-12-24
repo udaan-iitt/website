@@ -7,7 +7,6 @@ import FadeIn from 'react-fade-in';
 const NotFound = () => {
   return (
     <Layout>
-      <SEO title="Not found" />
       <Container>
         <TitleWrap>
           <FadeIn>
@@ -21,6 +20,10 @@ const NotFound = () => {
       </Container>
     </Layout>
   );
+};
+
+export const Head = () => {
+  return <SEO title="Not found"/>;
 };
 
 const Container = styled.main`

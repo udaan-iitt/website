@@ -89,6 +89,9 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            internal {
+              contentFilePath
+            }
           }
         }
       }
@@ -118,12 +121,24 @@ exports.createPages = async ({ graphql, actions }) => {
   }
   `);
 
-  const posts = result.data.postsRemark.edges
-
+  const unfiltered1 = result.data.postsRemark.edges;
+  var posts = unfiltered1.filter(function({node}) { return node.fields.slug.includes("_")}); 
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: blogPostTemplate,
+      context: {
+        slug: node.fields.slug,
+      },
+    })
+  })
+
+  const unfiltered2 = result2.data.postsRemark.edges;
+  var posts = unfiltered2.filter(function({node}) { return node.fields.slug.includes("_")}); 
+  posts.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: `${blogPostTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.fields.slug,
       },

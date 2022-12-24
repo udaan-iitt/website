@@ -8,7 +8,6 @@ import teddyGIF from 'Images/opt.gif'
 const Leaderboard = () => {
   return (
     <Layout>
-      <SEO title="Leaderboard" />
       <Container>
         <TitleWrap>
           <FadeIn>
@@ -46,5 +45,9 @@ const Desc = styled.h2`
   // color: white;
   font-size: 1rem;
 `;
+
+export const Head = () => {
+  return <SEO title="Leaderboard"/>;
+};
 
 export default Leaderboard;

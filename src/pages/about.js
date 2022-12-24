@@ -60,7 +60,6 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About" />
       <FadeIn>
         <Container rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
@@ -357,5 +356,9 @@ figure:hover .img-wrap{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="About"/>;
+};
 
 export default About;

@@ -10,7 +10,6 @@ const CrosswordC = () => {
 
   return (
     <Layout>
-    <SEO title="Crossword" />
         <FadeIn>
           <TitleWrap>
           <Iframe url="https://www.puzzlefast.com/en/puzzles/2021011214412254E/plain-puzzle"
@@ -91,5 +90,9 @@ const FocusVisible = styled.div`
 //  }
 
 `;
+
+export const Head = () => {
+  return <SEO title="Crossword"/>;
+};
 
 export default CrosswordC;

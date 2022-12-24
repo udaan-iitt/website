@@ -18,7 +18,6 @@ import './custom_styles/bootstrap-grid.min.css';
 const Podcast = () => {
   return (
     <Layout>
-      <SEO title="Podcast" />
       <FadeIn>
         <Container2 rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
@@ -372,5 +371,9 @@ figure:hover .img-wrap{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="Podcast"/>;
+};
 
 export default Podcast;

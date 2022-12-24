@@ -80,7 +80,6 @@ const devPlugins = [
       pathToConfigModule: "src/styles/typography",
     },
   },
-  "gatsby-plugin-react-helmet",
   "gatsby-plugin-typescript",
   "gatsby-plugin-styled-components",
 ]
@@ -215,7 +214,7 @@ const pwaPlugins = [
       },
     },
   },
-  "gatsby-plugin-offline",
+  // "gatsby-plugin-offline",
 ]
 
 module.exports = {
@@ -228,6 +227,20 @@ module.exports = {
     ...markdownPlugins,
     ...searchPlugins,
     ...pwaPlugins,
+    // {
+    //   resolve: 'gatsby-plugin-mdx',
+    //   options: {
+    //     defaultLayouts: {
+    //       default: require.resolve('./src/layout/layout.js'),
+    //     },
+    //     plugins: [`gatsby-remark-images`],
+    //     gatsbyRemarkPlugins: [
+    //       {
+    //         resolve: `gatsby-remark-images`,
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {

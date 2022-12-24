@@ -12,7 +12,6 @@ const Latest = () => {
 
   return (
     <Layout>
-      <SEO title="About" />
       <FadeIn>
       {/* <Container
         rhythm={rhythm}
@@ -126,5 +125,9 @@ p{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="About"/>;
+};
 
 export default Latest;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const CenteredImg = ({ src, alt }) => {
   const data = useStaticQuery(graphql`
@@ -10,10 +10,7 @@ const CenteredImg = ({ src, alt }) => {
         edges {
           node {
             id
-            fluid {
-              ...GatsbyImageSharpFluid
-              originalName
-            }
+            gatsbyImageData(layout: CONSTRAINED)
           }
         }
       }
@@ -27,7 +24,7 @@ const CenteredImg = ({ src, alt }) => {
   return (
     <ThumbnailWrapper>
       <InnerWrapper>
-        <Img alt={alt} fluid={{ ...image.node.fluid, aspectRatio: 16 / 9 }} />
+        <GatsbyImage image={{ ...image.node.gatsbyImageData, aspectRatio: 16 / 9}} alt={alt} />
       </InnerWrapper>
     </ThumbnailWrapper>
   );
@@ -47,6 +44,9 @@ export const ThumbnailWrapper = styled.div`
     opacity: 0;
     background-color: var(--color-dimmed);
     transition: 0.3s ease;
+  }
+  .gatsby-image-wrapper-constrained{
+    height: 265px;
   }
 `;
 
