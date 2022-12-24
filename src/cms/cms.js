@@ -76,7 +76,7 @@ var rem_months = new Set();
       backend: {
         name: 'github',
         repo: 'NobleMathews/udaan_editions',
-        branch: 'main'
+        branch: 'preview'
       },
 
       media_folder: 'images',
