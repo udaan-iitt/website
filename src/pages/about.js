@@ -1,16 +1,16 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import styled from 'styled-components';
-import SEO from 'components/seo';
-import Layout from 'layout/layout';
-import Markdown from 'styles/markdown';
-import { rhythm } from 'styles/typography';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
+import Markdown from 'Styles/markdown';
+import { rhythm } from 'Styles/typography';
 import { pastmembers, members, newsletter } from '../posts/editions/index';
-import Image from '../components/imager';
+import Image from 'Components/imager';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import Card from '../components/Card';
+import Card from 'Components/Card';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -60,7 +60,6 @@ const About = () => {
 
   return (
     <Layout>
-      <SEO title="About" />
       <FadeIn>
         <Container rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
@@ -357,5 +356,9 @@ figure:hover .img-wrap{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="About"/>;
+};
 
 export default About;

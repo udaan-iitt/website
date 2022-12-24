@@ -1,10 +1,10 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import styled from 'styled-components';
-import SEO from 'components/seo';
-import Layout from 'layout/layout';
-import Markdown from 'styles/markdown';
-import { rhythm } from 'styles/typography';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
+import Markdown from 'Styles/markdown';
+import { rhythm } from 'Styles/typography';
 import IframeResizer from 'iframe-resizer-react'
 import FocusLock from 'react-focus-lock';
 
@@ -12,7 +12,6 @@ const Latest = () => {
 
   return (
     <Layout>
-      <SEO title="About" />
       <FadeIn>
       {/* <Container
         rhythm={rhythm}
@@ -126,5 +125,9 @@ p{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="About"/>;
+};
 
 export default Latest;

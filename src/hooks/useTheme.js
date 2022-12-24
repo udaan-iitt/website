@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { LIGHT, DARK } from 'constants/constants';
+import { LIGHT, DARK } from 'Constants/constants';
 
 const useTheme = () => {
   const [theme, setTheme] = useState(null);

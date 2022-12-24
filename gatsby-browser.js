@@ -8,7 +8,7 @@ export const onServiceWorkerUpdateReady = () => {
     // )
   
     // if (answer === true)  window.location.reload()
-    window.location.reload();
+    window.location.reload(true);
 }
 
 export const onRouteUpdate = () => {

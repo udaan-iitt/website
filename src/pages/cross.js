@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import SEO from 'components/seo';
-import Layout from 'layout/layout';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
 import FadeIn from 'react-fade-in';
 import 'focus-visible';
 import Iframe from 'react-iframe'
@@ -10,7 +10,6 @@ const CrosswordC = () => {
 
   return (
     <Layout>
-    <SEO title="Crossword" />
         <FadeIn>
           <TitleWrap>
           <Iframe url="https://www.puzzlefast.com/en/puzzles/2021011214412254E/plain-puzzle"
@@ -91,5 +90,9 @@ const FocusVisible = styled.div`
 //  }
 
 `;
+
+export const Head = () => {
+  return <SEO title="Crossword"/>;
+};
 
 export default CrosswordC;

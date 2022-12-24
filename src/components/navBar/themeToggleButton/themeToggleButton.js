@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import ThemeContext from 'store/themeContext';
-import ThemeIcon from './themeIcon';
-import Background from 'styles/background';
-import { DARK } from 'constants/constants';
+import ThemeContext from 'Store/themeContext';
+// import ThemeIcon from './themeIcon';
+import Background from 'Styles/background';
+import { DARK } from 'Constants/constants';
 import DarkModeToggle from "react-dark-mode-toggle";
 
 const ThemeToggleButton = ({ themeToggler }) => {

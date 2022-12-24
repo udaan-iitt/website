@@ -4,15 +4,14 @@ import { Link } from 'gatsby';
 import LinkList from './linkList';
 import ThemeToggleButton from './themeToggleButton/themeToggleButton';
 import MenuIcon from './menuIcon';
-import Background from 'styles/background';
-import Image from '../imagerS';
+import Background from 'Styles/background';
 import {
   listAnimationCSS,
   navBackgroundAnimationCSS,
   curtainAnimationCSS,
-} from 'styles/navBarAnimation';
-import useSiteMetadata from 'hooks/useSiteMetadata';
-import useMenu from 'hooks/useMenu';
+} from 'Styles/navBarAnimation';
+import useSiteMetadata from 'Hooks/useSiteMetadata';
+import useMenu from 'Hooks/useMenu';
 import './font/stylesheet.css'
 
 const NavBar = ({ title, themeToggler }) => {

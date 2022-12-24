@@ -1,33 +1,26 @@
 import React from 'react';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { Button } from '@material-ui/core';
 
 const Image = (props) => (
   <StaticQuery
-    query={graphql`
-      query {
-        images: allFile(
-          filter: {
-            extension: { regex: "/(jpg)|(png)|(jpeg)/" }
-            absolutePath: { regex: "/images/" }
-          }
-        ) {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
+    query={graphql`{
+  images: allFile(
+    filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, absolutePath: {regex: "/images/"}}
+  ) {
+    edges {
+      node {
+        relativePath
+        name
+        childImageSharp {
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
-    `}
+    }
+  }
+}`}
     render={(data) => {
       const image = data.images.edges.find((n) => {
         return n.node.relativePath.includes(props.filename);
@@ -36,9 +29,7 @@ const Image = (props) => (
         return null;
       }
 
-      return (
-        <Img alt={props.filename} fluid={image.node.childImageSharp.fluid} />
-      );
+      return <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} alt={props.filename} />;
     }}
   />
 );

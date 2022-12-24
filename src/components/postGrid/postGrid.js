@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import FadeIn from 'react-fade-in';
 import Card from './card';
 import { ThumbnailWrapper } from './centeredImg';
-import useInfiniteScroll from 'hooks/useInfiniteScroll';
+import useInfiniteScroll from 'Hooks/useInfiniteScroll';
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
 // function shuffleArray(array) {

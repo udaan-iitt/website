@@ -1,24 +1,23 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import styled from 'styled-components';
-import SEO from 'components/seo';
-import Layout from 'layout/layout';
-import Markdown from 'styles/markdown';
-import { rhythm } from 'styles/typography';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
+import Markdown from 'Styles/markdown';
+import { rhythm } from 'Styles/typography';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import spotify from '../images/podcasts/spotify.png';
-import gpodcast from '../images/podcasts/googlepodcast.png';
-import pocketcast from '../images/podcasts/pocketCasts.png';
-import cover from '../images/podcasts/Udaanpodcastcover.png';
-import pc1 from '../images/podcasts/Podcast_1_cover.png';
+import spotify from 'Images/podcasts/spotify.png';
+import gpodcast from 'Images/podcasts/googlepodcast.png';
+import pocketcast from 'Images/podcasts/pocketCasts.png';
+import cover from 'Images/podcasts/Udaanpodcastcover.png';
+import pc1 from 'Images/podcasts/Podcast_1_cover.png';
 import './custom_styles/podcast.css';
 import './custom_styles/bootstrap-grid.min.css';
 
 const Podcast = () => {
   return (
     <Layout>
-      <SEO title="Podcast" />
       <FadeIn>
         <Container2 rhythm={rhythm}>
           <h1 style={{ textAlign: 'center' }}>
@@ -372,5 +371,9 @@ figure:hover .img-wrap{
 
 }
 `;
+
+export const Head = () => {
+  return <SEO title="Podcast"/>;
+};
 
 export default Podcast;

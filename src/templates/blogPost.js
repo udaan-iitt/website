@@ -1,18 +1,18 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Layout from 'layout/layout';
-import SEO from 'components/seo';
-import Comment from 'components/comment';
-import ShareButtons from 'components/share';
-import { rhythm } from 'styles/typography';
-import Category from 'styles/category';
-import DateTime from 'styles/dateTime';
-import Markdown from 'styles/markdown';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
+import Layout from 'Layout/layout';
+import SEO from 'Components/seo';
+import Comment from 'Components/comment';
+import ShareButtons from 'Components/share';
+import { rhythm } from 'Styles/typography';
+import Category from 'Styles/category';
+import DateTime from 'Styles/dateTime';
+import Markdown from 'Styles/markdown';
+// import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import {author_info} from '../posts/editions';
-import Card from '../components/Card3';
+import {author_info} from 'Posts/editions';
+import Card from 'Components/Card3';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
@@ -59,6 +59,7 @@ const BlogPost = (props) => {
 
   //   //console.log(string);
   // };
+  // console.log(props)
   let speechHandler = (item) => {
     console.log(item)
   }
@@ -88,7 +89,7 @@ const BlogPost = (props) => {
     }
   }}
 
-  const { location, data } = props;
+  const { location, data, children } = props;
   const url = location.href;
 
   if (data.markdownRemark) {
@@ -117,7 +118,6 @@ const BlogPost = (props) => {
     //   url = 'https://udaaniitt.in/'
     // }
     const twitterHandle = 'iit_tirupati';
-    const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     const settings = {
       infinite: true,
@@ -136,7 +136,6 @@ const BlogPost = (props) => {
     };
     return (
       <Layout>
-        <SEO title={title} description={desc} image={ogImagePath} />
         <main>
           <article>
             <OuterWrapper>
@@ -257,11 +256,9 @@ const BlogPost = (props) => {
     //   url = 'https://udaaniitt.in/'
     // }
     const twitterHandle = 'iit_tirupati';
-    const ogImagePath = thumbnail && thumbnail.childImageSharp.fixed.src;
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     return (
       <Layout>
-        <SEO title={title} description={desc} image={ogImagePath} />
         <main>
           <article>
             <OuterWrapper>
@@ -290,7 +287,8 @@ const BlogPost = (props) => {
                   <Divider />
                   <ParallaxProvider>
                     <Markdown rhythm={rhythm}>
-                      <MDXRenderer>{body}</MDXRenderer>
+                      {children}
+                      {/* <MDXRenderer>{body}</MDXRenderer> */}
                     </Markdown>
                   </ParallaxProvider>
                 </div>
@@ -473,47 +471,72 @@ const Title = styled.h1`
   }
 `;
 
-export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-        desc
-        thumbnail {
-          childImageSharp {
-            fixed {
-              src
-            }
-          }
+export const query = graphql`query ($slug: String!) {
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    frontmatter {
+      title
+      desc
+      thumbnail {
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FIXED)
         }
-        date(formatString: "YYYY-MM-DD")
-        category
-        authors
-        starred
-        abio
       }
-    }
-    mdx(fields: { slug: { eq: $slug } }) {
-      body
-      frontmatter {
-        title
-        desc
-        thumbnail {
-          childImageSharp {
-            fixed {
-              src
-            }
-          }
-        }
-        date(formatString: "YYYY-MM-DD")
-        category
-        authors
-        starred
-        abio
-      }
+      date(formatString: "YYYY-MM-DD")
+      category
+      authors
+      starred
+      abio
     }
   }
-`;
+  mdx(fields: {slug: {eq: $slug}}) {
+    body
+    frontmatter {
+      title
+      desc
+      thumbnail {
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FIXED)
+        }
+      }
+      date(formatString: "YYYY-MM-DD")
+      category
+      authors
+      starred
+      abio
+    }
+  }
+}`;
+
+export const Head = ({
+  data: {
+    mdx,
+    markdownRemark
+  }
+}) => {
+  let data_article = {}
+  if(mdx){
+    data_article = mdx
+  }
+  else{
+    data_article = markdownRemark
+  }
+  const {
+      frontmatter: {
+        title,
+        desc,
+        thumbnail,
+        date,
+        category,
+        authors,
+        starred,
+        abio,
+      },
+      html,
+  } = data_article;
+  const ogImagePath = thumbnail && thumbnail.childImageSharp.gatsbyImageData.src;
+  // console.log(JSON.stringify(props, null, 2));
+  return <SEO title={title} description={desc} image={ogImagePath}/>;
+};
 
 export default BlogPost;

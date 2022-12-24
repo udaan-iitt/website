@@ -1,12 +1,12 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import NavBar from 'components/navBar/navBar';
-import ThemeContext from 'store/themeContext';
-import Background from 'styles/background';
-import useTheme from 'hooks/useTheme';
-import useSiteMetadata from 'hooks/useSiteMetadata';
-import styledTheme from 'styles/theme';
-import GlobalStyle from 'styles/globalStyle';
+import NavBar from 'Components/navBar/navBar';
+import ThemeContext from 'Store/themeContext';
+import Background from 'Styles/background';
+import useTheme from 'Hooks/useTheme';
+import useSiteMetadata from 'Hooks/useSiteMetadata';
+import styledTheme from 'Styles/theme';
+import GlobalStyle from 'Styles/globalStyle';
 import ScrollUp from 'react-scroll-up';
 
 const Layout = ({ children }) => {
