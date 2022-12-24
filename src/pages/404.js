@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import SEO from 'components/seo';
-import Layout from 'layout/layout';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
 import FadeIn from 'react-fade-in';
 
 const NotFound = () => {

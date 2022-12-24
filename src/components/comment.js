@@ -1,7 +1,7 @@
 import React, { useRef, useContext, useEffect } from 'react';
-import ThemeContext from 'store/themeContext';
-import useSiteMetadata from 'hooks/useSiteMetadata';
-import { DARK } from 'constants/constants';
+import ThemeContext from 'Store/themeContext';
+import useSiteMetadata from 'Hooks/useSiteMetadata';
+import { DARK } from 'Constants/constants';
 
 const src = 'https://utteranc.es';
 const utterancesSelector = 'iframe.utterances-frame';

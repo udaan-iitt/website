@@ -1,13 +1,13 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Layout from 'layout/layout';
+import Layout from 'Layout/layout';
 import FadeIn from 'react-fade-in';
-import SEO from 'components/seo';
-import PostGrid from 'components/postGrid/postGrid';
+import SEO from 'Components/seo';
+import PostGrid from 'Components/postGrid/postGrid';
 // import CategoryFilter from 'components/categoryFilter';
-import EditionFilter from 'components/editionFilter';
-import useSiteMetadata from 'hooks/useSiteMetadata';
+import EditionFilter from 'Components/editionFilter';
+import useSiteMetadata from 'Hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
 import Collapsible from 'react-collapsible';
 
@@ -246,11 +246,11 @@ const PostTitle = styled.h2`
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(posts/editions)/" } }
+      filter: {fileAbsolutePath: {regex: "/(posts/editions)/"}}
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: {frontmatter: {date: DESC}}
     ) {
-      group(field: frontmatter___category) {
+      group(field: {frontmatter: {category: SELECT}}) {
         fieldValue
         totalCount
       }
@@ -279,11 +279,8 @@ export const query = graphql`
         }
       }
     }
-    allMdx(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      group(field: frontmatter___category) {
+    allMdx(limit: 2000, sort: {frontmatter: {date: DESC}}) {
+      group(field: {frontmatter: {category: SELECT}}) {
         fieldValue
         totalCount
       }

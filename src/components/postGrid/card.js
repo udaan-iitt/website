@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import CenteredImg from './centeredImg';
-import Category from 'styles/category';
-import DateTime from 'styles/dateTime';
+import Category from 'Styles/category';
 import TruncateMarkup from 'react-truncate-markup';
 
 const Card = ({ thumbnail, alt, category, title, desc, authors, starred, date }) => {

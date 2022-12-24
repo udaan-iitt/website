@@ -1,7 +1,6 @@
-const path = require(`path`);
-const _ = require('lodash');
-const { createFilePath } = require(`gatsby-source-filesystem`);
-const express= require('express');
+const path = require(`path`)
+const _ = require("lodash")
+const { createFilePath } = require(`gatsby-source-filesystem`)
 const { attachFields } = require(`gatsby-plugin-node-fields`)
 const fs = require('fs');
 
@@ -29,18 +28,15 @@ const descriptors = [
   },
 ]
 
-exports.onCreateDevServer=({app})=>{
-    app.use(express.static('public'))
-}
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions;
+  const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `posts` });
+    const slug = createFilePath({ node, getNode, basePath: `posts` })
     createNodeField({
       node,
       name: `slug`,
       value: slug,
-    });
+    })
   }
   else if (node.internal.type === `Mdx`){
     const slug = createFilePath({ node, getNode, basePath: `posts` });
@@ -51,18 +47,18 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
   }
   attachFields(node, actions, getNode, descriptors)
-};
+}
 
 exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage } = actions
 
-  const mainTemplate = path.resolve(`./src/pages/index.js`);
-  const blogPostTemplate = path.resolve(`./src/templates/blogPost.js`);
-//         filter: { fileAbsolutePath: { regex: "/(posts/blog)/" } }
+  const mainTemplate = path.resolve(`./src/pages/index.js`)
+  const blogPostTemplate = path.resolve(`./src/templates/blogPost.js`)
+
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
-        sort: { fields: frontmatter___date, order: DESC }
+        sort: { frontmatter: { date: DESC } }
         limit: 2000
       ) {
         edges {
@@ -74,17 +70,18 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
       categoriesGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___category) {
+        group(field: { frontmatter: { category: SELECT } }) {
           fieldValue
           totalCount
         }
       }
     }
-  `);
+  `)
+
   const result2 = await graphql(`
     {
       postsRemark: allMdx(
-        sort: { fields: frontmatter___date, order: DESC }
+        sort: { frontmatter: { date: DESC } }
         limit: 2000
       ) {
         edges {
@@ -96,13 +93,13 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
       categoriesGroup: allMdx(limit: 2000) {
-        group(field: frontmatter___category) {
+        group(field: { frontmatter: { category: SELECT } }) {
           fieldValue
           totalCount
         }
       }
     }
-  `);
+  `)
 
   const editionQuery = await graphql(`
   {
@@ -120,8 +117,9 @@ exports.createPages = async ({ graphql, actions }) => {
       }
   }
   `);
-  const unfiltered = result.data.postsRemark.edges.concat(result2.data.postsRemark.edges);
-  var posts = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
+
+  const posts = result.data.postsRemark.edges
+
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -129,10 +127,9 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: node.fields.slug,
       },
-    });
-  });
+    })
+  })
 
-  // const categories = result.data.categoriesGroup.group + result2.data.categoriesGroup.group;
   const arr1 = result.data.categoriesGroup.group;
   const arr2 = result2.data.categoriesGroup.group;
   const categories = Object.values([...arr1, ...arr2].reduce((acc, { fieldValue, totalCount }) => {
@@ -157,4 +154,4 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     });
   })
-};
+}

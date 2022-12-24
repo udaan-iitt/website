@@ -1,5 +1,5 @@
 import React from 'react';
-import { DARK } from 'constants/constants';
+import { DARK } from 'Constants/constants';
 
 const ThemeIcon = ({ theme }) => {
   return (
