@@ -214,7 +214,8 @@ const pwaPlugins = [
       },
     },
   },
-  // "gatsby-plugin-offline",
+  'gatsby-plugin-remove-serviceworker',
+  "gatsby-plugin-offline",
 ]
 
 module.exports = {
