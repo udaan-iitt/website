@@ -29,11 +29,18 @@ var rem_months = new Set();
     })
   }
   var cur_month_hit = false;
+  var months_added = 0;
   allMonths.forEach(function(element) {
       if(element == shortName)
           cur_month_hit = true;
-      if(cur_month_hit)
-      rem_months.add(`${cur_year}_${element}`)
+      if(cur_month_hit){
+        rem_months.add(`${cur_year}_${element}`)
+        months_added = months_added + 1;
+      }
+  })
+  allMonths.forEach(function(element) {
+    if(months_added<12)
+    rem_months.add(`${cur_year+1}_${element}`)
   })
   var ed_collections = [];
   console.log(rem_months)
@@ -78,7 +85,7 @@ var rem_months = new Set();
         repo: 'NobleMathews/udaan_editions',
         branch: 'preview',
         base_url: 'https://us-central1-udaaniitt.cloudfunctions.net',
-        auth_endpoint: '/oauth/auth'
+        auth_endpoint: 'oauth/auth'
       },
 
       media_folder: 'images',
