@@ -77,7 +77,8 @@ var rem_months = new Set();
         name: 'github',
         repo: 'NobleMathews/udaan_editions',
         branch: 'preview',
-        base_url: 'https://us-central1-udaaniitt.cloudfunctions.net/oauth'
+        base_url: 'https://us-central1-udaaniitt.cloudfunctions.net',
+        auth_endpoint: '/oauth/auth'
       },
 
       media_folder: 'images',
