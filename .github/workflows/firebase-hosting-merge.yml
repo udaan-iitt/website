@@ -29,7 +29,6 @@ jobs:
       - run: yarn install --frozen-lockfile && yarn build
         env:
             GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
-            NODE_ENV: production
             CI: true
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
