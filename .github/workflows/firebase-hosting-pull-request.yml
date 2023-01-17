@@ -18,7 +18,21 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            public
+            .cache
+          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
       - run: yarn install --frozen-lockfile && yarn build
+        env:
+            GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+            NODE_ENV: production
+            CI: true
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
