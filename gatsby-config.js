@@ -86,7 +86,17 @@ const devPlugins = [
 
 const imagePlugins = [
   "gatsby-plugin-image",
-  "gatsby-plugin-sharp",
+  {
+    resolve: `gatsby-plugin-sharp`,
+    pngCompressionSpeed: 10,
+    options: {
+      defaults: {
+        formats: [`auto`],
+        quality: 10,
+        breakpoints: [600],
+      },
+    },
+  },
   "gatsby-transformer-sharp",
 ]
 
@@ -95,6 +105,13 @@ const markdownPlugins = [
     resolve: "gatsby-transformer-remark",
     options: {
       plugins: [
+        {
+          resolve: `gatsby-remark-katex`,
+          options: {
+            // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+            strict: `ignore`
+          }
+        },
         {
           resolve: 'gatsby-remark-embed-video',
           options: {

@@ -15,6 +15,7 @@ import {author_info} from 'Posts/editions';
 import Card from 'Components/Card3';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import "katex/dist/katex.min.css"
 import Slider from 'react-slick';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
