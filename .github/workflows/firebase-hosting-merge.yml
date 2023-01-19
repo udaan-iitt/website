@@ -2,10 +2,11 @@
 # https://github.com/firebase/firebase-tools
 
 name: Deploy to Firebase Hosting on merge
-'on':
+on:
   push:
     branches:
       - main
+      - preview
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
