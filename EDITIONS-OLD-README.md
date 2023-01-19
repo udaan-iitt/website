@@ -67,7 +67,7 @@ date: "2021-06-06 10:00:00 +09:00"
 desc: "Prabhat is like the peoples president no? like how Dr Kalam was the people president everyones best friend Prabhat is ACCURATE.. This masterpiece was AI generated and will also appear on top of the article"
 thumbnail: "./images/prabot.jpg"
 authors: "Debeshee and Deepmind"
-starred: "false"
+starred: false
 abio: "NONE"
 alt: "prabot__text_if_images_fail_to_load"
 ---

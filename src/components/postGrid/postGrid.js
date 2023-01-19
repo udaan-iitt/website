@@ -19,7 +19,7 @@ import useInfiniteScroll from 'Hooks/useInfiniteScroll';
 const PostGrid = ({ posts }) => {
   const scrollEdgeRef = useRef(null);
   posts.forEach(function(item,i){
-    if(item.starred === "true"){
+    if(item.starred){
       posts.splice(i, 1);
       posts.unshift(item);
     }
