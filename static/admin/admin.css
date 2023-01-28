@@ -1,0 +1,3 @@
+[data-slate-editor] { 
+    -webkit-user-modify: read-write !important; 
+}

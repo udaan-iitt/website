@@ -1,4 +1,5 @@
 import CMS from 'netlify-cms-app';
+import './cms-utils'
 async function getJSON(url) {
   const response = await fetch(url, {})
   if (!response.ok) {
