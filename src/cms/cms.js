@@ -56,7 +56,17 @@ var rem_months = new Set();
               slug: '{{slug}}',
               fields: [
               { name: 'title', label: 'Title' },
-              { name: 'category', label: 'Category' },
+              { name: 'category', label: 'Category', widget: "select",
+              options: [
+                { label: "Experiences", value: "Experiences" },
+                { label: "Poetry", value: "Poetry" },
+                { label: "Op-Ed", value: "Op-Ed" },
+                { label: "Campus News", value: "Campus News" },   
+                { label: "Story", value: "Story" }, 
+                { label: "Review", value: "Review" },   
+                { label: "Competitions", value: "Competitions" } 
+              ]  
+              },
               { name: 'date', label: 'Date', widget: 'datetime' },
               { name: 'desc', label: 'Description', widget: 'text' },
               { name: 'thumbnail', label: 'Thumbnail', widget: 'image', required: false },
