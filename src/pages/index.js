@@ -49,7 +49,25 @@ const Home = ({ pageContext, data }) => {
 
   var editions = postData.map(function (el) {return el.node.fields.slug.split('/')[2]; });
   editions = editions.filter(e => !e.endsWith("Test"));
-  let alleditions = naturalSort([...new Set(editions)]);
+  // Convert editions to unique values
+  let unique_editions = [...new Set(editions)];
+  // unique editions contains strings of the form YYYY_Season wher Season contains Winter Summer Autumn
+  // Sort the unique_editions array
+  let reversedList = unique_editions.sort((a, b) => {
+    const [yearA, seasonA] = a.split('_');
+    const [yearB, seasonB] = b.split('_');
+  
+    if (yearA !== yearB) {
+      return yearA - yearB;
+    }
+  
+    const seasons = ['Winter', 'Summer', 'Autumn'];
+    return seasons.indexOf(seasonA) - seasons.indexOf(seasonB);
+  });
+
+
+  let alleditions = reversedList.reverse();
+  
   alleditions.indexOf("All") === -1 ? alleditions.push("All") : console.log("Unexpected mod to alleditions");
   const [posts, setPosts] = useState([]);
   const [old_posts, setOldPosts] = useState([]);
@@ -147,7 +165,7 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
-          {currentEdition == "2022_Jun"&&
+          {currentEdition == "2022_Summer"&&
             <Collapsible trigger="Editor's Note">
             <p>Welcome to our humble abode! We are proud to present to you the fifth edition of Udaan, the student-run magazine of IIT Tirupati.</p>
             <p><em>Jupiter and Venus. How unjust their fates&#8230;</em></p>
@@ -156,7 +174,7 @@ const Home = ({ pageContext, data }) => {
             <p>A special word of thanks goes out to all those who contributed to this edition. We wouldn&rsquo;t be here without you. We hope you enjoy reading this edition!</p>
             </Collapsible>
           }
-          { currentEdition == "2022_Jan"&&
+          { currentEdition == "2022_Winter"&&
             <Collapsible trigger="Editor's Note">
               <p>Team Udaan brings to you yet another vibrant edition, the January 2022 edition of Udaan, the student-run online campus magazine, with a variety of content that we hope you’ll love. This edition marks 1 year of the inception of Udaan, and we are extremely grateful for all your support in making the student magazine a success!</p>
               <p>Here’s a quick overview of the content in the magazine. This edition features more exciting <b>poems</b> and <b>stories</b> than any of our previous editions! We have beautiful poetry that makes you ponder life’s dilemmas, question the world, daydream about love, and appreciate the irreplaceable bond between mother and child. You can also find stories; one inspired by real-life, one situated on a battlefield, and one narrated by the non-human entity that we’re all too familiar with. In addition, there’s also a satirical but homely letter that you would enjoy reading!</p>
@@ -167,7 +185,7 @@ const Home = ({ pageContext, data }) => {
               <p>We at Team Udaan hope you all enjoy this edition. Happy reading!</p>
             </Collapsible>
           }
-          { currentEdition == "2021_Jun"&&
+          { currentEdition == "2021_Summer"&&
             <Collapsible trigger="Editor's Note">
             <p>
             We are extremely delighted to present to you the second edition of Udaan!
@@ -180,7 +198,7 @@ const Home = ({ pageContext, data }) => {
             </p>
           </Collapsible>
           }
-          { currentEdition == "2021_Sep"&&
+          { currentEdition == "2021_Autumn"&&
           <Collapsible trigger="Editor's Note">
             <p>
             Internship - an arrangement where you are mentored by and learn from experienced professionals in your field, while sometimes even being paid for it. Imagine experiencing your field of work, getting to test yourself, discovering what skills you need to succeed, all before you even graduate college! This is what internships are all about. It’s no surprise then that every engineering student works hard to get into an internship that they desire. This is the time of the year when the internship fever is palpable, with the third years giving it their best shot.
