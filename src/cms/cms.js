@@ -10,7 +10,7 @@ import './cms-utils'
 window.CMS_MANUAL_INIT = true;
 const today = new Date()
 // const shortName = today.toLocaleString('en-US', {month: 'short'});
-const allMonths = ["Winter", "Summer", "Autumn", "Special"]
+const allMonths = ["Winter", "Spring", "Summer", "Autumn"]
 const cur_year = today.getFullYear()
 var rem_months = new Set();
 // (async () => {

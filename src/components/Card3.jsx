@@ -37,10 +37,10 @@ const Image = (props) => (
 const Card3 = (props) => {
   return (
     <Container
-      onClick={() => {
-        if (props.link)
-        window.open(props.link, '_blank');
-      }}
+      // onClick={() => {
+      //   if (props.link)
+      //   window.open(props.link, '_blank');
+      // }}
     >
       <div
         style={{
@@ -81,25 +81,27 @@ const Card3 = (props) => {
           </p>
           <p style={{marginTop: '10px'}}>
             <span
+              className="desc"
               style={{
                 // fontSize: '19px',
                 fontWeight: '450',
                 lineHeight: '1',
               }}
+              dangerouslySetInnerHTML={{ __html: props.desc1 }}
             >
-              {props.desc1}
             </span>
             <br />
             <span
-              className="desc2"
+              className="desc desc2"
               style={{
                 // fontSize: '19px',
                 fontWeight: '450',
                 lineHeight: '1',
               }}
+              dangerouslySetInnerHTML={{ __html: props.desc2 }}
             >
-              {props.desc2}
             </span>
+            {/* <p><a target="_blank" href={props.link||""+props.name}>🖋️ | Read more from the Author</a></p> */}
           </p>
         </Para>
       </div>
@@ -131,7 +133,7 @@ const Container = styled.div`
   align-items: stretch;
   background-color: var(--color-card-2);
 
-  cursor: pointer;
+  // cursor: pointer;
 
   @media only screen and (max-width: 700px) {
     display: grid;
@@ -139,6 +141,12 @@ const Container = styled.div`
 
     .desc2 {
       display: none;
+    }
+  }
+
+  .desc {
+    a {
+      color: var(--color-blue) !important;
     }
   }
 
