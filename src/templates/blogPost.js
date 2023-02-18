@@ -21,6 +21,7 @@ import {
   faChevronRight,
   faChevronLeft,
 } from '@fortawesome/fontawesome-free-solid';
+import "katex/dist/katex.min.css"
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
@@ -186,6 +187,7 @@ const BlogPost = (props) => {
                 let author_data = author_info.find(obj => {
                   return obj.title.toUpperCase() === member_name
                 });
+                console.log(author_info);
                 let manual_author = "";
                 if (abio!="NONE" && abio!=""){
                   for (const x of abio.split("|")){
@@ -196,17 +198,17 @@ const BlogPost = (props) => {
                   }
                 }
                 let member = author_data || {};
-                if (Object.keys(member).length != 0)
+                // if (Object.keys(member).length != 0)
                 return (
                   <div>
                     <Card
                       key={Math.random()}
-                      name={member.title}
+                      name={member.title||member_n}
                       tagLine1={member.tagLine1}
                       tagLine2={member.tagLine2}
                       role={member.role}
                       year={member.year}
-                      img={member.key}
+                      img={member.key||"placeholder"}
                       desc1={manual_author||member.desc1}
                       desc2={member.desc2}
                       link={member.link}

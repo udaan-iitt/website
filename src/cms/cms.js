@@ -72,7 +72,7 @@ var rem_months = new Set();
               { name: 'thumbnail', label: 'Thumbnail', widget: 'image', required: false },
               { name: 'authors', label: 'Authors' },
               { name: 'starred', label: 'Starred', widget: 'boolean', default: false },
-              { name: 'abio', label: 'Author Bio', widget: 'text' },
+              { name: 'abio', label: 'Author Bio', widget: 'text', required: false },
               { name: 'alt', label: 'Alt Text', widget: 'text', required: false },
               { name: 'body', label: 'Body', widget: 'markdown' },
               ]
