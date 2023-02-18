@@ -8,4 +8,4 @@
 
 Note:
 
-`git submodule update --init --recursive` (to fetch all articles before building through gatsby)
+`git submodule update --init --recursive` (to fetch all articles recursively before building through gatsby)
