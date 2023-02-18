@@ -187,7 +187,6 @@ const BlogPost = (props) => {
                 let author_data = author_info.find(obj => {
                   return obj.title.toUpperCase() === member_name
                 });
-                console.log(author_info);
                 let manual_author = "";
                 if (abio!="NONE" && abio!=""){
                   for (const x of abio.split("|")){
