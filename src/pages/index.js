@@ -10,6 +10,7 @@ import EditionFilter from 'Components/editionFilter';
 import useSiteMetadata from 'Hooks/useSiteMetadata';
 import SearchBar from "material-ui-search-bar";
 import Collapsible from 'react-collapsible';
+import "./custom_styles/collapsible.css";
 
 
 function naturalSort(ary, fullNumbers) {
@@ -42,9 +43,9 @@ function naturalSort(ary, fullNumbers) {
 
 const Home = ({ pageContext, data }) => {
 
-  const arr1 = data.allMdx.edges;
+  // const arr1 = data.allMdx.edges;
   const arr2 = data.allMarkdownRemark.edges;
-  const unfiltered = arr1.concat(arr2);
+  const unfiltered = arr2;
   var postData = unfiltered.filter(function({node}) { return node.fields.slug.includes("_")}); 
 
   var editions = postData.map(function (el) {return el.node.fields.slug.split('/')[2]; });
@@ -61,7 +62,7 @@ const Home = ({ pageContext, data }) => {
       return yearA - yearB;
     }
   
-    const seasons = ['Winter', 'Summer', 'Autumn'];
+    const seasons = ['Winter', 'Summer', 'Autumn', 'Spring'];
     return seasons.indexOf(seasonA) - seasons.indexOf(seasonB);
   });
 
@@ -156,7 +157,7 @@ const Home = ({ pageContext, data }) => {
       ]);
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentCategory, arr1, arr2]);
+  }, [currentCategory, arr2]);
 
   const site = useSiteMetadata();
   const postTitle = currentCategory || site.siteMetadata.postTitle;
@@ -165,6 +166,13 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          { currentEdition == "2023_Spring"&&
+            <Collapsible trigger="Editor's Note">
+              <p>We like to think of this edition as a stroll through a luscious green park where the birds chirp, hailing the arrival of spring and flowers bloom, chasing away the winter gloom. In our first-ever Spring edition, we present &ldquo;Battling the Blues&rdquo;, easing into Chapter 1 of our mental health series &ldquo;It&rsquo;s the Climb&rdquo;. We also bring you a gentle stroll through academic affairs at IIT-T, consolidating a variety of surveys and inputs from students and faculty - like an exploratory morning walk where you&rsquo;re sure to discover some very interesting sights!</p>
+              <p>This season of hope, we take you on a trip to Abhaya Kshetram, a home of hope for the destitute. Next, we whisk you away to Wattpad world with a first-of-its-kind book-review-cum-author-interview with Eashaani Chettri about her two bold and fascinating books, and then we walk you through the arduous journey of creating a resume for the first time! One of our edition specials is something very close to our hearts - a nostalgic walk around our beautiful campus - through breathtaking pictures and romantic verse.</p>
+              <p>The eclectic poetry collection this edition is, well, poetic - bordering on themes of ancient goddesses, park benches, daydreams, nostalgia, love and spring. We bring you a particularly other-worldly short story and an incredibly delightful discourse on Technomancy. If you&rsquo;ve never heard of this term, this is your sign from the universe to dive right in and read the Op-Ed on it! We wish you rejuvenation, faith and joy this spring, and we hope you enjoy walking with us through Udaan&rsquo;s Spring-2023 Edition!</p>
+            </Collapsible>
+          }
           { currentEdition == "2023_Winter"&&
             <Collapsible trigger="Editor's Note">
               <p>Every long, arduous journey begins with a first step - sometimes it&rsquo;s a simple one with a little skip in the beat, and sometimes you&rsquo;ll have to drag your feet - at Udaan, we&rsquo;re all about taking new initiatives and giving them wings! In this edition, we launch a series tackling the uphill battles of mental health, &ldquo;It&rsquo;s the Climb&rdquo;, with an interview with Dr Neeraja, counselling psychologist at the Guidance and Counselling Unit of IIT Tirupati.</p>
@@ -172,6 +180,14 @@ const Home = ({ pageContext, data }) => {
               <p>While we have you daydreaming about the good old days of friendship, we also urge you to check out a short story on sinister dreams and a singular experience of an unconventional winter break. Under the Review section, we have an anonymous and absurdly marvellous discourse on putting clowns on the moon! Saving some of the best for last, the Op-Eds in this edition are an eclectic read, ranging from some questions about social media that are sure to get your gears whirring to an animated discussion on why there's a global shortage of silicon chips.</p>
               <p>With the change of the seasons, we&rsquo;ve decided to rename our editions to be named after - you guessed it - the seasons! With much love and without further ado, we present to you our Winter 2023 Edition.</p> 
             </Collapsible>
+          }
+          { currentEdition == "2022_Autumn"&&
+          <Collapsible trigger="Editor's Note">
+            <p>Internship season is here again! And again! And again. No surprise there, it comes every year! And every year, we have a fresh batch of anxious and eager students with a truckload of questions - What is an internship? How do you get one? What do you even do in an internship? Does my branch matter? Wait, there are different types of internships?!</p>
+            <p>Don&rsquo;t fear when we are here! Team Udaan brings you this special edition detailing a diverse set of summer internship experiences, both 2nd years and 3rd years, all the branches, industry, academic and research opportunities, overseas and in India, online and offline, you name it, and we probably have it covered! Read on to learn more about a multitude of interesting experiences spanning cutting-edge technology, construction sites, treks and breathtaking scenery, exhilarating playground swings, the emotional and professional takeaways, and much more!</p>
+            <p>Summer is also a great time to contemplate options about the future which is when competitive exams like to enter the scene unannounced&#55357;&#56898;. We present an incredibly detailed article on the GRE so that you almost get a first-row ticket to the experience!</p>
+            <p>The highlight of this edition, however, is an interview with our beloved Director, Prof. K.N. Satyanarayana, where we investigate the less talked about aspects of the pillar and visionary of our institute - from taking morning walks and making your own coffee, to some stellar advice on networking, excelling at work, and balancing mental health - here is a piece you don&rsquo;t want to miss!</p>
+          </Collapsible>
           }
           {currentEdition == "2022_Summer"&&
             <Collapsible trigger="Editor's Note">
@@ -275,36 +291,6 @@ export const query = graphql`
       limit: 2000
       sort: {frontmatter: {date: DESC}}
     ) {
-      group(field: {frontmatter: {category: SELECT}}) {
-        fieldValue
-        totalCount
-      }
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            category
-            date(formatString: "YYYY-MM-DD")
-            desc
-            authors
-            starred
-            thumbnail {
-              childImageSharp {
-                id
-              }
-              base
-            }
-            alt
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-    allMdx(limit: 2000, sort: {frontmatter: {date: DESC}}) {
       group(field: {frontmatter: {category: SELECT}}) {
         fieldValue
         totalCount
