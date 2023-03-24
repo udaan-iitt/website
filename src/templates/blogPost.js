@@ -92,7 +92,7 @@ const BlogPost = (props) => {
 
   const { location, data, children } = props;
   const url = location.href;
-
+  console.log(data);
   if (data.markdownRemark) {
     const {
       markdownRemark: {
@@ -475,23 +475,6 @@ const Title = styled.h1`
 export const query = graphql`query ($slug: String!) {
   markdownRemark(fields: {slug: {eq: $slug}}) {
     html
-    frontmatter {
-      title
-      desc
-      thumbnail {
-        childImageSharp {
-          gatsbyImageData(placeholder: BLURRED, layout: FIXED)
-        }
-      }
-      date(formatString: "YYYY-MM-DD")
-      category
-      authors
-      starred
-      abio
-    }
-  }
-  mdx(fields: {slug: {eq: $slug}}) {
-    body
     frontmatter {
       title
       desc

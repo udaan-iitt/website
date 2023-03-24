@@ -12,10 +12,10 @@ const fixPath = (slug, value) => {
     return "../2077_Test/broken.jpg"
   }
 }
-
+// || node.internal.type === "Mdx"
 const descriptors = [
   {
-    predicate: node => node.internal.type === "MarkdownRemark" || node.internal.type === "Mdx",
+    predicate: node => node.internal.type === "MarkdownRemark",
     fields: [
       {
         name: "thumbnail",
@@ -38,14 +38,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     })
   }
-  else if (node.internal.type === `Mdx`){
-    const slug = createFilePath({ node, getNode, basePath: `posts` });
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    });
-  }
+  // else if (node.internal.type === `Mdx`){
+  //   const slug = createFilePath({ node, getNode, basePath: `posts` });
+  //   createNodeField({
+  //     node,
+  //     name: `slug`,
+  //     value: slug,
+  //   });
+  // }
   attachFields(node, actions, getNode, descriptors)
 }
 
@@ -78,31 +78,31 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  const result2 = await graphql(`
-    {
-      postsRemark: allMdx(
-        sort: { frontmatter: { date: DESC } }
-        limit: 2000
-      ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            internal {
-              contentFilePath
-            }
-          }
-        }
-      }
-      categoriesGroup: allMdx(limit: 2000) {
-        group(field: { frontmatter: { category: SELECT } }) {
-          fieldValue
-          totalCount
-        }
-      }
-    }
-  `)
+  // const result2 = await graphql(`
+  //   {
+  //     postsRemark: allMdx(
+  //       sort: { frontmatter: { date: DESC } }
+  //       limit: 2000
+  //     ) {
+  //       edges {
+  //         node {
+  //           fields {
+  //             slug
+  //           }
+  //           internal {
+  //             contentFilePath
+  //           }
+  //         }
+  //       }
+  //     }
+  //     categoriesGroup: allMdx(limit: 2000) {
+  //       group(field: { frontmatter: { category: SELECT } }) {
+  //         fieldValue
+  //         totalCount
+  //       }
+  //     }
+  //   }
+  // `)
 
   const editionQuery = await graphql(`
   {
@@ -133,21 +133,21 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-  const unfiltered2 = result2.data.postsRemark.edges;
-  var posts = unfiltered2.filter(function({node}) { return node.fields.slug.includes("_")}); 
-  posts.forEach(({ node }) => {
-    createPage({
-      path: node.fields.slug,
-      component: `${blogPostTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: {
-        slug: node.fields.slug,
-      },
-    })
-  })
+  // const unfiltered2 = result2.data.postsRemark.edges;
+  // var posts = unfiltered2.filter(function({node}) { return node.fields.slug.includes("_")}); 
+  // posts.forEach(({ node }) => {
+  //   createPage({
+  //     path: node.fields.slug,
+  //     component: `${blogPostTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
+  //     context: {
+  //       slug: node.fields.slug,
+  //     },
+  //   })
+  // })
 
   const arr1 = result.data.categoriesGroup.group;
-  const arr2 = result2.data.categoriesGroup.group;
-  const categories = Object.values([...arr1, ...arr2].reduce((acc, { fieldValue, totalCount }) => {
+  // const arr2 = result2.data.categoriesGroup.group;
+  const categories = Object.values([...arr1].reduce((acc, { fieldValue, totalCount }) => {
     acc[fieldValue] = { fieldValue, totalCount: (acc[fieldValue] ? acc[fieldValue].totalCount : 0) + totalCount  };
     return acc;
   }, {}));
