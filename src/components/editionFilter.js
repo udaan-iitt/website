@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import useScrollCenter from 'Hooks/useScrollCenter';
 import { ACTIVE } from 'Constants/constants';
 import CategoryFilter from './categoryFilter';
-import HorizontalScroll from 'react-horizontal-scrolling'
 
 const EditionFilter = ({ editionList, categoryList, currented }) => {
   const categoryRef = useRef(null);
