@@ -36,7 +36,7 @@ const CategoryFilter = ({ categoryList, currented }) => {
             // Prabhat criticism #1
             if ([].includes(fieldValue)) {
               return (
-                <li key={fieldValue}>
+                <li key={fieldValue} style={{margin: "10px 5px"}}>
                   <CategoryButton2
                     getProps={isActive}
                     to={`/${currented}/category/${kebabCase(fieldValue)}/`}
@@ -59,7 +59,7 @@ const CategoryFilter = ({ categoryList, currented }) => {
               //   );
               // } else {
               return (
-                <li key={fieldValue}>
+                <li key={fieldValue} style={{margin: "10px 5px"}}>
                   <CategoryButton
                     getProps={isActive}
                     to={`/${currented}/category/${kebabCase(fieldValue)}/`}
@@ -185,11 +185,37 @@ const CategoryUl = styled.ul`
   align-items: center;
   list-style: none;
   overflow-x: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   ::-webkit-scrollbar {
-    display: none;
-  }
+    width: 1.4vw;
+    height: 1vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-category-button);
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-blue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+);
+}
+
   li + li {
     margin-left: 6px;
   }

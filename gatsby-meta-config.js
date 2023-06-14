@@ -24,7 +24,7 @@ const metaConfig = {
   lang: 'en',
   utterances: 'NobleMathews/background',
   links: {
-    submissions: 'https://forms.gle/DkLxhH4D8SzgrrfS9',
+    submissions: 'https://forms.gle/XA1TfRGVNBUBJLiv9',
   },
   icon: 'src/images/icon.png',
 }
