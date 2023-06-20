@@ -30,4 +30,4 @@ src/gatsby-types.d.ts
 ._*
 
 package-lock.json
-yarn.lock
+
