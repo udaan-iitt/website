@@ -164,7 +164,6 @@ const Container = styled.div`
 
   @media only screen and (max-width: 700px) {
     display: grid;
-    height: 548px;
 
     .desc2 {
       display: none;
