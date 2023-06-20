@@ -1,0 +1,28 @@
+name: Submodule Sync
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: ~
+
+jobs:
+  submodule-sync:
+    name: Submodule Sync
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        submodules: true
+
+    - name: Git Submodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+
+    - name: Commit update
+      run: |
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
+        git add --all
+        git commit -m "Updating Submodule" && git push|| echo "No changes to commit"
