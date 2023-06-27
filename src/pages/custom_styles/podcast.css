@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 
 body {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 16px;
   color: #ffffff;
   text-rendering: optimizeLegibility;
@@ -83,7 +83,7 @@ a:hover {
   font-size: 80%;
 }
 .postcard .postcard__title {
-  font-family: 'Baloo 2';
+  font-family: "Baloo 2";
   color: inherit;
   font-size: 2.5rem;
 }
@@ -91,6 +91,14 @@ a:hover {
   font-size: 1rem;
 }
 .postcard .postcard__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px;
+  /* margin-bottom: 0 !important; */
+}
+.postcard .postcard__img2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -159,7 +167,7 @@ a:hover {
   background: rgba(83, 83, 83, 0.8);
 }
 .postcard:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -192,6 +200,15 @@ a:hover {
     margin: 24px -7px 0px 22px !important;
     transition: transform 0.3s ease;
   }
+  .postcard .postcard__img2 {
+    vertical-align: middle !important;
+    max-height: 428px;
+    max-width: 312px;
+    /* max-width: 300px; */
+    /* max-height: 100%; */
+    margin: 24px -7px 0px 22px !important;
+    transition: transform 0.3s ease;
+  }
   .postcard .postcard__text {
     padding: 1rem 2rem 1rem 2rem;
     width: 100%;
@@ -201,7 +218,7 @@ a:hover {
     width: 100%;
   } */
   .postcard .media.postcard__text:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     background: #18151f;
@@ -212,6 +229,10 @@ a:hover {
   .postcard:hover .postcard__img {
     transform: scale(0.95);
   }
+  .postcard:hover .postcard__img2 {
+    transform: scale(0.95);
+  }
+
   .postcard:nth-child(2n + 1) {
     flex-direction: row;
   }
@@ -239,7 +260,7 @@ a:hover {
   }
 
   .postcard__text:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     top: -20%;
