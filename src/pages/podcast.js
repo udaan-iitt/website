@@ -1,27 +1,28 @@
-import React from 'react';
-import FadeIn from 'react-fade-in';
-import styled from 'styled-components';
-import SEO from 'Components/seo';
-import Layout from 'Layout/layout';
-import Markdown from 'Styles/markdown';
-import { rhythm } from 'Styles/typography';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import spotify from 'Images/podcasts/spotify.png';
-import gpodcast from 'Images/podcasts/googlepodcast.png';
-import pocketcast from 'Images/podcasts/pocketCasts.png';
-import cover from 'Images/podcasts/Udaanpodcastcover.png';
-import pc1 from 'Images/podcasts/Podcast_1_cover.png';
-import './custom_styles/podcast.css';
-import './custom_styles/bootstrap-grid.min.css';
+import React from "react"
+import FadeIn from "react-fade-in"
+import styled from "styled-components"
+import SEO from "Components/seo"
+import Layout from "Layout/layout"
+import Markdown from "Styles/markdown"
+import { rhythm } from "Styles/typography"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import spotify from "Images/podcasts/spotify.png"
+import gpodcast from "Images/podcasts/googlepodcast.png"
+import pocketcast from "Images/podcasts/pocketCasts.png"
+import cover from "Images/podcasts/Udaanpodcastcover.png"
+import pc1 from "Images/podcasts/Podcast_1_cover.png"
+import pc2 from "Images/podcasts/Podcast_2_cover.png"
+import "./custom_styles/podcast.css"
+import "./custom_styles/bootstrap-grid.min.css"
 
 const Podcast = () => {
   return (
     <Layout>
       <FadeIn>
         <Container2 rhythm={rhythm}>
-          <h1 style={{ textAlign: 'center' }}>
-            <b style={{ textTransform: 'uppercase' }}>Udaan Untethered</b>
+          <h1 style={{ textAlign: "center" }}>
+            <b style={{ textTransform: "uppercase" }}>Udaan Untethered</b>
           </h1>
           <article>
             <div class="container my-5">
@@ -30,15 +31,15 @@ const Podcast = () => {
                   <img
                     class="w-100 shadow"
                     src={cover}
-                    style={{ borderRadius: '25px' }}
+                    style={{ borderRadius: "25px" }}
                   />
                 </div>
-                <div class="col-lg-7" style={{ float: 'none' }}>
+                <div class="col-lg-7" style={{ float: "none" }}>
                   <div class="p-2 mt-2">
                     <p
                       style={{
-                        fontSize: '17px',
-                        textAlign: 'center',
+                        fontSize: "17px",
+                        textAlign: "center",
                       }}
                     >
                       To be untethered is to be unlimited and free to explore
@@ -155,13 +156,101 @@ const Podcast = () => {
                   </div>
                 </article>
               </div>
+              <div class="container py-4">
+                <article class="postcard dark red">
+                  <a class="postcard__img_link" href="#">
+                    <img class="postcard__img2" src={pc2} alt="Image Title" />
+                  </a>
+                  <div class="postcard__text">
+                    {/* class="postcard__title blue" */}
+                    <h1>Udaan Untethered - Fest Files </h1>
+                    <div class="postcard__subtitle">
+                      Hosted By : Akhil and Keshav
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      Udaan Untethered presents its second podcast as a series
+                      of episodes, 'The Fest Files'. Hop in to listen to the
+                      stories untold from the people who made this happen.
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-tag mr-2"></i> Podcast
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-clock mr-2"></i> 7 mins.
+                      </li>
+                      <li class="tag__item play blue">
+                        <a
+                          href="https://open.spotify.com/playlist/5Kz17aRe8P9zqMKVxHGb5D"
+                          target="_blank"
+                        >
+                          <i class="fas fa-play mr-2"></i> Play Episode
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="social">
+                      <a
+                        title="Spotify"
+                        href="https://open.spotify.com/playlist/5Kz17aRe8P9zqMKVxHGb5D"
+                        target="_blank"
+                      >
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a
+                        title="Episode 1"
+                        href="https://open.spotify.com/episode/65ltujN4BbKrKS2avWJoBE?si=d8fb411549934bb4"
+                        target="_blank"
+                      >
+                        <img src={gpodcast} alt="Spotify" />
+                      </a>
+                      <a
+                        title="Episode 1"
+                        href="https://open.spotify.com/episode/65ltujN4BbKrKS2avWJoBE?si=d8fb411549934bb4"
+                        target="_blank"
+                      >
+                        <img src={pocketcast} alt="Spotify" />
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              {/* <div class="container py-4">
+                <article>
+                  <iframe
+                    style={{ borderRadius: "12px" }}
+                    src="https://open.spotify.com/embed/playlist/5Kz17aRe8P9zqMKVxHGb5D?utm_source=generator"
+                    width="100%"
+                    height="500"
+                    frameBorder="0"
+                    allowFullScreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                </article>
+              </div>
+              <div class="container py-4">
+                <article>
+                  <iframe
+                    style={{ borderRadius: "12px" }}
+                    src="https://open.spotify.com/embed/playlist/5Kz17aRe8P9zqMKVxHGb5D?utm_source=generator&theme=0"
+                    width="100%"
+                    height="500"
+                    frameBorder="0"
+                    allowFullScreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                </article>
+              </div> */}
             </section>
           </div>
         </Container2>
       </FadeIn>
     </Layout>
-  );
-};
+  )
+}
 
 const Button = styled.button`
   all: initial;
@@ -174,9 +263,9 @@ const Button = styled.button`
   color: var(--color-white);
   border-radius: var(--border-radius-base);
   font-size: 0.875rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: bold;
   width: max-content;
   textdecoration: none;
@@ -188,10 +277,10 @@ const Button = styled.button`
   &:hover {
     transform: scale(1.05);
   }
-`;
+`
 
 const Container = styled(Markdown).attrs({
-  as: 'main',
+  as: "main",
 })`
   width: var(--post-width);
   margin: 0 auto;
@@ -281,9 +370,9 @@ p{
   }
 
 }
-`;
+`
 const Container2 = styled(Markdown).attrs({
-  as: 'main',
+  as: "main",
 })`
   width: var(--post-width2);
   margin: 0 auto;
@@ -370,10 +459,10 @@ figure:hover .img-wrap{
   }
 
 }
-`;
+`
 
 export const Head = () => {
-  return <SEO title="Podcast"/>;
-};
+  return <SEO title="Podcast" />
+}
 
-export default Podcast;
+export default Podcast
