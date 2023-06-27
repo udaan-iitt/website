@@ -12,16 +12,16 @@ const siteMetadata = {
   postTitle: "All",
   menuLinks: [
     {
-      link: "/",
-      name: "Home",
+      link: '/',
+      name: 'Home',
     },
     {
-      link: "/about/",
-      name: "About Us",
+      link: '/about/',
+      name: 'About Us',
     },
     {
-      link: "/podcast/",
-      name: "Podcast",
+      link: '/podcast/',
+      name: 'Podcast',
     },
     // {
     //   link: '/leaderboard/',
@@ -29,7 +29,7 @@ const siteMetadata = {
     // },
     {
       link: meta.links.submissions,
-      name: "Get Featured!",
+      name: 'Get Featured !',
     },
   ],
 }
@@ -96,23 +96,23 @@ const markdownPlugins = [
     options: {
       plugins: [
         {
-          resolve: "gatsby-remark-embed-video",
+          resolve: 'gatsby-remark-embed-video',
           options: {
             related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
             noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-            loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+            loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
             urlOverrides: [
               {
-                id: "youtube",
-                embedURL: videoId =>
+                id: 'youtube',
+                embedURL: (videoId) =>
                   `https://www.youtube-nocookie.com/embed/${videoId}`,
               },
             ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-            containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+            containerClass: 'embedVideo-container', //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
             iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
           },
         },
-        "gatsby-remark-responsive-iframe",
+        'gatsby-remark-responsive-iframe',
         "gatsby-remark-copy-linked-files",
         {
           resolve: "gatsby-remark-vscode",
@@ -136,9 +136,9 @@ const markdownPlugins = [
           resolve: `gatsby-remark-katex`,
           options: {
             // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-            strict: `ignore`,
-          },
-        },
+            strict: `ignore`
+          }
+        }
       ],
     },
   },
@@ -215,13 +215,13 @@ const pwaPlugins = [
       background_color: "#ffffff",
       theme_color: "#ffffff",
       display: "standalone",
-      icon: "src/images/icon.png",
+      icon: 'src/images/icon.png',
       icon_options: {
         purpose: "any maskable",
       },
     },
   },
-  "gatsby-plugin-remove-serviceworker",
+  'gatsby-plugin-remove-serviceworker',
   // "gatsby-plugin-offline",
 ]
 
@@ -250,7 +250,7 @@ module.exports = {
     //   },
     // },
     {
-      resolve: "gatsby-plugin-mdx",
+      resolve: 'gatsby-plugin-mdx',
       options: {
         gatsbyRemarkPlugins: [
           {
@@ -267,34 +267,34 @@ module.exports = {
         disable: false, // Flag for disabling animations
 
         // Advanced Options
-        selector: "[data-sal]", // Selector of the elements to be animated
-        animateClassName: "sal-animate", // Class name which triggers animation
-        disabledClassName: "sal-disabled", // Class name which defines the disabled state
+        selector: '[data-sal]', // Selector of the elements to be animated
+        animateClassName: 'sal-animate', // Class name which triggers animation
+        disabledClassName: 'sal-disabled', // Class name which defines the disabled state
         // rootMargin: '0% 50%', // Corresponds to root's bounding box margin
-        enterEventName: "sal:in", // Enter event name
-        exitEventName: "sal:out", // Exit event name
+        enterEventName: 'sal:in', // Enter event name
+        exitEventName: 'sal:out', // Exit event name
       },
     },
     {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        manualInit: true,
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        htmlFavicon: `${__dirname}/src/images/icon.png`,
-      },
+      resolve: 'gatsby-plugin-netlify-cms',
+        options: {
+          manualInit: true,
+          modulePath: `${__dirname}/src/cms/cms.js`,
+          htmlFavicon: `${__dirname}/src/images/icon.png`,
+        },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: ["UA-166254264-1"],
+        trackingIds: ['UA-166254264-1'],
       },
     },
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
-        offset: -100,
-      },
-    },
+        offset: -100
+      }
+    }
   ],
 }

@@ -1,25 +1,25 @@
-import React from "react"
-import FadeIn from "react-fade-in"
-import styled from "styled-components"
-import SEO from "Components/seo"
-import Layout from "Layout/layout"
-import Markdown from "Styles/markdown"
-import { rhythm } from "Styles/typography"
-import { pastmembers, members, newsletter } from "../posts/editions/index"
-import Image from "Components/imager"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import Slider from "react-slick"
-import Card from "Components/Card"
+import React from 'react';
+import FadeIn from 'react-fade-in';
+import styled from 'styled-components';
+import SEO from 'Components/seo';
+import Layout from 'Layout/layout';
+import Markdown from 'Styles/markdown';
+import { rhythm } from 'Styles/typography';
+import { pastmembers, members, newsletter } from '../posts/editions/index';
+import Image from 'Components/imager';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import Card from 'Components/Card';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChevronRight,
   faChevronLeft,
-} from "@fortawesome/fontawesome-free-solid"
+} from '@fortawesome/fontawesome-free-solid';
 
 function NextArrow(props) {
-  const { className, style, onClick } = props
+  const { className, style, onClick } = props;
   return (
     <FontAwesomeIcon
       icon={faChevronRight}
@@ -27,11 +27,11 @@ function NextArrow(props) {
       style={{ ...style }}
       onClick={onClick}
     />
-  )
+  );
 }
 
 function PrevArrow(props) {
-  const { className, style, onClick } = props
+  const { className, style, onClick } = props;
   return (
     <FontAwesomeIcon
       icon={faChevronLeft}
@@ -39,7 +39,7 @@ function PrevArrow(props) {
       style={{ ...style }}
       onClick={onClick}
     />
-  )
+  );
 }
 const About = () => {
   const settings = {
@@ -53,24 +53,24 @@ const About = () => {
     autoplay: true,
     // speed: 4000,
     autoplaySpeed: 2000,
-    cssEase: "linear",
+    cssEase: 'linear',
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-  }
+  };
 
   return (
     <Layout>
       <FadeIn>
         <Container rhythm={rhythm}>
-          <h1 style={{ textAlign: "center" }}>
+          <h1 style={{ textAlign: 'center' }}>
             <b>About UDAAN</b>
           </h1>
           <h4
             style={{
-              textAlign: "center",
-              paddingTop: "10px",
-              paddingBottom: "10px",
-              opacity: "0.6",
+              textAlign: 'center',
+              paddingTop: '10px',
+              paddingBottom: '10px',
+              opacity: '0.6',
             }}
           >
             The first student-run campus newsletter of Indian Institute of
@@ -129,7 +129,7 @@ const About = () => {
           <hr />
           <>
             <div className="img-grid lab-member">
-              {newsletter.map(member => (
+              {newsletter.map((member) => (
                 <figure key={Math.random()} className="figure">
                   <a
                     href={`${member.link}`}
@@ -145,9 +145,9 @@ const About = () => {
                   </a>
                   <figcaption
                     style={{
-                      padding: "0px",
-                      textAlign: "center",
-                      paddingTop: "10px",
+                      padding: '0px',
+                      textAlign: 'center',
+                      paddingTop: '10px',
                     }}
                     className="figure-caption text-center"
                   >
@@ -168,8 +168,8 @@ const About = () => {
           <br></br>
           <h2>Past Members</h2>
           <div>
-            <Slider {...settings}>
-              {pastmembers.map(member => {
+            <Slider {...settings} >
+              {pastmembers.map((member) => {
                 return (
                   <div>
                     <Card
@@ -185,7 +185,7 @@ const About = () => {
                       link={member.link}
                     />
                   </div>
-                )
+                );
               })}
             </Slider>
           </div>
@@ -224,8 +224,8 @@ const About = () => {
         </Container>
       </FadeIn>
     </Layout>
-  )
-}
+  );
+};
 
 const Button = styled.button`
   all: initial;
@@ -238,9 +238,9 @@ const Button = styled.button`
   color: var(--color-white);
   border-radius: var(--border-radius-base);
   font-size: 0.875rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: bold;
   width: max-content;
   textdecoration: none;
@@ -252,10 +252,10 @@ const Button = styled.button`
   &:hover {
     transform: scale(1.05);
   }
-`
+`;
 
 const Container = styled(Markdown).attrs({
-  as: "main",
+  as: 'main',
 })`
   width: var(--post-width);
   margin: 0 auto;
@@ -355,10 +355,10 @@ figure:hover .img-wrap{
   }
 
 }
-`
+`;
 
 export const Head = () => {
-  return <SEO title="About" />
-}
+  return <SEO title="About"/>;
+};
 
-export default About
+export default About;
