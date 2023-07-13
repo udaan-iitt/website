@@ -19,7 +19,7 @@ jobs:
       run: |
         git pull --recurse-submodules
         git submodule update --remote --recursive
-        cd ./src/posts/editions && git checkout main  && popd
+        cd ./src/posts/editions && git checkout preview  && popd
 
     - name: Commit update
       run: |
