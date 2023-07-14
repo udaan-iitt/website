@@ -12,7 +12,7 @@ import gpodcast from "Images/podcasts/googlepodcast.png"
 import pocketcast from "Images/podcasts/pocketCasts.png"
 import cover from "Images/podcasts/Udaanpodcastcover.png"
 import pc1 from "Images/podcasts/Podcast_1_cover.png"
-import pc2 from "Images/podcasts/Podcast_2_cover.png"
+import pc2 from "Images/podcasts/Podcast_2_cover_.png"
 import "./custom_styles/podcast.css"
 import "./custom_styles/bootstrap-grid.min.css"
 
@@ -159,10 +159,19 @@ const Podcast = () => {
               <div class="container py-4">
                 <article class="postcard dark red">
                   <a class="postcard__img_link" href="#">
-                    <img class="postcard__img2" src={pc2} alt="Image Title" />
+                    <div
+                      class="postcard__img_wrapper"
+                      style={{
+                        display: "flex",
+                        placeContent: "center",
+                        alignItems: "flex-start",
+                        flexFlow: "column nowrap",
+                      }}
+                    >
+                      <img class="postcard__img2" src={pc2} alt="Image Title" />
+                    </div>
                   </a>
                   <div class="postcard__text">
-                    {/* class="postcard__title blue" */}
                     <h1>Udaan Untethered - Fest Files </h1>
                     <div class="postcard__subtitle">
                       Hosted By : Akhil and Keshav
@@ -170,15 +179,35 @@ const Podcast = () => {
                     <div class="postcard__bar"></div>
                     <div class="postcard__preview-txt">
                       Udaan Untethered presents its second podcast as a series
-                      of episodes, 'The Fest Files'. Hop in to listen to the
-                      stories untold from the people who made this happen.
+                      of eight episodes, 'The Fest Files'. Hop in to listen to
+                      the stories untold from the people who made this happen.
+                      <div className="double-column-container">
+                        <div className="double-column">
+                          Episode 1 - Fasten your seatbelts
+                          <br />
+                          Episode 2 - Storytime
+                          <br />
+                          Episode 3 - Vanguard
+                          <br />
+                          Episode 4 - An Eventful Trio
+                          <br />
+                          Episode 5 - Classified
+                          <br />
+                          Episode 6 - Strength in Numbers
+                          <br />
+                          Episode 7 - Caged within Creativity
+                          <br />
+                          Episode 8 - A Pleasure Flying with You
+                          <br />
+                        </div>
+                      </div>
                     </div>
                     <ul class="postcard__tagbox">
                       <li class="tag__item">
                         <i class="fas fa-tag mr-2"></i> Podcast
                       </li>
                       <li class="tag__item">
-                        <i class="fas fa-clock mr-2"></i> 7 mins.
+                        <i class="fas fa-clock mr-2"></i> 101 mins.
                       </li>
                       <li class="tag__item play blue">
                         <a
@@ -199,51 +228,23 @@ const Podcast = () => {
                         <img src={spotify} alt="spotify" />
                       </a>
                       <a
-                        title="Episode 1"
-                        href="https://open.spotify.com/episode/65ltujN4BbKrKS2avWJoBE?si=d8fb411549934bb4"
+                        title="Google Podcast"
+                        href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hYjU4ZmM1NC9wb2RjYXN0L3Jzcw/episode/MTc2MzkxMTQtNDdkZC00MzhmLWI2ZjQtZDZmZGIzMmVjNmVj?sa=X&ved=0CAUQkfYCahcKEwiYpqHElIuAAxUAAAAAHQAAAAAQCg"
                         target="_blank"
                       >
-                        <img src={gpodcast} alt="Spotify" />
+                        <img src={gpodcast} alt="Google Podcast" />
                       </a>
                       <a
-                        title="Episode 1"
-                        href="https://open.spotify.com/episode/65ltujN4BbKrKS2avWJoBE?si=d8fb411549934bb4"
+                        title="Pocket Casts"
+                        href="https://pca.st/6c8seh73"
                         target="_blank"
                       >
-                        <img src={pocketcast} alt="Spotify" />
+                        <img src={pocketcast} alt="Pocket Casts" />
                       </a>
                     </div>
                   </div>
                 </article>
               </div>
-              {/* <div class="container py-4">
-                <article>
-                  <iframe
-                    style={{ borderRadius: "12px" }}
-                    src="https://open.spotify.com/embed/playlist/5Kz17aRe8P9zqMKVxHGb5D?utm_source=generator"
-                    width="100%"
-                    height="500"
-                    frameBorder="0"
-                    allowFullScreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                  ></iframe>
-                </article>
-              </div>
-              <div class="container py-4">
-                <article>
-                  <iframe
-                    style={{ borderRadius: "12px" }}
-                    src="https://open.spotify.com/embed/playlist/5Kz17aRe8P9zqMKVxHGb5D?utm_source=generator&theme=0"
-                    width="100%"
-                    height="500"
-                    frameBorder="0"
-                    allowFullScreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"
-                  ></iframe>
-                </article>
-              </div> */}
             </section>
           </div>
         </Container2>
