@@ -62,7 +62,7 @@ const Home = ({ pageContext, data }) => {
       return yearA - yearB;
     }
   
-    const seasons = ['Winter', 'Summer', 'Autumn', 'Spring'];
+    const seasons = ['Winter', 'Spring', 'Summer', 'Autumn'];
     return seasons.indexOf(seasonA) - seasons.indexOf(seasonB);
   });
 
