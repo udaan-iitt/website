@@ -12,7 +12,7 @@ export const onServiceWorkerUpdateReady = () => {
 }
 
 export const onRouteUpdate = () => {
-    navigator.serviceWorker.register('/sw.js').then((reg) => {
-        reg.update();
-    });
+    // navigator.serviceWorker.register('/sw.js').then((reg) => {
+    //     reg.update();
+    // });
 };
