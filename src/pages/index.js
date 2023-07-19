@@ -166,6 +166,21 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          { currentEdition == "2023_Summer"&&
+            <Collapsible trigger="Editor's Note">
+              <p>In this delayed summer edition, as we toil from our abodes amidst the warmth of our families, we unveil a captivating array of tales that delve into the realms of love and kinship. Both stories, resilient in nature, cast a spotlight on profound themes. One unearths the horrors of colonisation and the underlying coloniality, underscoring the significance of safeguarding one's heritage and pursuing justice. The other serves as a testament to love's fortitude, triumphing over adversity and reminding us of the unwavering importance of championing righteousness amidst corruption and cruelty.</p>
+
+              <p>Within our poetic realm, Ariadne graciously bestows upon us the crimson threads that guide us through the labyrinthine depths of her mind - an intricate tapestry of unspoken desires. Ah, who among us does not possess such bittersweet memories? Furthermore, within our Op-Ed section, an extraordinary article elucidates the conjunctions and disjunctions of safety, while another seeks to decipher the cryptic musings of the enigmatic scriptwriter, chatGPT.</p>
+
+              <p>Our literary ensemble proudly presents two compelling reviews. The first beckons you to embark on a journey that promises transformation, though one that may lead to unexpected desolation. The second invites you to grapple with the intricate shades of good and evil in a tangible realm populated by characters lost in the vast expanse of a galaxy far, far away.</p>
+
+              <p>In the realm of campus news, we proudly present two cherished compilations. The first is our customary endeavour - &quot;Outlets of Expression&rdquo;, a report on the activities of our campus clubs. The second pays homage to our precursors in the online magazine domain&mdash;the revered newspaper where our team undertakes the whimsical task of offering an unfiltered yet affectionate portrayal of the academic year 22-23, aptly titled &quot;Our Take.&quot;</p>
+
+              <p>And lo and behold, as promised, we present another enthralling edition of &quot;Puppet Show.&quot; Within its enchanting embrace lies a captivating tribute, exquisitely capturing the untold narratives of the wondrous student body of 2022-23.</p>
+
+              <p>Embrace this journey, dear readers, and immerse yourselves in the wondrous realm of our Summer Edition.</p>
+            </Collapsible>
+          }
           { currentEdition == "2023_Spring"&&
             <Collapsible trigger="Editor's Note">
               <p>We like to think of this edition as a stroll through a luscious green park where the birds chirp, hailing the arrival of spring and flowers bloom, chasing away the winter gloom. In our first-ever Spring edition, we present &ldquo;Battling the Blues&rdquo;, easing into Chapter 1 of our mental health series &ldquo;It&rsquo;s the Climb&rdquo;. We also bring you a gentle stroll through academic affairs at IIT-T, consolidating a variety of surveys and inputs from students and faculty - like an exploratory morning walk where you&rsquo;re sure to discover some very interesting sights!</p>
