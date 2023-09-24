@@ -64,6 +64,7 @@
     "react-focus-lock": "^2.9.2",
     "react-icons": "^4.7.1",
     "react-iframe": "^1.8.5",
+    "react-responsive-carousel": "^3.2.23",
     "react-scroll-parallax": "^3.3.2",
     "react-scroll-up": "^1.4.0",
     "react-share": "^4.4.1",
