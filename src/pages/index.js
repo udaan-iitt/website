@@ -166,6 +166,20 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition}/>
+          { currentEdition == "2023_Autumn"&&
+            <Collapsible trigger="Editor's Note">
+              <p>Welcome to our 10th edition, where the autumn spirit infuses our pages. This edition brims with vibrant internship stories from our 3rd and 4th-year students, spanning agritech, cobotics, construction, aerospace, and semiconductors. Amidst the falling autumn leaves, we invite you to an article that pays homage to the "Summer of Nothing," a delightful ode to those unhurried summers.</p>
+
+              <p>We embark on a journey through the enigmatic realm of Lambert W functions and the cosmic mysteries whispered by the universe. A physicist's insights rustle like leaves in the breeze.</p>
+
+              <p>We're excited to bring you the second instalment of "Tea Time Chat with the Author," where another budding writer shares their literary voyage. Next, a review captures the essence of autumn romance set against the backdrop of a train journey from Bhalpaw to Kadhal. It's like sipping hot cocoa on a crisp autumn day.</p>
+
+              <p>Our poetry section reveals the subtle emotions of unspoken love and the longing for the comforts of home, all wrapped in the beauty of autumn moments. Lastly, our campus news section delves into placements and internships as autumn winds carry the stories of students navigating their academic journey.</p>
+
+              <p>Like Ghalib's depiction of autumn as a mark of pride on Kashi's forehead, this edition is our emblem of honour. The largest edition yet, it stands as a testament to our dedication and the evolving seasons of our literary journey. Embrace the autumn spirit and immerse yourself in our tenth edition.</p>
+
+            </Collapsible>
+          }
           { currentEdition == "2023_Summer"&&
             <Collapsible trigger="Editor's Note">
               <p>In this delayed summer edition, as we toil from our abodes amidst the warmth of our families, we unveil a captivating array of tales that delve into the realms of love and kinship. Both stories, resilient in nature, cast a spotlight on profound themes. One unearths the horrors of colonisation and the underlying coloniality, underscoring the significance of safeguarding one's heritage and pursuing justice. The other serves as a testament to love's fortitude, triumphing over adversity and reminding us of the unwavering importance of championing righteousness amidst corruption and cruelty.</p>
