@@ -28,3 +28,7 @@ src/gatsby-types.d.ts
 # Mac files
 .DS_Store
 ._*
+
+package-lock.json
+
+.firebase/hosting.cHVibGlj.cache

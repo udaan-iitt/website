@@ -41,15 +41,6 @@
         ]
       },
       {
-        "source": "sw.js",
-        "headers": [
-          {
-            "key": "cache-control",
-            "value": "public, max-age=0, must-revalidate"
-          }
-        ]
-      },
-      {
         "source": "page-data/**",
         "headers": [
           {
