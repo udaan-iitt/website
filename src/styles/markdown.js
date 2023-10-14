@@ -8,6 +8,7 @@ const Markdown = styled.article`
   h5,
   h6 {
     font-weight: var(--font-weight-bold);
+    text-decoration: underline;
   }
 
   td,
