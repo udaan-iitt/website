@@ -58,7 +58,7 @@ const About = () => {
     adaptiveHeight: false,
     autoplay: true,
     // speed: 4000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 8000,
     cssEase: "linear",
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
