@@ -11,7 +11,7 @@ import DateTime from 'Styles/dateTime';
 import Markdown from 'Styles/markdown';
 // import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import {author_info} from 'Posts/editions';
+import { author_info } from 'Posts/editions';
 import Card from 'Components/Card3';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -52,7 +52,7 @@ function PrevArrow(props) {
 const BlogPost = (props) => {
   // const [isOpen, setIsOpen] = useState('hi');
   // const [ourText, setOurText] = useState("")
-    // const func = (item) => {
+  // const func = (item) => {
   //   const parser = new DOMParser();
   //   const doc = parser.parseFromString(item, 'text/html');
   //   var string = doc.documentElement.innerHTML;
@@ -65,30 +65,29 @@ const BlogPost = (props) => {
     console.log(item)
   }
   if (typeof window !== `undefined`) {
-  if ('speechSynthesis' in window) {
-    const msg = new SpeechSynthesisUtterance()
-    const [pause, setPause] = useState(false);
-    speechHandler = (item) => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(item, 'text/html');
-      var string = doc.documentElement.innerHTML;
-      if(pause===true)
-      {
-        window.speechSynthesis.cancel();
-        setPause(false);
-      }
-      else
-      {
-        msg.text = string;
-        msg.lang = 'en-US';
-        msg.rate = 1;
-        msg.pitch = 1;
-        msg.volume = 1;
-        window.speechSynthesis.speak(msg);
-        setPause(true);
+    if ('speechSynthesis' in window) {
+      const msg = new SpeechSynthesisUtterance()
+      const [pause, setPause] = useState(false);
+      speechHandler = (item) => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(item, 'text/html');
+        var string = doc.documentElement.innerHTML;
+        if (pause === true) {
+          window.speechSynthesis.cancel();
+          setPause(false);
+        }
+        else {
+          msg.text = string;
+          msg.lang = 'en-US';
+          msg.rate = 1;
+          msg.pitch = 1;
+          msg.volume = 1;
+          window.speechSynthesis.speak(msg);
+          setPause(true);
+        }
       }
     }
-  }}
+  }
 
   const { location, data, children } = props;
   const url = location.href;
@@ -122,7 +121,7 @@ const BlogPost = (props) => {
     // .split(')').join('').split('(').map ((item, i) => <p key={i}>{item}</p>)
     const settings = {
       infinite: true,
-  
+
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -130,7 +129,7 @@ const BlogPost = (props) => {
       adaptiveHeight: true,
       autoplay: true,
       // speed: 4000,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 8000,
       cssEase: 'linear',
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />,
@@ -169,10 +168,10 @@ const BlogPost = (props) => {
                     <SayButton onClick={() => { func(html) }} speak={isOpen}>
                       Tell me a story
                     </SayButton> */}
-                    
-                   
-                  
-                    
+
+
+
+
                   </header>
                   <Button onClick={() => speechHandler(html)}>Read Aloud <sup>BETA</sup></Button>
                   <Divider />
@@ -181,42 +180,42 @@ const BlogPost = (props) => {
                     rhythm={rhythm}
                   />
                   <div>
-            <Slider {...settings}>
-              {abio!="NONE" && authors.split(",").map(member_n => {
-                let member_name = member_n.trim().toUpperCase()
-                let author_data = author_info.find(obj => {
-                  return obj.title.toUpperCase() === member_name
-                });
-                let manual_author = "";
-                if (abio!="NONE" && abio!=""){
-                  for (const x of abio.split("|")){
-                    let a_info = x.split(":")
-                    if (a_info[0].toUpperCase() == member_name){
-                      manual_author =  a_info[1].trim();
-                    }
-                  }
-                }
-                let member = author_data || {};
-                // if (Object.keys(member).length != 0)
-                return (
-                  <div>
-                    <Card
-                      key={Math.random()}
-                      name={member.title||member_n}
-                      tagLine1={member.tagLine1}
-                      tagLine2={member.tagLine2}
-                      role={member.role}
-                      year={member.year}
-                      img={member.key||"placeholder"}
-                      desc1={manual_author||member.desc1}
-                      desc2={member.desc2}
-                      link={member.link}
-                    />
+                    <Slider {...settings}>
+                      {abio != "NONE" && authors.split(",").map(member_n => {
+                        let member_name = member_n.trim().toUpperCase()
+                        let author_data = author_info.find(obj => {
+                          return obj.title.toUpperCase() === member_name
+                        });
+                        let manual_author = "";
+                        if (abio != "NONE" && abio != "") {
+                          for (const x of abio.split("|")) {
+                            let a_info = x.split(":")
+                            if (a_info[0].toUpperCase() == member_name) {
+                              manual_author = a_info[1].trim();
+                            }
+                          }
+                        }
+                        let member = author_data || {};
+                        // if (Object.keys(member).length != 0)
+                        return (
+                          <div>
+                            <Card
+                              key={Math.random()}
+                              name={member.title || member_n}
+                              tagLine1={member.tagLine1}
+                              tagLine2={member.tagLine2}
+                              role={member.role}
+                              year={member.year}
+                              img={member.key || "placeholder"}
+                              desc1={manual_author || member.desc1}
+                              desc2={member.desc2}
+                              link={member.link}
+                            />
+                          </div>
+                        );
+                      })}
+                    </Slider>
                   </div>
-                );
-              })}
-            </Slider>
-          </div>
                 </div>
               </InnerWrapper>
             </OuterWrapper>
@@ -499,28 +498,28 @@ export const Head = ({
   }
 }) => {
   let data_article = {}
-  if(mdx){
+  if (mdx) {
     data_article = mdx
   }
-  else{
+  else {
     data_article = markdownRemark
   }
   const {
-      frontmatter: {
-        title,
-        desc,
-        thumbnail,
-        date,
-        category,
-        authors,
-        starred,
-        abio,
-      },
-      html,
+    frontmatter: {
+      title,
+      desc,
+      thumbnail,
+      date,
+      category,
+      authors,
+      starred,
+      abio,
+    },
+    html,
   } = data_article;
   const ogImagePath = thumbnail && thumbnail.childImageSharp.gatsbyImageData.src;
   // console.log(JSON.stringify(props, null, 2));
-  return <SEO title={title} description={desc} image={ogImagePath}/>;
+  return <SEO title={title} description={desc} image={ogImagePath} />;
 };
 
 export default BlogPost;
