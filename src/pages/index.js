@@ -177,6 +177,21 @@ const Home = ({ pageContext, data }) => {
               <p>So grab a cup of cocoa, snuggle up in your favourite blanket, and glide into this Winter 2024 edition!</p>
             </Collapsible>
           }
+          {currentEdition == "2024_Spring" &&
+            <Collapsible trigger="Editor's Note">
+              <p>Welcome back to another vibrant edition of Udaan! Spring has sprung, and with it comes a burst of creativity and inspiration in the pages of Udaan. We're thrilled to present a collection of stories, experiences, and insights that encapsulate the essence of our college community.</p>
+
+              <p>This season is nothing short of its author’s enterprise with beautiful stories and crafted poems. Step into the realm of storytelling with "A Cup Without Tea for Tea Without a Cup," where the eternal battle between tea and coffee enthusiasts brews into a delightful storm of flavour or find solace in the reflective verses of "Free Bird," written during the pandemic, expressing the longing for freedom amidst confinement.</p>
+
+              <p>As a tribute to the Graduating Batch of 2020, we have Back to the Future, a narration that takes you through twists and turns of college life with nostalgic reflections and cherished memories. We also have Chapter 3 of our mental health series, It’s the Climb. “Embracing Hope" invites you to explore the dynamics of resilience and mental well-being, reminiscent of the hope that springs forth with the new season. Of course, our fan-favourite Puppet Show is back as a friendly tribute to all the coordinators and secretaries of the year 2023-24.</p>
+
+              <p>To make campus news a little more spontaneous and easy, we introduce Beats, a short read that covers some of the main happenings on the campus. We have “The Can Chronicles,” highlighting the water issues, convocation tales, “Fighting God must be easier,” a budgeting rant, GBM, Mess, and many more! This edition also features an exclusive glimpse into the wisdom and experiences of Dr. Girish Kumar Rajan, a fluid mechanics and applied mathematics specialist who is more known for his more than 1-hour lectures.</p>
+
+              <p>Well, these are just a glimpse into the content awaiting you within these pages, we invite you to immerse yourself fully in the diverse array of poetry, stories, experiences, and insights in this edition of Udaan.</p>
+
+              <p>As the chief editors of this edition in our final year, this is our last actively involved edition in Udaan, and we’re incredibly grateful to the community, the team, and all the people who have worked together to create such pretty editions each season. Udaan has come a long way since its inception, and we thank all the readers and contributors. Please continue to give us your feedback, contribute and add your own little bit to the magazine. This edition is dedicated to us, you guys, and the entire student community. Thank you for being a part of our journey.</p>
+            </Collapsible>
+          }
           {currentEdition == "2023_Autumn" &&
             <Collapsible trigger="Editor's Note">
               <p>Welcome to our 10th edition, where the autumn spirit infuses our pages. This edition brims with vibrant internship stories from our 3rd and 4th-year students, spanning agritech, cobotics, construction, aerospace, and semiconductors. Amidst the falling autumn leaves, we invite you to an article that pays homage to the "Summer of Nothing," a delightful ode to those unhurried summers.</p>
