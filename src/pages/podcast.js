@@ -13,6 +13,7 @@ import pocketcast from "Images/podcasts/pocketCasts.png"
 import cover from "Images/podcasts/Udaanpodcastcover.png"
 import pc1 from "Images/podcasts/Podcast_1_cover.png"
 import pc2 from "Images/podcasts/Podcast_2_cover_.png"
+import pc3 from "Images/podcasts/Podcast_3_cover.jpeg"
 import "./custom_styles/podcast.css"
 import "./custom_styles/bootstrap-grid.min.css"
 
@@ -237,6 +238,87 @@ const Podcast = () => {
                       <a
                         title="Pocket Casts"
                         href="https://pca.st/6c8seh73"
+                        target="_blank"
+                      >
+                        <img src={pocketcast} alt="Pocket Casts" />
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="container py-4">
+                <article class="postcard dark green">
+                  <a class="postcard__img_link" href="#">
+                    <div
+                      class="postcard__img_wrapper"
+                      style={{
+                        display: "flex",
+                        placeContent: "center",
+                        alignItems: "flex-start",
+                        flexFlow: "column nowrap",
+                      }}
+                    >
+                      <img class="postcard__img2" src={pc3} alt="Image Title" />
+                    </div>
+                  </a>
+                  <div class="postcard__text">
+                    <h1>Udaan Untethered - The College Diaries </h1>
+                    <div class="postcard__subtitle">
+                      Hosted By : 1st Years 2023-27
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      Presenting "The College Diaries", our latest rendition with the freshers of IIT Tirupati, with their wild experiences of their year of many firsts!
+                      <div className="double-column-container">
+                        <div className="double-column">
+                          Episode 1 - Unplanned Adventures
+                          <br />
+                          Episode 2 - Bonding Over Books
+                          <br />
+                          Episode 3 - UG Meets PG
+                          <br />
+                          Episode 4 - Night Time Adventures
+                          <br />
+                          Episode 5 - Cultural Kaleidoscope
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-tag mr-2"></i> Podcast
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-clock mr-2"></i> 58 mins.
+                      </li>
+                      <li class="tag__item play blue">
+                        <a
+                          href="https://open.spotify.com/episode/5SrhhZpk4sNV7YVFB37fhh?si=TN-5l3PyREeeivtW1AXCQg"
+                          target="_blank"
+                        >
+                          <i class="fas fa-play mr-2"></i> Play Episode
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="social">
+                      <a
+                        title="Spotify"
+                        href="https://open.spotify.com/episode/4afndAdef4l3JViAOIusA2?si=N-LumGmhTfmAVdg-g2Hkpw"
+                        target="_blank"
+                      >
+                        <img src={spotify} alt="spotify" />
+                      </a>
+                      <a
+                        title="Google Podcast"
+                        href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9hYjU4ZmM1NC9wb2RjYXN0L3Jzcw/episode/MWU5MDIwZDctMDAyYS00ODgzLWJhNDItYmY1ZDIzNTVkOGVl?sa=X&ved=0CAUQkfYCahcKEwiQ3vDG8smFAxUAAAAAHQAAAAAQCg"
+                        target="_blank"
+                      >
+                        <img src={gpodcast} alt="Google Podcast" />
+                      </a>
+                      <a
+                        title="Pocket Casts"
+                        href="https://pca.st/4vhahee3"
                         target="_blank"
                       >
                         <img src={pocketcast} alt="Pocket Casts" />
