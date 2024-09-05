@@ -71,14 +71,14 @@ const BlogPost = (props) => {
       speechHandler = (item) => {
         const parser = new DOMParser();
         const doc = parser.parseFromString(item, 'text/html');
-        var string = doc.documentElement.innerHTML;
+        var string = doc.documentElement.innerText;
         if (pause === true) {
           window.speechSynthesis.cancel();
           setPause(false);
         }
         else {
           msg.text = string;
-          msg.lang = 'en-US';
+          msg.lang = 'en-IN';
           msg.rate = 1;
           msg.pitch = 1;
           msg.volume = 1;
