@@ -166,6 +166,17 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition} />
+          {currentEdition == "2024_Summer" &&
+            <Collapsible trigger="Editor's Note">
+             <p>Welcome to our ‘Summer 2024’ edition! We understand that it’s been quite a long wait - but better late than never (and apologies for the same).</p>
+              <p>To start things off, we have ‘Behind the Editors’ - a collection of windows peeping into the minds of our beloved editors. To ease your attention slowly, enjoy the hilarious exchange between Hostel-G and Hostel-H in our incredibly whimsy ‘DES-Track’.</p>
+              <p>Not in the mood for unserious talk? No problem, we have really got you covered. Dishing out interviews as if there is no tomorrow, we have - ‘Professor Daniel Raveh’ with his experience in learning about Indian philosophy; ‘Mr. R. Muralidharan’ with his exciting projects on defence systems; and ‘Professor C. N. R. Rao’, a renowned chemist with a medley of his awards, recognition, and hardwork.</p>
+              <p>Too heavy, too soon? Relax, ‘Fairytale or Fairyhell’ and ‘हाल-ए-दिल तो पूछो’ (At least ask how my heart is) are here to provide you with a sense of familiarity. Love poems never go out of fashion - you keep them sending, and we keep them releasing. Talking about poems, we also have ‘Whispers from the Rudraksha Grove’ - full of rhyme, rhythm, and release of emotions.</p>
+              <p>And before we leave it behind, we have ‘Uncharted’ - will the spaceship ever escape? Now, back to something more relevant - what’s the one thing you go through more than your books? Baring it all, we have ‘The Confessions Tale’ - sourced directly from the admin of the famous confession-posting Instagram page! Going on a slight tangent: if you really want to collect your thoughts, calm your mind, and the rest of the sort - check out ‘Stuck in the Middle?’ to regain some semblance of neutrality.</p>
+              <p>Going back to our regular offerings, we have - ‘After class activities: Student-clubs and the year gone by’ with the condensed report of all our bustling groups and their events; and ‘Chapter 4: Resources for help - YourDOST’, a continuation of our ‘It’s the Climb’ series.</p>
+              <p>There’s even more to discuss (physical magazines) but until next time - peace out!</p>
+            </Collapsible>
+          }
           {currentEdition == "2024_Winter" &&
             <Collapsible trigger="Editor's Note">
               <p>Get ready for some cosy vibes with our Winter 2024 edition – a heartwarming celebration four years in the making!</p>
