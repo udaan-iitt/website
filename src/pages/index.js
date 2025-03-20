@@ -166,6 +166,16 @@ const Home = ({ pageContext, data }) => {
       <Main>
         <Content>
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition} />
+          {currentEdition == "2025_Winter" &&
+            <Collapsible trigger="Editor's Note">
+            <p>Team Udaan welcomes you to the season of sweaters, fireplaces, hot cocoa, and tilting away from the sun, or as Wikipedia would otherwise put it, Winter. This Winter Edition brings to you the much-awaited summer internship stories, be it from Amazon, IISc, ISRO, IIT-BHU, JNCASR, TI or OSU. There’s a little bit for everyone and a little bit of everything.</p>
+            <p>Speaking of Experiences, one of our editors had a lovely opportunity to sit across THE Padma Shri awardee, Dr. K. N. Ganesan, ask questions and, as a bonus, be so enthralled by them that they wanted to share it with everyone else. </p>
+            <p>On Campus News, we bring to you a sneak peek (a very long, door-wide-open, kinda peek) into the minds of Divij and Yuvraj, the visionaries who spearheaded TEDxIITTirupati, an event that wowed not only the student community but the institute as a whole. </p>
+            <p>They say the sun shines the least during winter. They say it is okay because summer will come, and the sun will get its turn. But what if the world falls apart before that? Team Udaan brings to you “the Sun that never shone”, a piece that follows the tale of a PhD student as he is confronted by more than just the stress of research. </p>
+            <p>On the Op-Ed side of things, we bring to you the ramble of an old man trapped in a 22-year-old’s body in the form of a letter of appreciation. Hop in as he laments on his long life (his degree) and his even longer list of things he wishes the afterlife (his future) would have too. Switching gears into the minds of the young, we have for you a geek-out deep dive into SpaceX’s magic chopsticks that are used to catch spent rocket boosters. </p>
+            <p>What’s a winter without a little bit of staring into the big, cold unknown? Lastly, Team Udaan brings to you “Anticipation”, a short but thought-provoking, soul-stirring piece of poetry that will leave you feeling scattered and anguished. </p>
+            </Collapsible>
+          }
           {currentEdition == "2024_Summer" &&
             <Collapsible trigger="Editor's Note">
              <p>Welcome to our ‘Summer 2024’ edition! We understand that it’s been quite a long wait - but better late than never (and apologies for the same).</p>
