@@ -2,25 +2,32 @@ name: Submodule Sync
 on:
   workflow_dispatch: ~
 
+# This explicitly gives the action permission to push the new commit
+permissions:
+  contents: write 
+
 jobs:
   submodule-sync:
     name: Submodule Sync
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4 # Upgraded to v4 to fix the Node warning
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         submodules: true
+        ref: ${{ github.ref }} # Ensures we are on the actual branch, not a detached HEAD
 
     - name: Git Submodule Update
       run: |
-        git pull --recurse-submodules
+        # 'git pull' is removed because the checkout step already gets the latest code
         git submodule update --remote --recursive
 
     - name: Commit update
       run: |
-        git config --global user.name github-actions
-        git config --global user.email github-actions@github.com
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add --all
-        git commit -m "Updating Submodule" && git push|| echo "No changes to commit"
+        # If there are no new articles, it just echoes rather than crashing
+        git commit -m "chore: updating Submodule" || echo "No changes to commit"
+        git push origin HEAD
