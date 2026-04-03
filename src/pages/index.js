@@ -118,12 +118,15 @@ const Home = ({ pageContext, data }) => {
           desc,
           date,
           category,
-          thumbnail: { childImageSharp },
+          thumbnail,
           authors,
           starred,
           alt,
         },
       } = node;
+
+      // Safely check if the thumbnail exists before trying to read it
+      const safeThumbnailId = thumbnail && thumbnail.childImageSharp ? thumbnail.childImageSharp.id : null;
 
       setPosts((prevPost) => [
         ...prevPost,
@@ -134,7 +137,7 @@ const Home = ({ pageContext, data }) => {
           desc,
           date,
           category,
-          thumbnail: childImageSharp.id,
+          thumbnail: safeThumbnailId,
           authors,
           starred,
           alt,
@@ -149,7 +152,7 @@ const Home = ({ pageContext, data }) => {
           desc,
           date,
           category,
-          thumbnail: childImageSharp.id,
+          thumbnail: safeThumbnailId,
           authors,
           starred,
           alt,
