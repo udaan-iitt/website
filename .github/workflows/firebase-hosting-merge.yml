@@ -5,17 +5,17 @@ name: Deploy to Firebase Hosting on merge
 on:
   push:
     branches:
-      - main
+      - preview
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
       - run: yarn install --frozen-lockfile && yarn build
         env:
             CI: true

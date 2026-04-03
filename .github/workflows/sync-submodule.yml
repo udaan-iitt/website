@@ -2,24 +2,34 @@ name: Submodule Sync
 on:
   workflow_dispatch: ~
 
+permissions:
+  contents: write 
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   submodule-sync:
     name: Submodule Sync
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         submodules: true
+        ref: ${{ github.ref }}
 
     - name: Git Submodule Update
       run: |
-        git submodule update --remote --recursive
+        git submodule sync --recursive
+        git submodule deinit -f --all
+        git submodule update --init --remote --force --recursive
 
     - name: Commit update
       run: |
-        git config --global user.name github-actions
-        git config --global user.email github-actions@github.com
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add --all
-        git commit -m "Updating Submodule" && git push|| echo "No changes to commit"
+        git commit -m "chore: force update Submodule to preview branch" || echo "No changes to commit"
+        git push origin HEAD
