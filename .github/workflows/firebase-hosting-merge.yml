@@ -16,6 +16,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Cache Gatsby
+        uses: actions/cache@v4
+        with:
+          path: |
+            public
+            .cache
+          key: ${{ runner.os }}-gatsby-build-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
       - run: yarn install --frozen-lockfile && yarn build
         env:
             CI: true
