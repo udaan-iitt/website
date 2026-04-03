@@ -20,9 +20,14 @@ jobs:
 
     - name: Git Submodule Update
       run: |
-        # This forces Git to read your new .gitmodules branch change
+        # 1. Sync the configuration changes
         git submodule sync --recursive
-        git submodule update --init --remote --recursive
+        
+        # 2. THE NUCLEAR OPTION: Forcefully wipe the corrupted submodule cache
+        git submodule deinit -f --all
+        
+        # 3. Download completely fresh using the new preview branch setting
+        git submodule update --init --remote --force --recursive
 
     - name: Commit update
       run: |
