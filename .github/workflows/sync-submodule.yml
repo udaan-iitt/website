@@ -15,9 +15,7 @@ jobs:
 
     - name: Git Submodule Update
       run: |
-        # This forces Git to read your new .gitmodules branch change
-        git submodule sync --recursive
-        git submodule update --init --remote --recursive
+        git submodule update --remote --recursive
 
     - name: Commit update
       run: |
