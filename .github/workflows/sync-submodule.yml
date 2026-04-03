@@ -2,9 +2,11 @@ name: Submodule Sync
 on:
   workflow_dispatch: ~
 
-# This explicitly gives the action permission to push the new commit
 permissions:
   contents: write 
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   submodule-sync:
@@ -12,21 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4 # Upgraded to v4 to fix the Node warning
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         submodules: true
-        ref: ${{ github.ref }} # Ensures we are on the actual branch, not a detached HEAD
+        ref: ${{ github.ref }}
 
     - name: Git Submodule Update
       run: |
-        # 1. Sync the configuration changes
         git submodule sync --recursive
-        
-        # 2. THE NUCLEAR OPTION: Forcefully wipe the corrupted submodule cache
         git submodule deinit -f --all
-        
-        # 3. Download completely fresh using the new preview branch setting
         git submodule update --init --remote --force --recursive
 
     - name: Commit update
@@ -34,6 +31,5 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add --all
-        # If there are no new articles, it just echoes rather than crashing
-        git commit -m "chore: updating Submodule" || echo "No changes to commit"
+        git commit -m "chore: force update Submodule to preview branch" || echo "No changes to commit"
         git push origin HEAD
