@@ -21,6 +21,17 @@ const CenteredImg = ({ src, alt }) => {
 
   if (!alt) alt = 'Thumbnail Image';
 
+  // THE SAFEGUARD: If the image isn't found, render a safe placeholder instead of crashing
+  if (!image || !image.node) {
+    return (
+      <ThumbnailWrapper>
+        <InnerWrapper style={{ height: '265px', backgroundColor: '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <span style={{ color: '#9ca3af', fontSize: '14px' }}>Image not found</span>
+        </InnerWrapper>
+      </ThumbnailWrapper>
+    );
+  }
+
   return (
     <ThumbnailWrapper>
       <InnerWrapper>
