@@ -171,12 +171,11 @@ const Home = ({ pageContext, data }) => {
           <EditionFilter editionList={alleditions} categoryList={data.allMarkdownRemark.group} currented={currentEdition} />
           {currentEdition == "2025_Autumn" &&
             <Collapsible trigger="Editor's Note">
-            <p>Hello World! </p>
-            <p>Speaking of Experiences, one of our editors had a lovely opportunity to sit across THE Padma Shri awardee, Dr. K. N. Ganesan, ask questions and, as a bonus, be so enthralled by them that they wanted to share it with everyone else. </p>
-            <p>On Campus News, we bring to you a sneak peek (a very long, door-wide-open, kinda peek) into the minds of Divij and Yuvraj, the visionaries who spearheaded TEDxIITTirupati, an event that wowed not only the student community but the institute as a whole. </p>
-            <p>They say the sun shines the least during winter. They say it is okay because summer will come, and the sun will get its turn. But what if the world falls apart before that? Team Udaan brings to you “the Sun that never shone”, a piece that follows the tale of a PhD student as he is confronted by more than just the stress of research. </p>
-            <p>On the Op-Ed side of things, we bring to you the ramble of an old man trapped in a 22-year-old’s body in the form of a letter of appreciation. Hop in as he laments on his long life (his degree) and his even longer list of things he wishes the afterlife (his future) would have too. Switching gears into the minds of the young, we have for you a geek-out deep dive into SpaceX’s magic chopsticks that are used to catch spent rocket boosters. </p>
-            <p>What’s a winter without a little bit of staring into the big, cold unknown? Lastly, Team Udaan brings to you “Anticipation”, a short but thought-provoking, soul-stirring piece of poetry that will leave you feeling scattered and anguished. </p>
+            <p>Hello!! </p>
+            <p>Our Autumn edition, also lovingly known as the Internship edition, unveils a varied set of internship experiences from our very own Bureau of Indian Standards to EPFL in the extremely neutral Switzerland, to the best private bank in our country, ICICI. </p>
+            <p>Coming to the poetry side of things, we have our very own Literary Affairs Secretary, Aditya Patil, showing us why he holds the position with his very own poem, “Why, Poseidon, Why?” Along with it, we have a Hindi poem by Himangshu Das. We also present to you two wonderfully creative stories by our students. </p>
+            <p>Autumn lies in between the 2 harshest periods of the year, Summer and Winter. It is a time to reflect on a reckless, fun-filled summer and prepare yourself for the merciless cold of winter. To guide you through this time of self-reflection and preparation, we have 2 interviews with people who are at the epitomes of their careers and have given us enough insights to feed our minds until the festivities arrive. </p>
+            <p>What’s an autumn without the hues of red and orange peeking at you from every corner of our campus? So, to have a little something to read while you enjoy the beauty of nature, we present to you the Autumn Edition of 2025. </p>
             </Collapsible>
           }
           {currentEdition == "2025_Winter" &&
